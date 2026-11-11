@@ -68,6 +68,14 @@ cp .env.example .env
 
 Fill in your Alpaca **paper** API key and secret. `.env` is gitignored and the keys are never printed or logged.
 
+## Scheduled data refresh (Windows)
+
+The Alpha Vantage earnings backfill takes ~20 days at 25 symbols/day. A daily task at 06:00 UK refreshes prices and spends that day's budget; output goes to `logs/` (gitignored, keys never logged).
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/windows/register_daily_task.ps1
+```
+
 ## Usage
 
 ```bash
