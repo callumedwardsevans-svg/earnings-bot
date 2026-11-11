@@ -32,6 +32,7 @@ def generate(
     start: str,
     end: str,
     ema_filter: bool,
+    regime: pd.Series | None = None,
     p: SetupBParams = SETUP_B,
     u: UniverseParams = UNIVERSE,
 ) -> tuple[pd.DataFrame, OrderedDict]:
@@ -40,6 +41,7 @@ def generate(
     funnel = OrderedDict((k, 0) for k in [
         "reports in period", "price data at entry", "liquid (price > $10, ADV > $50m)",
         "above rising 50 EMA" if ema_filter else "EMA filter off",
+        "market regime on" if regime is not None else "no market regime filter",
     ])
     rows = []
     t0, t1 = pd.Timestamp(start), pd.Timestamp(end)
@@ -67,6 +69,9 @@ def generate(
         if ema_filter and not (b.close > b.ema and b.ema_rising):
             continue
         funnel["above rising 50 EMA" if ema_filter else "EMA filter off"] += 1
+        if regime is not None and not regime.get(entry, False):
+            continue
+        funnel["market regime on" if regime is not None else "no market regime filter"] += 1
         rows.append({
             "setup": "B", "variant": variant, "symbol": r.symbol, "sector": meta.at[r.symbol, "sector"],
             "date_added": meta.at[r.symbol, "date_added"], "signal_date": entry, "entry_date": entry,

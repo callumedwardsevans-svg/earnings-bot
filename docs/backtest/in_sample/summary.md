@@ -62,13 +62,13 @@ Partly addresses survivorship bias: drops signals from before a stock was in the
 
 ## 5. Signal funnel (how many reports survive each filter)
 
-**Setup A (ema+fixed)**: reports in period **18,606** → timing known (bmo/amc) **18,396** → price data on day 1 **18,276** → EPS surprise >= 5% **9,124** → gap >= 3% **2,642** → close in upper half **1,324** → volume >= 2x avg **1,074** → liquid (price > $10, ADV > $50m) **989** → above 50 EMA **931** → next session exists **931**
+**Setup A (ema+fixed)**: reports in period **18,606** → timing known (bmo/amc) **18,396** → price data on day 1 **18,276** → EPS surprise >= 5% **9,124** → gap >= 3% **2,642** → close in upper half **1,324** → volume >= 2x avg **1,074** → liquid (price > $10, ADV > $50m) **989** → above 50 EMA **931** → no market regime filter **931** → next session exists **931**
 
-**Setup A (noema+fixed)**: reports in period **18,606** → timing known (bmo/amc) **18,396** → price data on day 1 **18,276** → EPS surprise >= 5% **9,124** → gap >= 3% **2,642** → close in upper half **1,324** → volume >= 2x avg **1,074** → liquid (price > $10, ADV > $50m) **989** → EMA filter off **989** → next session exists **989**
+**Setup A (noema+fixed)**: reports in period **18,606** → timing known (bmo/amc) **18,396** → price data on day 1 **18,276** → EPS surprise >= 5% **9,124** → gap >= 3% **2,642** → close in upper half **1,324** → volume >= 2x avg **1,074** → liquid (price > $10, ADV > $50m) **989** → EMA filter off **989** → no market regime filter **989** → next session exists **989**
 
-**Setup B (ema)**: reports in period **18,616** → price data at entry **18,463** → liquid (price > $10, ADV > $50m) **16,994** → above rising 50 EMA **9,902**
+**Setup B (ema)**: reports in period **18,616** → price data at entry **18,463** → liquid (price > $10, ADV > $50m) **16,994** → above rising 50 EMA **9,902** → no market regime filter **9,902**
 
-**Setup B (noema)**: reports in period **18,616** → price data at entry **18,463** → liquid (price > $10, ADV > $50m) **16,994** → EMA filter off **16,994**
+**Setup B (noema)**: reports in period **18,616** → price data at entry **18,463** → liquid (price > $10, ADV > $50m) **16,994** → EMA filter off **16,994** → no market regime filter **16,994**
 
 ## 6. Why portfolio signals were skipped
 

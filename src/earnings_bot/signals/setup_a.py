@@ -34,6 +34,7 @@ def generate(
     end: str,
     ema_filter: bool,
     trailing: bool,
+    regime: pd.Series | None = None,
     p: SetupAParams = SETUP_A,
     u: UniverseParams = UNIVERSE,
 ) -> tuple[pd.DataFrame, OrderedDict]:
@@ -42,7 +43,8 @@ def generate(
     funnel = OrderedDict((k, 0) for k in [
         "reports in period", "timing known (bmo/amc)", "price data on day 1", f"EPS surprise >= {p.min_eps_surprise_pct:g}%",
         f"gap >= {p.min_gap_pct:g}%", "close in upper half", f"volume >= {p.min_volume_multiple:g}x avg",
-        "liquid (price > $10, ADV > $50m)", "above 50 EMA" if ema_filter else "EMA filter off", "next session exists",
+        "liquid (price > $10, ADV > $50m)", "above 50 EMA" if ema_filter else "EMA filter off",
+        "market regime on" if regime is not None else "no market regime filter", "next session exists",
     ])
     next_report = hist.groupby("symbol").report_date.shift(-1)
     rows = []
@@ -83,6 +85,9 @@ def generate(
         if ema_filter and not (b.close > b.ema):
             continue
         funnel["above 50 EMA" if ema_filter else "EMA filter off"] += 1
+        if regime is not None and not regime.get(d1, False):  # SPY trend at the day-1 close
+            continue
+        funnel["market regime on" if regime is not None else "no market regime filter"] += 1
         d2 = next_session(d1, sessions, inclusive=False)
         if d2 is None or d2 not in df.index:
             continue

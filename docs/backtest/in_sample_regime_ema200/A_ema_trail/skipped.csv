@@ -1,0 +1,366 @@
+setup,variant,ticker,signal_date,entry_date,reason,eps_surprise_pct
+A,ema+trail,UNP,2016-04-21,2016-04-22,limit not reached,5.454545454545439
+A,ema+trail,IDXX,2016-04-29,2016-05-02,max 5 open positions,8.51063829787235
+A,ema+trail,DLTR,2016-05-26,2016-05-27,max 5 open positions,8.536585365853666
+A,ema+trail,DG,2016-05-26,2016-05-27,max 5 open positions,8.421052631578956
+A,ema+trail,ULTA,2016-05-27,2016-05-31,max 5 open positions,12.403100775193792
+A,ema+trail,AOS,2016-07-26,2016-07-27,max 2 positions in Industrials,8.888888888888884
+A,ema+trail,EOG,2016-08-05,2016-08-08,max 5 open positions,20.83333333333333
+A,ema+trail,CIEN,2016-09-01,2016-09-02,max 2 positions in Information Technology,10.52631578947368
+A,ema+trail,AKAM,2016-10-26,2016-10-27,max 5 open positions,11.475409836065584
+A,ema+trail,ADM,2016-11-01,2016-11-02,max 5 open positions,28.260869565217376
+A,ema+trail,DE,2016-11-23,2016-11-25,max 5 open positions,130.76923076923077
+A,ema+trail,VEEV,2016-11-23,2016-11-25,max 5 open positions,37.5
+A,ema+trail,LUV,2017-01-26,2017-01-27,max 2 positions in Industrials,7.1428571428571495
+A,ema+trail,AVY,2017-02-01,2017-02-02,max 5 open positions,6.451612903225799
+A,ema+trail,V,2017-02-03,2017-02-06,max 5 open positions,10.25641025641025
+A,ema+trail,CBRE,2017-02-10,2017-02-13,max 5 open positions,16.25
+A,ema+trail,ADI,2017-02-15,2017-02-16,max 2 positions in Information Technology,27.027027027027025
+A,ema+trail,MAS,2017-04-25,2017-04-26,max 2 positions in Industrials,13.888888888888888
+A,ema+trail,WYNN,2017-04-26,2017-04-27,max 5 open positions,30.526315789473692
+A,ema+trail,TER,2017-04-27,2017-04-28,max 5 open positions,15.789473684210526
+A,ema+trail,WDC,2017-04-28,2017-05-01,max 5 open positions,11.682242990654206
+A,ema+trail,EL,2017-05-03,2017-05-04,max 5 open positions,24.65753424657535
+A,ema+trail,BALL,2017-05-04,2017-05-05,max 5 open positions,8.57142857142858
+A,ema+trail,GPN,2017-05-04,2017-05-05,max 5 open positions,7.594936708860751
+A,ema+trail,MAR,2017-05-09,2017-05-10,max 5 open positions,10.989010989010985
+A,ema+trail,PANW,2017-06-01,2017-06-02,max 2 positions in Information Technology,11.111111111111121
+A,ema+trail,AVGO,2017-06-02,2017-06-05,max 5 open positions,5.71428571428572
+A,ema+trail,NVR,2017-07-21,2017-07-24,position too small (< 1 share; limited by max position),21.680497925311187
+A,ema+trail,BA,2017-07-26,2017-07-27,limit not reached,11.353711790393003
+A,ema+trail,ALGN,2017-07-28,2017-07-31,max 5 open positions,16.43835616438356
+A,ema+trail,ANET,2017-08-04,2017-08-07,max 5 open positions,33.33333333333334
+A,ema+trail,TSN,2017-08-07,2017-08-08,max 5 open positions,6.666666666666673
+A,ema+trail,TWLO,2017-08-08,2017-08-09,max 5 open positions,54.54545454545454
+A,ema+trail,RL,2017-08-08,2017-08-09,max 5 open positions,18.08510638297874
+A,ema+trail,LYV,2017-08-10,2017-08-11,max 5 open positions,52.63157894736841
+A,ema+trail,PANW,2017-09-01,2017-09-05,max 2 positions in Information Technology,15.384615384615378
+A,ema+trail,MMM,2017-10-24,2017-10-25,max 5 open positions,5.42986425339367
+A,ema+trail,INTC,2017-10-27,2017-10-30,max 2 positions in Information Technology,26.249999999999996
+A,ema+trail,DLTR,2017-11-21,2017-11-22,max 2 positions in Consumer Staples,12.22222222222222
+A,ema+trail,GWW,2018-01-24,2018-01-25,limit not reached,34.24657534246575
+A,ema+trail,LITE,2018-02-06,2018-02-07,limit not reached,47.787610619469035
+A,ema+trail,CIEN,2018-03-06,2018-03-07,max 2 positions in Information Technology,25.0
+A,ema+trail,ADSK,2018-03-07,2018-03-08,max 2 positions in Information Technology,18.181818181818183
+A,ema+trail,OKTA,2018-03-08,2018-03-09,max 2 positions in Information Technology,33.33333333333333
+A,ema+trail,TXT,2018-04-18,2018-04-19,limit not reached,50.0
+A,ema+trail,UAL,2018-04-18,2018-04-19,max 2 positions in Industrials,6.382978723404261
+A,ema+trail,DXCM,2018-05-03,2018-05-04,max 5 open positions,11.111111111111107
+A,ema+trail,LYV,2018-05-04,2018-05-07,max 5 open positions,14.285714285714295
+A,ema+trail,ZBRA,2018-05-08,2018-05-09,max 5 open positions,24.87804878048782
+A,ema+trail,EXPD,2018-05-08,2018-05-09,max 5 open positions,16.92307692307692
+A,ema+trail,AXON,2018-05-09,2018-05-10,max 5 open positions,190.9090909090909
+A,ema+trail,TWLO,2018-05-09,2018-05-10,max 5 open positions,42.85714285714286
+A,ema+trail,OXY,2018-05-09,2018-05-10,max 5 open positions,31.428571428571445
+A,ema+trail,RL,2018-05-23,2018-05-24,max 5 open positions,8.433734939759043
+A,ema+trail,GWW,2018-07-18,2018-07-19,max 2 positions in Industrials,16.844919786096252
+A,ema+trail,UAL,2018-07-18,2018-07-19,max 2 positions in Industrials,5.211726384364826
+A,ema+trail,DOV,2018-07-19,2018-07-20,max 2 positions in Industrials,7.438016528925627
+A,ema+trail,HUBB,2018-07-24,2018-07-25,max 2 positions in Industrials,10.674157303370784
+A,ema+trail,HCA,2018-07-25,2018-07-26,limit not reached,6.018518518518514
+A,ema+trail,QCOM,2018-07-26,2018-07-27,max 5 open positions,5.633802816901413
+A,ema+trail,EXPE,2018-07-27,2018-07-30,max 5 open positions,53.33333333333332
+A,ema+trail,LRCX,2018-07-27,2018-07-30,max 5 open positions,8.163265306122456
+A,ema+trail,DXCM,2018-08-02,2018-08-03,max 5 open positions,50.0
+A,ema+trail,CF,2018-08-02,2018-08-03,max 5 open positions,36.95652173913043
+A,ema+trail,FTNT,2018-08-02,2018-08-03,max 5 open positions,14.285714285714276
+A,ema+trail,TRMB,2018-08-02,2018-08-03,max 5 open positions,11.111111111111107
+A,ema+trail,J,2018-08-06,2018-08-07,max 5 open positions,11.570247933884307
+A,ema+trail,TWLO,2018-08-07,2018-08-08,max 5 open positions,160.0
+A,ema+trail,ZBRA,2018-08-07,2018-08-08,max 5 open positions,11.210762331838566
+A,ema+trail,ALB,2018-08-08,2018-08-09,max 5 open positions,6.250000000000005
+A,ema+trail,NCLH,2018-08-09,2018-08-10,max 5 open positions,17.475728155339798
+A,ema+trail,TJX,2018-08-21,2018-08-22,max 2 positions in Consumer Discretionary,13.461538461538453
+A,ema+trail,WSM,2018-08-23,2018-08-24,max 5 open positions,14.705882352941172
+A,ema+trail,CIEN,2018-08-30,2018-08-31,limit not reached,33.33333333333333
+A,ema+trail,TWLO,2018-11-07,2018-11-08,max 2 positions in Information Technology,250.0
+A,ema+trail,ANET,2019-02-15,2019-02-19,max 5 open positions,7.692307692307699
+A,ema+trail,GRMN,2019-02-20,2019-02-21,max 5 open positions,27.499999999999996
+A,ema+trail,CSGP,2019-02-27,2019-02-28,max 5 open positions,12.00000000000001
+A,ema+trail,NXPI,2019-04-30,2019-05-01,max 5 open positions,7.096774193548379
+A,ema+trail,RCL,2019-05-01,2019-05-02,max 5 open positions,18.01801801801801
+A,ema+trail,CVS,2019-05-01,2019-05-02,max 5 open positions,7.284768211920537
+A,ema+trail,HLT,2019-05-01,2019-05-02,max 5 open positions,5.263157894736847
+A,ema+trail,COR,2019-05-02,2019-05-03,max 5 open positions,7.653061224489792
+A,ema+trail,PODD,2019-05-03,2019-05-06,max 5 open positions,600.0
+A,ema+trail,MNST,2019-05-03,2019-05-06,max 5 open positions,9.090909090909086
+A,ema+trail,CPRT,2019-05-23,2019-05-24,limit not reached,6.250000000000005
+A,ema+trail,CSGP,2019-07-24,2019-07-25,max 5 open positions,9.999999999999995
+A,ema+trail,TER,2019-07-24,2019-07-25,max 5 open positions,6.451612903225811
+A,ema+trail,MAS,2019-07-25,2019-07-26,max 5 open positions,8.64197530864197
+A,ema+trail,UHS,2019-07-26,2019-07-29,max 5 open positions,10.399999999999991
+A,ema+trail,SBUX,2019-07-26,2019-07-29,max 5 open positions,6.849315068493158
+A,ema+trail,MCK,2019-08-01,2019-08-02,max 2 positions in Health Care,9.966777408637883
+A,ema+trail,CVS,2019-08-07,2019-08-08,max 2 positions in Health Care,11.834319526627217
+A,ema+trail,CVNA,2019-08-08,2019-08-09,max 5 open positions,11.111111111111107
+A,ema+trail,ALB,2019-08-08,2019-08-09,max 5 open positions,8.391608391608399
+A,ema+trail,P,2019-08-22,2019-08-23,max 5 open positions,125.0
+A,ema+trail,KEYS,2019-08-22,2019-08-23,max 5 open positions,22.549019607843135
+A,ema+trail,DG,2019-08-29,2019-08-30,max 2 positions in Consumer Staples,10.126582278481006
+A,ema+trail,ORLY,2019-10-24,2019-10-25,max 5 open positions,6.250000000000005
+A,ema+trail,INTC,2019-10-25,2019-10-28,max 5 open positions,14.51612903225806
+A,ema+trail,LDOS,2019-10-29,2019-10-30,max 2 positions in Industrials,14.285714285714299
+A,ema+trail,GE,2019-10-30,2019-10-31,max 2 positions in Industrials,31.86813186813186
+A,ema+trail,LITE,2019-10-31,2019-11-01,limit not reached,20.0
+A,ema+trail,FICO,2019-11-05,2019-11-06,max 5 open positions,19.642857142857135
+A,ema+trail,FIS,2019-11-05,2019-11-06,max 5 open positions,5.925925925925914
+A,ema+trail,PODD,2019-11-06,2019-11-07,max 5 open positions,124.99999999999997
+A,ema+trail,DVA,2019-11-06,2019-11-07,max 5 open positions,23.38709677419355
+A,ema+trail,GDDY,2019-11-07,2019-11-08,max 5 open positions,100.0
+A,ema+trail,RL,2019-11-07,2019-11-08,max 5 open positions,6.694560669456054
+A,ema+trail,DHI,2019-11-12,2019-11-13,max 5 open positions,8.000000000000007
+A,ema+trail,AMAT,2019-11-15,2019-11-18,max 5 open positions,5.263157894736847
+A,ema+trail,HCA,2020-07-22,2020-07-23,limit not reached,554.5454545454545
+A,ema+trail,QCOM,2020-07-30,2020-07-31,max 5 open positions,21.126760563380287
+A,ema+trail,CTSH,2020-07-30,2020-07-31,max 5 open positions,18.84057971014493
+A,ema+trail,MTD,2020-07-31,2020-08-03,max 5 open positions,25.35545023696683
+A,ema+trail,AAPL,2020-07-31,2020-08-03,max 5 open positions,25.0
+A,ema+trail,CHD,2020-07-31,2020-08-03,max 5 open positions,22.222222222222225
+A,ema+trail,CRM,2020-08-26,2020-08-27,max 5 open positions,114.92537313432834
+A,ema+trail,WDAY,2020-08-28,2020-08-31,max 5 open positions,27.27272727272726
+A,ema+trail,HPQ,2020-08-28,2020-08-31,max 5 open positions,13.953488372093023
+A,ema+trail,COHR,2020-11-05,2020-11-06,max 2 positions in Information Technology,52.72727272727271
+A,ema+trail,CAH,2020-11-05,2020-11-06,max 5 open positions,32.456140350877206
+A,ema+trail,QCOM,2020-11-05,2020-11-06,max 5 open positions,22.88135593220339
+A,ema+trail,XYZ,2020-11-06,2020-11-09,max 5 open positions,112.5
+A,ema+trail,AXON,2020-11-06,2020-11-09,max 5 open positions,100.0
+A,ema+trail,MCHP,2020-11-06,2020-11-09,max 5 open positions,8.333333333333341
+A,ema+trail,FICO,2020-11-11,2020-11-12,max 5 open positions,40.08620689655174
+A,ema+trail,DLTR,2020-11-24,2020-11-25,max 5 open positions,19.82758620689655
+A,ema+trail,NTAP,2020-12-02,2020-12-03,max 2 positions in Information Technology,43.835616438356176
+A,ema+trail,TPR,2021-02-04,2021-02-05,limit not reached,14.999999999999991
+A,ema+trail,EL,2021-02-05,2021-02-08,limit not reached,54.437869822485204
+A,ema+trail,UPS,2021-04-27,2021-04-28,max 2 positions in Industrials,61.04651162790699
+A,ema+trail,GNRC,2021-04-29,2021-04-30,max 2 positions in Industrials,26.595744680851062
+A,ema+trail,GEN,2021-05-11,2021-05-12,limit not reached,5.263157894736847
+A,ema+trail,DECK,2021-05-21,2021-05-24,limit not reached,81.81818181818183
+A,ema+trail,HAS,2021-07-26,2021-07-27,max 2 positions in Consumer Discretionary,123.40425531914896
+A,ema+trail,DVA,2021-08-04,2021-08-05,max 5 open positions,21.658986175115217
+A,ema+trail,DDOG,2021-08-05,2021-08-06,max 5 open positions,200.0
+A,ema+trail,TSN,2021-08-09,2021-08-10,max 5 open positions,65.64417177914112
+A,ema+trail,WDAY,2021-08-27,2021-08-30,max 2 positions in Information Technology,59.74025974025974
+A,ema+trail,FDS,2021-09-28,2021-09-29,limit not reached,5.494505494505491
+A,ema+trail,TER,2021-10-27,2021-10-28,limit not reached,10.416666666666677
+A,ema+trail,GWW,2021-10-29,2021-11-01,max 2 positions in Industrials,6.403013182674214
+A,ema+trail,BEN,2021-11-01,2021-11-02,limit not reached,46.51162790697675
+A,ema+trail,ON,2021-11-01,2021-11-02,max 5 open positions,17.56756756756757
+A,ema+trail,SPG,2021-11-02,2021-11-03,max 5 open positions,9.259259259259247
+A,ema+trail,ROK,2021-11-02,2021-11-03,max 5 open positions,6.880733944954123
+A,ema+trail,VRTX,2021-11-03,2021-11-04,max 5 open positions,15.960912052117271
+A,ema+trail,PH,2021-11-04,2021-11-05,max 2 positions in Industrials,15.135135135135124
+A,ema+trail,EXPE,2021-11-05,2021-11-08,max 5 open positions,100.56818181818181
+A,ema+trail,ABNB,2021-11-05,2021-11-08,max 5 open positions,48.19277108433735
+A,ema+trail,FTNT,2021-11-05,2021-11-08,max 5 open positions,5.263157894736847
+A,ema+trail,TPR,2021-11-11,2021-11-12,max 5 open positions,17.142857142857142
+A,ema+trail,OMC,2022-02-09,2022-02-10,max 5 open positions,23.391812865497073
+A,ema+trail,JKHY,2022-02-09,2022-02-10,max 5 open positions,16.071428571428566
+A,ema+trail,NVR,2023-01-31,2023-02-01,position too small (< 1 share; limited by max position),34.95145631067961
+A,ema+trail,ODFL,2023-02-01,2023-02-02,max 5 open positions,8.955223880597005
+A,ema+trail,SYK,2023-02-01,2023-02-02,max 5 open positions,5.633802816901413
+A,ema+trail,ITW,2023-02-02,2023-02-03,max 5 open positions,14.785992217898848
+A,ema+trail,ALGN,2023-02-02,2023-02-03,max 5 open positions,13.0718954248366
+A,ema+trail,CLX,2023-02-03,2023-02-06,max 5 open positions,48.48484848484848
+A,ema+trail,UBER,2023-02-08,2023-02-09,max 2 positions in Industrials,281.24999999999994
+A,ema+trail,ABNB,2023-02-15,2023-02-16,max 2 positions in Consumer Discretionary,77.77777777777776
+A,ema+trail,DE,2023-02-17,2023-02-21,max 5 open positions,19.74405850091408
+A,ema+trail,EQT,2023-04-27,2023-04-28,limit not reached,30.76923076923076
+A,ema+trail,AOS,2023-04-27,2023-04-28,max 2 positions in Industrials,20.5128205128205
+A,ema+trail,PNR,2023-04-27,2023-04-28,max 2 positions in Industrials,18.181818181818183
+A,ema+trail,ROK,2023-04-27,2023-04-28,max 2 positions in Industrials,15.769230769230758
+A,ema+trail,LII,2023-04-27,2023-04-28,max 2 positions in Industrials,14.574898785425095
+A,ema+trail,UBER,2023-05-02,2023-05-03,max 2 positions in Industrials,120.00000000000001
+A,ema+trail,VRSK,2023-05-03,2023-05-04,max 2 positions in Industrials,8.403361344537823
+A,ema+trail,DDOG,2023-05-04,2023-05-05,max 5 open positions,16.666666666666682
+A,ema+trail,LYV,2023-05-05,2023-05-08,max 5 open positions,129.7872340425532
+A,ema+trail,DASH,2023-05-05,2023-05-08,max 5 open positions,26.785714285714295
+A,ema+trail,DVA,2023-05-09,2023-05-10,max 5 open positions,29.508196721311485
+A,ema+trail,STE,2023-05-11,2023-05-12,max 5 open positions,6.976744186046507
+A,ema+trail,WDAY,2023-05-26,2023-05-30,max 2 positions in Information Technology,16.964285714285708
+A,ema+trail,MRVL,2023-05-26,2023-05-30,max 2 positions in Information Technology,6.896551724137938
+A,ema+trail,P,2023-06-01,2023-06-02,max 2 positions in Information Technology,100.0
+A,ema+trail,NTAP,2023-06-01,2023-06-02,max 2 positions in Information Technology,14.925373134328353
+A,ema+trail,EME,2023-07-27,2023-07-28,max 2 positions in Industrials,24.47257383966245
+A,ema+trail,TXT,2023-07-27,2023-07-28,max 2 positions in Industrials,21.666666666666668
+A,ema+trail,LII,2023-07-27,2023-07-28,max 2 positions in Industrials,18.95551257253386
+A,ema+trail,LRCX,2023-07-27,2023-07-28,limit not reached,17.647058823529406
+A,ema+trail,RCL,2023-07-27,2023-07-28,max 5 open positions,15.189873417721516
+A,ema+trail,CINF,2023-07-28,2023-07-31,max 5 open positions,72.85714285714286
+A,ema+trail,VRT,2023-08-02,2023-08-03,max 2 positions in Industrials,58.620689655172434
+A,ema+trail,CTSH,2023-08-03,2023-08-04,max 5 open positions,11.111111111111121
+A,ema+trail,PH,2023-08-03,2023-08-04,max 5 open positions,10.746812386156645
+A,ema+trail,BKNG,2023-08-04,2023-08-07,max 5 open positions,28.20512820512821
+A,ema+trail,DVA,2023-08-04,2023-08-07,max 5 open positions,19.540229885057474
+A,ema+trail,LLY,2023-08-08,2023-08-09,max 5 open positions,6.030150753768838
+A,ema+trail,WSM,2023-08-23,2023-08-24,max 2 positions in Consumer Discretionary,14.705882352941172
+A,ema+trail,OKTA,2023-08-31,2023-09-01,limit not reached,47.61904761904762
+A,ema+trail,CIEN,2023-08-31,2023-09-01,max 2 positions in Information Technology,15.686274509803914
+A,ema+trail,FERG,2023-09-26,2023-09-27,limit not reached,13.061224489795912
+A,ema+trail,QCOM,2023-11-02,2023-11-03,max 5 open positions,5.759162303664927
+A,ema+trail,SPGI,2023-11-02,2023-11-03,max 5 open positions,5.592105263157892
+A,ema+trail,LYV,2023-11-03,2023-11-06,max 5 open positions,90.43478260869566
+A,ema+trail,GDDY,2023-11-03,2023-11-06,max 5 open positions,52.57731958762887
+A,ema+trail,IT,2023-11-03,2023-11-06,max 5 open positions,30.61224489795919
+A,ema+trail,EXPE,2023-11-03,2023-11-06,max 5 open positions,8.200000000000003
+A,ema+trail,MSI,2023-11-03,2023-11-06,max 5 open positions,5.280528052805286
+A,ema+trail,DDOG,2023-11-07,2023-11-08,max 5 open positions,32.35294117647059
+A,ema+trail,AXON,2023-11-08,2023-11-09,max 5 open positions,34.21052631578947
+A,ema+trail,EXR,2023-11-08,2023-11-09,max 5 open positions,30.85106382978724
+A,ema+trail,TDG,2023-11-09,2023-11-10,max 5 open positions,5.242463958060281
+A,ema+trail,NTAP,2023-11-29,2023-11-30,max 2 positions in Information Technology,13.669064748201452
+A,ema+trail,WDAY,2023-11-29,2023-11-30,max 2 positions in Information Technology,8.51063829787235
+A,ema+trail,WRB,2024-01-25,2024-01-26,max 2 positions in Financials,5.434782608695644
+A,ema+trail,MSCI,2024-01-30,2024-01-31,max 2 positions in Financials,11.854103343465049
+A,ema+trail,DHR,2024-01-30,2024-01-31,max 2 positions in Health Care,9.424083769633505
+A,ema+trail,COR,2024-01-31,2024-02-01,max 2 positions in Health Care,13.494809688581302
+A,ema+trail,DECK,2024-02-02,2024-02-05,max 5 open positions,31.250000000000007
+A,ema+trail,AMZN,2024-02-02,2024-02-05,max 5 open positions,24.999999999999993
+A,ema+trail,META,2024-02-02,2024-02-05,max 5 open positions,7.894736842105256
+A,ema+trail,COHR,2024-02-06,2024-02-07,limit not reached,38.46153846153845
+A,ema+trail,GEHC,2024-02-06,2024-02-07,max 5 open positions,10.280373831775687
+A,ema+trail,KKR,2024-02-06,2024-02-07,max 5 open positions,9.890109890109887
+A,ema+trail,EMR,2024-02-07,2024-02-08,max 5 open positions,17.307692307692303
+A,ema+trail,DIS,2024-02-08,2024-02-09,max 5 open positions,18.446601941747566
+A,ema+trail,RL,2024-02-08,2024-02-09,max 5 open positions,17.46478873239437
+A,ema+trail,APP,2024-02-15,2024-02-16,max 5 open positions,40.00000000000001
+A,ema+trail,CBRE,2024-02-15,2024-02-16,max 5 open positions,16.94915254237288
+A,ema+trail,MRNA,2024-02-22,2024-02-23,max 5 open positions,155.55555555555557
+A,ema+trail,AXON,2024-02-28,2024-02-29,max 5 open positions,31.764705882352956
+A,ema+trail,EME,2024-02-28,2024-02-29,max 5 open positions,24.512534818941504
+A,ema+trail,HRL,2024-02-29,2024-03-01,max 5 open positions,20.58823529411763
+A,ema+trail,P,2024-02-29,2024-03-01,max 5 open positions,13.636363636363635
+A,ema+trail,DELL,2024-03-01,2024-03-04,max 5 open positions,27.906976744186057
+A,ema+trail,COO,2024-03-01,2024-03-04,max 5 open positions,8.974358974358967
+A,ema+trail,TGT,2024-03-05,2024-03-06,limit not reached,23.651452282157667
+A,ema+trail,UAL,2024-04-17,2024-04-18,limit not reached,73.68421052631578
+A,ema+trail,TER,2024-04-25,2024-04-26,limit not reached,54.54545454545454
+A,ema+trail,CARR,2024-04-25,2024-04-26,max 5 open positions,24.0
+A,ema+trail,TYL,2024-04-25,2024-04-26,max 5 open positions,10.000000000000009
+A,ema+trail,RMD,2024-04-26,2024-04-29,max 5 open positions,11.518324607329843
+A,ema+trail,MMM,2024-04-30,2024-05-01,max 5 open positions,13.2701421800948
+A,ema+trail,DD,2024-05-01,2024-05-02,max 5 open positions,21.538461538461547
+A,ema+trail,AMCR,2024-05-01,2024-05-02,max 5 open positions,8.536585365853666
+A,ema+trail,APTV,2024-05-02,2024-05-03,max 2 positions in Consumer Discretionary,15.999999999999993
+A,ema+trail,HWM,2024-05-02,2024-05-03,max 5 open positions,9.615384615384603
+A,ema+trail,BDX,2024-05-02,2024-05-03,max 5 open positions,6.734006734006724
+A,ema+trail,MPWR,2024-05-02,2024-05-03,max 5 open positions,6.439393939393937
+A,ema+trail,QCOM,2024-05-02,2024-05-03,max 5 open positions,5.172413793103453
+A,ema+trail,IFF,2024-05-07,2024-05-08,max 5 open positions,29.885057471264354
+A,ema+trail,FIS,2024-05-07,2024-05-08,max 5 open positions,14.583333333333348
+A,ema+trail,ANET,2024-05-08,2024-05-09,max 5 open positions,13.636363636363635
+A,ema+trail,MTD,2024-05-10,2024-05-13,max 5 open positions,16.209150326797385
+A,ema+trail,ISRG,2024-07-19,2024-07-22,limit not reached,15.584415584415584
+A,ema+trail,BRO,2024-07-23,2024-07-24,max 5 open positions,5.681818181818187
+A,ema+trail,UHS,2024-07-25,2024-07-26,limit not reached,29.819277108433727
+A,ema+trail,CBRE,2024-07-25,2024-07-26,limit not reached,14.084507042253536
+A,ema+trail,RTX,2024-07-25,2024-07-26,max 5 open positions,8.461538461538453
+A,ema+trail,NDAQ,2024-07-25,2024-07-26,max 5 open positions,7.812499999999989
+A,ema+trail,NOC,2024-07-25,2024-07-26,max 5 open positions,7.2512647554806176
+A,ema+trail,MMM,2024-07-26,2024-07-29,max 5 open positions,14.880952380952381
+A,ema+trail,CHTR,2024-07-26,2024-07-29,max 5 open positions,7.468354430379745
+A,ema+trail,NSC,2024-07-26,2024-07-29,max 5 open positions,6.993006993006999
+A,ema+trail,RVTY,2024-07-29,2024-07-30,max 5 open positions,8.928571428571416
+A,ema+trail,SWK,2024-07-30,2024-07-31,max 5 open positions,29.761904761904777
+A,ema+trail,PYPL,2024-07-30,2024-07-31,max 5 open positions,20.2020202020202
+A,ema+trail,FFIV,2024-07-30,2024-07-31,max 5 open positions,13.131313131313119
+A,ema+trail,HWM,2024-07-30,2024-07-31,max 5 open positions,11.666666666666679
+A,ema+trail,CVNA,2024-08-01,2024-08-02,max 5 open positions,500.0
+A,ema+trail,CHRW,2024-08-01,2024-08-02,max 5 open positions,19.791666666666664
+A,ema+trail,GDDY,2024-08-02,2024-08-05,max 5 open positions,11.718749999999993
+A,ema+trail,EXPE,2024-08-09,2024-08-12,max 5 open positions,11.075949367088596
+A,ema+trail,LITE,2024-08-15,2024-08-16,max 5 open positions,100.0
+A,ema+trail,KEYS,2024-08-21,2024-08-22,max 5 open positions,16.29629629629629
+A,ema+trail,TRV,2024-10-17,2024-10-18,max 2 positions in Financials,50.55555555555556
+A,ema+trail,MTB,2024-10-17,2024-10-18,max 2 positions in Financials,11.325966850828733
+A,ema+trail,NTRS,2024-10-23,2024-10-24,max 2 positions in Financials,15.02590673575131
+A,ema+trail,PKG,2024-10-23,2024-10-24,max 5 open positions,5.9999999999999964
+A,ema+trail,RJF,2024-10-24,2024-10-25,max 5 open positions,22.40663900414938
+A,ema+trail,TSLA,2024-10-24,2024-10-25,max 5 open positions,20.0
+A,ema+trail,CBRE,2024-10-24,2024-10-25,max 5 open positions,13.20754716981131
+A,ema+trail,CDNS,2024-10-29,2024-10-30,max 5 open positions,13.888888888888888
+A,ema+trail,RDDT,2024-10-30,2024-10-31,max 5 open positions,43.90243902439025
+A,ema+trail,GRMN,2024-10-30,2024-10-31,max 5 open positions,37.24137931034483
+A,ema+trail,CVNA,2024-10-31,2024-11-01,max 5 open positions,225.0
+A,ema+trail,IP,2024-10-31,2024-11-01,max 5 open positions,76.0
+A,ema+trail,COP,2024-10-31,2024-11-01,max 5 open positions,8.536585365853666
+A,ema+trail,CHD,2024-11-01,2024-11-04,max 5 open positions,16.176470588235293
+A,ema+trail,CAH,2024-11-01,2024-11-04,max 5 open positions,16.04938271604937
+A,ema+trail,WAT,2024-11-01,2024-11-04,max 5 open positions,9.328358208955223
+A,ema+trail,PLTR,2024-11-05,2024-11-06,limit not reached,11.111111111111121
+A,ema+trail,COHR,2024-11-07,2024-11-08,max 5 open positions,21.311475409836067
+A,ema+trail,APP,2024-11-07,2024-11-08,max 5 open positions,19.51219512195122
+A,ema+trail,AXON,2024-11-08,2024-11-11,max 5 open positions,20.833333333333336
+A,ema+trail,PODD,2024-11-08,2024-11-11,max 5 open positions,18.42105263157895
+A,ema+trail,LYV,2024-11-12,2024-11-13,max 5 open positions,13.173652694610777
+A,ema+trail,C,2025-01-15,2025-01-16,max 2 positions in Financials,8.870967741935491
+A,ema+trail,WFC,2025-01-15,2025-01-16,max 2 positions in Financials,5.1470588235294
+A,ema+trail,IBKR,2025-01-22,2025-01-23,max 2 positions in Financials,10.869565217391301
+A,ema+trail,IVZ,2025-01-28,2025-01-29,max 2 positions in Financials,10.638297872340436
+A,ema+trail,FLEX,2025-01-29,2025-01-30,max 5 open positions,22.222222222222225
+A,ema+trail,FFIV,2025-01-29,2025-01-30,max 5 open positions,13.609467455621301
+A,ema+trail,BEN,2025-01-31,2025-02-03,max 5 open positions,11.32075471698112
+A,ema+trail,EXPE,2025-02-07,2025-02-10,max 5 open positions,13.80952380952381
+A,ema+trail,ROK,2025-02-10,2025-02-11,max 5 open positions,15.822784810126581
+A,ema+trail,DD,2025-02-11,2025-02-12,max 5 open positions,15.306122448979597
+A,ema+trail,CVS,2025-02-12,2025-02-13,max 5 open positions,29.34782608695651
+A,ema+trail,GILD,2025-02-12,2025-02-13,max 5 open positions,11.764705882352938
+A,ema+trail,EW,2025-02-12,2025-02-13,max 5 open positions,7.272727272727258
+A,ema+trail,MGM,2025-02-13,2025-02-14,max 5 open positions,32.35294117647059
+A,ema+trail,GEHC,2025-02-13,2025-02-14,max 5 open positions,15.079365079365076
+A,ema+trail,ABNB,2025-02-14,2025-02-18,max 5 open positions,25.86206896551725
+A,ema+trail,EXPD,2025-02-18,2025-02-19,max 5 open positions,17.482517482517483
+A,ema+trail,GRMN,2025-02-19,2025-02-20,max 5 open positions,19.30693069306931
+A,ema+trail,DVN,2025-02-19,2025-02-20,max 5 open positions,15.999999999999993
+A,ema+trail,ADI,2025-02-19,2025-02-20,max 5 open positions,5.844155844155835
+A,ema+trail,BAX,2025-02-20,2025-02-21,max 5 open positions,9.43396226415093
+A,ema+trail,DIS,2025-05-07,2025-05-08,limit not reached,19.834710743801654
+A,ema+trail,ROK,2025-05-07,2025-05-08,limit not reached,15.566037735849058
+A,ema+trail,DG,2025-06-03,2025-06-04,max 5 open positions,20.270270270270274
+A,ema+trail,GEV,2025-07-23,2025-07-24,max 5 open positions,13.414634146341475
+A,ema+trail,TEL,2025-07-23,2025-07-24,max 5 open positions,9.134615384615381
+A,ema+trail,NEM,2025-07-25,2025-07-28,max 5 open positions,23.27586206896552
+A,ema+trail,CBRE,2025-07-29,2025-07-30,max 5 open positions,11.214953271028026
+A,ema+trail,CDNS,2025-07-29,2025-07-30,max 5 open positions,5.769230769230759
+A,ema+trail,GLW,2025-07-29,2025-07-30,max 5 open positions,5.263157894736848
+A,ema+trail,GNRC,2025-07-30,2025-07-31,max 5 open positions,24.999999999999986
+A,ema+trail,HUM,2025-07-30,2025-07-31,max 5 open positions,6.8143100511073165
+A,ema+trail,TER,2025-07-30,2025-07-31,max 5 open positions,5.555555555555539
+A,ema+trail,CHRW,2025-07-31,2025-08-01,max 5 open positions,11.20689655172415
+A,ema+trail,XYL,2025-07-31,2025-08-01,max 5 open positions,9.565217391304357
+A,ema+trail,EBAY,2025-07-31,2025-08-01,max 5 open positions,5.3846153846153895
+A,ema+trail,IDXX,2025-08-04,2025-08-05,max 5 open positions,10.000000000000004
+A,ema+trail,AXON,2025-08-05,2025-08-06,max 5 open positions,45.2054794520548
+A,ema+trail,PFE,2025-08-05,2025-08-06,max 5 open positions,36.84210526315791
+A,ema+trail,LDOS,2025-08-05,2025-08-06,max 5 open positions,20.676691729323302
+A,ema+trail,PLTR,2025-08-05,2025-08-06,max 5 open positions,14.285714285714276
+A,ema+trail,AIZ,2025-08-06,2025-08-07,max 5 open positions,14.606741573033696
+A,ema+trail,ANET,2025-08-06,2025-08-07,max 5 open positions,12.307692307692301
+A,ema+trail,DASH,2025-08-07,2025-08-08,max 5 open positions,51.162790697674424
+A,ema+trail,PH,2025-08-07,2025-08-08,max 5 open positions,8.615819209039552
+A,ema+trail,GEN,2025-08-08,2025-08-11,max 5 open positions,6.666666666666673
+A,ema+trail,WFC,2025-10-14,2025-10-15,limit not reached,12.337662337662334
+A,ema+trail,HAL,2025-10-21,2025-10-22,limit not reached,15.999999999999993
+A,ema+trail,FIX,2025-10-24,2025-10-27,max 5 open positions,31.160572337042925
+A,ema+trail,F,2025-10-24,2025-10-27,max 5 open positions,25.000000000000007
+A,ema+trail,HCA,2025-10-24,2025-10-27,max 5 open positions,21.465968586387422
+A,ema+trail,BE,2025-10-29,2025-10-30,max 5 open positions,49.999999999999986
+A,ema+trail,CAT,2025-10-29,2025-10-30,max 5 open positions,9.513274336283201
+A,ema+trail,STX,2025-10-29,2025-10-30,max 5 open positions,8.75
+A,ema+trail,TER,2025-10-29,2025-10-30,max 5 open positions,7.594936708860751
+A,ema+trail,FOXA,2025-10-30,2025-10-31,max 5 open positions,37.272727272727266
+A,ema+trail,CAH,2025-10-30,2025-10-31,max 5 open positions,17.511520737327185
+A,ema+trail,CHRW,2025-10-30,2025-10-31,max 5 open positions,7.692307692307682
+A,ema+trail,AME,2025-10-30,2025-10-31,max 5 open positions,7.38636363636363
+A,ema+trail,ILMN,2025-10-31,2025-11-03,max 5 open positions,14.529914529914546
+A,ema+trail,WDC,2025-10-31,2025-11-03,max 5 open positions,12.65822784810126
+A,ema+trail,IDXX,2025-11-03,2025-11-04,max 5 open positions,7.936507936507936
+A,ema+trail,EXPD,2025-11-04,2025-11-05,max 5 open positions,17.98561151079137
+A,ema+trail,HSIC,2025-11-04,2025-11-05,max 5 open positions,7.812499999999989
+A,ema+trail,YUM,2025-11-04,2025-11-05,max 5 open positions,6.756756756756762
+A,ema+trail,LITE,2025-11-05,2025-11-06,max 5 open positions,6.796116504854374
+A,ema+trail,JCI,2025-11-05,2025-11-06,max 5 open positions,5.000000000000004
+A,ema+trail,HST,2025-11-06,2025-11-07,max 5 open positions,475.0
+A,ema+trail,DDOG,2025-11-06,2025-11-07,max 5 open positions,19.56521739130435
+A,ema+trail,APA,2025-11-06,2025-11-07,max 5 open positions,17.72151898734177
+A,ema+trail,COHR,2025-11-06,2025-11-07,max 5 open positions,11.538461538461526
+A,ema+trail,PH,2025-11-06,2025-11-07,max 5 open positions,9.063444108761324
+A,ema+trail,EXPE,2025-11-07,2025-11-10,max 5 open positions,8.92086330935252

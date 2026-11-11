@@ -1,0 +1,28 @@
+{
+  "trades": 484,
+  "win_rate": 0.4256198347107438,
+  "avg_win_r": 1.2610728155339805,
+  "avg_loss_r": -0.7666906474820143,
+  "expectancy_r": 0.09636570247933889,
+  "expectancy_se": 0.06053305579482367,
+  "total_return": 0.27674368178801956,
+  "cagr": 0.025749076625624978,
+  "max_drawdown": -0.15674856918508884,
+  "sharpe": 0.45036058781756283,
+  "exposure_time": 0.7100909842845327,
+  "avg_gross_exposure": 0.25393199423815493,
+  "pnl_usd": 2767.4199999999996,
+  "funnel": {
+    "reports in period": 18606,
+    "timing known (bmo/amc)": 18396,
+    "price data on day 1": 18276,
+    "EPS surprise >= 5%": 9124,
+    "gap >= 3%": 2642,
+    "close in upper half": 1324,
+    "volume >= 2x avg": 1074,
+    "liquid (price > $10, ADV > $50m)": 989,
+    "EMA filter off": 989,
+    "market regime on": 866,
+    "next session exists": 866
+  }
+}

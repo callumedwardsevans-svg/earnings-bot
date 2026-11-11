@@ -91,12 +91,16 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--holdout", action="store_true")
     ap.add_argument("--final-check", action="store_true", help="required with --holdout")
+    ap.add_argument("--regime", choices=["EMA 200", "10-month SMA"],
+                    help="market regime filter: no new entries while SPY is below this average")
+    ap.add_argument("--only", help="run a single variant, e.g. 'A:ema+fixed' (used for the held-out check)")
     args = ap.parse_args()
     if args.holdout and not args.final_check:
         print("The held-out period is for the final check only. Re-run with --holdout --final-check "
               "once the variants are chosen.", file=sys.stderr)
         return 2
-    period = "holdout" if args.holdout else "in_sample"
+    period = ("holdout" if args.holdout else "in_sample") + (
+        "_regime_" + args.regime.lower().replace(" ", "").replace("-", "") if args.regime else "")
     start = HOLDOUT_START if args.holdout else BACKTEST_START
     end = BACKTEST_END if args.holdout else str((pd.Timestamp(HOLDOUT_START) - pd.Timedelta(days=1)).date())
     out_dir = PROJECT_ROOT / "docs" / "backtest" / period
@@ -114,11 +118,27 @@ def main() -> int:
                                    ema_rising_lookback=SETUP_B.ema_rising_lookback)
     spy_stats, spy_eq = metrics.benchmark(px["SPY"], sessions[0], sessions[-1], BACKTEST_START_EQUITY)
 
+    regime = None
+    if args.regime:
+        from earnings_bot.data import yahoo_prices
+        from earnings_bot.signals import setup_d
+
+        spy_long = yahoo_prices.load("SPY").close
+        sig = (setup_d.signal_ema(spy_long, 200) if args.regime == "EMA 200"
+               else setup_d.signal_monthly_sma(spy_long, 10))
+        regime = sig.astype(bool)
+
+    runs = RUNS
+    if args.only:
+        s_, v_ = args.only.split(":")
+        runs = [r for r in RUNS if r[0] == s_ and r[1] == v_]
+        assert runs, f"unknown variant {args.only}"
+
     rows, signal_rows, funnels, yearly, curves = [], [], {}, {}, {"A": {}, "B": {}}
     skip_reasons = {}
-    for setup, variant, kw in RUNS:
+    for setup, variant, kw in runs:
         gen = setup_a.generate if setup == "A" else setup_b.generate
-        cands, funnel = gen(hist, px, sessions_all, uni, start, end, **kw)
+        cands, funnel = gen(hist, px, sessions_all, uni, start, end, regime=regime, **kw)
         sims = simulate_all(cands, px, end)
         funnels[(setup, variant)] = funnel
 
@@ -147,7 +167,7 @@ def main() -> int:
         print(f"{setup} {variant}: {len(sims)} signals, {rows[-2]['trades']} portfolio trades, "
               f"expectancy {rows[-2]['expectancy_r']:.2f}R")
 
-    for setup in ("A", "B"):
+    for setup in {r[0] for r in runs}:
         plot_curves(curves[setup], spy_eq, f"Setup {setup}: all variants vs SPY, {period.replace('_', '-')}",
                     out_dir / f"equity_setup_{setup}.png")
 
@@ -187,7 +207,7 @@ def write_summary(out_dir, period, start, end, port, sig, funnels, yearly, skip_
               "CAGR", "max DD", "Sharpe", "exposure (time)", "avg capital deployed"]].to_markdown(index=False), ""]
     L += [f"**SPY buy & hold:** total return {fmt_pct(spy['total_return'])}, CAGR {fmt_pct(spy['cagr'])}, "
           f"max DD {fmt_pct(spy['max_drawdown'])}, Sharpe {spy['sharpe']:.2f}, exposure 100%.", "",
-          "![Setup A](equity_setup_A.png)", "", "![Setup B](equity_setup_B.png)", ""]
+          *[line for x in sorted(port.setup.unique()) for line in (f"![Setup {x}](equity_setup_{x}.png)", "")]]
 
     L += ["## 3. Robustness: only signals after the stock joined the S&P 500", "",
           "Partly addresses survivorship bias: drops signals from before a stock was in the index (using today's "
@@ -204,7 +224,7 @@ def write_summary(out_dir, period, start, end, port, sig, funnels, yearly, skip_
     L += [yt.to_markdown(), ""]
 
     L += ["## 5. Signal funnel (how many reports survive each filter)", ""]
-    for key in [("A", "ema+fixed"), ("A", "noema+fixed"), ("B", "ema"), ("B", "noema")]:
+    for key in [k for k in [("A", "ema+fixed"), ("A", "noema+fixed"), ("B", "ema"), ("B", "noema")] if k in funnels]:
         f = funnels[key]
         L += [f"**Setup {key[0]} ({key[1]})**: " + " → ".join(f"{k} **{v:,}**" for k, v in f.items()), ""]
 

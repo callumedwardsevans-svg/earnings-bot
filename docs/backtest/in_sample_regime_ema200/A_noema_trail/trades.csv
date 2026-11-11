@@ -1,0 +1,485 @@
+trade_id,setup,variant,ticker,signal_date,entry_date,entry_price,stop_price,target_price,shares,exit_date,exit_price,exit_reason,pnl_usd,r_multiple,eps_surprise_pct,gap_pct,notes
+A-noema+trail-0002,A,noema+trail,TXT,2016-04-20,2016-04-21,39.2496,37.8611,,37,2016-05-03,37.8422,stop,-52.07,-0.835,5.77,5.49,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0003,A,noema+trail,NSC,2016-04-22,2016-04-25,73.3266,70.94,,20,2016-05-03,70.9045,stop,-48.44,-0.869,31.63,8.08,timing amc (yahoo only); size limited by max position
+A-noema+trail-0001,A,noema+trail,HAS,2016-04-18,2016-04-19,61.7881,59.6,,24,2016-05-04,59.5702,stop,-53.23,-1.028,58.33,5.97,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0005,A,noema+trail,RCL,2016-04-29,2016-05-02,68.4948,65.0,,21,2016-05-06,64.9675,stop,-74.07,-1.019,78.12,3.12,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0006,A,noema+trail,FIS,2016-05-03,2016-05-04,58.2391,56.95,,25,2016-05-12,58.4411,trailing stop,5.05,0.115,6.76,3.56,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0004,A,noema+trail,BSX,2016-04-27,2016-04-28,22.0104,21.0957,,68,2016-05-17,22.1755,trailing stop,11.22,0.183,16.67,8.94,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0007,A,noema+trail,TDG,2016-05-10,2016-05-11,145.9629,139.7648,,10,2016-06-09,155.6022,time exit,96.39,1.406,9.58,4.8,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0008,A,noema+trail,ALB,2016-05-11,2016-05-12,65.2068,61.7055,,21,2016-06-10,69.3153,time exit,86.28,1.184,30.23,4.39,timing amc (yahoo only); size limited by risk
+A-noema+trail-0010,A,noema+trail,AMAT,2016-05-20,2016-05-23,20.3212,19.34,,72,2016-06-14,21.2394,trailing stop,66.11,0.946,6.25,9.07,timing amc (yahoo only); size limited by max position
+A-noema+trail-0009,A,noema+trail,WMT,2016-05-19,2016-05-20,19.4397,18.9,,75,2016-06-20,19.91,time exit,35.27,0.801,13.79,7.86,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0011,A,noema+trail,DLTR,2016-05-26,2016-05-27,88.8563,84.79,,16,2016-06-27,92.5137,time exit,58.52,0.909,8.54,9.1,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0012,A,noema+trail,MRVL,2016-07-20,2016-07-21,10.3852,9.791,,109,2016-07-26,10.7946,flat before report,44.63,0.592,22.22,5.58,timing amc (yahoo only); size limited by risk
+A-noema+trail-0017,A,noema+trail,TXN,2016-07-26,2016-07-27,53.4867,52.66,,28,2016-08-01,52.6337,stop,-23.89,-0.61,5.56,6.7,timing amc (yahoo only); size limited by max position
+A-noema+trail-0015,A,noema+trail,BIIB,2016-07-21,2016-07-22,282.231,274.2157,,5,2016-08-03,315.4845,trailing stop,166.27,3.447,11.09,6.61,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0018,A,noema+trail,COR,2016-08-02,2016-08-03,62.7414,61.46,,24,2016-08-11,61.4293,stop,-31.49,-0.808,7.87,4.03,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0013,A,noema+trail,CTAS,2016-07-20,2016-07-21,24.002,23.1812,,63,2016-08-17,25.474,trailing stop,92.74,1.638,20.0,3.71,timing amc (yahoo only); size limited by max position
+A-noema+trail-0016,A,noema+trail,SWK,2016-07-22,2016-07-25,91.3557,89.46,,16,2016-08-17,91.7966,trailing stop,7.05,0.198,7.6,3.86,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0014,A,noema+trail,PHM,2016-07-21,2016-07-22,19.3056,18.458,,78,2016-08-19,18.9005,time exit,-31.6,-0.483,15.62,3.02,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0021,A,noema+trail,DE,2016-08-19,2016-08-22,74.137,71.5396,,20,2016-09-01,71.5039,stop,-52.66,-0.8,64.89,3.34,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0019,A,noema+trail,BALL,2016-08-04,2016-08-05,35.1576,33.9042,,43,2016-09-02,36.1519,time exit,42.76,0.699,6.0,6.37,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0020,A,noema+trail,NTAP,2016-08-18,2016-08-19,26.1931,25.1751,,56,2016-09-09,26.7156,trailing stop,29.26,0.379,27.78,7.64,timing amc (yahoo only); size limited by risk
+A-noema+trail-0022,A,noema+trail,BBY,2016-08-23,2016-08-24,27.0735,25.98,,57,2016-09-09,25.907,stop,-66.49,-0.944,32.56,16.96,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0023,A,noema+trail,ADSK,2016-08-26,2016-08-29,68.5343,66.2785,,22,2016-09-12,65.887,stop,-58.24,-0.902,138.46,3.61,timing amc (yahoo only); size limited by max position
+A-noema+trail-0026,A,noema+trail,TMUS,2016-10-24,2016-10-25,48.6743,46.7564,,31,2016-10-27,46.733,stop,-60.18,-0.9,90.91,3.53,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0029,A,noema+trail,BMY,2016-10-27,2016-10-28,36.5182,35.47,,41,2016-11-01,35.4523,stop,-43.71,-0.967,18.46,6.37,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0027,A,noema+trail,LMT,2016-10-25,2016-10-26,188.2341,183.5698,,8,2016-11-03,183.4682,stop,-38.13,-0.793,25.78,3.84,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0028,A,noema+trail,MDLZ,2016-10-26,2016-10-27,35.0116,33.8315,,43,2016-11-04,33.6931,stop,-56.69,-1.134,20.93,4.64,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0030,A,noema+trail,ADM,2016-11-01,2016-11-02,34.8274,33.77,,43,2016-11-09,33.7531,stop,-46.19,-0.885,28.26,4.13,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0024,A,noema+trail,HAS,2016-10-17,2016-10-18,58.5893,56.43,,26,2016-11-15,61.2993,time exit,70.46,1.209,16.67,4.97,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0025,A,noema+trail,AXP,2016-10-20,2016-10-21,58.049,56.53,,26,2016-11-18,61.959,time exit,101.66,1.887,29.17,6.68,timing amc (yahoo only); size limited by max position
+A-noema+trail-0033,A,noema+trail,MRVL,2016-11-18,2016-11-21,13.6868,13.18,,109,2016-12-01,13.1734,stop,-55.96,-0.745,66.67,10.03,timing amc (yahoo only); size limited by max position
+A-noema+trail-0034,A,noema+trail,ROST,2016-11-18,2016-11-21,61.7308,60.42,,24,2016-12-01,61.0362,trailing stop,-16.67,-0.437,10.71,3.31,timing amc (yahoo only); size limited by max position
+A-noema+trail-0031,A,noema+trail,SYY,2016-11-07,2016-11-08,40.9642,39.546,,36,2016-12-07,42.079,time exit,40.13,0.798,15.52,4.83,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0032,A,noema+trail,BBY,2016-11-17,2016-11-18,31.7759,30.0713,,36,2016-12-16,33.0476,trailing stop,45.78,0.615,31.91,6.01,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0035,A,noema+trail,DE,2016-11-23,2016-11-25,87.3737,84.9328,,17,2016-12-23,88.5257,time exit,19.58,0.354,130.77,8.17,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0036,A,noema+trail,MU,2016-12-22,2016-12-23,22.5213,22.19,,67,2016-12-29,21.979,stop,-36.33,-1.017,10.34,11.56,timing amc (yahoo only); size limited by max position
+A-noema+trail-0038,A,noema+trail,ROK,2017-01-25,2017-01-26,128.7844,125.25,,11,2017-01-30,125.1874,stop,-39.57,-1.01,20.69,6.77,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0037,A,noema+trail,DHI,2017-01-24,2017-01-25,27.6413,26.46,,55,2017-02-07,26.4468,stop,-65.7,-1.023,14.58,3.92,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0041,A,noema+trail,COR,2017-01-31,2017-02-01,63.1816,59.75,,22,2017-02-15,64.6378,trailing stop,32.04,0.428,10.57,3.59,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0042,A,noema+trail,AMD,2017-02-01,2017-02-02,11.986,10.9844,,66,2017-02-16,13.0541,trailing stop,70.5,0.94,50.0,5.21,timing amc (yahoo only); size limited by risk
+A-noema+trail-0043,A,noema+trail,LITE,2017-02-08,2017-02-09,46.1023,42.1462,,19,2017-02-22,49.4334,trailing stop,63.29,0.847,11.76,4.48,timing amc (yahoo only); size limited by risk
+A-noema+trail-0039,A,noema+trail,URI,2017-01-26,2017-01-27,121.7208,117.28,,12,2017-02-23,117.2214,stop,-53.99,-0.829,16.09,8.02,timing amc (yahoo only); size limited by max position
+A-noema+trail-0040,A,noema+trail,SHW,2017-01-26,2017-01-27,93.0765,91.09,,16,2017-02-27,94.8825,time exit,28.9,0.733,6.85,6.4,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0045,A,noema+trail,XYZ,2017-02-23,2017-02-24,16.9585,16.31,,83,2017-03-03,16.8216,trailing stop,-11.36,-0.148,42.86,10.84,timing amc (yahoo only); size limited by risk
+A-noema+trail-0044,A,noema+trail,BG,2017-02-15,2017-02-16,56.2681,53.9933,,27,2017-03-17,60.9995,time exit,127.75,2.033,8.28,4.91,timing bmo (agree); size limited by max position
+A-noema+trail-0046,A,noema+trail,BKNG,2017-02-28,2017-03-01,67.7407,66.34,,22,2017-03-22,67.9543,trailing stop,4.7,0.156,9.62,4.41,timing amc (yahoo only); size limited by max position
+A-noema+trail-0047,A,noema+trail,ALB,2017-02-28,2017-03-01,89.6607,85.4137,,17,2017-03-27,90.7491,trailing stop,18.5,0.259,6.85,3.58,timing amc (yahoo only); size limited by max position
+A-noema+trail-0051,A,noema+trail,CAT,2017-04-25,2017-04-26,85.3426,83.8,,18,2017-05-01,83.7581,stop,-28.52,-0.652,103.17,6.24,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0053,A,noema+trail,MLM,2017-05-02,2017-05-03,222.4912,215.47,,7,2017-05-11,215.3623,stop,-49.9,-0.759,55.81,4.18,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0048,A,noema+trail,LRCX,2017-04-19,2017-04-20,12.0861,11.68,,128,2017-05-17,13.0378,trailing stop,121.81,2.379,7.69,4.98,timing amc (yahoo only); size limited by max position
+A-noema+trail-0049,A,noema+trail,SHW,2017-04-20,2017-04-21,99.0295,97.176,,15,2017-05-17,101.6225,trailing stop,38.89,1.046,10.14,3.07,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0050,A,noema+trail,SWK,2017-04-21,2017-04-24,106.2112,103.0916,,14,2017-05-18,103.0401,stop,-44.4,-1.034,8.4,3.03,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0052,A,noema+trail,WAT,2017-04-25,2017-04-26,172.086,166.2295,,9,2017-05-24,177.4512,time exit,48.29,0.881,8.96,3.58,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0057,A,noema+trail,VEEV,2017-05-26,2017-05-30,66.7334,63.61,,22,2017-05-31,63.5782,stop,-69.41,-0.89,22.22,7.55,timing amc (yahoo only); size limited by risk
+A-noema+trail-0055,A,noema+trail,ADSK,2017-05-19,2017-05-22,109.8549,106.86,,14,2017-06-09,109.8049,trailing stop,-0.7,-0.014,30.43,12.7,timing amc (yahoo only); size limited by max position
+A-noema+trail-0056,A,noema+trail,BBY,2017-05-25,2017-05-26,42.5913,41.012,,33,2017-06-09,40.9914,stop,-52.79,-0.674,50.0,13.96,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0058,A,noema+trail,CIEN,2017-06-01,2017-06-02,27.0135,26.1905,,57,2017-06-09,26.1774,stop,-47.66,-0.736,21.62,11.97,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0059,A,noema+trail,COO,2017-06-02,2017-06-05,59.7899,57.8132,,26,2017-06-12,57.7843,stop,-52.14,-1.006,12.5,3.57,timing amc (yahoo only); size limited by max position
+A-noema+trail-0054,A,noema+trail,DE,2017-05-19,2017-05-22,105.6079,103.37,,14,2017-06-20,109.4353,time exit,53.58,1.752,47.34,6.83,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0062,A,noema+trail,MCD,2017-07-25,2017-07-26,127.6038,125.75,,12,2017-07-26,125.6871,stop,-23.0,-0.715,6.79,3.89,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0060,A,noema+trail,NKE,2017-06-30,2017-07-03,51.0055,49.5212,,29,2017-08-01,52.2439,time exit,35.91,0.546,22.45,6.46,timing amc (agree); size limited by max position
+A-noema+trail-0063,A,noema+trail,T,2017-07-26,2017-07-27,16.8484,16.48,,91,2017-08-02,16.9788,trailing stop,11.87,0.349,6.76,3.32,timing amc (yahoo only); size limited by max position
+A-noema+trail-0065,A,noema+trail,FSLR,2017-07-28,2017-07-31,48.9345,47.43,,31,2017-08-02,47.4063,stop,-47.37,-0.907,1500.0,8.95,timing amc (yahoo only); size limited by max position
+A-noema+trail-0066,A,noema+trail,DXCM,2017-08-02,2017-08-03,17.8289,17.42,,85,2017-08-10,17.4113,stop,-35.5,-0.837,33.33,7.18,timing amc (yahoo only); size limited by max position
+A-noema+trail-0064,A,noema+trail,PYPL,2017-07-27,2017-07-28,59.1696,57.1408,,25,2017-08-11,57.1123,stop,-51.43,-0.777,6.98,3.77,timing amc (yahoo only); size limited by max position
+A-noema+trail-0070,A,noema+trail,A,2017-08-16,2017-08-17,57.8389,56.65,,26,2017-08-18,56.6217,stop,-31.65,-0.766,13.46,4.66,timing amc (yahoo only); size limited by max position
+A-noema+trail-0061,A,noema+trail,CAT,2017-07-25,2017-07-26,94.5973,92.51,,16,2017-08-23,94.9225,time exit,5.2,0.118,18.25,4.68,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0067,A,noema+trail,ILMN,2017-08-02,2017-08-03,191.5457,183.2131,,7,2017-08-31,198.6007,time exit,49.38,0.703,18.84,9.11,timing amc (yahoo only); size limited by risk
+A-noema+trail-0068,A,noema+trail,TTWO,2017-08-03,2017-08-04,89.5447,86.01,,17,2017-09-01,95.8321,time exit,106.88,1.783,115.79,10.34,timing amc (yahoo only); size limited by max position
+A-noema+trail-0074,A,noema+trail,LULU,2017-09-01,2017-09-05,62.0294,60.49,,25,2017-09-05,60.4598,stop,-39.24,-1.041,11.43,6.38,timing amc (yahoo only); size limited by max position
+A-noema+trail-0072,A,noema+trail,MRVL,2017-08-25,2017-08-28,16.1081,15.65,,94,2017-09-08,16.2425,trailing stop,12.64,0.258,7.14,4.88,timing amc (yahoo only); size limited by max position
+A-noema+trail-0069,A,noema+trail,LYV,2017-08-10,2017-08-11,39.3196,37.9171,,38,2017-09-11,41.1394,time exit,69.15,0.962,52.63,9.07,timing amc (yahoo only); size limited by max position
+A-noema+trail-0073,A,noema+trail,PANW,2017-09-01,2017-09-05,24.2221,23.7,,63,2017-09-14,23.6882,stop,-33.64,-0.619,15.38,9.13,timing amc (yahoo only); size limited by max position
+A-noema+trail-0071,A,noema+trail,EL,2017-08-18,2017-08-21,93.8669,90.8794,,15,2017-09-19,98.5107,time exit,69.66,1.193,18.6,4.57,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0075,A,noema+trail,CTAS,2017-09-27,2017-09-28,32.6563,32.33,,47,2017-09-28,32.3138,stop,-16.1,-0.63,16.13,5.37,timing amc (yahoo only); size limited by max position
+A-noema+trail-0080,A,noema+trail,PYPL,2017-10-20,2017-10-23,70.2751,68.91,,22,2017-10-23,68.8755,stop,-30.79,-0.858,6.98,6.06,timing amc (yahoo only); size limited by max position
+A-noema+trail-0078,A,noema+trail,GWW,2017-10-17,2017-10-18,182.3479,172.4227,,7,2017-10-25,172.3365,stop,-70.08,-1.018,13.28,3.23,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0081,A,noema+trail,STX,2017-10-23,2017-10-24,28.6643,27.29,,55,2017-10-25,27.2764,stop,-76.34,-0.997,11.63,13.5,timing bmo (agree); size limited by max position
+A-noema+trail-0076,A,noema+trail,MU,2017-09-27,2017-09-28,36.2381,35.01,,42,2017-10-26,39.5602,time exit,139.53,2.496,9.78,6.09,timing amc (yahoo only); size limited by max position
+A-noema+trail-0077,A,noema+trail,LEN,2017-10-03,2017-10-04,45.6096,43.84,,34,2017-10-30,46.027,trailing stop,14.19,0.239,5.05,3.95,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0083,A,noema+trail,FSLR,2017-10-27,2017-10-30,57.3587,53.7103,,18,2017-10-31,53.6834,stop,-66.15,-0.865,132.14,8.72,timing amc (yahoo only); size limited by risk
+A-noema+trail-0082,A,noema+trail,TER,2017-10-26,2017-10-27,39.8599,38.7744,,38,2017-11-01,40.0749,trailing stop,8.17,0.133,25.58,4.81,timing amc (yahoo only); size limited by max position
+A-noema+trail-0079,A,noema+trail,NTRS,2017-10-18,2017-10-19,73.4867,71.55,,21,2017-11-08,71.5142,stop,-41.42,-0.844,7.14,4.28,timing bmo (agree); size limited by max position
+A-noema+trail-0087,A,noema+trail,EXPD,2017-11-07,2017-11-08,54.4472,54.0173,,27,2017-11-08,53.9902,stop,-12.34,-0.231,10.0,3.93,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0084,A,noema+trail,ALGN,2017-10-27,2017-10-30,234.4672,224.0109,,5,2017-11-15,243.5981,trailing stop,45.65,0.697,24.69,11.16,timing amc (yahoo only); size limited by risk
+A-noema+trail-0089,A,noema+trail,SJM,2017-11-16,2017-11-17,87.1836,83.9274,,17,2017-11-24,83.8854,stop,-56.07,-0.797,6.32,4.41,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0086,A,noema+trail,ANET,2017-11-03,2017-11-06,12.6593,12.04,,122,2017-11-29,14.5722,trailing stop,233.38,3.121,42.86,11.4,timing amc (yahoo only); size limited by max position
+A-noema+trail-0085,A,noema+trail,EL,2017-11-01,2017-11-02,108.7243,105.5935,,14,2017-12-01,111.7141,time exit,41.86,0.743,24.74,7.46,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0088,A,noema+trail,NTAP,2017-11-16,2017-11-17,42.4212,41.02,,37,2017-12-01,44.0623,trailing stop,60.72,0.987,17.39,12.2,timing amc (yahoo only); size limited by max position
+A-noema+trail-0090,A,noema+trail,DE,2017-11-22,2017-11-24,128.1211,124.88,,12,2017-12-22,138.1309,time exit,120.12,3.151,9.03,4.63,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0091,A,noema+trail,FDX,2017-12-20,2017-12-21,175.1585,171.09,,9,2018-01-23,188.6456,time exit,121.38,3.388,10.42,4.15,timing amc (agree); size limited by max position
+A-noema+trail-0093,A,noema+trail,INTC,2018-01-26,2018-01-29,41.6608,40.39,,38,2018-01-31,40.3698,stop,-49.06,-0.694,24.14,6.81,timing amc (yahoo only); size limited by max position
+A-noema+trail-0094,A,noema+trail,AVY,2018-01-31,2018-02-01,102.091,102.37,,15,2018-02-01,101.989,stop,-1.53,-0.036,6.4,3.37,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0095,A,noema+trail,VRTX,2018-02-01,2018-02-02,169.5047,164.9371,,9,2018-02-02,164.8547,stop,-41.85,-0.542,12.96,4.44,timing amc (yahoo only); size limited by max position
+A-noema+trail-0092,A,noema+trail,TRV,2018-01-23,2018-01-24,122.1911,118.7,,13,2018-02-05,118.6406,stop,-46.16,-1.015,61.7,3.58,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0096,A,noema+trail,TPR,2018-02-06,2018-02-07,38.9995,37.3019,,40,2018-03-02,39.4057,trailing stop,16.25,0.209,21.59,4.3,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0097,A,noema+trail,TWLO,2018-02-14,2018-02-15,30.8154,28.58,,34,2018-03-16,40.9995,time exit,346.26,4.44,50.0,10.02,timing amc (yahoo only); size limited by risk
+A-noema+trail-0098,A,noema+trail,HPE,2018-02-23,2018-02-26,13.927,13.54,,115,2018-03-19,14.3344,trailing stop,46.86,0.769,54.55,9.79,timing amc (yahoo only); size limited by max position
+A-noema+trail-0100,A,noema+trail,JBL,2018-03-16,2018-03-19,29.8149,28.5767,,55,2018-03-22,28.5624,stop,-68.88,-0.862,6.45,5.46,timing amc (yahoo only); size limited by max position
+A-noema+trail-0099,A,noema+trail,VEEV,2018-02-28,2018-03-01,69.5648,65.8384,,19,2018-03-27,74.1567,trailing stop,87.25,1.091,9.52,4.17,timing amc (yahoo only); size limited by risk
+A-noema+trail-0101,A,noema+trail,STZ,2018-03-29,2018-04-02,196.445,192.01,,8,2018-04-04,191.904,stop,-36.33,-1.047,9.2,4.27,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0103,A,noema+trail,ISRG,2018-04-18,2018-04-19,155.7478,149.63,,10,2018-04-23,149.5552,stop,-61.93,-0.758,17.39,4.2,timing amc (yahoo only); size limited by risk
+A-noema+trail-0102,A,noema+trail,CSX,2018-04-18,2018-04-19,18.2091,17.62,,90,2018-04-24,17.6112,stop,-53.81,-0.933,18.18,4.63,timing amc (yahoo only); size limited by max position
+A-noema+trail-0104,A,noema+trail,AXP,2018-04-19,2018-04-20,91.2856,88.51,,17,2018-04-25,88.4657,stop,-47.94,-0.82,8.77,4.43,timing amc (yahoo only); size limited by max position
+A-noema+trail-0105,A,noema+trail,CSGP,2018-04-24,2018-04-25,38.1891,37.23,,42,2018-04-25,37.2114,stop,-41.06,-0.669,21.43,3.09,timing amc (yahoo only); size limited by max position
+A-noema+trail-0108,A,noema+trail,META,2018-04-26,2018-04-27,173.4592,169.17,,9,2018-05-01,169.0854,stop,-39.36,-1.041,25.19,8.47,timing amc (yahoo only); size limited by max position
+A-noema+trail-0106,A,noema+trail,TT,2018-04-25,2018-04-26,66.8934,64.36,,24,2018-05-24,70.5447,time exit,87.63,1.351,12.9,4.81,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0107,A,noema+trail,NSC,2018-04-25,2018-04-26,121.5407,116.78,,12,2018-05-24,129.1354,time exit,91.14,1.173,9.04,4.3,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0109,A,noema+trail,AMD,2018-04-26,2018-04-27,11.1007,10.6,,146,2018-05-25,13.5332,time exit,355.14,4.912,22.22,11.95,timing amc (yahoo only); size limited by max position
+A-noema+trail-0110,A,noema+trail,ALGN,2018-04-26,2018-04-27,260.12,242.7,,4,2018-05-25,318.3807,time exit,233.04,3.151,20.62,6.66,timing amc (yahoo only); size limited by risk
+A-noema+trail-0111,A,noema+trail,MA,2018-05-02,2018-05-03,176.028,174.52,,9,2018-05-29,179.7098,trailing stop,33.14,1.062,20.97,3.3,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0112,A,noema+trail,DECK,2018-05-25,2018-05-29,17.7689,17.47,,96,2018-06-25,19.6319,trailing stop,178.85,3.657,166.67,4.17,timing amc (yahoo only); size limited by max position
+A-noema+trail-0113,A,noema+trail,LULU,2018-06-01,2018-06-04,122.6846,116.2371,,13,2018-06-25,123.7428,trailing stop,13.76,0.161,19.57,8.47,timing amc (yahoo only); size limited by risk
+A-noema+trail-0114,A,noema+trail,KR,2018-06-21,2018-06-22,24.1721,23.23,,73,2018-06-28,23.8548,trailing stop,-23.16,-0.334,15.87,8.07,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0115,A,noema+trail,MKC,2018-06-28,2018-06-29,48.4242,46.3911,,36,2018-07-24,49.034,trailing stop,21.95,0.285,10.87,3.14,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0118,A,noema+trail,HAS,2018-07-23,2018-07-24,78.3592,75.9711,,22,2018-07-24,75.9331,stop,-53.37,-0.717,45.45,11.55,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0121,A,noema+trail,AMD,2018-07-26,2018-07-27,18.451,16.9764,,60,2018-07-31,18.5218,trailing stop,4.25,0.048,7.69,6.92,timing amc (yahoo only); size limited by risk
+A-noema+trail-0116,A,noema+trail,FAST,2018-07-11,2018-07-12,11.0055,10.4145,,142,2018-08-01,11.2452,trailing stop,34.03,0.386,11.76,5.65,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0119,A,noema+trail,AVY,2018-07-24,2018-07-25,98.9817,95.113,,17,2018-08-10,95.0655,stop,-66.58,-1.025,7.1,6.26,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0117,A,noema+trail,CSX,2018-07-18,2018-07-19,20.4902,19.8319,,85,2018-08-16,21.939,time exit,123.15,1.626,17.24,3.43,timing amc (yahoo only); size limited by max position
+A-noema+trail-0120,A,noema+trail,DHI,2018-07-26,2018-07-27,40.2302,37.7373,,35,2018-08-24,41.1294,time exit,31.47,0.364,9.26,4.68,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0124,A,noema+trail,TPR,2018-08-14,2018-08-15,42.3812,40.88,,39,2018-08-27,40.8596,stop,-59.34,-0.666,5.26,7.14,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0122,A,noema+trail,ILMN,2018-07-31,2018-08-01,315.1675,297.6723,,4,2018-08-29,340.5796,time exit,101.65,1.329,28.83,8.25,timing amc (yahoo only); size limited by risk
+A-noema+trail-0123,A,noema+trail,AAPL,2018-08-01,2018-08-02,47.2436,46.44,,37,2018-08-30,53.1334,time exit,217.92,4.761,9.26,4.64,timing amc (yahoo only); size limited by max position
+A-noema+trail-0126,A,noema+trail,ADSK,2018-08-24,2018-08-27,158.065,150.61,,11,2018-09-05,150.5347,stop,-82.83,-1.021,18.75,11.8,timing amc (yahoo only); size limited by max position
+A-noema+trail-0125,A,noema+trail,MDT,2018-08-21,2018-08-22,77.4787,75.9279,,23,2018-09-20,79.5302,time exit,47.18,0.958,5.41,4.41,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0127,A,noema+trail,OKTA,2018-09-07,2018-09-10,71.6858,66.08,,14,2018-09-24,66.047,stop,-78.94,-0.91,21.05,15.03,timing amc (yahoo only); size limited by risk
+A-noema+trail-0129,A,noema+trail,MS,2018-10-16,2018-10-17,35.9179,34.73,,50,2018-10-22,35.3904,trailing stop,-26.38,-0.397,14.71,5.24,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0128,A,noema+trail,STZ,2018-10-04,2018-10-05,192.7347,186.58,,9,2018-10-23,186.4867,stop,-56.23,-1.031,9.96,6.43,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0130,A,noema+trail,PYPL,2018-10-19,2018-10-22,83.962,82.0,,21,2018-10-26,81.959,stop,-42.06,-0.887,7.41,8.09,timing amc (yahoo only); size limited by max position
+A-noema+trail-0131,A,noema+trail,NXPI,2018-11-01,2018-11-02,75.0075,70.94,,22,2018-11-12,70.9045,stop,-90.27,-1.015,5.79,7.92,timing amc (yahoo only); size limited by risk
+A-noema+trail-0135,A,noema+trail,NWSA,2018-11-08,2018-11-09,12.9765,12.4336,,137,2018-11-15,12.4273,stop,-75.23,-0.856,325.0,4.21,timing amc (yahoo only); size limited by max position
+A-noema+trail-0134,A,noema+trail,DXCM,2018-11-07,2018-11-08,35.9179,33.11,,27,2018-11-19,33.0934,stop,-76.26,-0.874,300.0,3.07,timing amc (yahoo only); size limited by risk
+A-noema+trail-0133,A,noema+trail,ZBRA,2018-11-06,2018-11-07,179.7235,167.33,,7,2018-11-20,166.2069,stop,-94.62,-1.099,10.34,6.87,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0132,A,noema+trail,MOS,2018-11-06,2018-11-07,30.7053,28.6522,,42,2018-12-06,28.6379,stop,-86.83,-0.989,15.38,4.77,timing amc (yahoo only); size limited by risk
+A-noema+trail-0136,A,noema+trail,CRM,2018-11-28,2018-11-29,137.2986,129.49,,9,2018-12-17,129.4253,stop,-70.86,-0.855,22.0,8.58,timing amc (yahoo only); size limited by risk
+A-noema+trail-0137,A,noema+trail,WDAY,2018-11-30,2018-12-03,164.5722,152.0,,6,2018-12-20,151.924,stop,-75.89,-0.987,121.43,6.78,timing amc (yahoo only); size limited by risk
+A-noema+trail-0140,A,noema+trail,CLX,2019-02-04,2019-02-05,122.7914,120.78,,13,2019-02-05,120.7196,stop,-26.93,-0.634,6.87,4.07,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0141,A,noema+trail,CAH,2019-02-07,2019-02-08,44.3221,42.9,,38,2019-02-08,42.8786,stop,-54.86,-0.995,18.35,5.35,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0142,A,noema+trail,CRL,2019-02-13,2019-02-14,139.6798,135.05,,12,2019-02-26,139.9958,trailing stop,3.79,0.066,6.43,4.54,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0138,A,noema+trail,BA,2019-01-30,2019-01-31,376.3881,369.72,,4,2019-03-01,430.0849,time exit,214.79,6.024,20.44,6.17,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0139,A,noema+trail,NOW,2019-01-31,2019-02-01,43.7419,41.99,,37,2019-03-04,46.477,trailing stop,101.2,1.227,15.38,8.94,timing amc (yahoo only); size limited by risk
+A-noema+trail-0145,A,noema+trail,PODD,2019-02-26,2019-02-27,92.056,88.05,,18,2019-03-08,90.4968,trailing stop,-28.07,-0.345,166.67,3.89,timing amc (yahoo only); size limited by max position
+A-noema+trail-0144,A,noema+trail,VMC,2019-02-14,2019-02-15,105.8191,102.31,,16,2019-03-14,102.2588,stop,-56.96,-1.03,11.24,7.3,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0143,A,noema+trail,EQIX,2019-02-14,2019-02-15,364.2921,346.3114,,4,2019-03-18,385.6771,time exit,85.54,1.134,12.4,5.13,timing amc (yahoo only); size limited by risk
+A-noema+trail-0146,A,noema+trail,COST,2019-03-08,2019-03-11,205.4427,201.94,,8,2019-04-08,222.3688,time exit,135.41,3.603,18.93,4.01,timing amc (yahoo only); size limited by max position
+A-noema+trail-0147,A,noema+trail,UAL,2019-04-17,2019-04-18,89.7148,87.275,,19,2019-04-22,87.2314,stop,-47.19,-1.03,19.79,3.25,timing amc (yahoo only); size limited by max position
+A-noema+trail-0148,A,noema+trail,KMB,2019-04-22,2019-04-23,99.0095,97.38,,17,2019-04-23,97.3313,stop,-28.53,-0.741,7.1,3.55,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0151,A,noema+trail,EBAY,2019-04-24,2019-04-25,33.967,33.24,,50,2019-05-02,33.2234,stop,-37.18,-0.722,6.35,3.64,timing amc (yahoo only); size limited by max position
+A-noema+trail-0154,A,noema+trail,VMC,2019-05-02,2019-05-03,121.5407,118.34,,14,2019-05-06,117.931,stop,-50.54,-1.109,24.32,3.83,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0152,A,noema+trail,COF,2019-04-26,2019-04-29,82.6113,79.84,,20,2019-05-08,79.8001,stop,-56.22,-0.915,6.23,4.13,timing amc (yahoo only); size limited by max position
+A-noema+trail-0150,A,noema+trail,TER,2019-04-24,2019-04-25,46.7458,44.51,,37,2019-05-13,44.4877,stop,-83.55,-1.021,22.73,4.77,timing amc (yahoo only); size limited by max position
+A-noema+trail-0153,A,noema+trail,STX,2019-04-30,2019-05-01,37.5052,35.55,,45,2019-05-13,35.3723,stop,-95.98,-1.101,16.9,5.1,timing bmo (agree); size limited by risk
+A-noema+trail-0149,A,noema+trail,LMT,2019-04-23,2019-04-24,269.7748,262.06,,6,2019-05-22,275.4822,time exit,34.24,0.689,37.07,3.57,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0155,A,noema+trail,KEYS,2019-05-30,2019-05-31,78.6193,77.0007,,21,2019-05-31,76.9622,stop,-34.8,-0.574,23.23,11.68,timing amc (yahoo only); size limited by max position
+A-noema+trail-0158,A,noema+trail,CRM,2019-06-05,2019-06-06,155.6078,151.64,,10,2019-06-10,150.5247,stop,-50.83,-1.103,52.46,4.21,timing amc (yahoo only); size limited by max position
+A-noema+trail-0159,A,noema+trail,CIEN,2019-06-06,2019-06-07,45.3226,42.694,,28,2019-06-13,42.6727,stop,-74.2,-0.876,17.07,18.62,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0156,A,noema+trail,VEEV,2019-05-30,2019-05-31,152.4762,145.49,,8,2019-06-24,164.061,trailing stop,92.68,1.209,11.11,9.75,timing amc (yahoo only); size limited by risk
+A-noema+trail-0157,A,noema+trail,DG,2019-05-30,2019-05-31,113.7468,110.33,,14,2019-06-26,122.1455,trailing stop,117.58,1.917,6.47,5.3,timing bmo (agree); size limited by max position
+A-noema+trail-0160,A,noema+trail,ORCL,2019-06-20,2019-06-21,51.2656,49.79,,33,2019-07-17,52.55,trailing stop,42.39,0.815,8.41,6.27,timing amc (yahoo only); size limited by max position
+A-noema+trail-0161,A,noema+trail,MU,2019-06-26,2019-06-27,35.948,34.8,,46,2019-07-26,46.2769,time exit,475.13,6.93,32.91,9.76,timing amc (yahoo only); size limited by max position
+A-noema+trail-0166,A,noema+trail,GOOG,2019-07-26,2019-07-29,61.5007,60.62,,28,2019-07-30,60.5897,stop,-25.51,-0.562,24.56,8.13,timing amc (yahoo only); size limited by max position
+A-noema+trail-0163,A,noema+trail,PM,2019-07-18,2019-07-19,61.4463,58.86,,28,2019-07-31,58.8306,stop,-73.24,-1.024,9.77,4.5,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0164,A,noema+trail,HAS,2019-07-23,2019-07-24,90.7754,87.7772,,19,2019-07-31,92.875,trailing stop,39.89,0.533,56.0,6.78,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0165,A,noema+trail,TXN,2019-07-24,2019-07-25,104.6923,102.49,,16,2019-07-31,102.4388,stop,-36.06,-0.747,11.48,5.35,timing amc (yahoo only); size limited by max position
+A-noema+trail-0167,A,noema+trail,ALL,2019-07-31,2019-08-01,90.9855,88.91,,19,2019-08-01,88.8655,stop,-40.28,-0.945,40.65,3.41,timing amc (yahoo only); size limited by max position
+A-noema+trail-0168,A,noema+trail,APTV,2019-07-31,2019-08-01,74.0955,71.41,,23,2019-08-01,71.3743,stop,-62.59,-1.027,16.67,5.1,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0162,A,noema+trail,CTAS,2019-07-17,2019-07-18,60.4202,58.6302,,28,2019-08-05,58.6009,stop,-50.94,-0.845,8.33,6.04,timing amc (yahoo only); size limited by max position
+A-noema+trail-0169,A,noema+trail,HUM,2019-07-31,2019-08-01,279.3286,272.24,,6,2019-08-05,272.1039,stop,-43.35,-1.04,14.8,5.89,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0173,A,noema+trail,LITE,2019-08-08,2019-08-09,58.4292,58.56,,28,2019-08-09,58.3708,stop,-1.64,-0.025,27.78,9.17,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0174,A,noema+trail,AIG,2019-08-08,2019-08-09,46.8934,46.18,,37,2019-08-12,46.1569,stop,-27.25,-0.621,23.28,4.61,timing amc (yahoo only); size limited by max position
+A-noema+trail-0172,A,noema+trail,ZTS,2019-08-06,2019-08-07,111.986,109.06,,15,2019-08-23,114.5235,trailing stop,38.06,0.634,9.76,4.46,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0170,A,noema+trail,VRTX,2019-08-01,2019-08-02,177.8689,170.7587,,9,2019-08-27,179.028,trailing stop,10.43,0.123,17.76,4.08,timing amc (yahoo only); size limited by risk
+A-noema+trail-0171,A,noema+trail,EQIX,2019-08-01,2019-08-02,459.0622,440.96,,3,2019-08-30,487.746,time exit,86.05,1.605,7.64,5.45,timing amc (yahoo only); size limited by max position
+A-noema+trail-0178,A,noema+trail,LULU,2019-09-06,2019-09-09,203.6118,197.74,,8,2019-09-09,197.6411,stop,-47.76,-0.931,7.87,4.98,timing amc (yahoo only); size limited by max position
+A-noema+trail-0175,A,noema+trail,EL,2019-08-19,2019-08-20,181.6608,174.2,,8,2019-09-16,174.1129,stop,-60.38,-0.73,18.52,8.92,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0176,A,noema+trail,TGT,2019-08-21,2019-08-22,84.8845,80.42,,20,2019-09-17,87.1416,trailing stop,45.14,0.51,12.35,16.76,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0177,A,noema+trail,DELL,2019-08-30,2019-09-03,23.4817,22.82,,73,2019-09-18,24.0307,trailing stop,40.07,0.55,43.33,8.69,timing amc (yahoo only); size limited by max position
+A-noema+trail-0179,A,noema+trail,CTAS,2019-09-25,2019-09-26,61.8909,60.42,,28,2019-10-02,60.3898,stop,-42.03,-0.825,7.41,3.91,timing amc (yahoo only); size limited by max position
+A-noema+trail-0181,A,noema+trail,ISRG,2019-10-18,2019-10-21,188.164,181.84,,9,2019-10-22,181.7491,stop,-57.73,-0.817,14.0,3.32,timing amc (yahoo only); size limited by max position
+A-noema+trail-0182,A,noema+trail,TSLA,2019-10-24,2019-10-25,19.8599,19.27,,87,2019-10-29,20.9777,trailing stop,97.25,1.38,700.0,17.14,timing amc (yahoo only); size limited by max position
+A-noema+trail-0180,A,noema+trail,FAST,2019-10-11,2019-10-14,14.7574,14.301,,93,2019-10-31,15.0274,trailing stop,25.12,0.289,5.56,9.97,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0185,A,noema+trail,LRCX,2019-10-24,2019-10-25,24.5223,23.29,,62,2019-10-31,24.7206,trailing stop,12.29,0.142,6.67,8.12,timing amc (yahoo only); size limited by risk
+A-noema+trail-0186,A,noema+trail,GRMN,2019-10-30,2019-10-31,81.8509,80.099,,21,2019-10-31,80.059,stop,-37.63,-0.585,30.93,6.75,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0183,A,noema+trail,ALLE,2019-10-24,2019-10-25,104.9024,100.6768,,16,2019-11-07,105.6924,trailing stop,12.64,0.182,10.53,4.25,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0187,A,noema+trail,KHC,2019-10-31,2019-11-01,22.6813,21.7991,,76,2019-11-18,21.7882,stop,-67.87,-0.787,27.78,5.57,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0184,A,noema+trail,ALGN,2019-10-24,2019-10-25,245.9629,233.8293,,5,2019-11-22,274.2628,time exit,141.5,1.676,7.02,9.1,timing amc (yahoo only); size limited by risk
+A-noema+trail-0188,A,noema+trail,FTNT,2019-11-01,2019-11-04,18.1292,17.44,,97,2019-12-03,20.325,trailing stop,212.99,3.228,18.18,8.71,timing amc (yahoo only); size limited by max position
+A-noema+trail-0189,A,noema+trail,HIG,2019-11-05,2019-11-06,51.9159,50.9,,34,2019-12-03,52.6563,trailing stop,25.17,0.583,21.95,3.13,timing amc (yahoo only); size limited by max position
+A-noema+trail-0192,A,noema+trail,BBY,2019-11-26,2019-11-27,61.6976,58.2746,,27,2019-12-03,58.2455,stop,-93.21,-1.018,9.71,3.97,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0190,A,noema+trail,DXCM,2019-11-07,2019-11-08,48.5543,45.78,,28,2019-12-09,55.2224,time exit,186.71,2.121,220.0,20.95,timing amc (yahoo only); size limited by risk
+A-noema+trail-0193,A,noema+trail,ULTA,2019-12-06,2019-12-09,260.5202,254.39,,6,2019-12-09,254.2628,stop,-37.54,-0.686,5.63,8.83,timing amc (yahoo only); size limited by max position
+A-noema+trail-0194,A,noema+trail,JBL,2019-12-17,2019-12-18,41.7909,40.89,,42,2019-12-18,40.8696,stop,-38.7,-0.614,10.53,7.96,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0191,A,noema+trail,TGT,2019-11-20,2019-11-21,104.4122,99.9074,,17,2019-12-20,106.4268,time exit,34.25,0.415,14.29,10.35,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0195,A,noema+trail,CCL,2019-12-20,2019-12-23,48.7244,46.7839,,36,2020-01-06,46.7605,stop,-70.7,-0.954,21.57,4.83,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0196,A,noema+trail,INTC,2020-01-24,2020-01-27,58.8894,58.62,,29,2020-01-27,58.5907,stop,-8.66,-0.143,21.6,5.12,timing amc (yahoo only); size limited by max position
+A-noema+trail-0197,A,noema+trail,GE,2020-01-29,2020-01-30,61.981,60.02,,28,2020-01-31,59.99,stop,-55.75,-0.803,18.31,7.15,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0198,A,noema+trail,ADM,2020-01-30,2020-01-31,37.5187,36.91,,47,2020-01-31,36.8915,stop,-29.48,-0.604,94.52,4.44,timing amc (yahoo only); size limited by max position
+A-noema+trail-0199,A,noema+trail,PH,2020-01-30,2020-01-31,184.9924,182.51,,9,2020-01-31,182.4187,stop,-23.16,-0.45,11.89,3.07,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0200,A,noema+trail,NOW,2020-01-30,2020-01-31,67.9339,65.92,,26,2020-02-05,67.5437,trailing stop,-10.15,-0.142,11.76,6.65,timing amc (yahoo only); size limited by max position
+A-noema+trail-0202,A,noema+trail,RL,2020-02-04,2020-02-05,110.4042,106.52,,16,2020-02-07,106.4667,stop,-63.0,-1.028,16.73,9.49,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0201,A,noema+trail,LITE,2020-02-04,2020-02-05,86.9961,81.2281,,15,2020-02-14,87.2603,trailing stop,3.96,0.046,18.6,6.84,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0206,A,noema+trail,EXPE,2020-02-14,2020-02-18,120.02,117.93,,14,2020-02-19,117.871,stop,-30.09,-0.643,5.08,12.17,timing amc (yahoo only); size limited by max position
+A-noema+trail-0207,A,noema+trail,LDOS,2020-02-18,2020-02-19,113.3503,108.0718,,15,2020-02-21,108.0178,stop,-79.99,-1.021,11.85,3.62,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0203,A,noema+trail,JKHY,2020-02-05,2020-02-06,151.5896,147.16,,11,2020-02-24,152.0939,trailing stop,5.55,0.116,5.62,4.98,timing amc (yahoo only); size limited by max position
+A-noema+trail-0204,A,noema+trail,UBER,2020-02-07,2020-02-10,40.6203,37.7986,,29,2020-02-24,37.7797,stop,-82.38,-0.936,5.77,7.79,timing amc (yahoo only); size limited by risk
+A-noema+trail-0205,A,noema+trail,CRL,2020-02-11,2020-02-12,173.4167,166.6865,,10,2020-02-24,166.6032,stop,-68.13,-0.908,9.84,5.6,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0208,A,noema+trail,DPZ,2020-02-20,2020-02-21,334.9774,326.52,,5,2020-02-24,325.3872,stop,-47.95,-0.58,5.39,21.86,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0209,A,noema+trail,HPQ,2020-02-25,2020-02-26,18.3906,17.77,,93,2020-02-27,17.4313,stop,-89.22,-1.569,20.37,3.99,timing amc (yahoo only); size limited by max position
+A-noema+trail-0210,A,noema+trail,MRNA,2020-02-26,2020-02-27,29.3205,27.07,,38,2020-02-27,27.0565,stop,-86.03,-1.013,11.9,22.26,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0212,A,noema+trail,CAH,2020-05-11,2020-05-12,45.7329,44.55,,37,2020-05-12,44.5277,stop,-44.59,-0.998,11.72,6.26,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0211,A,noema+trail,AXON,2020-05-08,2020-05-11,86.043,76.5214,,8,2020-05-14,76.4831,stop,-76.48,-0.952,135.29,9.97,timing amc (yahoo only); size limited by risk
+A-noema+trail-0213,A,noema+trail,PANW,2020-05-22,2020-05-26,39.8782,38.66,,42,2020-05-26,38.6407,stop,-51.98,-1.033,25.0,4.68,timing amc (yahoo only); size limited by max position
+A-noema+trail-0214,A,noema+trail,DLTR,2020-05-28,2020-05-29,97.0685,95.04,,17,2020-06-03,94.9925,stop,-35.29,-0.672,23.81,10.66,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0218,A,noema+trail,VEEV,2020-05-29,2020-06-01,216.6683,208.99,,7,2020-06-04,208.8855,stop,-54.48,-0.709,11.86,3.38,timing amc (yahoo only); size limited by max position
+A-noema+trail-0216,A,noema+trail,DELL,2020-05-29,2020-06-01,22.6013,22.06,,72,2020-06-11,22.019,trailing stop,-41.93,-0.659,42.55,7.49,timing amc (yahoo only); size limited by max position
+A-noema+trail-0217,A,noema+trail,MRVL,2020-05-29,2020-06-01,31.5258,30.64,,52,2020-06-11,33.0735,trailing stop,80.48,1.201,28.57,8.67,timing amc (yahoo only); size limited by max position
+A-noema+trail-0215,A,noema+trail,WSM,2020-05-29,2020-06-01,36.8384,34.1,,27,2020-06-29,36.3518,time exit,-13.14,-0.162,1133.33,5.62,timing amc (yahoo only); size limited by risk
+A-noema+trail-0219,A,noema+trail,ADBE,2020-06-12,2020-06-15,398.9994,395.4,,4,2020-06-29,422.9667,trailing stop,95.87,1.819,5.6,5.58,timing amc (yahoo only); size limited by max position
+A-noema+trail-0220,A,noema+trail,FDS,2020-06-25,2020-06-26,315.9979,299.7621,,3,2020-07-27,326.9964,time exit,33.0,0.495,17.21,7.41,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0222,A,noema+trail,FTV,2020-07-29,2020-07-30,39.5898,39.7,,41,2020-07-30,39.5502,stop,-1.62,-0.059,17.24,3.25,timing amc (yahoo only); size limited by max position
+A-noema+trail-0221,A,noema+trail,RVTY,2020-07-29,2020-07-30,117.1986,115.53,,14,2020-07-31,115.4722,stop,-24.17,-0.577,78.41,5.15,timing amc (yahoo only); size limited by max position
+A-noema+trail-0226,A,noema+trail,APA,2020-07-30,2020-07-31,13.5067,13.0,,123,2020-07-31,12.9935,stop,-63.13,-0.818,27.45,14.62,timing amc (yahoo only); size limited by max position
+A-noema+trail-0225,A,noema+trail,ORLY,2020-07-30,2020-07-31,31.966,31.34,,52,2020-08-04,31.3143,stop,-33.89,-0.767,67.86,5.33,timing amc (yahoo only); size limited by max position
+A-noema+trail-0228,A,noema+trail,META,2020-07-31,2020-08-03,250.3751,246.63,,6,2020-08-04,246.5067,stop,-23.21,-0.657,28.57,9.09,timing amc (yahoo only); size limited by max position
+A-noema+trail-0229,A,noema+trail,TTWO,2020-08-04,2020-08-05,175.7078,172.0461,,9,2020-08-05,171.9601,stop,-33.73,-0.589,43.75,4.77,timing amc (yahoo only); size limited by max position
+A-noema+trail-0223,A,noema+trail,AMD,2020-07-29,2020-07-30,75.4077,73.89,,21,2020-08-10,79.8889,trailing stop,94.11,1.737,5.88,11.67,timing amc (yahoo only); size limited by max position
+A-noema+trail-0231,A,noema+trail,GEN,2020-08-07,2020-08-10,20.5403,19.74,,83,2020-08-11,19.7301,stop,-67.24,-0.962,40.91,3.96,timing amc (yahoo only); size limited by max position
+A-noema+trail-0230,A,noema+trail,DIS,2020-08-05,2020-08-06,123.1615,119.52,,13,2020-08-20,122.8785,trailing stop,-3.68,-0.059,111.94,5.19,timing amc (yahoo only); size limited by max position
+A-noema+trail-0224,A,noema+trail,UPS,2020-07-30,2020-07-31,108.8344,103.65,,15,2020-08-28,125.2673,time exit,246.49,3.047,97.22,11.3,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0227,A,noema+trail,CHTR,2020-07-31,2020-08-03,583.1914,556.8884,,2,2020-08-31,615.3022,time exit,64.22,1.234,46.37,5.48,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0232,A,noema+trail,TGT,2020-08-19,2020-08-20,129.8449,123.6828,,13,2020-09-03,123.6209,stop,-80.91,-1.013,104.85,8.47,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0233,A,noema+trail,SNPS,2020-08-20,2020-08-21,213.7168,205.138,,7,2020-09-03,219.0735,trailing stop,37.5,0.483,29.85,4.18,timing amc (yahoo only); size limited by risk
+A-noema+trail-0234,A,noema+trail,SJM,2020-08-25,2020-08-26,99.0923,95.68,,17,2020-09-03,95.6322,stop,-58.82,-1.029,41.92,6.2,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0235,A,noema+trail,DELL,2020-08-28,2020-08-31,30.1651,29.79,,55,2020-09-03,29.9602,trailing stop,-11.27,-0.252,37.14,4.95,timing amc (yahoo only); size limited by max position
+A-noema+trail-0236,A,noema+trail,JBL,2020-09-24,2020-09-25,33.7369,31.85,,42,2020-10-15,34.073,trailing stop,14.12,0.169,46.27,3.23,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0238,A,noema+trail,SNA,2020-10-22,2020-10-23,145.8884,138.81,,11,2020-10-27,138.7406,stop,-78.63,-1.02,54.72,7.85,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0239,A,noema+trail,LVS,2020-10-22,2020-10-23,46.3732,44.87,,36,2020-10-27,44.8476,stop,-54.92,-0.886,6.94,7.06,timing amc (yahoo only); size limited by max position
+A-noema+trail-0237,A,noema+trail,ALGN,2020-10-22,2020-10-23,451.5657,423.99,,2,2020-10-30,423.778,stop,-55.58,-0.882,208.22,26.36,timing amc (yahoo only); size limited by risk
+A-noema+trail-0240,A,noema+trail,WAB,2020-10-29,2020-10-30,56.7083,54.3,,29,2020-11-06,59.5785,trailing stop,83.23,1.031,5.56,5.74,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0245,A,noema+trail,XYZ,2020-11-06,2020-11-09,191.4007,182.98,,5,2020-11-09,182.8885,stop,-42.56,-0.529,112.5,5.71,timing amc (yahoo only); size limited by risk
+A-noema+trail-0241,A,noema+trail,IT,2020-11-03,2020-11-04,141.5748,137.48,,11,2020-11-12,152.0846,trailing stop,115.61,2.612,71.7,9.98,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0244,A,noema+trail,GM,2020-11-05,2020-11-06,35.7959,33.86,,44,2020-11-30,41.8366,trailing stop,265.79,3.149,97.9,4.71,timing bmo (agree); size limited by risk
+A-noema+trail-0246,A,noema+trail,DHI,2020-11-10,2020-11-11,67.0167,62.4,,18,2020-12-01,68.1951,trailing stop,21.21,0.257,23.6,3.14,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0242,A,noema+trail,ANET,2020-11-03,2020-11-04,15.5378,14.94,,107,2020-12-03,16.8516,time exit,140.58,1.805,7.14,12.51,timing amc (yahoo only); size limited by max position
+A-noema+trail-0243,A,noema+trail,PODD,2020-11-05,2020-11-06,252.9364,239.99,,4,2020-12-07,249.5652,time exit,-13.48,-0.199,112.5,4.1,timing amc (yahoo only); size limited by risk
+A-noema+trail-0247,A,noema+trail,PANW,2020-11-16,2020-11-17,46.4432,44.37,,37,2020-12-09,49.9027,trailing stop,128.0,1.516,22.73,4.24,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0248,A,noema+trail,LEN,2020-12-17,2020-12-18,66.9765,64.14,,26,2020-12-31,64.1079,stop,-74.58,-1.023,19.49,3.63,timing amc (yahoo only); size limited by max position
+A-noema+trail-0250,A,noema+trail,NOW,2021-01-28,2021-01-29,109.6648,108.56,,15,2021-01-29,108.5057,stop,-17.39,-0.408,9.52,5.52,timing amc (yahoo only); size limited by max position
+A-noema+trail-0251,A,noema+trail,SWK,2021-01-28,2021-01-29,147.0035,144.67,,11,2021-01-29,144.5977,stop,-26.46,-0.58,8.94,3.77,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0252,A,noema+trail,WAT,2021-02-02,2021-02-03,290.145,281.46,,5,2021-02-03,281.3193,stop,-44.13,-0.781,25.86,6.02,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0254,A,noema+trail,PYPL,2021-02-04,2021-02-05,265.7828,257.96,,6,2021-02-18,284.4919,trailing stop,112.25,1.728,8.0,5.33,timing amc (yahoo only); size limited by max position
+A-noema+trail-0249,A,noema+trail,PTC,2021-01-28,2021-01-29,137.7388,130.99,,10,2021-02-23,138.9705,trailing stop,12.32,0.153,46.97,10.82,timing amc (yahoo only); size limited by risk
+A-noema+trail-0253,A,noema+trail,GOOG,2021-02-03,2021-02-04,102.5212,99.96,,16,2021-02-23,100.2499,trailing stop,-36.34,-0.737,40.0,7.55,timing amc (yahoo only); size limited by max position
+A-noema+trail-0256,A,noema+trail,GNRC,2021-02-11,2021-02-12,317.8494,293.5184,,3,2021-02-23,328.0059,trailing stop,30.47,0.42,8.16,5.75,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0257,A,noema+trail,DE,2021-02-19,2021-02-22,306.4131,293.58,,5,2021-03-03,318.7302,trailing stop,61.59,0.839,75.11,6.58,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0255,A,noema+trail,ZBRA,2021-02-11,2021-02-12,470.6952,446.5045,,3,2021-03-04,485.727,trailing stop,45.1,0.58,17.37,4.22,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0259,A,noema+trail,FDX,2021-03-19,2021-03-22,202.6913,199.53,,8,2021-03-22,199.4302,stop,-26.09,-0.789,7.1,5.88,timing amc (agree); size limited by max position
+A-noema+trail-0258,A,noema+trail,WSM,2021-03-18,2021-03-19,73.1604,69.06,,21,2021-03-24,75.9264,trailing stop,58.09,0.681,20.0,16.46,timing amc (yahoo only); size limited by risk
+A-noema+trail-0261,A,noema+trail,ISRG,2021-04-21,2021-04-22,295.1075,283.9755,,5,2021-04-23,283.5881,stop,-57.6,-0.787,32.95,3.68,timing amc (yahoo only); size limited by max position
+A-noema+trail-0260,A,noema+trail,DRI,2021-03-25,2021-03-26,120.9418,112.7799,,10,2021-04-26,118.6506,time exit,-22.91,-0.283,40.0,4.52,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0265,A,noema+trail,BSX,2021-04-28,2021-04-29,44.3021,43.74,,40,2021-04-29,43.7181,stop,-23.36,-0.81,19.35,3.42,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0266,A,noema+trail,META,2021-04-29,2021-04-30,323.2115,318.55,,5,2021-05-04,316.8315,stop,-31.9,-0.674,40.43,7.5,timing amc (yahoo only); size limited by max position
+A-noema+trail-0268,A,noema+trail,PYPL,2021-05-06,2021-05-07,250.6114,242.4,,7,2021-05-10,242.2788,stop,-58.33,-1.03,19.61,3.48,timing amc (yahoo only); size limited by max position
+A-noema+trail-0262,A,noema+trail,TSCO,2021-04-22,2021-04-23,33.927,33.44,,51,2021-05-11,34.7913,trailing stop,44.08,1.028,55.0,3.18,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0264,A,noema+trail,OTIS,2021-04-26,2021-04-27,70.035,68.2,,25,2021-05-12,70.122,trailing stop,2.17,0.045,14.29,7.24,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0267,A,noema+trail,ANET,2021-05-05,2021-05-06,19.7599,19.32,,90,2021-05-12,19.778,trailing stop,1.63,0.031,6.67,3.56,timing amc (yahoo only); size limited by max position
+A-noema+trail-0263,A,noema+trail,EFX,2021-04-22,2021-04-23,213.2666,203.78,,8,2021-05-19,221.6709,trailing stop,67.23,0.891,27.1,13.12,timing amc (yahoo only); size limited by max position
+A-noema+trail-0270,A,noema+trail,PANW,2021-05-21,2021-05-24,60.1901,59.34,,29,2021-06-02,59.3103,stop,-25.51,-0.641,9.52,5.64,timing amc (yahoo only); size limited by max position
+A-noema+trail-0269,A,noema+trail,DASH,2021-05-14,2021-05-17,138.9795,123.56,,4,2021-06-15,158.5707,time exit,78.36,1.076,200.0,8.23,timing amc (yahoo only); size limited by risk
+A-noema+trail-0272,A,noema+trail,NKE,2021-06-25,2021-06-28,140.2801,137.07,,12,2021-07-19,143.1266,trailing stop,34.16,0.672,82.35,14.08,timing amc (agree); size limited by max position
+A-noema+trail-0271,A,noema+trail,ADBE,2021-06-18,2021-06-21,566.273,556.38,,3,2021-07-20,608.4156,time exit,126.43,3.501,7.45,3.37,timing amc (yahoo only); size limited by max position
+A-noema+trail-0276,A,noema+trail,BG,2021-07-28,2021-07-29,67.7306,64.76,,26,2021-08-03,64.7276,stop,-78.08,-1.023,61.11,4.12,timing bmo (agree); size limited by max position
+A-noema+trail-0278,A,noema+trail,DDOG,2021-08-05,2021-08-06,129.8847,126.32,,13,2021-08-09,126.2568,stop,-47.16,-0.533,200.0,14.54,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0273,A,noema+trail,HCA,2021-07-20,2021-07-21,239.5509,227.49,,7,2021-08-11,227.3763,stop,-85.22,-1.02,38.29,9.87,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0275,A,noema+trail,DPZ,2021-07-22,2021-07-23,502.1379,478.0559,,3,2021-08-11,477.8169,stop,-72.96,-1.021,6.62,3.11,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0277,A,noema+trail,DXCM,2021-07-30,2021-08-02,129.3647,121.7997,,11,2021-08-13,121.7388,stop,-83.88,-0.987,72.73,4.53,timing amc (yahoo only); size limited by risk
+A-noema+trail-0274,A,noema+trail,CMG,2021-07-21,2021-07-22,34.9675,33.5539,,50,2021-08-19,36.7816,trailing stop,90.71,1.042,15.38,5.24,timing amc (yahoo only); size limited by max position
+A-noema+trail-0279,A,noema+trail,TSN,2021-08-09,2021-08-10,65.8229,63.3155,,27,2021-08-19,67.3216,trailing stop,40.47,0.587,65.64,5.46,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0282,A,noema+trail,BBY,2021-08-24,2021-08-25,96.1059,91.54,,18,2021-08-31,91.4942,stop,-83.01,-1.021,57.67,4.53,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0280,A,noema+trail,PLTR,2021-08-12,2021-08-13,25.0125,23.575,,61,2021-09-08,24.9866,trailing stop,-1.58,-0.018,33.33,9.4,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0281,A,noema+trail,LOW,2021-08-18,2021-08-19,179.3596,171.3386,,9,2021-09-17,188.4457,time exit,81.77,0.936,5.99,3.83,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0283,A,noema+trail,PANW,2021-08-24,2021-08-25,73.3667,69.89,,21,2021-09-20,78.2309,trailing stop,102.15,1.178,12.5,13.7,timing amc (yahoo only); size limited by risk
+A-noema+trail-0286,A,noema+trail,UPS,2021-10-26,2021-10-27,171.4857,168.66,,10,2021-10-27,168.5757,stop,-29.1,-0.669,6.27,4.96,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0287,A,noema+trail,BG,2021-10-27,2021-10-28,78.7007,76.89,,22,2021-11-02,78.0396,trailing stop,-14.54,-0.373,161.97,3.16,timing bmo (agree); size limited by max position
+A-noema+trail-0290,A,noema+trail,PFE,2021-11-02,2021-11-03,34.4472,33.124,,52,2021-11-04,33.1075,stop,-69.67,-0.938,22.94,3.3,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0291,A,noema+trail,LYV,2021-11-05,2021-11-08,118.8794,117.095,,12,2021-11-08,117.0365,stop,-22.12,-0.252,416.67,10.33,timing amc (yahoo only); size limited by risk
+A-noema+trail-0292,A,noema+trail,VTRS,2021-11-08,2021-11-09,11.936,11.54,,152,2021-11-12,11.5342,stop,-61.06,-0.958,12.5,4.94,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0284,A,noema+trail,JBHT,2021-10-15,2021-10-18,182.3211,173.18,,9,2021-11-15,190.1849,time exit,70.77,0.843,5.62,5.57,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0285,A,noema+trail,STX,2021-10-22,2021-10-25,76.4886,74.2,,23,2021-11-15,94.2928,trailing stop,409.5,7.912,6.33,5.19,timing bmo (agree); size limited by max position
+A-noema+trail-0288,A,noema+trail,AOS,2021-10-28,2021-10-29,64.3321,61.1667,,26,2021-11-26,72.9591,trailing stop,224.3,2.549,20.59,4.78,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0293,A,noema+trail,SJM,2021-11-23,2021-11-24,113.5868,110.74,,16,2021-11-26,110.6846,stop,-46.43,-0.956,18.54,3.81,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0289,A,noema+trail,MCK,2021-11-02,2021-11-03,213.4567,207.09,,8,2021-11-30,214.1345,trailing stop,5.42,0.092,31.97,3.91,timing amc (yahoo only); size limited by max position
+A-noema+trail-0295,A,noema+trail,HPQ,2021-11-24,2021-11-26,28.7143,28.15,,63,2021-12-09,29.8834,trailing stop,73.65,0.868,6.82,5.63,timing amc (yahoo only); size limited by max position
+A-noema+trail-0294,A,noema+trail,P,2021-11-24,2021-11-26,30.5052,29.0154,,44,2021-12-14,31.161,trailing stop,28.85,0.314,83.33,8.03,timing amc (yahoo only); size limited by risk
+A-noema+trail-0296,A,noema+trail,KR,2021-12-02,2021-12-03,40.4815,37.8818,,36,2022-01-03,40.7296,time exit,8.93,0.096,16.42,5.6,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0298,A,noema+trail,UPS,2022-02-01,2022-02-02,183.0715,176.12,,10,2022-02-07,176.0319,stop,-70.4,-0.902,15.81,11.27,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0302,A,noema+trail,ON,2022-02-07,2022-02-08,62.1561,59.3,,28,2022-02-11,59.8657,trailing stop,-64.13,-0.7,15.96,4.28,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0301,A,noema+trail,TSN,2022-02-07,2022-02-08,85.4476,81.91,,21,2022-02-14,81.869,stop,-75.15,-1.024,52.66,10.31,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0300,A,noema+trail,AMZN,2022-02-04,2022-02-07,158.5074,150.6,,11,2022-02-22,150.4048,stop,-89.13,-1.035,672.22,12.07,timing amc (yahoo only); size limited by max position
+A-noema+trail-0304,A,noema+trail,ANET,2022-02-15,2022-02-16,32.1261,31.13,,56,2022-02-22,30.9845,stop,-63.93,-0.75,16.67,8.14,timing amc (yahoo only); size limited by max position
+A-noema+trail-0297,A,noema+trail,V,2022-01-28,2022-01-31,217.2586,208.04,,7,2022-02-23,207.936,stop,-65.26,-0.742,6.47,7.03,timing amc (yahoo only); size limited by risk
+A-noema+trail-0299,A,noema+trail,TMUS,2022-02-03,2022-02-04,113.2266,111.71,,16,2022-02-23,115.6856,trailing stop,39.34,0.664,112.5,9.51,timing amc (yahoo only); size limited by max position
+A-noema+trail-0305,A,noema+trail,PNW,2022-02-25,2022-02-28,58.3592,56.4162,,30,2022-03-01,56.388,stop,-59.14,-0.739,380.0,3.43,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0306,A,noema+trail,XYZ,2022-02-25,2022-02-28,118.3692,109.2904,,8,2022-03-04,111.8665,trailing stop,-52.02,-0.584,17.39,20.96,timing amc (yahoo only); size limited by risk
+A-noema+trail-0307,A,noema+trail,CRM,2022-03-02,2022-03-03,206.5532,197.37,,8,2022-03-04,197.2713,stop,-74.26,-0.918,12.0,3.45,timing amc (yahoo only); size limited by max position
+A-noema+trail-0303,A,noema+trail,HSIC,2022-02-15,2022-02-16,82.081,78.51,,22,2022-03-08,84.149,trailing stop,45.5,0.553,17.58,4.06,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0308,A,noema+trail,WSM,2022-03-17,2022-03-18,73.3667,69.44,,20,2022-03-23,69.4053,stop,-79.23,-0.893,12.45,9.85,timing amc (yahoo only); size limited by risk
+A-noema+trail-0309,A,noema+trail,KEYS,2022-08-18,2022-08-19,178.3291,176.48,,9,2022-08-19,176.3918,stop,-17.44,-0.513,12.29,4.29,timing amc (yahoo only); size limited by max position
+A-noema+trail-0310,A,noema+trail,NTAP,2022-08-25,2022-08-26,70.7454,70.33,,24,2022-08-26,70.2948,stop,-10.81,-0.255,9.09,8.6,timing amc (yahoo only); size limited by max position
+A-noema+trail-0312,A,noema+trail,A,2022-11-22,2022-11-23,152.2161,147.57,,11,2022-11-28,147.4962,stop,-51.92,-0.856,10.07,4.71,timing amc (yahoo only); size limited by max position
+A-noema+trail-0311,A,noema+trail,BBY,2022-11-22,2022-11-23,65.953,62.62,,25,2022-12-07,67.1579,trailing stop,30.12,0.34,35.29,8.99,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0314,A,noema+trail,P,2022-12-01,2022-12-02,30.065,28.59,,49,2022-12-07,28.5757,stop,-72.98,-0.822,24.0,4.32,timing amc (yahoo only); size limited by risk
+A-noema+trail-0313,A,noema+trail,WDAY,2022-11-30,2022-12-01,165.6928,155.49,,6,2022-12-19,170.8682,trailing stop,31.05,0.391,16.47,10.18,timing amc (yahoo only); size limited by risk
+A-noema+trail-0315,A,noema+trail,PPG,2023-01-20,2023-01-23,118.9695,114.93,,14,2023-01-26,114.8725,stop,-57.36,-0.757,7.96,7.9,timing amc (yahoo only); size limited by max position
+A-noema+trail-0317,A,noema+trail,STX,2023-01-26,2023-01-27,62.5713,60.18,,26,2023-01-31,60.1499,stop,-62.96,-0.724,77.78,10.51,timing amc (agree); size limited by risk
+A-noema+trail-0316,A,noema+trail,T,2023-01-25,2023-01-26,16.5883,16.14,,104,2023-02-06,16.1319,stop,-47.46,-0.709,7.02,3.06,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0318,A,noema+trail,PHM,2023-01-31,2023-02-01,55.1275,53.42,,31,2023-02-06,55.8703,trailing stop,23.02,0.361,31.85,8.11,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0320,A,noema+trail,IP,2023-01-31,2023-02-01,34.7774,33.503,,46,2023-02-08,33.4863,stop,-59.39,-0.689,26.09,4.94,timing bmo (agree); size limited by risk
+A-noema+trail-0323,A,noema+trail,DD,2023-02-07,2023-02-08,90.105,87.81,,19,2023-02-09,87.7661,stop,-44.44,-0.691,14.1,4.06,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0324,A,noema+trail,BE,2023-02-10,2023-02-13,23.992,22.31,,46,2023-02-14,22.2988,stop,-77.88,-0.91,145.45,8.5,timing amc (yahoo only); size limited by risk
+A-noema+trail-0326,A,noema+trail,ADI,2023-02-15,2023-02-16,183.1415,179.79,,9,2023-02-21,179.2703,stop,-34.84,-0.678,5.77,6.46,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0319,A,noema+trail,GM,2023-01-31,2023-02-01,37.999,36.89,,45,2023-02-22,39.5306,trailing stop,68.92,1.321,26.19,7.27,timing bmo (agree); size limited by max position
+A-noema+trail-0325,A,noema+trail,DXCM,2023-02-10,2023-02-13,118.5387,111.2,,11,2023-02-22,111.1444,stop,-81.34,-1.016,21.43,5.04,timing amc (yahoo only); size limited by risk
+A-noema+trail-0322,A,noema+trail,RCL,2023-02-07,2023-02-08,71.9437,67.79,,21,2023-02-24,67.7561,stop,-87.94,-1.017,16.42,4.79,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0328,A,noema+trail,NVDA,2023-02-23,2023-02-24,23.1616,22.94,,71,2023-02-24,22.9285,stop,-16.55,-0.303,12.5,12.96,timing amc (agree); size limited by max position
+A-noema+trail-0321,A,noema+trail,AOS,2023-01-31,2023-02-01,63.3265,59.2146,,21,2023-03-02,62.8885,time exit,-9.2,-0.107,8.86,7.42,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0330,A,noema+trail,VEEV,2023-03-02,2023-03-03,173.4867,168.15,,9,2023-03-08,172.4745,trailing stop,-9.11,-0.161,10.58,7.67,timing amc (yahoo only); size limited by max position
+A-noema+trail-0329,A,noema+trail,OKTA,2023-03-02,2023-03-03,81.3552,76.29,,16,2023-03-10,80.3813,trailing stop,-15.58,-0.194,233.33,13.38,timing amc (yahoo only); size limited by risk
+A-noema+trail-0332,A,noema+trail,CASY,2023-03-08,2023-03-09,215.0569,208.02,,7,2023-03-10,207.916,stop,-49.99,-1.031,33.5,4.43,timing amc (yahoo only); size limited by max position
+A-noema+trail-0327,A,noema+trail,PANW,2023-02-22,2023-02-23,93.8469,91.14,,17,2023-03-15,91.0345,stop,-47.81,-0.876,35.9,9.28,timing amc (yahoo only); size limited by max position
+A-noema+trail-0331,A,noema+trail,KR,2023-03-02,2023-03-03,42.5227,40.87,,39,2023-03-31,45.6372,time exit,121.46,1.909,10.0,3.74,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0334,A,noema+trail,TRV,2023-04-19,2023-04-20,172.2061,168.57,,9,2023-04-20,168.4857,stop,-33.48,-0.995,14.8,6.05,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0336,A,noema+trail,LRCX,2023-04-20,2023-04-21,50.8554,49.27,,32,2023-04-24,49.2454,stop,-51.52,-0.787,7.69,4.05,timing amc (yahoo only); size limited by max position
+A-noema+trail-0333,A,noema+trail,JPM,2023-04-14,2023-04-17,129.0562,124.79,,13,2023-04-26,124.7276,stop,-56.27,-1.03,21.66,4.78,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0339,A,noema+trail,CINF,2023-04-28,2023-05-01,97.1586,94.7,,17,2023-05-02,94.6526,stop,-42.6,-0.751,23.61,3.06,timing amc (agree); size limited by max position
+A-noema+trail-0337,A,noema+trail,HUBB,2023-04-25,2023-04-26,248.2741,240.36,,6,2023-05-04,254.5452,trailing stop,37.63,0.724,44.98,8.41,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0342,A,noema+trail,BALL,2023-05-04,2023-05-05,56.6583,53.7,,27,2023-05-10,53.6732,stop,-80.6,-0.991,35.29,8.98,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0335,A,noema+trail,SNA,2023-04-20,2023-04-21,237.3386,226.6416,,7,2023-05-19,239.3902,time exit,14.36,0.191,11.11,3.01,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0338,A,noema+trail,CMG,2023-04-26,2023-04-27,40.4212,38.5121,,41,2023-05-23,41.4606,trailing stop,42.62,0.55,16.67,7.75,timing amc (yahoo only); size limited by max position
+A-noema+trail-0340,A,noema+trail,ON,2023-05-01,2023-05-02,78.761,74.16,,18,2023-05-24,80.0999,trailing stop,24.1,0.294,10.19,4.06,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0341,A,noema+trail,HST,2023-05-04,2023-05-05,14.1575,13.45,,117,2023-05-24,13.4433,stop,-83.56,-1.02,66.67,5.06,timing amc (yahoo only); size limited by max position
+A-noema+trail-0345,A,noema+trail,BBY,2023-05-25,2023-05-26,60.04,58.41,,27,2023-06-01,60.4073,trailing stop,9.92,0.185,5.5,3.36,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0344,A,noema+trail,PANW,2023-05-24,2023-05-25,102.7221,97.03,,14,2023-06-07,108.7292,trailing stop,84.1,1.065,13.04,3.43,timing amc (yahoo only); size limited by risk
+A-noema+trail-0343,A,noema+trail,AKAM,2023-05-10,2023-05-11,85.3627,83.11,,19,2023-06-09,92.4338,time exit,134.35,2.474,6.06,5.48,timing amc (yahoo only); size limited by max position
+A-noema+trail-0346,A,noema+trail,VEEV,2023-06-01,2023-06-02,199.3911,186.3717,,6,2023-06-09,186.2785,stop,-78.68,-1.015,13.75,14.06,timing amc (yahoo only); size limited by risk
+A-noema+trail-0347,A,noema+trail,LEN,2023-06-15,2023-06-16,104.0595,101.09,,16,2023-07-06,105.3875,trailing stop,21.25,0.455,26.72,3.59,timing amc (yahoo only); size limited by max position
+A-noema+trail-0349,A,noema+trail,CVNA,2023-07-19,2023-07-20,10.6753,9.41,,46,2023-07-20,9.4053,stop,-58.42,-0.703,9.52,35.68,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0350,A,noema+trail,GE,2023-07-25,2023-07-26,91.8159,89.01,,18,2023-07-26,88.9655,stop,-51.31,-0.88,47.83,3.86,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0348,A,noema+trail,SCHW,2023-07-18,2023-07-19,63.4472,61.17,,26,2023-07-31,62.3399,trailing stop,-28.79,-0.493,5.63,10.26,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0354,A,noema+trail,INTC,2023-07-28,2023-07-31,36.1481,34.79,,46,2023-08-01,34.7726,stop,-63.27,-0.929,533.33,6.38,timing amc (yahoo only); size limited by max position
+A-noema+trail-0351,A,noema+trail,MMM,2023-07-25,2023-07-26,79.97,77.86,,20,2023-08-03,77.8211,stop,-42.98,-0.874,23.3,3.15,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0352,A,noema+trail,PKG,2023-07-25,2023-07-26,139.4397,134.8982,,11,2023-08-08,139.0804,trailing stop,-3.95,-0.059,15.5,4.62,timing amc (yahoo only); size limited by max position
+A-noema+trail-0358,A,noema+trail,FOXA,2023-08-08,2023-08-09,33.4767,32.93,,48,2023-08-10,32.9135,stop,-27.03,-0.785,22.22,4.26,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0357,A,noema+trail,CLX,2023-08-03,2023-08-04,144.7223,140.72,,11,2023-08-14,140.6496,stop,-44.8,-0.829,41.53,6.21,timing amc (yahoo only); size limited by max position
+A-noema+trail-0353,A,noema+trail,BA,2023-07-26,2023-07-27,234.081,223.0127,,7,2023-08-18,222.1189,stop,-83.73,-1.092,7.87,3.75,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0356,A,noema+trail,AFL,2023-08-02,2023-08-03,71.4757,69.0996,,22,2023-08-22,69.065,stop,-53.04,-1.01,9.72,3.17,timing amc (yahoo only); size limited by max position
+A-noema+trail-0359,A,noema+trail,TJX,2023-08-16,2023-08-17,85.7028,84.47,,18,2023-08-25,84.4278,stop,-22.95,-0.686,10.39,3.47,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0355,A,noema+trail,ANET,2023-08-01,2023-08-02,45.8029,42.7511,,21,2023-08-30,46.7566,time exit,20.03,0.246,11.11,14.47,timing amc (yahoo only); size limited by risk
+A-noema+trail-0360,A,noema+trail,ROST,2023-08-18,2023-08-21,114.9174,112.64,,13,2023-09-11,115.0199,trailing stop,1.33,0.035,13.79,3.04,timing amc (yahoo only); size limited by max position
+A-noema+trail-0363,A,noema+trail,LULU,2023-09-01,2023-09-05,400.2,386.6146,,3,2023-09-13,386.4213,stop,-41.34,-0.703,5.51,3.08,timing amc (yahoo only); size limited by max position
+A-noema+trail-0362,A,noema+trail,DELL,2023-09-01,2023-09-05,64.8024,60.8281,,18,2023-09-18,65.2735,trailing stop,8.48,0.107,52.63,13.95,timing amc (yahoo only); size limited by risk
+A-noema+trail-0364,A,noema+trail,CASY,2023-09-12,2023-09-13,263.6428,252.2614,,6,2023-09-27,269.6485,trailing stop,36.03,0.534,34.52,6.9,timing amc (yahoo only); size limited by max position
+A-noema+trail-0361,A,noema+trail,CRWD,2023-08-31,2023-09-01,40.8004,38.39,,31,2023-10-02,42.3688,time exit,48.62,0.609,35.71,3.3,timing amc (yahoo only); size limited by risk
+A-noema+trail-0365,A,noema+trail,JBL,2023-09-28,2023-09-29,124.9136,117.4639,,10,2023-10-19,133.2225,trailing stop,83.09,1.125,5.6,6.05,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0367,A,noema+trail,GE,2023-10-24,2023-10-25,89.5702,85.1102,,18,2023-10-26,85.0677,stop,-81.04,-1.02,46.43,4.09,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0368,A,noema+trail,DASH,2023-11-02,2023-11-03,88.094,84.38,,18,2023-11-09,85.4661,trailing stop,-47.3,-0.683,100.0,12.11,timing amc (yahoo only); size limited by max position
+A-noema+trail-0372,A,noema+trail,DIS,2023-11-09,2023-11-10,87.4337,84.92,,18,2023-11-10,84.8775,stop,-46.01,-0.822,15.49,3.95,timing amc (yahoo only); size limited by max position
+A-noema+trail-0366,A,noema+trail,NFLX,2023-10-19,2023-10-20,40.4011,39.22,,40,2023-11-17,46.5667,time exit,246.62,5.311,5.71,16.9,timing amc (yahoo only); size limited by max position
+A-noema+trail-0369,A,noema+trail,PLTR,2023-11-02,2023-11-03,18.029,17.2001,,90,2023-11-21,19.717,trailing stop,151.92,1.963,16.67,17.16,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0370,A,noema+trail,PH,2023-11-02,2023-11-03,394.6296,383.17,,4,2023-12-04,426.3567,time exit,126.91,2.817,12.24,7.0,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0371,A,noema+trail,TYL,2023-11-02,2023-11-03,407.9826,384.8592,,3,2023-12-04,412.7335,time exit,14.25,0.207,7.54,4.53,timing amc (yahoo only); size limited by risk
+A-noema+trail-0373,A,noema+trail,TGT,2023-11-15,2023-11-16,114.4472,112.24,,14,2023-12-15,124.3178,time exit,138.19,1.757,41.89,13.8,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0374,A,noema+trail,CRWD,2023-11-29,2023-11-30,57.8289,55.3653,,23,2023-12-29,63.7981,time exit,137.29,1.687,16.67,3.6,timing amc (yahoo only); size limited by risk
+A-noema+trail-0375,A,noema+trail,MU,2023-12-21,2023-12-22,85.1258,82.31,,20,2024-01-02,82.2688,stop,-57.14,-1.03,5.94,8.02,timing amc (yahoo only); size limited by max position
+A-noema+trail-0376,A,noema+trail,BNY,2024-01-12,2024-01-16,45.7329,44.92,,37,2024-01-18,44.8975,stop,-30.91,-0.93,14.29,4.31,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0378,A,noema+trail,RJF,2024-01-25,2024-01-26,110.1651,105.6,,15,2024-02-01,105.5472,stop,-69.27,-1.013,6.19,3.06,timing amc (yahoo only); size limited by max position
+A-noema+trail-0379,A,noema+trail,RMD,2024-01-25,2024-01-26,182.5088,176.39,,9,2024-02-06,182.5463,trailing stop,0.34,0.006,5.62,10.35,timing amc (yahoo only); size limited by max position
+A-noema+trail-0382,A,noema+trail,CLX,2024-02-02,2024-02-05,138.4392,136.89,,12,2024-02-09,136.8216,stop,-19.41,-0.431,96.36,7.07,timing amc (yahoo only); size limited by max position
+A-noema+trail-0380,A,noema+trail,HCA,2024-01-30,2024-01-31,297.0757,290.08,,5,2024-02-13,296.1958,trailing stop,-4.4,-0.129,16.83,4.63,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0377,A,noema+trail,TRV,2024-01-19,2024-01-22,203.383,197.41,,8,2024-02-20,210.2248,time exit,54.73,1.165,37.72,6.01,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0381,A,noema+trail,PH,2024-02-01,2024-02-02,486.6232,470.2523,,3,2024-03-04,522.5986,time exit,107.93,1.879,16.92,5.96,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0385,A,noema+trail,HOOD,2024-02-14,2024-02-15,13.4067,12.755,,123,2024-03-05,15.9285,trailing stop,310.18,3.645,85.71,15.27,timing amc (yahoo only); size limited by risk
+A-noema+trail-0383,A,noema+trail,F,2024-02-07,2024-02-08,10.6985,10.13,,152,2024-03-08,10.3948,time exit,-46.17,-0.539,141.67,5.48,timing amc (yahoo only); size limited by risk
+A-noema+trail-0384,A,noema+trail,LDOS,2024-02-13,2024-02-14,118.3376,114.88,,14,2024-03-12,122.7359,trailing stop,61.58,1.294,13.71,4.44,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0386,A,noema+trail,GRMN,2024-02-21,2024-02-22,128.3524,123.16,,13,2024-03-21,142.1889,time exit,179.87,2.698,22.86,5.9,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0390,A,noema+trail,CTAS,2024-03-27,2024-03-28,168.4842,162.5436,,10,2024-04-04,162.4623,stop,-60.22,-0.996,6.67,3.97,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0387,A,noema+trail,KR,2024-03-07,2024-03-08,52.5863,50.5706,,34,2024-04-08,52.9235,trailing stop,11.47,0.15,18.58,3.47,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0388,A,noema+trail,WSM,2024-03-13,2024-03-14,137.06,127.6538,,9,2024-04-10,144.4178,trailing stop,66.22,0.788,5.43,9.15,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0389,A,noema+trail,MKC,2024-03-26,2024-03-27,71.9638,68.4753,,25,2024-04-11,68.4411,stop,-88.07,-1.02,10.53,7.03,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0395,A,noema+trail,TROW,2024-04-26,2024-04-29,99.98,98.6,,17,2024-04-29,98.5507,stop,-24.3,-0.537,17.24,3.84,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0393,A,noema+trail,HAS,2024-04-24,2024-04-25,59.1496,57.46,,30,2024-04-30,57.4313,stop,-51.55,-0.861,117.86,9.21,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0394,A,noema+trail,NEM,2024-04-25,2024-04-26,41.5608,38.9583,,30,2024-04-30,38.9388,stop,-78.66,-0.886,48.65,4.48,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0398,A,noema+trail,ZBRA,2024-04-30,2024-05-01,311.7658,304.2,,5,2024-05-01,304.0479,stop,-38.59,-0.647,16.87,6.66,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0392,A,noema+trail,DGX,2024-04-23,2024-04-24,129.985,127.15,,13,2024-05-02,130.1311,trailing stop,1.9,0.036,9.68,3.77,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0396,A,noema+trail,DPZ,2024-04-29,2024-04-30,506.4031,486.87,,3,2024-05-14,486.6266,stop,-59.33,-0.961,5.29,6.26,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0391,A,noema+trail,GE,2024-04-23,2024-04-24,159.5898,150.58,,8,2024-05-22,158.3808,time exit,-9.67,-0.115,17.14,5.09,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0399,A,noema+trail,GRMN,2024-05-01,2024-05-02,157.5687,151.0414,,11,2024-05-22,160.2026,trailing stop,28.97,0.395,40.59,6.08,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0397,A,noema+trail,LDOS,2024-04-30,2024-05-01,136.038,132.2275,,12,2024-05-28,143.4116,trailing stop,88.48,1.497,34.71,5.68,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0400,A,noema+trail,MRNA,2024-05-02,2024-05-03,125.0625,115.2943,,8,2024-05-28,156.1249,trailing stop,248.5,2.844,14.01,3.05,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0402,A,noema+trail,ADI,2024-05-22,2024-05-23,232.156,221.9235,,7,2024-05-29,221.1993,stop,-76.7,-1.035,10.24,5.15,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0403,A,noema+trail,DECK,2024-05-24,2024-05-28,173.0973,165.74,,10,2024-06-07,174.1095,trailing stop,10.12,0.139,66.0,12.18,timing amc (yahoo only); size limited by max position
+A-noema+trail-0401,A,noema+trail,WMT,2024-05-16,2024-05-17,62.9415,61.63,,28,2024-06-17,65.987,time exit,85.27,2.217,15.38,7.34,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0404,A,noema+trail,BBY,2024-05-30,2024-05-31,71.946,68.54,,22,2024-06-25,78.8533,trailing stop,151.96,1.709,12.15,8.42,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0406,A,noema+trail,FDS,2024-06-21,2024-06-24,411.6657,400.84,,4,2024-06-26,400.6396,stop,-44.1,-0.887,12.05,3.0,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0405,A,noema+trail,CASY,2024-06-12,2024-06-13,379.2755,357.7932,,4,2024-07-09,357.6143,stop,-86.64,-1.017,37.65,11.17,timing amc (yahoo only); size limited by risk
+A-noema+trail-0407,A,noema+trail,CCL,2024-06-25,2024-06-26,17.5388,16.3,,73,2024-07-24,17.7978,trailing stop,18.91,0.209,650.0,3.86,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0410,A,noema+trail,PNR,2024-07-23,2024-07-24,85.2326,82.66,,21,2024-07-24,82.6187,stop,-54.89,-0.996,7.02,7.68,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0411,A,noema+trail,SHW,2024-07-23,2024-07-24,337.5687,326.0442,,5,2024-07-24,325.8811,stop,-58.44,-0.873,6.02,5.17,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0413,A,noema+trail,BMY,2024-07-26,2024-07-29,45.0325,43.1236,,34,2024-07-31,43.102,stop,-65.64,-0.744,26.99,6.61,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0408,A,noema+trail,DHI,2024-07-18,2024-07-19,169.5948,161.52,,10,2024-08-02,169.7675,trailing stop,1.73,0.02,8.47,6.18,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0412,A,noema+trail,NOW,2024-07-25,2024-07-26,165.2526,156.6,,9,2024-08-02,156.5217,stop,-78.58,-0.874,10.53,8.0,timing amc (yahoo only); size limited by risk
+A-noema+trail-0415,A,noema+trail,ANET,2024-07-31,2024-08-01,87.1167,82.74,,20,2024-08-02,79.96,stop,-143.13,-1.652,10.42,8.53,timing amc (yahoo only); size limited by max position
+A-noema+trail-0409,A,noema+trail,LMT,2024-07-23,2024-07-24,475.2608,461.7245,,3,2024-08-05,510.7329,trailing stop,106.42,2.667,10.23,3.0,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0416,A,noema+trail,DASH,2024-08-02,2024-08-05,106.3582,113.6,,15,2024-08-05,106.2518,stop,-1.59,-0.025,32.79,7.82,timing amc (yahoo only); size limited by max position
+A-noema+trail-0417,A,noema+trail,TWLO,2024-08-02,2024-08-05,58.029,59.0009,,21,2024-08-05,57.971,stop,-1.22,-0.014,24.29,6.1,timing amc (yahoo only); size limited by risk
+A-noema+trail-0414,A,noema+trail,CNC,2024-07-26,2024-07-29,73.4267,69.285,,21,2024-08-26,77.6312,time exit,88.29,1.006,15.79,3.04,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0421,A,noema+trail,AXON,2024-08-07,2024-08-08,351.0754,323.875,,3,2024-08-27,357.8172,trailing stop,20.23,0.249,22.45,11.86,timing amc (yahoo only); size limited by risk
+A-noema+trail-0419,A,noema+trail,PLTR,2024-08-06,2024-08-07,26.7363,25.56,,66,2024-08-28,30.4428,trailing stop,244.63,3.187,12.5,12.29,timing amc (yahoo only); size limited by max position
+A-noema+trail-0418,A,noema+trail,CLX,2024-08-02,2024-08-05,129.9449,125.3,,13,2024-09-03,146.5767,time exit,216.21,3.091,16.67,5.87,timing amc (yahoo only); size limited by max position
+A-noema+trail-0423,A,noema+trail,DELL,2024-08-30,2024-09-03,111.3256,107.16,,16,2024-09-03,107.1064,stop,-67.51,-0.795,10.53,4.17,timing amc (yahoo only); size limited by max position
+A-noema+trail-0420,A,noema+trail,FTNT,2024-08-07,2024-08-08,69.7589,65.1267,,17,2024-09-06,74.586,trailing stop,82.06,0.937,39.02,17.69,timing amc (yahoo only); size limited by risk
+A-noema+trail-0422,A,noema+trail,COO,2024-08-29,2024-08-30,106.3118,100.9784,,17,2024-09-30,110.2848,time exit,67.54,0.752,5.49,10.11,timing amc (yahoo only); size limited by max position
+A-noema+trail-0425,A,noema+trail,MS,2024-10-16,2024-10-17,113.0865,109.94,,16,2024-10-25,109.885,stop,-51.22,-0.938,18.99,4.15,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0424,A,noema+trail,WFC,2024-10-11,2024-10-14,58.3392,57.02,,31,2024-11-04,60.6575,trailing stop,71.87,1.756,17.97,3.82,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0428,A,noema+trail,TXN,2024-10-23,2024-10-24,191.0254,186.45,,9,2024-11-05,190.2009,trailing stop,-7.42,-0.184,7.3,3.65,timing amc (yahoo only); size limited by max position
+A-noema+trail-0429,A,noema+trail,LDOS,2024-10-29,2024-10-30,182.8104,175.9519,,10,2024-11-13,190.6901,trailing stop,78.8,1.164,45.05,7.23,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0426,A,noema+trail,ISRG,2024-10-18,2024-10-21,519.2995,499.8144,,3,2024-11-18,531.3742,time exit,36.22,0.504,12.2,4.7,timing amc (yahoo only); size limited by max position
+A-noema+trail-0427,A,noema+trail,NFLX,2024-10-18,2024-10-21,76.6183,73.61,,24,2024-11-18,80.9367,trailing stop,103.64,1.366,5.88,7.26,timing amc (yahoo only); size limited by max position
+A-noema+trail-0430,A,noema+trail,TRMB,2024-11-06,2024-11-07,72.6863,69.3151,,25,2024-11-19,69.0255,stop,-91.52,-0.993,12.9,5.5,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0431,A,noema+trail,HWM,2024-11-06,2024-11-07,113.7769,109.1116,,16,2024-12-06,117.6811,time exit,62.47,0.687,9.23,8.7,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0434,A,noema+trail,P,2024-12-04,2024-12-05,65.3026,60.2701,,17,2024-12-10,60.24,stop,-86.07,-0.936,19.05,17.03,timing amc (yahoo only); size limited by risk
+A-noema+trail-0433,A,noema+trail,KEYS,2024-11-20,2024-11-21,165.4727,158.99,,11,2024-12-12,166.4767,trailing stop,11.04,0.137,5.1,8.6,timing amc (yahoo only); size limited by max position
+A-noema+trail-0435,A,noema+trail,BF.B,2024-12-05,2024-12-06,42.6813,41.42,,44,2024-12-16,41.3993,stop,-56.41,-0.87,12.24,11.07,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0432,A,noema+trail,WSM,2024-11-20,2024-11-21,171.046,162.29,,10,2024-12-18,181.5956,trailing stop,105.5,1.217,11.36,25.34,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0436,A,noema+trail,LULU,2024-12-06,2024-12-09,398.8793,376.99,,3,2024-12-18,376.8015,stop,-66.23,-0.897,5.51,9.34,timing amc (yahoo only); size limited by risk
+A-noema+trail-0437,A,noema+trail,DAL,2025-01-10,2025-01-13,64.8624,63.06,,28,2025-01-13,63.0285,stop,-51.35,-0.672,6.32,5.81,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0440,A,noema+trail,APH,2025-01-22,2025-01-23,38.5192,36.5297,,45,2025-01-27,35.0225,stop,-157.35,-1.671,12.0,4.04,timing bmo (agree); size limited by risk
+A-noema+trail-0438,A,noema+trail,GS,2025-01-15,2025-01-16,588.4502,572.75,,3,2025-02-03,601.8311,trailing stop,40.14,0.869,32.33,4.63,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0439,A,noema+trail,BNY,2025-01-15,2025-01-16,73.6168,71.21,,25,2025-02-03,76.3936,trailing stop,69.42,0.917,9.55,4.67,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0441,A,noema+trail,UNP,2025-01-23,2025-01-24,238.2291,232.88,,7,2025-02-03,232.9435,trailing stop,-37.0,-0.758,6.81,4.6,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0446,A,noema+trail,PLTR,2025-02-04,2025-02-05,101.8309,100.5,,17,2025-02-05,100.4498,stop,-23.48,-0.359,27.27,22.76,timing amc (yahoo only); size limited by max position
+A-noema+trail-0445,A,noema+trail,FOXA,2025-02-04,2025-02-05,53.7669,52.14,,34,2025-02-07,52.1139,stop,-56.2,-0.94,50.0,6.69,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0444,A,noema+trail,IDXX,2025-02-03,2025-02-04,464.7022,444.99,,3,2025-02-14,444.7675,stop,-59.8,-0.755,9.17,10.18,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0443,A,noema+trail,RCL,2025-01-28,2025-01-29,258.6693,241.8926,,5,2025-02-20,241.7717,stop,-84.49,-0.993,8.67,4.19,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0448,A,noema+trail,FTNT,2025-02-07,2025-02-10,108.2524,102.36,,15,2025-02-24,108.6065,trailing stop,5.31,0.061,21.31,4.55,timing amc (yahoo only); size limited by risk
+A-noema+trail-0450,A,noema+trail,HAS,2025-02-20,2025-02-21,64.6923,61.7702,,27,2025-02-24,61.7393,stop,-79.73,-0.847,31.43,4.84,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0442,A,noema+trail,T,2025-01-27,2025-01-28,22.2711,21.59,,83,2025-02-26,24.5677,time exit,190.62,2.697,5.88,3.43,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0451,A,noema+trail,AES,2025-02-28,2025-03-03,10.1751,9.8,,111,2025-03-04,9.7951,stop,-42.18,-0.456,54.29,6.42,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0447,A,noema+trail,TTWO,2025-02-07,2025-02-10,209.9188,197.7896,,7,2025-03-10,197.6907,stop,-85.6,-1.017,30.36,8.15,timing amc (yahoo only); size limited by risk
+A-noema+trail-0453,A,noema+trail,AVGO,2025-03-07,2025-03-10,186.9634,178.94,,6,2025-03-10,178.8505,stop,-48.68,-0.572,5.96,4.61,timing amc (yahoo only); size limited by risk
+A-noema+trail-0449,A,noema+trail,WYNN,2025-02-14,2025-02-18,87.8105,82.11,,16,2025-03-13,82.0689,stop,-91.87,-1.015,90.55,5.17,timing amc (yahoo only); size limited by risk
+A-noema+trail-0452,A,noema+trail,OKTA,2025-03-04,2025-03-05,108.6943,99.7968,,10,2025-03-28,109.2049,trailing stop,5.11,0.056,5.41,14.79,timing amc (yahoo only); size limited by risk
+A-noema+trail-0454,A,noema+trail,CVNA,2025-05-08,2025-05-09,56.2981,53.99,,26,2025-05-09,53.963,stop,-60.71,-0.686,100.0,6.39,timing amc (yahoo only); size limited by risk
+A-noema+trail-0455,A,noema+trail,AXON,2025-05-08,2025-05-09,684.352,644.595,,1,2025-06-09,783.4081,time exit,99.06,2.169,10.16,7.4,timing amc (yahoo only); size limited by risk
+A-noema+trail-0456,A,noema+trail,PODD,2025-05-09,2025-05-12,312.3795,293.02,,4,2025-06-10,298.5806,time exit,-55.2,-0.719,29.11,14.02,timing amc (yahoo only); size limited by risk
+A-noema+trail-0457,A,noema+trail,NRG,2025-05-12,2025-05-13,146.7633,135.5964,,7,2025-06-11,146.0669,time exit,-4.87,-0.054,58.58,14.81,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0458,A,noema+trail,VEEV,2025-05-29,2025-05-30,277.0084,264.32,,5,2025-06-30,287.836,time exit,54.14,0.672,13.22,14.54,timing amc (yahoo only); size limited by risk
+A-noema+trail-0460,A,noema+trail,MKC,2025-06-26,2025-06-27,73.4067,72.33,,24,2025-06-30,72.2938,stop,-26.71,-0.577,6.15,4.56,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0459,A,noema+trail,FERG,2025-06-03,2025-06-04,207.6865,196.38,,8,2025-07-03,218.9805,time exit,90.35,1.008,23.76,11.69,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0461,A,noema+trail,NKE,2025-06-27,2025-06-30,68.8444,67.11,,26,2025-07-11,70.0537,trailing stop,31.44,0.462,16.67,11.59,timing amc (agree); size limited by max position
+A-noema+trail-0464,A,noema+trail,DHI,2025-07-22,2025-07-23,151.6158,141.5999,,8,2025-07-25,141.5291,stop,-80.69,-0.966,15.86,10.21,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0462,A,noema+trail,RF,2025-07-18,2025-07-21,24.8962,24.21,,73,2025-07-31,24.1979,stop,-50.98,-1.036,7.14,4.03,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0468,A,noema+trail,WDC,2025-07-31,2025-08-01,75.5177,74.4367,,20,2025-08-01,74.3994,stop,-22.37,-0.254,12.16,3.96,timing amc (yahoo only); size limited by risk
+A-noema+trail-0465,A,noema+trail,CSGP,2025-07-23,2025-07-24,90.8854,88.23,,19,2025-08-11,93.6079,trailing stop,51.73,0.844,21.43,3.62,timing amc (yahoo only); size limited by max position
+A-noema+trail-0466,A,noema+trail,BKR,2025-07-23,2025-07-24,43.3617,41.3585,,37,2025-08-13,41.3378,stop,-74.88,-0.84,14.55,3.69,timing amc (yahoo only); size limited by risk
+A-noema+trail-0469,A,noema+trail,RDDT,2025-08-01,2025-08-04,189.678,177.76,,7,2025-08-19,229.7024,trailing stop,280.17,3.385,384.21,13.33,timing amc (yahoo only); size limited by risk
+A-noema+trail-0463,A,noema+trail,NOC,2025-07-22,2025-07-23,551.4356,531.2092,,3,2025-08-20,580.4596,time exit,87.07,1.203,19.85,4.02,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0467,A,noema+trail,FIX,2025-07-25,2025-07-28,690.6193,646.43,,2,2025-08-25,689.4251,time exit,-2.39,-0.027,34.92,18.21,timing amc (yahoo only); size limited by risk
+A-noema+trail-0470,A,noema+trail,ADI,2025-08-20,2025-08-21,240.16,230.2612,,7,2025-09-02,242.8518,trailing stop,18.84,0.227,5.13,4.01,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0472,A,noema+trail,P,2025-08-28,2025-08-29,78.2141,74.5798,,14,2025-09-04,74.5425,stop,-51.4,-0.577,10.26,14.55,timing amc (yahoo only); size limited by risk
+A-noema+trail-0471,A,noema+trail,DG,2025-08-28,2025-08-29,109.5495,103.7276,,16,2025-09-09,103.6757,stop,-93.98,-1.018,18.47,3.39,timing bmo (agree); size limited by risk
+A-noema+trail-0473,A,noema+trail,CIEN,2025-09-04,2025-09-05,115.9179,110.89,,13,2025-10-03,151.3743,time exit,460.93,5.36,26.42,21.28,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0474,A,noema+trail,NKE,2025-10-01,2025-10-02,72.2252,69.31,,26,2025-10-06,69.2753,stop,-76.7,-1.025,81.48,6.62,timing amc (agree); size limited by max position
+A-noema+trail-0477,A,noema+trail,KO,2025-10-21,2025-10-22,69.5448,68.4,,27,2025-10-23,68.3658,stop,-31.83,-0.889,5.13,3.1,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0480,A,noema+trail,HON,2025-10-23,2025-10-24,214.107,207.52,,8,2025-10-28,207.4162,stop,-53.53,-0.917,9.94,4.06,timing bmo (yahoo only); size limited by max position
+A-noema+trail-0478,A,noema+trail,DOW,2025-10-23,2025-10-24,23.4885,22.24,,76,2025-10-30,22.9794,trailing stop,-38.69,-0.412,36.67,8.12,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0481,A,noema+trail,CNC,2025-10-29,2025-10-30,36.7784,34.94,,36,2025-10-31,34.5827,stop,-79.04,-0.849,412.5,10.28,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0483,A,noema+trail,TWLO,2025-10-31,2025-11-03,135.6222,124.8446,,8,2025-11-07,124.7822,stop,-86.72,-1.012,16.82,12.4,timing amc (yahoo only); size limited by risk
+A-noema+trail-0475,A,noema+trail,JBHT,2025-10-16,2025-10-17,168.2841,157.25,,8,2025-11-10,167.1164,open at period end,-9.34,-0.102,20.55,17.4,timing amc (yahoo only); size limited by risk
+A-noema+trail-0476,A,noema+trail,GM,2025-10-21,2025-10-22,66.4134,62.3461,,23,2025-11-10,70.4048,open at period end,91.8,0.989,20.69,9.93,timing bmo (agree); size limited by risk
+A-noema+trail-0479,A,noema+trail,LVS,2025-10-23,2025-10-24,55.3577,52.27,,29,2025-11-10,64.4278,open at period end,263.03,2.803,25.81,7.79,timing amc (yahoo only); size limited by risk
+A-noema+trail-0482,A,noema+trail,FOX,2025-10-30,2025-10-31,58.2191,55.5382,,31,2025-11-10,59.4103,open at period end,36.93,0.399,38.53,3.5,timing bmo (yahoo only); size limited by risk
+A-noema+trail-0484,A,noema+trail,AKAM,2025-11-07,2025-11-10,83.8519,78.7483,,17,2025-11-10,87.0764,open at period end,54.82,0.596,13.41,8.08,timing amc (yahoo only); size limited by risk

@@ -16,6 +16,7 @@
     "reports in period": 18616,
     "price data at entry": 18463,
     "liquid (price > $10, ADV > $50m)": 16994,
-    "above rising 50 EMA": 9902
+    "above rising 50 EMA": 9902,
+    "no market regime filter": 9902
   }
 }

@@ -22,6 +22,7 @@
     "volume >= 2x avg": 1074,
     "liquid (price > $10, ADV > $50m)": 989,
     "EMA filter off": 989,
+    "no market regime filter": 989,
     "next session exists": 989
   }
 }
