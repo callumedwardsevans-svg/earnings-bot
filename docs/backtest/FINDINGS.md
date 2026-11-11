@@ -71,3 +71,69 @@ SPY buy and hold over the same period: CAGR 15.0%, Sharpe 0.88, max drawdown -34
 - The interesting follow-up question is whether **market-adjusted** drift exists in a narrower set:
   bigger surprises, revenue beats (from Finnhub, going forward only), or smaller caps outside the
   S&P 500. Any such test is a new hypothesis and needs its own held-out data.
+
+---
+
+# Update: Setup D (index trend filter) and the Setup A held-out check
+
+## Setup D: does a moving-average filter on SPY/QQQ beat buy-and-hold?
+
+Full tables: [in-sample](setup_d/in_sample/summary.md), [held-out last 2 years](setup_d/holdout/summary.md).
+Hold the index above its average, T-bills below; switch at the next open; 5 bps per switch.
+
+| SPY, T-bill cash | 1994-2024 CAGR | max DD | Sharpe | 2016-2024 CAGR | Held-out 2024-26 CAGR |
+|---|---|---|---|---|---|
+| Buy & hold | 10.5% | -55% | 0.62 | 15.1% | 13.2% |
+| EMA 200 | 8.0% | -29% | 0.68 | 9.1% | 10.0% |
+| 10-month SMA | 9.6% | -25% | 0.78 | 9.5% | 5.4% |
+| EMA 50 | 7.0% | -29% | 0.66 | 8.7% | 9.3% |
+
+- **The research expectation holds over 30 years, not recently.** Over 1994-2024 the slower filters
+  roughly halved the max drawdown (-55% → -25 to -29%), with similar or better Sharpe, and avoided most
+  of the dot-com and 2008 crashes (the 10-month SMA lost 5% in each vs -48% / -55%).
+- **Since 2016 they cost a lot of return.** Sell-offs were short and recovered fast (2018 Q4, 2020,
+  April 2025), so the filters sold late and bought back late: 6 points of CAGR given up in 2016-2024, and
+  in the held-out two years the 10-month SMA made 5.4% vs 13.2% (SPY) and 2.5% vs 15.2% (QQQ).
+- **Fast EMAs (20) are poor everywhere**: 30+ switches a year and worse than buy-and-hold on every
+  measure except volatility. The 1% band helps cut switches but doesn't fix the results.
+- **The T-bill yield matters**: on 0% cash every SPY variant loses another ~0.5-0.8 points of CAGR.
+- The S&P 500 index back to 1928 (price only) shows the same pattern: better Sharpe and much smaller
+  drawdowns than holding through 1929-32, but the 10-month SMA still fell 54% in the early 1930s.
+
+**Regime filter decision (pre-registered rule): none.** Neither the 200-EMA nor the 10-month SMA met
+the bar on SPY in both the full period and 2016-2024. For information, a SPY 200-EMA filter applied to
+setups A and B made every variant worse (A ema+fixed: CAGR 4.9% → 3.6%, Sharpe 0.72 → 0.59);
+see [in_sample_regime_ema200](in_sample_regime_ema200/summary.md).
+
+## Setup A held-out check (2025-11-11 to 2026-11-10), run once
+
+Configuration locked beforehand in [PREREGISTRATION.md](PREREGISTRATION.md) (committed before the run):
+A, 50-EMA filter, fixed exit, no regime filter. Results: [holdout/summary.md](holdout/summary.md),
+[holdout/robustness.md](holdout/robustness.md).
+
+| | In-sample 2016-2025 | Held-out 2025-26 |
+|---|---|---|
+| Signals filled (signal level) | 873 | 112 |
+| Win rate | 41% | 30% |
+| Expectancy per trade | +0.20R (se 0.05) | **-0.02R (se 0.12)** |
+| Market-adjusted expectancy | +0.03R | -0.04R |
+| $10k portfolio: trades / return / max DD / Sharpe | 506 / +4.9% CAGR / -12% / 0.72 | 53 / +7.9% / -3.0% / 1.06 |
+| SPY over the same period | 15.0% CAGR / -34% / 0.88 | +11.0% / -8.9% / 0.84 |
+
+- **At the signal level, the held-out year shows no edge** (-0.02R ± 0.12), consistent with the
+  in-sample conclusion that A's profit was market drift. One year of ~110 signals can't confirm or rule
+  out a small edge, but it gives no support for one.
+- **The portfolio did better than the signals** (+0.21R per trade, Sharpe 1.06 vs SPY's 0.84) only
+  because the 5-position cap took 53 of the 112 signals and those happened to include the winners.
+  With 53 trades the standard error is about ±0.25R, so this is luck, not evidence. Don't read it as
+  the strategy working.
+- 8% of held-out trades were still open at the period end and are marked at the last close.
+
+## Bottom line after milestone 3 + Setup D
+
+- No setup tested so far has a market-adjusted edge: A ≈ 0, B ≤ 0, and D is a risk-reduction tool
+  that has cost return in the last decade.
+- **Paper trading A (as pre-registered) is still reasonable as an engineering and execution test**:
+  plan → submit → reconcile, bracket orders, journal and daily report. Expect results close to the
+  market's drift on ~30% of capital, with a lot of noise. Judge it on whether live fills and exits
+  match the backtest, not on P&L.

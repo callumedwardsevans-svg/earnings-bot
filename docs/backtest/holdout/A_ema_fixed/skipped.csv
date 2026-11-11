@@ -1,0 +1,69 @@
+setup,variant,ticker,signal_date,entry_date,reason,eps_surprise_pct
+A,ema+fixed,META,2026-01-29,2026-01-30,max 5 open positions,8.029197080291972
+A,ema+fixed,AOS,2026-01-29,2026-01-30,max 5 open positions,7.1428571428571495
+A,ema+fixed,TER,2026-02-03,2026-02-04,max 5 open positions,30.434782608695667
+A,ema+fixed,DVA,2026-02-03,2026-02-04,max 5 open positions,6.583072100313479
+A,ema+fixed,SMCI,2026-02-04,2026-02-05,max 5 open positions,40.81632653061224
+A,ema+fixed,LITE,2026-02-04,2026-02-05,max 5 open positions,18.43971631205674
+A,ema+fixed,AMGN,2026-02-04,2026-02-05,max 5 open positions,11.839323467230436
+A,ema+fixed,LLY,2026-02-04,2026-02-05,max 5 open positions,9.11722141823444
+A,ema+fixed,TECH,2026-02-04,2026-02-05,max 5 open positions,6.976744186046519
+A,ema+fixed,HSY,2026-02-05,2026-02-06,limit not reached,22.142857142857146
+A,ema+fixed,TPR,2026-02-05,2026-02-06,max 5 open positions,20.627802690582957
+A,ema+fixed,CAH,2026-02-05,2026-02-06,max 5 open positions,10.970464135021087
+A,ema+fixed,URI,2026-04-23,2026-04-24,max 2 positions in Industrials,8.612975391498898
+A,ema+fixed,PWR,2026-04-30,2026-05-01,max 5 open positions,32.01970443349756
+A,ema+fixed,CAT,2026-04-30,2026-05-01,max 5 open positions,19.39655172413794
+A,ema+fixed,CVNA,2026-04-30,2026-05-01,max 5 open positions,13.333333333333346
+A,ema+fixed,CARR,2026-04-30,2026-05-01,max 5 open positions,11.76470588235293
+A,ema+fixed,TXT,2026-04-30,2026-05-01,max 5 open positions,11.538461538461531
+A,ema+fixed,MO,2026-04-30,2026-05-01,max 5 open positions,5.600000000000005
+A,ema+fixed,RDDT,2026-05-01,2026-05-04,max 5 open positions,26.12612612612611
+A,ema+fixed,TWLO,2026-05-01,2026-05-04,max 5 open positions,18.11023622047244
+A,ema+fixed,WAT,2026-05-05,2026-05-06,max 5 open positions,16.883116883116887
+A,ema+fixed,SMCI,2026-05-06,2026-05-07,max 5 open positions,35.48387096774193
+A,ema+fixed,DVA,2026-05-06,2026-05-07,max 5 open positions,23.175965665236053
+A,ema+fixed,IFF,2026-05-06,2026-05-07,max 5 open positions,16.822429906542048
+A,ema+fixed,AMD,2026-05-06,2026-05-07,max 5 open positions,6.201550387596905
+A,ema+fixed,FLEX,2026-05-06,2026-05-07,max 5 open positions,5.681818181818187
+A,ema+fixed,VTRS,2026-05-07,2026-05-08,max 5 open positions,17.999999999999993
+A,ema+fixed,XYZ,2026-05-08,2026-05-11,max 5 open positions,24.99999999999999
+A,ema+fixed,MNST,2026-05-08,2026-05-11,max 5 open positions,11.538461538461526
+A,ema+fixed,FOXA,2026-05-11,2026-05-12,max 5 open positions,36.08247422680414
+A,ema+fixed,Q,2026-05-12,2026-05-13,max 5 open positions,17.39130434782609
+A,ema+fixed,DLTR,2026-05-28,2026-05-29,max 5 open positions,12.987012987012983
+A,ema+fixed,A,2026-05-28,2026-05-29,max 5 open positions,5.6737588652482325
+A,ema+fixed,DELL,2026-05-29,2026-06-01,limit not reached,63.63636363636363
+A,ema+fixed,OKTA,2026-05-29,2026-06-01,limit not reached,7.058823529411772
+A,ema+fixed,WAB,2026-07-22,2026-07-23,limit not reached,5.747126436781606
+A,ema+fixed,URI,2026-07-23,2026-07-24,max 2 positions in Industrials,10.09490940465919
+A,ema+fixed,ALLE,2026-07-23,2026-07-24,max 2 positions in Industrials,8.108108108108095
+A,ema+fixed,HII,2026-07-30,2026-07-31,max 5 open positions,37.958115183246065
+A,ema+fixed,MSFT,2026-07-30,2026-07-31,max 5 open positions,11.792452830188678
+A,ema+fixed,WTW,2026-07-30,2026-07-31,max 5 open positions,7.717041800643094
+A,ema+fixed,AMZN,2026-07-31,2026-08-03,max 2 positions in Consumer Discretionary,215.93406593406593
+A,ema+fixed,ZBRA,2026-08-04,2026-08-05,max 5 open positions,44.97716894977168
+A,ema+fixed,IT,2026-08-04,2026-08-05,max 5 open positions,17.158176943699736
+A,ema+fixed,PLTR,2026-08-04,2026-08-05,max 5 open positions,17.142857142857142
+A,ema+fixed,LDOS,2026-08-04,2026-08-05,max 5 open positions,12.027491408934695
+A,ema+fixed,AME,2026-08-04,2026-08-05,max 5 open positions,5.025125628140697
+A,ema+fixed,AIZ,2026-08-05,2026-08-06,max 5 open positions,23.745173745173755
+A,ema+fixed,CRL,2026-08-05,2026-08-06,max 5 open positions,10.218978102189773
+A,ema+fixed,TWLO,2026-08-07,2026-08-10,max 5 open positions,11.363636363636356
+A,ema+fixed,ABNB,2026-08-07,2026-08-10,max 5 open positions,9.600000000000009
+A,ema+fixed,CRWD,2026-08-27,2026-08-28,max 2 positions in Information Technology,6.896551724137938
+A,ema+fixed,NVDA,2026-08-27,2026-08-28,max 2 positions in Information Technology,6.220095693779921
+A,ema+fixed,DELL,2026-09-02,2026-09-03,max 2 positions in Information Technology,43.08943089430895
+A,ema+fixed,PNR,2026-10-27,2026-10-28,limit not reached,10.280373831775687
+A,ema+fixed,HII,2026-10-29,2026-10-30,max 2 positions in Industrials,23.70203160270882
+A,ema+fixed,TXT,2026-10-29,2026-10-30,max 2 positions in Industrials,22.222222222222225
+A,ema+fixed,WEC,2026-10-29,2026-10-30,limit not reached,20.40816326530612
+A,ema+fixed,NCLH,2026-10-29,2026-10-30,max 5 open positions,19.148936170212785
+A,ema+fixed,IDXX,2026-11-02,2026-11-03,max 5 open positions,8.086253369272232
+A,ema+fixed,DD,2026-11-03,2026-11-04,max 5 open positions,11.170212765957444
+A,ema+fixed,SWK,2026-11-04,2026-11-05,max 5 open positions,48.07692307692307
+A,ema+fixed,PRU,2026-11-04,2026-11-05,max 5 open positions,13.554216867469885
+A,ema+fixed,XYZ,2026-11-04,2026-11-05,max 5 open positions,9.708737864077657
+A,ema+fixed,CDW,2026-11-04,2026-11-05,max 5 open positions,9.395973154362409
+A,ema+fixed,GWW,2026-11-04,2026-11-05,max 5 open positions,7.547169811320746
+A,ema+fixed,APP,2026-11-05,2026-11-06,max 5 open positions,6.699751861042174
