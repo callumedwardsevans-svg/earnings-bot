@@ -1,0 +1,463 @@
+setup,variant,ticker,signal_date,entry_date,reason,eps_surprise_pct
+A,noema+fixed,UNP,2016-04-21,2016-04-22,limit not reached,5.454545454545439
+A,noema+fixed,MNST,2016-04-29,2016-05-02,max 5 open positions,16.666666666666682
+A,noema+fixed,IDXX,2016-04-29,2016-05-02,max 5 open positions,8.51063829787235
+A,noema+fixed,AMAT,2016-05-20,2016-05-23,max 5 open positions,6.250000000000005
+A,noema+fixed,DG,2016-05-26,2016-05-27,max 5 open positions,8.421052631578956
+A,noema+fixed,ULTA,2016-05-27,2016-05-31,max 5 open positions,12.403100775193792
+A,noema+fixed,SJM,2016-06-09,2016-06-10,max 2 positions in Consumer Staples,56.302521008403374
+A,noema+fixed,AOS,2016-07-26,2016-07-27,max 2 positions in Industrials,8.888888888888884
+A,noema+fixed,EOG,2016-08-05,2016-08-08,max 5 open positions,20.83333333333333
+A,noema+fixed,CIEN,2016-09-01,2016-09-02,max 2 positions in Information Technology,10.52631578947368
+A,noema+fixed,AKAM,2016-10-26,2016-10-27,max 5 open positions,11.475409836065584
+A,noema+fixed,FFIV,2016-10-27,2016-10-28,max 5 open positions,8.762886597938142
+A,noema+fixed,ZTS,2016-11-02,2016-11-03,max 5 open positions,13.043478260869565
+A,noema+fixed,MTD,2016-11-04,2016-11-07,limit not reached,5.994550408719351
+A,noema+fixed,VEEV,2016-11-23,2016-11-25,max 5 open positions,37.5
+A,noema+fixed,LUV,2017-01-26,2017-01-27,max 2 positions in Industrials,7.1428571428571495
+A,noema+fixed,AVY,2017-02-01,2017-02-02,max 5 open positions,6.451612903225799
+A,noema+fixed,V,2017-02-03,2017-02-06,max 5 open positions,10.25641025641025
+A,noema+fixed,CBRE,2017-02-10,2017-02-13,max 5 open positions,16.25
+A,noema+fixed,ADI,2017-02-15,2017-02-16,max 5 open positions,27.027027027027025
+A,noema+fixed,BG,2017-02-15,2017-02-16,max 5 open positions,8.280254777070056
+A,noema+fixed,MAS,2017-04-25,2017-04-26,max 2 positions in Industrials,13.888888888888888
+A,noema+fixed,WYNN,2017-04-26,2017-04-27,max 5 open positions,30.526315789473692
+A,noema+fixed,TER,2017-04-27,2017-04-28,max 5 open positions,15.789473684210526
+A,noema+fixed,WDC,2017-04-28,2017-05-01,max 5 open positions,11.682242990654206
+A,noema+fixed,EL,2017-05-03,2017-05-04,max 5 open positions,24.65753424657535
+A,noema+fixed,BALL,2017-05-04,2017-05-05,max 2 positions in Materials,8.57142857142858
+A,noema+fixed,MAR,2017-05-09,2017-05-10,max 5 open positions,10.989010989010985
+A,noema+fixed,PANW,2017-06-01,2017-06-02,max 5 open positions,11.111111111111121
+A,noema+fixed,COO,2017-06-02,2017-06-05,max 5 open positions,12.499999999999991
+A,noema+fixed,AVGO,2017-06-02,2017-06-05,max 5 open positions,5.71428571428572
+A,noema+fixed,NVR,2017-07-21,2017-07-24,position too small (< 1 share; limited by max position),21.680497925311187
+A,noema+fixed,BA,2017-07-26,2017-07-27,limit not reached,11.353711790393003
+A,noema+fixed,ALGN,2017-07-28,2017-07-31,max 5 open positions,16.43835616438356
+A,noema+fixed,HUM,2017-08-02,2017-08-03,max 5 open positions,14.052287581699352
+A,noema+fixed,TTWO,2017-08-03,2017-08-04,max 5 open positions,115.7894736842105
+A,noema+fixed,ANET,2017-08-04,2017-08-07,max 5 open positions,33.33333333333334
+A,noema+fixed,TSN,2017-08-07,2017-08-08,max 5 open positions,6.666666666666673
+A,noema+fixed,TWLO,2017-08-08,2017-08-09,max 5 open positions,54.54545454545454
+A,noema+fixed,RL,2017-08-08,2017-08-09,max 5 open positions,18.08510638297874
+A,noema+fixed,PANW,2017-09-01,2017-09-05,max 2 positions in Information Technology,15.384615384615378
+A,noema+fixed,INTC,2017-10-27,2017-10-30,max 5 open positions,26.249999999999996
+A,noema+fixed,ALGN,2017-10-27,2017-10-30,max 5 open positions,24.69135802469135
+A,noema+fixed,DLTR,2017-11-21,2017-11-22,max 2 positions in Consumer Staples,12.22222222222222
+A,noema+fixed,GWW,2018-01-24,2018-01-25,limit not reached,34.24657534246575
+A,noema+fixed,LITE,2018-02-06,2018-02-07,limit not reached,47.787610619469035
+A,noema+fixed,ADSK,2018-03-07,2018-03-08,max 2 positions in Information Technology,18.181818181818183
+A,noema+fixed,OKTA,2018-03-08,2018-03-09,max 2 positions in Information Technology,33.33333333333333
+A,noema+fixed,JBL,2018-03-16,2018-03-19,max 2 positions in Information Technology,6.451612903225811
+A,noema+fixed,TXT,2018-04-18,2018-04-19,limit not reached,50.0
+A,noema+fixed,UAL,2018-04-18,2018-04-19,max 2 positions in Industrials,6.382978723404261
+A,noema+fixed,DPZ,2018-04-26,2018-04-27,max 5 open positions,12.994350282485875
+A,noema+fixed,MCD,2018-04-30,2018-05-01,max 5 open positions,7.185628742514977
+A,noema+fixed,VMC,2018-05-03,2018-05-04,max 5 open positions,91.30434782608695
+A,noema+fixed,DXCM,2018-05-03,2018-05-04,max 5 open positions,11.111111111111107
+A,noema+fixed,LYV,2018-05-04,2018-05-07,max 5 open positions,14.285714285714295
+A,noema+fixed,ZBRA,2018-05-08,2018-05-09,max 5 open positions,24.87804878048782
+A,noema+fixed,EXPD,2018-05-08,2018-05-09,max 5 open positions,16.92307692307692
+A,noema+fixed,AXON,2018-05-09,2018-05-10,max 5 open positions,190.9090909090909
+A,noema+fixed,TWLO,2018-05-09,2018-05-10,max 5 open positions,42.85714285714286
+A,noema+fixed,OXY,2018-05-09,2018-05-10,max 5 open positions,31.428571428571445
+A,noema+fixed,LULU,2018-06-01,2018-06-04,max 2 positions in Consumer Discretionary,19.56521739130435
+A,noema+fixed,GWW,2018-07-18,2018-07-19,max 2 positions in Industrials,16.844919786096252
+A,noema+fixed,UAL,2018-07-18,2018-07-19,max 2 positions in Industrials,5.211726384364826
+A,noema+fixed,DOV,2018-07-19,2018-07-20,max 2 positions in Industrials,7.438016528925627
+A,noema+fixed,HUBB,2018-07-24,2018-07-25,max 2 positions in Industrials,10.674157303370784
+A,noema+fixed,HCA,2018-07-25,2018-07-26,limit not reached,6.018518518518514
+A,noema+fixed,AMD,2018-07-26,2018-07-27,max 5 open positions,7.692307692307699
+A,noema+fixed,QCOM,2018-07-26,2018-07-27,max 5 open positions,5.633802816901413
+A,noema+fixed,EXPE,2018-07-27,2018-07-30,max 5 open positions,53.33333333333332
+A,noema+fixed,LRCX,2018-07-27,2018-07-30,max 5 open positions,8.163265306122456
+A,noema+fixed,AAPL,2018-08-01,2018-08-02,max 5 open positions,9.259259259259247
+A,noema+fixed,DXCM,2018-08-02,2018-08-03,max 5 open positions,50.0
+A,noema+fixed,CF,2018-08-02,2018-08-03,max 5 open positions,36.95652173913043
+A,noema+fixed,FTNT,2018-08-02,2018-08-03,max 5 open positions,14.285714285714276
+A,noema+fixed,TRMB,2018-08-02,2018-08-03,max 5 open positions,11.111111111111107
+A,noema+fixed,J,2018-08-06,2018-08-07,max 5 open positions,11.570247933884307
+A,noema+fixed,TWLO,2018-08-07,2018-08-08,max 5 open positions,160.0
+A,noema+fixed,ZBRA,2018-08-07,2018-08-08,max 5 open positions,11.210762331838566
+A,noema+fixed,ALB,2018-08-08,2018-08-09,max 5 open positions,6.250000000000005
+A,noema+fixed,TPR,2018-08-14,2018-08-15,max 2 positions in Consumer Discretionary,5.263157894736848
+A,noema+fixed,TJX,2018-08-21,2018-08-22,max 2 positions in Consumer Discretionary,13.461538461538453
+A,noema+fixed,WSM,2018-08-23,2018-08-24,max 2 positions in Consumer Discretionary,14.705882352941172
+A,noema+fixed,CIEN,2018-08-30,2018-08-31,limit not reached,33.33333333333333
+A,noema+fixed,DECK,2018-10-26,2018-10-29,limit not reached,42.85714285714285
+A,noema+fixed,CDW,2018-10-31,2018-11-01,max 5 open positions,5.970149253731331
+A,noema+fixed,NXPI,2018-11-01,2018-11-02,max 5 open positions,5.78947368421052
+A,noema+fixed,ANET,2018-11-02,2018-11-05,max 5 open positions,8.333333333333341
+A,noema+fixed,ZBRA,2018-11-06,2018-11-07,max 5 open positions,10.344827586206899
+A,noema+fixed,DXCM,2018-11-07,2018-11-08,max 5 open positions,300.0
+A,noema+fixed,TWLO,2018-11-07,2018-11-08,max 5 open positions,250.0
+A,noema+fixed,NWSA,2018-11-08,2018-11-09,max 5 open positions,325.0
+A,noema+fixed,LUV,2019-01-24,2019-01-25,max 5 open positions,8.33333333333332
+A,noema+fixed,LRCX,2019-01-24,2019-01-25,max 5 open positions,5.405405405405411
+A,noema+fixed,BA,2019-01-30,2019-01-31,max 5 open positions,20.439560439560452
+A,noema+fixed,NOW,2019-01-31,2019-02-01,max 5 open positions,15.384615384615378
+A,noema+fixed,CLX,2019-02-04,2019-02-05,max 5 open positions,6.8702290076335775
+A,noema+fixed,CAH,2019-02-07,2019-02-08,max 5 open positions,18.348623853211006
+A,noema+fixed,CRL,2019-02-13,2019-02-14,max 5 open positions,6.428571428571435
+A,noema+fixed,EQIX,2019-02-14,2019-02-15,max 5 open positions,12.396694214876044
+A,noema+fixed,VMC,2019-02-14,2019-02-15,max 5 open positions,11.235955056179773
+A,noema+fixed,NXPI,2019-04-30,2019-05-01,max 5 open positions,7.096774193548379
+A,noema+fixed,RCL,2019-05-01,2019-05-02,max 5 open positions,18.01801801801801
+A,noema+fixed,CVS,2019-05-01,2019-05-02,max 5 open positions,7.284768211920537
+A,noema+fixed,HLT,2019-05-01,2019-05-02,max 5 open positions,5.263157894736847
+A,noema+fixed,COR,2019-05-02,2019-05-03,max 5 open positions,7.653061224489792
+A,noema+fixed,PODD,2019-05-03,2019-05-06,max 5 open positions,600.0
+A,noema+fixed,MNST,2019-05-03,2019-05-06,max 5 open positions,9.090909090909086
+A,noema+fixed,CPRT,2019-05-23,2019-05-24,limit not reached,6.250000000000005
+A,noema+fixed,TER,2019-07-24,2019-07-25,max 5 open positions,6.451612903225811
+A,noema+fixed,MAS,2019-07-25,2019-07-26,max 5 open positions,8.64197530864197
+A,noema+fixed,GOOG,2019-07-26,2019-07-29,max 5 open positions,24.561403508771935
+A,noema+fixed,UHS,2019-07-26,2019-07-29,max 5 open positions,10.399999999999991
+A,noema+fixed,SBUX,2019-07-26,2019-07-29,max 5 open positions,6.849315068493158
+A,noema+fixed,HUM,2019-07-31,2019-08-01,max 5 open positions,14.800759013282738
+A,noema+fixed,CVS,2019-08-07,2019-08-08,max 2 positions in Health Care,11.834319526627217
+A,noema+fixed,CVNA,2019-08-08,2019-08-09,max 5 open positions,11.111111111111107
+A,noema+fixed,ALB,2019-08-08,2019-08-09,max 5 open positions,8.391608391608399
+A,noema+fixed,P,2019-08-22,2019-08-23,max 5 open positions,125.0
+A,noema+fixed,KEYS,2019-08-22,2019-08-23,max 5 open positions,22.549019607843135
+A,noema+fixed,DG,2019-08-29,2019-08-30,max 2 positions in Consumer Staples,10.126582278481006
+A,noema+fixed,ORLY,2019-10-24,2019-10-25,max 5 open positions,6.250000000000005
+A,noema+fixed,INTC,2019-10-25,2019-10-28,max 5 open positions,14.51612903225806
+A,noema+fixed,LDOS,2019-10-29,2019-10-30,max 2 positions in Industrials,14.285714285714299
+A,noema+fixed,GE,2019-10-30,2019-10-31,max 2 positions in Industrials,31.86813186813186
+A,noema+fixed,LITE,2019-10-31,2019-11-01,max 5 open positions,20.0
+A,noema+fixed,FTNT,2019-11-01,2019-11-04,max 5 open positions,18.181818181818183
+A,noema+fixed,HIG,2019-11-05,2019-11-06,max 5 open positions,21.951219512195124
+A,noema+fixed,FICO,2019-11-05,2019-11-06,max 5 open positions,19.642857142857135
+A,noema+fixed,FIS,2019-11-05,2019-11-06,max 5 open positions,5.925925925925914
+A,noema+fixed,PODD,2019-11-06,2019-11-07,max 5 open positions,124.99999999999997
+A,noema+fixed,DVA,2019-11-06,2019-11-07,max 5 open positions,23.38709677419355
+A,noema+fixed,DXCM,2019-11-07,2019-11-08,max 5 open positions,219.99999999999997
+A,noema+fixed,GDDY,2019-11-07,2019-11-08,max 5 open positions,100.0
+A,noema+fixed,RL,2019-11-07,2019-11-08,max 5 open positions,6.694560669456054
+A,noema+fixed,DDOG,2019-11-13,2019-11-14,max 5 open positions,107.14285714285714
+A,noema+fixed,AMAT,2019-11-15,2019-11-18,max 5 open positions,5.263157894736847
+A,noema+fixed,EXPE,2020-02-14,2020-02-18,max 5 open positions,5.084745762711869
+A,noema+fixed,LDOS,2020-02-18,2020-02-19,max 5 open positions,11.851851851851846
+A,noema+fixed,DPZ,2020-02-20,2020-02-21,max 5 open positions,5.387205387205377
+A,noema+fixed,WST,2020-04-23,2020-04-24,limit not reached,23.17073170731708
+A,noema+fixed,CAH,2020-05-11,2020-05-12,max 5 open positions,11.724137931034493
+A,noema+fixed,DDOG,2020-05-12,2020-05-13,max 5 open positions,400.0
+A,noema+fixed,PANW,2020-05-22,2020-05-26,max 2 positions in Information Technology,25.000000000000007
+A,noema+fixed,DELL,2020-05-29,2020-06-01,max 5 open positions,42.55319148936172
+A,noema+fixed,MRVL,2020-05-29,2020-06-01,max 5 open positions,28.57142857142855
+A,noema+fixed,VEEV,2020-05-29,2020-06-01,max 5 open positions,11.864406779661028
+A,noema+fixed,HCA,2020-07-22,2020-07-23,limit not reached,554.5454545454545
+A,noema+fixed,QCOM,2020-07-30,2020-07-31,max 5 open positions,21.126760563380287
+A,noema+fixed,CTSH,2020-07-30,2020-07-31,max 5 open positions,18.84057971014493
+A,noema+fixed,MTD,2020-07-31,2020-08-03,max 5 open positions,25.35545023696683
+A,noema+fixed,AAPL,2020-07-31,2020-08-03,max 5 open positions,25.0
+A,noema+fixed,CHD,2020-07-31,2020-08-03,max 5 open positions,22.222222222222225
+A,noema+fixed,CRM,2020-08-26,2020-08-27,max 5 open positions,114.92537313432834
+A,noema+fixed,DELL,2020-08-28,2020-08-31,max 5 open positions,37.142857142857146
+A,noema+fixed,WDAY,2020-08-28,2020-08-31,max 5 open positions,27.27272727272726
+A,noema+fixed,HPQ,2020-08-28,2020-08-31,max 5 open positions,13.953488372093023
+A,noema+fixed,COHR,2020-11-05,2020-11-06,max 5 open positions,52.72727272727271
+A,noema+fixed,PH,2020-11-05,2020-11-06,max 5 open positions,35.24229074889867
+A,noema+fixed,CAH,2020-11-05,2020-11-06,max 5 open positions,32.456140350877206
+A,noema+fixed,QCOM,2020-11-05,2020-11-06,max 5 open positions,22.88135593220339
+A,noema+fixed,XYZ,2020-11-06,2020-11-09,max 5 open positions,112.5
+A,noema+fixed,AXON,2020-11-06,2020-11-09,max 5 open positions,100.0
+A,noema+fixed,MCHP,2020-11-06,2020-11-09,max 5 open positions,8.333333333333341
+A,noema+fixed,PANW,2020-11-16,2020-11-17,max 5 open positions,22.727272727272734
+A,noema+fixed,NTAP,2020-12-02,2020-12-03,max 5 open positions,43.835616438356176
+A,noema+fixed,TPR,2021-02-04,2021-02-05,limit not reached,14.999999999999991
+A,noema+fixed,EL,2021-02-05,2021-02-08,limit not reached,54.437869822485204
+A,noema+fixed,UPS,2021-04-27,2021-04-28,max 2 positions in Industrials,61.04651162790699
+A,noema+fixed,GNRC,2021-04-29,2021-04-30,max 2 positions in Industrials,26.595744680851062
+A,noema+fixed,GEN,2021-05-11,2021-05-12,limit not reached,5.263157894736847
+A,noema+fixed,DECK,2021-05-21,2021-05-24,limit not reached,81.81818181818183
+A,noema+fixed,DPZ,2021-07-22,2021-07-23,max 2 positions in Consumer Discretionary,6.6202090592334475
+A,noema+fixed,HAS,2021-07-26,2021-07-27,max 2 positions in Consumer Discretionary,123.40425531914896
+A,noema+fixed,DVA,2021-08-04,2021-08-05,max 2 positions in Health Care,21.658986175115217
+A,noema+fixed,WDAY,2021-08-27,2021-08-30,max 5 open positions,59.74025974025974
+A,noema+fixed,FDS,2021-09-28,2021-09-29,limit not reached,5.494505494505491
+A,noema+fixed,TER,2021-10-27,2021-10-28,limit not reached,10.416666666666677
+A,noema+fixed,GWW,2021-10-29,2021-11-01,max 2 positions in Industrials,6.403013182674214
+A,noema+fixed,BEN,2021-11-01,2021-11-02,limit not reached,46.51162790697675
+A,noema+fixed,ON,2021-11-01,2021-11-02,max 5 open positions,17.56756756756757
+A,noema+fixed,PFE,2021-11-02,2021-11-03,max 5 open positions,22.93577981651376
+A,noema+fixed,SPG,2021-11-02,2021-11-03,max 5 open positions,9.259259259259247
+A,noema+fixed,ROK,2021-11-02,2021-11-03,max 5 open positions,6.880733944954123
+A,noema+fixed,VRTX,2021-11-03,2021-11-04,max 5 open positions,15.960912052117271
+A,noema+fixed,PH,2021-11-04,2021-11-05,max 5 open positions,15.135135135135124
+A,noema+fixed,EXPE,2021-11-05,2021-11-08,max 5 open positions,100.56818181818181
+A,noema+fixed,ABNB,2021-11-05,2021-11-08,max 5 open positions,48.19277108433735
+A,noema+fixed,FTNT,2021-11-05,2021-11-08,max 5 open positions,5.263157894736847
+A,noema+fixed,TPR,2021-11-11,2021-11-12,max 5 open positions,17.142857142857142
+A,noema+fixed,CRWD,2021-12-02,2021-12-03,max 2 positions in Information Technology,100.0
+A,noema+fixed,OKTA,2021-12-02,2021-12-03,max 2 positions in Information Technology,69.56521739130434
+A,noema+fixed,ON,2022-02-07,2022-02-08,max 5 open positions,15.957446808510653
+A,noema+fixed,AMGN,2022-02-08,2022-02-09,max 5 open positions,7.920792079207928
+A,noema+fixed,OMC,2022-02-09,2022-02-10,max 5 open positions,23.391812865497073
+A,noema+fixed,JKHY,2022-02-09,2022-02-10,max 5 open positions,16.071428571428566
+A,noema+fixed,ANET,2022-02-15,2022-02-16,max 5 open positions,16.666666666666664
+A,noema+fixed,KR,2022-03-03,2022-03-04,max 5 open positions,22.97297297297298
+A,noema+fixed,QCOM,2022-04-28,2022-04-29,max 2 positions in Information Technology,9.931506849315069
+A,noema+fixed,MPWR,2022-05-03,2022-05-04,max 2 positions in Information Technology,8.407079646017717
+A,noema+fixed,AMD,2022-05-04,2022-05-05,max 5 open positions,22.82608695652172
+A,noema+fixed,GNRC,2022-05-04,2022-05-05,max 5 open positions,8.854166666666663
+A,noema+fixed,EXR,2022-05-04,2022-05-05,max 5 open positions,8.270676691729314
+A,noema+fixed,LITE,2022-05-04,2022-05-05,max 5 open positions,6.249999999999986
+A,noema+fixed,ALB,2022-05-05,2022-05-06,daily loss limit (2%) hit,44.24242424242424
+A,noema+fixed,PANW,2022-05-20,2022-05-23,limit not reached,7.142857142857128
+A,noema+fixed,ULTA,2022-05-27,2022-05-31,max 5 open positions,40.624999999999986
+A,noema+fixed,TXN,2022-07-27,2022-07-28,max 5 open positions,17.2093023255814
+A,noema+fixed,AVY,2022-07-27,2022-07-28,max 5 open positions,11.39240506329114
+A,noema+fixed,CMG,2022-07-27,2022-07-28,max 5 open positions,5.555555555555561
+A,noema+fixed,F,2022-07-28,2022-07-29,max 5 open positions,51.11111111111112
+A,noema+fixed,EQIX,2022-07-28,2022-07-29,max 5 open positions,29.508196721311474
+A,noema+fixed,DECK,2022-07-29,2022-08-01,max 5 open positions,40.00000000000001
+A,noema+fixed,CVX,2022-07-29,2022-08-01,max 5 open positions,15.705765407554672
+A,noema+fixed,GWW,2022-07-29,2022-08-01,max 5 open positions,8.774583963691377
+A,noema+fixed,UBER,2022-08-02,2022-08-03,max 5 open positions,40.00000000000001
+A,noema+fixed,IT,2022-08-02,2022-08-03,max 5 open positions,33.177570093457945
+A,noema+fixed,MPWR,2022-08-02,2022-08-03,max 5 open positions,10.544217687074832
+A,noema+fixed,MRNA,2022-08-03,2022-08-04,max 5 open positions,16.70378619153675
+A,noema+fixed,PFG,2022-08-09,2022-08-10,max 5 open positions,18.705035971223026
+A,noema+fixed,BAC,2022-10-17,2022-10-18,limit not reached,5.194805194805199
+A,noema+fixed,ALLE,2022-10-27,2022-10-28,max 5 open positions,10.810810810810805
+A,noema+fixed,TMUS,2022-10-28,2022-10-31,max 5 open positions,354.0
+A,noema+fixed,INTC,2022-10-28,2022-10-31,max 5 open positions,78.78787878787877
+A,noema+fixed,GILD,2022-10-28,2022-10-31,max 5 open positions,32.86713286713287
+A,noema+fixed,DXCM,2022-10-28,2022-10-31,max 5 open positions,16.666666666666682
+A,noema+fixed,VRTX,2022-10-28,2022-10-31,max 5 open positions,10.164835164835155
+A,noema+fixed,IT,2022-11-01,2022-11-02,max 5 open positions,28.87700534759358
+A,noema+fixed,HOOD,2022-11-03,2022-11-04,max 5 open positions,35.48387096774193
+A,noema+fixed,AXON,2022-11-09,2022-11-10,max 5 open positions,22.448979591836732
+A,noema+fixed,WMT,2022-11-15,2022-11-16,max 5 open positions,13.636363636363635
+A,noema+fixed,NVR,2023-01-31,2023-02-01,position too small (< 1 share; limited by max position),34.95145631067961
+A,noema+fixed,ODFL,2023-02-01,2023-02-02,max 5 open positions,8.955223880597005
+A,noema+fixed,SYK,2023-02-01,2023-02-02,max 5 open positions,5.633802816901413
+A,noema+fixed,ITW,2023-02-02,2023-02-03,max 5 open positions,14.785992217898848
+A,noema+fixed,ALGN,2023-02-02,2023-02-03,max 5 open positions,13.0718954248366
+A,noema+fixed,CLX,2023-02-03,2023-02-06,max 5 open positions,48.48484848484848
+A,noema+fixed,RCL,2023-02-07,2023-02-08,max 2 positions in Consumer Discretionary,16.41791044776119
+A,noema+fixed,UBER,2023-02-08,2023-02-09,max 2 positions in Industrials,281.24999999999994
+A,noema+fixed,ABNB,2023-02-15,2023-02-16,max 2 positions in Consumer Discretionary,77.77777777777776
+A,noema+fixed,OKTA,2023-03-02,2023-03-03,max 2 positions in Information Technology,233.33333333333334
+A,noema+fixed,CASY,2023-03-08,2023-03-09,max 5 open positions,33.5
+A,noema+fixed,EQT,2023-04-27,2023-04-28,limit not reached,30.76923076923076
+A,noema+fixed,AOS,2023-04-27,2023-04-28,max 2 positions in Industrials,20.5128205128205
+A,noema+fixed,PNR,2023-04-27,2023-04-28,max 2 positions in Industrials,18.181818181818183
+A,noema+fixed,ROK,2023-04-27,2023-04-28,max 2 positions in Industrials,15.769230769230758
+A,noema+fixed,LII,2023-04-27,2023-04-28,max 2 positions in Industrials,14.574898785425095
+A,noema+fixed,UBER,2023-05-02,2023-05-03,max 2 positions in Industrials,120.00000000000001
+A,noema+fixed,VRSK,2023-05-03,2023-05-04,max 2 positions in Industrials,8.403361344537823
+A,noema+fixed,BALL,2023-05-04,2023-05-05,max 5 open positions,35.29411764705881
+A,noema+fixed,DDOG,2023-05-04,2023-05-05,max 5 open positions,16.666666666666682
+A,noema+fixed,LYV,2023-05-05,2023-05-08,max 5 open positions,129.7872340425532
+A,noema+fixed,DASH,2023-05-05,2023-05-08,max 5 open positions,26.785714285714295
+A,noema+fixed,DVA,2023-05-09,2023-05-10,max 5 open positions,29.508196721311485
+A,noema+fixed,AKAM,2023-05-10,2023-05-11,max 5 open positions,6.060606060606049
+A,noema+fixed,TPR,2023-05-11,2023-05-12,max 5 open positions,30.00000000000001
+A,noema+fixed,STE,2023-05-11,2023-05-12,max 5 open positions,6.976744186046507
+A,noema+fixed,WDAY,2023-05-26,2023-05-30,max 2 positions in Information Technology,16.964285714285708
+A,noema+fixed,MRVL,2023-05-26,2023-05-30,max 2 positions in Information Technology,6.896551724137938
+A,noema+fixed,NTAP,2023-06-01,2023-06-02,max 2 positions in Information Technology,14.925373134328353
+A,noema+fixed,EME,2023-07-27,2023-07-28,max 2 positions in Industrials,24.47257383966245
+A,noema+fixed,TXT,2023-07-27,2023-07-28,max 2 positions in Industrials,21.666666666666668
+A,noema+fixed,LII,2023-07-27,2023-07-28,max 2 positions in Industrials,18.95551257253386
+A,noema+fixed,LRCX,2023-07-27,2023-07-28,limit not reached,17.647058823529406
+A,noema+fixed,RCL,2023-07-27,2023-07-28,max 5 open positions,15.189873417721516
+A,noema+fixed,CINF,2023-07-28,2023-07-31,max 5 open positions,72.85714285714286
+A,noema+fixed,VRT,2023-08-02,2023-08-03,max 5 open positions,58.620689655172434
+A,noema+fixed,AFL,2023-08-02,2023-08-03,max 5 open positions,9.72222222222223
+A,noema+fixed,CTSH,2023-08-03,2023-08-04,max 5 open positions,11.111111111111121
+A,noema+fixed,PH,2023-08-03,2023-08-04,max 5 open positions,10.746812386156645
+A,noema+fixed,BKNG,2023-08-04,2023-08-07,max 5 open positions,28.20512820512821
+A,noema+fixed,DVA,2023-08-04,2023-08-07,max 5 open positions,19.540229885057474
+A,noema+fixed,LLY,2023-08-08,2023-08-09,max 5 open positions,6.030150753768838
+A,noema+fixed,WSM,2023-08-23,2023-08-24,max 2 positions in Consumer Discretionary,14.705882352941172
+A,noema+fixed,OKTA,2023-08-31,2023-09-01,limit not reached,47.61904761904762
+A,noema+fixed,CIEN,2023-08-31,2023-09-01,max 2 positions in Information Technology,15.686274509803914
+A,noema+fixed,FERG,2023-09-26,2023-09-27,limit not reached,13.061224489795912
+A,noema+fixed,JBL,2023-09-28,2023-09-29,max 2 positions in Information Technology,5.603448275862084
+A,noema+fixed,DECK,2023-10-27,2023-10-30,max 5 open positions,54.05405405405405
+A,noema+fixed,LDOS,2023-10-31,2023-11-01,max 5 open positions,21.5568862275449
+A,noema+fixed,ANET,2023-10-31,2023-11-01,max 5 open positions,17.94871794871795
+A,noema+fixed,GRMN,2023-11-01,2023-11-02,max 5 open positions,10.156249999999991
+A,noema+fixed,GNRC,2023-11-01,2023-11-02,max 5 open positions,8.609271523178801
+A,noema+fixed,DASH,2023-11-02,2023-11-03,max 5 open positions,100.0
+A,noema+fixed,PLTR,2023-11-02,2023-11-03,max 5 open positions,16.666666666666682
+A,noema+fixed,PH,2023-11-02,2023-11-03,max 5 open positions,12.241054613935978
+A,noema+fixed,TYL,2023-11-02,2023-11-03,max 5 open positions,7.537688442211062
+A,noema+fixed,SMCI,2023-11-02,2023-11-03,max 5 open positions,6.250000000000005
+A,noema+fixed,PWR,2023-11-02,2023-11-03,max 5 open positions,6.16113744075831
+A,noema+fixed,QCOM,2023-11-02,2023-11-03,max 5 open positions,5.759162303664927
+A,noema+fixed,PYPL,2023-11-02,2023-11-03,max 5 open positions,5.691056910569111
+A,noema+fixed,SPGI,2023-11-02,2023-11-03,max 5 open positions,5.592105263157892
+A,noema+fixed,LYV,2023-11-03,2023-11-06,max 5 open positions,90.43478260869566
+A,noema+fixed,GDDY,2023-11-03,2023-11-06,max 5 open positions,52.57731958762887
+A,noema+fixed,IT,2023-11-03,2023-11-06,max 5 open positions,30.61224489795919
+A,noema+fixed,EXPE,2023-11-03,2023-11-06,max 5 open positions,8.200000000000003
+A,noema+fixed,MSI,2023-11-03,2023-11-06,max 5 open positions,5.280528052805286
+A,noema+fixed,DDOG,2023-11-07,2023-11-08,max 5 open positions,32.35294117647059
+A,noema+fixed,AXON,2023-11-08,2023-11-09,max 5 open positions,34.21052631578947
+A,noema+fixed,EXR,2023-11-08,2023-11-09,max 5 open positions,30.85106382978724
+A,noema+fixed,TDG,2023-11-09,2023-11-10,max 5 open positions,5.242463958060281
+A,noema+fixed,WDAY,2023-11-29,2023-11-30,max 2 positions in Information Technology,8.51063829787235
+A,noema+fixed,MU,2023-12-21,2023-12-22,max 2 positions in Information Technology,5.940594059405946
+A,noema+fixed,WRB,2024-01-25,2024-01-26,max 2 positions in Financials,5.434782608695644
+A,noema+fixed,MSCI,2024-01-30,2024-01-31,max 2 positions in Financials,11.854103343465049
+A,noema+fixed,DHR,2024-01-30,2024-01-31,max 2 positions in Health Care,9.424083769633505
+A,noema+fixed,COR,2024-01-31,2024-02-01,max 2 positions in Health Care,13.494809688581302
+A,noema+fixed,DECK,2024-02-02,2024-02-05,max 5 open positions,31.250000000000007
+A,noema+fixed,AMZN,2024-02-02,2024-02-05,max 5 open positions,24.999999999999993
+A,noema+fixed,META,2024-02-02,2024-02-05,max 5 open positions,7.894736842105256
+A,noema+fixed,COHR,2024-02-06,2024-02-07,max 5 open positions,38.46153846153845
+A,noema+fixed,GEHC,2024-02-06,2024-02-07,max 5 open positions,10.280373831775687
+A,noema+fixed,KKR,2024-02-06,2024-02-07,max 5 open positions,9.890109890109887
+A,noema+fixed,F,2024-02-07,2024-02-08,max 5 open positions,141.66666666666666
+A,noema+fixed,EMR,2024-02-07,2024-02-08,max 5 open positions,17.307692307692303
+A,noema+fixed,DIS,2024-02-08,2024-02-09,max 5 open positions,18.446601941747566
+A,noema+fixed,RL,2024-02-08,2024-02-09,max 5 open positions,17.46478873239437
+A,noema+fixed,APP,2024-02-15,2024-02-16,max 5 open positions,40.00000000000001
+A,noema+fixed,CBRE,2024-02-15,2024-02-16,max 5 open positions,16.94915254237288
+A,noema+fixed,MRNA,2024-02-22,2024-02-23,max 5 open positions,155.55555555555557
+A,noema+fixed,AXON,2024-02-28,2024-02-29,max 2 positions in Industrials,31.764705882352956
+A,noema+fixed,EME,2024-02-28,2024-02-29,max 2 positions in Industrials,24.512534818941504
+A,noema+fixed,COO,2024-03-01,2024-03-04,max 5 open positions,8.974358974358967
+A,noema+fixed,TGT,2024-03-05,2024-03-06,limit not reached,23.651452282157667
+A,noema+fixed,UAL,2024-04-17,2024-04-18,limit not reached,73.68421052631578
+A,noema+fixed,TER,2024-04-25,2024-04-26,limit not reached,54.54545454545454
+A,noema+fixed,CARR,2024-04-25,2024-04-26,max 5 open positions,24.0
+A,noema+fixed,TYL,2024-04-25,2024-04-26,max 5 open positions,10.000000000000009
+A,noema+fixed,RMD,2024-04-26,2024-04-29,max 5 open positions,11.518324607329843
+A,noema+fixed,MMM,2024-04-30,2024-05-01,max 5 open positions,13.2701421800948
+A,noema+fixed,DD,2024-05-01,2024-05-02,max 5 open positions,21.538461538461547
+A,noema+fixed,AMCR,2024-05-01,2024-05-02,max 5 open positions,8.536585365853666
+A,noema+fixed,APTV,2024-05-02,2024-05-03,max 5 open positions,15.999999999999993
+A,noema+fixed,MRNA,2024-05-02,2024-05-03,max 5 open positions,14.005602240896359
+A,noema+fixed,HWM,2024-05-02,2024-05-03,max 5 open positions,9.615384615384603
+A,noema+fixed,BDX,2024-05-02,2024-05-03,max 5 open positions,6.734006734006724
+A,noema+fixed,MPWR,2024-05-02,2024-05-03,max 5 open positions,6.439393939393937
+A,noema+fixed,QCOM,2024-05-02,2024-05-03,max 5 open positions,5.172413793103453
+A,noema+fixed,IFF,2024-05-07,2024-05-08,max 5 open positions,29.885057471264354
+A,noema+fixed,FIS,2024-05-07,2024-05-08,max 5 open positions,14.583333333333348
+A,noema+fixed,ANET,2024-05-08,2024-05-09,max 5 open positions,13.636363636363635
+A,noema+fixed,MTD,2024-05-10,2024-05-13,max 5 open positions,16.209150326797385
+A,noema+fixed,BBY,2024-05-30,2024-05-31,max 2 positions in Consumer Discretionary,12.149532710280363
+A,noema+fixed,ISRG,2024-07-19,2024-07-22,limit not reached,15.584415584415584
+A,noema+fixed,BRO,2024-07-23,2024-07-24,max 5 open positions,5.681818181818187
+A,noema+fixed,UHS,2024-07-25,2024-07-26,limit not reached,29.819277108433727
+A,noema+fixed,CBRE,2024-07-25,2024-07-26,limit not reached,14.084507042253536
+A,noema+fixed,RTX,2024-07-25,2024-07-26,max 5 open positions,8.461538461538453
+A,noema+fixed,NDAQ,2024-07-25,2024-07-26,max 5 open positions,7.812499999999989
+A,noema+fixed,NOC,2024-07-25,2024-07-26,max 5 open positions,7.2512647554806176
+A,noema+fixed,MMM,2024-07-26,2024-07-29,max 5 open positions,14.880952380952381
+A,noema+fixed,CHTR,2024-07-26,2024-07-29,max 5 open positions,7.468354430379745
+A,noema+fixed,NSC,2024-07-26,2024-07-29,max 5 open positions,6.993006993006999
+A,noema+fixed,RVTY,2024-07-29,2024-07-30,max 5 open positions,8.928571428571416
+A,noema+fixed,SWK,2024-07-30,2024-07-31,max 5 open positions,29.761904761904777
+A,noema+fixed,PYPL,2024-07-30,2024-07-31,max 5 open positions,20.2020202020202
+A,noema+fixed,FFIV,2024-07-30,2024-07-31,max 5 open positions,13.131313131313119
+A,noema+fixed,HWM,2024-07-30,2024-07-31,max 5 open positions,11.666666666666679
+A,noema+fixed,CHRW,2024-08-01,2024-08-02,max 5 open positions,19.791666666666664
+A,noema+fixed,GDDY,2024-08-02,2024-08-05,max 5 open positions,11.718749999999993
+A,noema+fixed,UBER,2024-08-06,2024-08-07,limit not reached,42.3076923076923
+A,noema+fixed,AXON,2024-08-07,2024-08-08,max 5 open positions,22.448979591836732
+A,noema+fixed,HOOD,2024-08-08,2024-08-09,max 5 open positions,15.384615384615378
+A,noema+fixed,LITE,2024-08-15,2024-08-16,max 5 open positions,100.0
+A,noema+fixed,TRV,2024-10-17,2024-10-18,max 2 positions in Financials,50.55555555555556
+A,noema+fixed,MTB,2024-10-17,2024-10-18,max 2 positions in Financials,11.325966850828733
+A,noema+fixed,NTRS,2024-10-23,2024-10-24,max 2 positions in Financials,15.02590673575131
+A,noema+fixed,PKG,2024-10-23,2024-10-24,max 5 open positions,5.9999999999999964
+A,noema+fixed,TSLA,2024-10-24,2024-10-25,max 5 open positions,20.0
+A,noema+fixed,CBRE,2024-10-24,2024-10-25,max 5 open positions,13.20754716981131
+A,noema+fixed,CDNS,2024-10-29,2024-10-30,max 5 open positions,13.888888888888888
+A,noema+fixed,RDDT,2024-10-30,2024-10-31,max 5 open positions,43.90243902439025
+A,noema+fixed,GRMN,2024-10-30,2024-10-31,max 5 open positions,37.24137931034483
+A,noema+fixed,CVNA,2024-10-31,2024-11-01,max 5 open positions,225.0
+A,noema+fixed,IP,2024-10-31,2024-11-01,max 5 open positions,76.0
+A,noema+fixed,COP,2024-10-31,2024-11-01,max 5 open positions,8.536585365853666
+A,noema+fixed,CHD,2024-11-01,2024-11-04,max 5 open positions,16.176470588235293
+A,noema+fixed,CAH,2024-11-01,2024-11-04,max 5 open positions,16.04938271604937
+A,noema+fixed,WAT,2024-11-01,2024-11-04,max 5 open positions,9.328358208955223
+A,noema+fixed,PLTR,2024-11-05,2024-11-06,limit not reached,11.111111111111121
+A,noema+fixed,COHR,2024-11-07,2024-11-08,max 5 open positions,21.311475409836067
+A,noema+fixed,APP,2024-11-07,2024-11-08,max 5 open positions,19.51219512195122
+A,noema+fixed,AXON,2024-11-08,2024-11-11,max 5 open positions,20.833333333333336
+A,noema+fixed,PODD,2024-11-08,2024-11-11,max 5 open positions,18.42105263157895
+A,noema+fixed,LYV,2024-11-12,2024-11-13,max 5 open positions,13.173652694610777
+A,noema+fixed,C,2025-01-15,2025-01-16,max 2 positions in Financials,8.870967741935491
+A,noema+fixed,WFC,2025-01-15,2025-01-16,max 2 positions in Financials,5.1470588235294
+A,noema+fixed,IBKR,2025-01-22,2025-01-23,max 2 positions in Financials,10.869565217391301
+A,noema+fixed,IVZ,2025-01-28,2025-01-29,max 2 positions in Financials,10.638297872340436
+A,noema+fixed,FLEX,2025-01-29,2025-01-30,max 5 open positions,22.222222222222225
+A,noema+fixed,FFIV,2025-01-29,2025-01-30,max 5 open positions,13.609467455621301
+A,noema+fixed,BEN,2025-01-31,2025-02-03,max 5 open positions,11.32075471698112
+A,noema+fixed,FOXA,2025-02-04,2025-02-05,max 5 open positions,49.999999999999986
+A,noema+fixed,PLTR,2025-02-04,2025-02-05,max 5 open positions,27.27272727272728
+A,noema+fixed,FTNT,2025-02-07,2025-02-10,max 5 open positions,21.311475409836067
+A,noema+fixed,EXPE,2025-02-07,2025-02-10,max 5 open positions,13.80952380952381
+A,noema+fixed,ROK,2025-02-10,2025-02-11,max 5 open positions,15.822784810126581
+A,noema+fixed,DD,2025-02-11,2025-02-12,max 5 open positions,15.306122448979597
+A,noema+fixed,CVS,2025-02-12,2025-02-13,max 5 open positions,29.34782608695651
+A,noema+fixed,GILD,2025-02-12,2025-02-13,max 5 open positions,11.764705882352938
+A,noema+fixed,EW,2025-02-12,2025-02-13,max 5 open positions,7.272727272727258
+A,noema+fixed,MGM,2025-02-13,2025-02-14,max 5 open positions,32.35294117647059
+A,noema+fixed,GEHC,2025-02-13,2025-02-14,max 5 open positions,15.079365079365076
+A,noema+fixed,ABNB,2025-02-14,2025-02-18,max 2 positions in Consumer Discretionary,25.86206896551725
+A,noema+fixed,GRMN,2025-02-19,2025-02-20,max 5 open positions,19.30693069306931
+A,noema+fixed,DVN,2025-02-19,2025-02-20,max 5 open positions,15.999999999999993
+A,noema+fixed,ADI,2025-02-19,2025-02-20,max 5 open positions,5.844155844155835
+A,noema+fixed,CRL,2025-02-19,2025-02-20,max 5 open positions,5.1383399209486305
+A,noema+fixed,BAX,2025-02-20,2025-02-21,max 5 open positions,9.43396226415093
+A,noema+fixed,PWR,2025-05-01,2025-05-02,max 5 open positions,7.228915662650609
+A,noema+fixed,DIS,2025-05-07,2025-05-08,max 5 open positions,19.834710743801654
+A,noema+fixed,ROK,2025-05-07,2025-05-08,max 5 open positions,15.566037735849058
+A,noema+fixed,CVNA,2025-05-08,2025-05-09,max 5 open positions,100.0
+A,noema+fixed,AXON,2025-05-08,2025-05-09,max 5 open positions,10.156249999999991
+A,noema+fixed,PODD,2025-05-09,2025-05-12,max 5 open positions,29.113924050632907
+A,noema+fixed,NRG,2025-05-12,2025-05-13,max 5 open positions,58.579881656804744
+A,noema+fixed,BKR,2025-07-23,2025-07-24,max 5 open positions,14.545454545454536
+A,noema+fixed,GEV,2025-07-23,2025-07-24,max 5 open positions,13.414634146341475
+A,noema+fixed,TEL,2025-07-23,2025-07-24,max 5 open positions,9.134615384615381
+A,noema+fixed,NEM,2025-07-25,2025-07-28,max 5 open positions,23.27586206896552
+A,noema+fixed,CDNS,2025-07-29,2025-07-30,max 5 open positions,5.769230769230759
+A,noema+fixed,GLW,2025-07-29,2025-07-30,max 5 open positions,5.263157894736848
+A,noema+fixed,GNRC,2025-07-30,2025-07-31,max 5 open positions,24.999999999999986
+A,noema+fixed,HUM,2025-07-30,2025-07-31,max 5 open positions,6.8143100511073165
+A,noema+fixed,TER,2025-07-30,2025-07-31,max 5 open positions,5.555555555555539
+A,noema+fixed,CHRW,2025-07-31,2025-08-01,max 5 open positions,11.20689655172415
+A,noema+fixed,XYL,2025-07-31,2025-08-01,max 5 open positions,9.565217391304357
+A,noema+fixed,EBAY,2025-07-31,2025-08-01,max 5 open positions,5.3846153846153895
+A,noema+fixed,AXON,2025-08-05,2025-08-06,max 2 positions in Industrials,45.2054794520548
+A,noema+fixed,LDOS,2025-08-05,2025-08-06,max 5 open positions,20.676691729323302
+A,noema+fixed,PLTR,2025-08-05,2025-08-06,max 5 open positions,14.285714285714276
+A,noema+fixed,ANET,2025-08-06,2025-08-07,max 5 open positions,12.307692307692301
+A,noema+fixed,PH,2025-08-07,2025-08-08,max 5 open positions,8.615819209039552
+A,noema+fixed,P,2025-08-28,2025-08-29,max 2 positions in Information Technology,10.25641025641025
+A,noema+fixed,WFC,2025-10-14,2025-10-15,limit not reached,12.337662337662334
+A,noema+fixed,HAL,2025-10-21,2025-10-22,limit not reached,15.999999999999993
+A,noema+fixed,FIX,2025-10-24,2025-10-27,max 5 open positions,31.160572337042925
+A,noema+fixed,F,2025-10-24,2025-10-27,max 5 open positions,25.000000000000007
+A,noema+fixed,HCA,2025-10-24,2025-10-27,max 5 open positions,21.465968586387422
+A,noema+fixed,BE,2025-10-29,2025-10-30,max 5 open positions,49.999999999999986
+A,noema+fixed,CAT,2025-10-29,2025-10-30,max 5 open positions,9.513274336283201
+A,noema+fixed,STX,2025-10-29,2025-10-30,max 5 open positions,8.75
+A,noema+fixed,TER,2025-10-29,2025-10-30,max 5 open positions,7.594936708860751
+A,noema+fixed,FOX,2025-10-30,2025-10-31,max 5 open positions,38.53211009174311
+A,noema+fixed,FOXA,2025-10-30,2025-10-31,max 5 open positions,37.272727272727266
+A,noema+fixed,CAH,2025-10-30,2025-10-31,max 5 open positions,17.511520737327185
+A,noema+fixed,CHRW,2025-10-30,2025-10-31,max 5 open positions,7.692307692307682
+A,noema+fixed,AME,2025-10-30,2025-10-31,max 5 open positions,7.38636363636363
+A,noema+fixed,ILMN,2025-10-31,2025-11-03,max 5 open positions,14.529914529914546
+A,noema+fixed,WDC,2025-10-31,2025-11-03,max 5 open positions,12.65822784810126
+A,noema+fixed,CHD,2025-10-31,2025-11-03,max 5 open positions,9.459459459459469
+A,noema+fixed,EXPD,2025-11-04,2025-11-05,max 5 open positions,17.98561151079137
+A,noema+fixed,HSIC,2025-11-04,2025-11-05,max 5 open positions,7.812499999999989
+A,noema+fixed,YUM,2025-11-04,2025-11-05,max 5 open positions,6.756756756756762
+A,noema+fixed,LITE,2025-11-05,2025-11-06,max 5 open positions,6.796116504854374
+A,noema+fixed,JCI,2025-11-05,2025-11-06,max 5 open positions,5.000000000000004
+A,noema+fixed,HST,2025-11-06,2025-11-07,max 5 open positions,475.0
+A,noema+fixed,DDOG,2025-11-06,2025-11-07,max 5 open positions,19.56521739130435
+A,noema+fixed,APA,2025-11-06,2025-11-07,max 5 open positions,17.72151898734177
+A,noema+fixed,COHR,2025-11-06,2025-11-07,max 5 open positions,11.538461538461526
+A,noema+fixed,PH,2025-11-06,2025-11-07,max 5 open positions,9.063444108761324
+A,noema+fixed,EXPE,2025-11-07,2025-11-10,max 5 open positions,8.92086330935252

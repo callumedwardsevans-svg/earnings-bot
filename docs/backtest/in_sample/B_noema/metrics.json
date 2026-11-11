@@ -1,0 +1,21 @@
+{
+  "trades": 1897,
+  "win_rate": 0.4976278334211914,
+  "avg_win_r": 0.937603813559322,
+  "avg_loss_r": -0.8133976915005245,
+  "expectancy_r": 0.05794939377965209,
+  "expectancy_se": 0.024285499914133674,
+  "total_return": 0.9247526868495537,
+  "cagr": 0.07051315151909554,
+  "max_drawdown": -0.23112072252936455,
+  "sharpe": 0.6695469529069762,
+  "exposure_time": 0.9656741108354011,
+  "avg_gross_exposure": 0.5528043081858197,
+  "pnl_usd": 9247.619999999999,
+  "funnel": {
+    "reports in period": 18616,
+    "price data at entry": 18463,
+    "liquid (price > $10, ADV > $50m)": 16994,
+    "EMA filter off": 16994
+  }
+}

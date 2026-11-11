@@ -39,7 +39,7 @@ RISK = RiskLimits()
 
 
 # --------------------------------------------------------------------------- #
-# Strategy parameters (filled in properly in milestone 3)
+# Strategy parameters (hypotheses from the brief, not tuned)
 # --------------------------------------------------------------------------- #
 @dataclass(frozen=True)
 class UniverseParams:
@@ -53,6 +53,8 @@ class SetupAParams:  # post-earnings drift
     min_eps_surprise_pct: float = 5.0
     min_gap_pct: float = 3.0
     min_volume_multiple: float = 2.0
+    min_close_in_range: float = 0.5  # day-1 close in the upper half of the day's range
+    entry_limit_buffer_pct: float = 0.5  # day-2 limit = day-1 close * (1 + 0.5%)
     ema_trend_period: int = 50
     atr_period: int = 14
     atr_stop_multiple: float = 2.0
@@ -66,6 +68,7 @@ class SetupAParams:  # post-earnings drift
 class SetupBParams:  # pre-earnings run-up
     entry_days_before_report: int = 7
     ema_trend_period: int = 50
+    ema_rising_lookback: int = 5  # "EMA rising" = EMA today > EMA 5 sessions ago
     atr_period: int = 14
     atr_stop_multiple: float = 1.5
 
@@ -74,9 +77,13 @@ UNIVERSE = UniverseParams()
 SETUP_A = SetupAParams()
 SETUP_B = SetupBParams()
 
-# Backtest costs
-SLIPPAGE_BPS = 5.0  # each way
+# Backtest
+SLIPPAGE_BPS = 5.0  # each way, applied to every fill (including limit fills; conservative)
 COMMISSION_PER_TRADE = 0.0
+BACKTEST_START_EQUITY = EXPECTED_STARTING_EQUITY
+BACKTEST_START = "2016-04-01"  # first ~3 months of 2016 bars are indicator warm-up
+HOLDOUT_START = "2025-11-11"  # last 12 months: untouched until the final check
+BACKTEST_END = "2026-11-10"
 
 
 # --------------------------------------------------------------------------- #

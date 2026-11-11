@@ -10,9 +10,15 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 |---|---|
 | 1. Setup: repo, environment, Alpaca paper connection, live-endpoint guard | done |
 | 2. Data: price + earnings fetchers with caching, NVDA sanity report | done |
-| 3. Backtest: setups A and B with variants vs SPY | not started |
+| 3. Backtest: setups A and B with variants vs SPY | done (in-sample); held-out year not yet run. **[Findings](docs/backtest/FINDINGS.md)** |
 | 4. Paper loop: plan → submit → reconcile, journal, daily report | not started |
 | 5. Review after 6–8 weeks of paper trading | not started |
+
+## Headline result (in-sample, 2016-2025)
+
+Setup A (post-earnings drift) earns about +0.2R per trade, but almost all of that is the market rising during the ~11-day hold: market-adjusted it's about +0.03R and not statistically different from zero. Setup B (pre-earnings run-up) shows no edge. Neither beats buying and holding SPY (CAGR ~5% vs 15%, though with a much smaller drawdown). Full write-up, including overfitting caveats: [docs/backtest/FINDINGS.md](docs/backtest/FINDINGS.md).
+
+![Setup A vs SPY](docs/backtest/in_sample/equity_setup_A.png)
 
 ## Strategy (hypotheses to test, not proven rules)
 
@@ -85,6 +91,8 @@ powershell -ExecutionPolicy Bypass -File scripts/windows/register_daily_task.ps1
 python scripts/check_account.py   # connect to paper account, print equity and risk limits
 python scripts/update_data.py --earnings-backfill   # refresh prices/universe, spend today's AV budget
 python scripts/sanity_report.py NVDA               # last 8 reports with timing + day-1 reaction
+python scripts/run_backtest.py                     # in-sample backtest, all variants -> docs/backtest/in_sample
+python scripts/robustness.py                       # market-adjusted + clustered significance checks
 python -m pytest                  # run the tests
 ```
 
@@ -102,10 +110,13 @@ src/earnings_bot/
   config.py      risk limits, strategy parameters, settings from .env
   broker.py      Alpaca client factory + paper-only guard
   data/          prices, earnings, universe, calendar, timing quality checks
-  signals/       setup A, setup B                             (milestone 3)
-  backtest/      engine + metrics                             (milestone 3)
+  signals/       setup A (post-earnings drift), setup B (pre-earnings run-up)
+  backtest/      per-signal simulator, portfolio engine, metrics
+  risk.py        position sizing + limit checks (shared with the live loop)
+  indicators.py  EMA, ATR, dollar volume (causal)
 scripts/         command-line entry points
 docs/sanity/     committed data sanity reports
+docs/backtest/   backtest results: summary, robustness, trade lists, equity curves
 tests/           pytest suite
 data/ plans/ journal/ reports/   runtime output (gitignored)
 ```
