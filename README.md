@@ -9,7 +9,7 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 | Milestone | State |
 |---|---|
 | 1. Setup: repo, environment, Alpaca paper connection, live-endpoint guard | done |
-| 2. Data: price + earnings fetchers with caching | not started |
+| 2. Data: price + earnings fetchers with caching, NVDA sanity report | done (earnings backfill ongoing, 25 symbols/day) |
 | 3. Backtest: setups A and B with variants vs SPY | not started |
 | 4. Paper loop: plan → submit → reconcile, journal, daily report | not started |
 | 5. Review after 6–8 weeks of paper trading | not started |
@@ -20,6 +20,27 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 - **Setup B, pre-earnings run-up:** buy 7 trading days before a confirmed report when the stock is in an uptrend; always flat before the report.
 
 All parameters live in [`src/earnings_bot/config.py`](src/earnings_bot/config.py).
+
+## Data
+
+| What | Source | Why | Cache |
+|---|---|---|---|
+| Daily bars | Alpaca, **SIP** feed, split + dividend adjusted, 2016 onwards | The free plan allows historical consolidated bars. IEX-only volume is ~3% of consolidated, which would break the volume filters. | `data/prices/<SYM>.parquet` |
+| Earnings history (backtest) | Alpha Vantage `EARNINGS` | Full quarterly history with reported/estimated EPS and pre-/post-market timing. 25 requests/day, so raw JSON is cached forever and a local daily budget is enforced. No revenue data. | `data/raw/alphavantage/`, `data/earnings/history.parquet` |
+| Earnings calendar (live) | Finnhub `calendar/earnings` | Forward dates, bmo/amc, EPS **and revenue** estimates/actuals. Free tier only looks back ~1 month and caps a response at 1,500 rows, so it's fetched day by day. | `data/raw/finnhub/` |
+| Universe + sectors | Wikipedia S&P 500 list (+ historical changes page) | Today's constituents and GICS sectors (for the 2-per-sector limit). | `data/universe/` |
+| Trading calendar | Alpaca market calendar | Holidays and half days for the day-1 rule. | `data/calendar/` |
+
+**Day 1 rule:** before-open report → same session; after-close → next session; weekend/holiday dates roll forward; during-market or unknown timing → flagged, never guessed. Tested in [`tests/test_timing.py`](tests/test_timing.py).
+
+**Known data issues**
+
+- *Alpha Vantage timing labels are wrong on older rows.* NVDA always reports after the close, but every report before Nov 2014 is labelled "pre-market" (apparently a default). [`quality.py`](src/earnings_bot/data/quality.py) checks each label against where the volume spike landed; backtest rows that disagree are excluded and counted, not relabelled (relabelling from the volume would use the outcome to choose the entry day).
+- *Finnhub often has no timing for upcoming reports* (~70% of next-3-weeks rows are blank, including large caps such as WMT and TGT). The live loop has to handle this; see milestone 4.
+- *Survivorship bias:* the universe is today's S&P 500. 109 names were removed from the index between Jan 2021 and Nov 2026 (~22% of it), and the backtest can't see any of them. Removed names skew towards decliners and acquired companies, so results on today's list are likely flattered; treat any edge as an upper bound.
+- *No revenue history:* the "revenue also beat" condition can only be applied in the live loop (Finnhub), not in the backtest.
+
+Sanity check: [`docs/sanity/NVDA.md`](docs/sanity/NVDA.md). The volume spike lands on the computed day 1 for 8 of 8 recent reports.
 
 ## Setup
 
@@ -51,6 +72,8 @@ Fill in your Alpaca **paper** API key and secret. `.env` is gitignored and the k
 
 ```bash
 python scripts/check_account.py   # connect to paper account, print equity and risk limits
+python scripts/update_data.py --earnings-backfill   # refresh prices/universe, spend today's AV budget
+python scripts/sanity_report.py NVDA               # last 8 reports with timing + day-1 reaction
 python -m pytest                  # run the tests
 ```
 
@@ -67,10 +90,11 @@ python -m pytest                  # run the tests
 src/earnings_bot/
   config.py      risk limits, strategy parameters, settings from .env
   broker.py      Alpaca client factory + paper-only guard
-  data/          price + earnings fetchers with caching       (milestone 2)
+  data/          prices, earnings, universe, calendar, timing quality checks
   signals/       setup A, setup B                             (milestone 3)
   backtest/      engine + metrics                             (milestone 3)
 scripts/         command-line entry points
+docs/sanity/     committed data sanity reports
 tests/           pytest suite
 data/ plans/ journal/ reports/   runtime output (gitignored)
 ```

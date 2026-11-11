@@ -17,6 +17,8 @@ dependencies = [
     "pyarrow",
     "matplotlib",
     "requests",
+    "lxml",
+    "tabulate",
 ]
 
 [project.optional-dependencies]
