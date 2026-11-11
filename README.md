@@ -1,6 +1,6 @@
 # Earnings Bot
 
-A rules-based **earnings-play** strategy for US stocks, backtested on daily data and then run on an **Alpaca paper account** (~$13k). The goal is to find out, honestly, whether post-earnings drift or pre-earnings run-up setups make money after costs before any real money is involved.
+A rules-based **earnings-play** strategy for US stocks, backtested on daily data and then run on an **Alpaca paper account** (~$10k). The goal is to find out, honestly, whether post-earnings drift or pre-earnings run-up setups make money after costs before any real money is involved.
 
 > **Paper trading only.** The code refuses to start against Alpaca's live endpoint (see [Safety](#safety)).
 

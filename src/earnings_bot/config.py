@@ -1,7 +1,7 @@
 """All risk limits, strategy parameters and environment settings in one place.
 
 Risk limits are expressed as fractions of *current* account equity, so they scale
-automatically with the ~$13k paper account (not Alpaca's default $100k).
+automatically with the ~$10k paper account (not Alpaca's default $100k).
 """
 
 from __future__ import annotations
@@ -19,7 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 # --------------------------------------------------------------------------- #
 # Approximate starting equity of the paper account. Used only for reporting
 # (return since start, sanity check on connect). Sizing always uses live equity.
-EXPECTED_STARTING_EQUITY = 13_000.0
+EXPECTED_STARTING_EQUITY = 10_000.0
 
 
 # --------------------------------------------------------------------------- #
