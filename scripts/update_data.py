@@ -2,7 +2,8 @@
 
 Examples:
     python scripts/update_data.py                      # calendar + universe + prices (S&P 500 + SPY)
-    python scripts/update_data.py --earnings-backfill  # also spend today's Alpha Vantage budget
+    python scripts/update_data.py --yahoo-backfill     # earnings history from Yahoo (all symbols, ~15 min first time)
+    python scripts/update_data.py --earnings-backfill  # also spend today's Alpha Vantage budget (cross-check)
     python scripts/update_data.py --symbols NVDA SPY   # just these symbols
     python scripts/update_data.py --finnhub-weeks 6    # forward/recent earnings calendar
 """
@@ -18,7 +19,7 @@ from datetime import date, timedelta
 
 from earnings_bot.broker import make_trading_client
 from earnings_bot.config import load_settings
-from earnings_bot.data import calendar, earnings, prices, universe
+from earnings_bot.data import calendar, earnings, history, prices, universe, yahoo
 
 BENCHMARK = "SPY"
 
@@ -27,6 +28,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--symbols", nargs="*", help="default: S&P 500 + SPY")
     ap.add_argument("--skip-prices", action="store_true")
+    ap.add_argument("--yahoo-backfill", action="store_true", help="fetch missing/stale Yahoo earnings histories")
     ap.add_argument("--earnings-backfill", action="store_true", help="fetch uncached AV histories (25/day)")
     ap.add_argument("--finnhub-weeks", type=int, default=0, help="fetch Finnhub calendar +/- N weeks")
     args = ap.parse_args()
@@ -61,8 +63,22 @@ def main() -> int:
             f"Alpha Vantage: fetched {sum(v == 'fetched' for v in status.values())} today, "
             f"{cached}/{len(targets)} symbols cached, {budget.remaining()} calls left today"
         )
-        hist = earnings.build_history()
-        print(f"Earnings history: {len(hist)} reports, {hist.symbol.nunique()} symbols")
+
+    if args.yahoo_backfill:
+        targets = [s for s in symbols if s != BENCHMARK]
+        status = yahoo.backfill_yahoo(targets)
+        counts = Counter(v.split(":")[0] for v in status.values())
+        print(f"Yahoo: {dict(counts)}")
+        for sym, v in status.items():
+            if v.startswith(("error", "no data")):
+                print(f"  {sym}: {v}")
+
+    if args.yahoo_backfill or args.earnings_backfill:
+        hist = history.build_history()
+        print(
+            f"Earnings history: {len(hist)} reports, {hist.symbol.nunique()} symbols; "
+            f"timing: {hist.timing_source.value_counts().to_dict()}"
+        )
 
     if args.finnhub_weeks:
         if not settings.finnhub_api_key:

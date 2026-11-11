@@ -19,6 +19,7 @@ dependencies = [
     "requests",
     "lxml",
     "tabulate",
+    "yfinance",
 ]
 
 [project.optional-dependencies]

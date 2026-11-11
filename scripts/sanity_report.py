@@ -11,14 +11,14 @@ from __future__ import annotations
 
 import argparse
 import sys
-from datetime import date, timedelta
+from datetime import date
 
 import numpy as np
 import pandas as pd
 
 from earnings_bot.broker import make_trading_client
 from earnings_bot.config import PROJECT_ROOT, load_settings
-from earnings_bot.data import calendar, earnings, prices, quality
+from earnings_bot.data import calendar, earnings, history, prices, quality, yahoo
 
 
 def day_stats(px: pd.DataFrame, day: pd.Timestamp) -> dict:
@@ -49,29 +49,27 @@ def main() -> int:
     prices.update_prices(prices.make_data_client(settings), [sym])
     px = prices.load_prices(sym)
 
-    raw = earnings.fetch_av_earnings(sym, settings.alphavantage_api_key, earnings.AlphaVantageBudget())
-    hist = earnings.normalize_av(sym, raw)
+    av = earnings.normalize_av(
+        sym, earnings.fetch_av_earnings(sym, settings.alphavantage_api_key, earnings.AlphaVantageBudget())
+    )
+    yh = yahoo.normalize_yahoo(sym, yahoo.fetch_yahoo(sym))
+    hist = history.combine(yh, av)
     hist = hist.sort_values("report_date")
     hist = hist[hist.report_date <= pd.Timestamp(px.index.max())].tail(args.n).iloc[::-1]
-
-    # Finnhub cross-check for whichever recent reports its free tier still covers.
-    fh = earnings.fetch_finnhub_calendar(
-        date.today() - timedelta(days=100), date.today(), settings.finnhub_api_key
-    )
-    fh = fh[fh.symbol == sym].set_index("report_date")
 
     rows = []
     for r in hist.itertuples():
         d1 = calendar.day1_session(r.report_date, r.report_time, sessions)
         prev = calendar.previous_session(d1, sessions) if d1 is not None else None
         s1, s0 = (day_stats(px, d1) if d1 is not None else {}), (day_stats(px, prev) if prev is not None else {})
-        f = fh.loc[r.report_date] if r.report_date in fh.index else None
         chk = quality.check_one(r.report_date, r.report_time, px, sessions)
         rows.append(
             {
                 "report_date": r.report_date.date(),
                 "fiscal_q_end": r.fiscal_date_ending.date(),
                 "timing": r.report_time,
+                "timing_source": r.timing_source,
+                "yahoo_time": r.yahoo_report_time,
                 "day1": d1.date() if d1 is not None else "FLAGGED",
                 "eps_est": r.eps_estimate,
                 "eps_act": r.eps_actual,
@@ -82,7 +80,6 @@ def main() -> int:
                 "day1_vol_x20d": s1.get("vol_x"),
                 "prev_day_vol_x20d": s0.get("vol_x"),
                 "timing_check": chk["timing_check"],
-                "finnhub": "-" if f is None else f"{f.report_time}, eps {f.eps_actual} vs {f.eps_estimate}",
             }
         )
     df = pd.DataFrame(rows)
@@ -92,9 +89,10 @@ def main() -> int:
     md = [
         f"# Earnings sanity report: {sym}",
         "",
-        f"Generated {date.today()} from Alpha Vantage `EARNINGS` (dates, timing, EPS), "
-        "Alpaca SIP daily bars (split/dividend adjusted), and the Finnhub calendar as a cross-check.",
+        f"Generated {date.today()} from Yahoo Finance earnings dates (primary: EPS, announcement time) "
+        "reconciled with Alpha Vantage `EARNINGS`, plus Alpaca SIP daily bars (split/dividend adjusted).",
         "",
+        "- `timing_source`: `agree` = Yahoo and Alpha Vantage give the same before/after-close timing.",
         "- `day1` = first session after an after-close (amc) report, or the same session for a before-open (bmo) report.",
         "- `day1_vol_x20d` = day-1 volume / average of the prior 20 sessions; `prev_day_vol_x20d` is the same for the session before day 1.",
         "  If timing is right, the spike is on day 1, not the day before.",

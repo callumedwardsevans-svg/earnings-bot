@@ -9,7 +9,7 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 | Milestone | State |
 |---|---|
 | 1. Setup: repo, environment, Alpaca paper connection, live-endpoint guard | done |
-| 2. Data: price + earnings fetchers with caching, NVDA sanity report | done (earnings backfill ongoing, 25 symbols/day) |
+| 2. Data: price + earnings fetchers with caching, NVDA sanity report | done |
 | 3. Backtest: setups A and B with variants vs SPY | not started |
 | 4. Paper loop: plan → submit → reconcile, journal, daily report | not started |
 | 5. Review after 6–8 weeks of paper trading | not started |
@@ -26,7 +26,9 @@ All parameters live in [`src/earnings_bot/config.py`](src/earnings_bot/config.py
 | What | Source | Why | Cache |
 |---|---|---|---|
 | Daily bars | Alpaca, **SIP** feed, split + dividend adjusted, 2016 onwards | The free plan allows historical consolidated bars. IEX-only volume is ~3% of consolidated, which would break the volume filters. | `data/prices/<SYM>.parquet` |
-| Earnings history (backtest) | Alpha Vantage `EARNINGS` | Full quarterly history with reported/estimated EPS and pre-/post-market timing. 25 requests/day, so raw JSON is cached forever and a local daily budget is enforced. No revenue data. | `data/raw/alphavantage/`, `data/earnings/history.parquet` |
+| Earnings history (backtest, primary) | Yahoo Finance via `yfinance` | ~100 quarters per symbol with EPS estimate/actual and the announcement **timestamp**, so before/after-close timing comes from a time of day, not a label. No daily cap. Unofficial and can break or throttle; research use only, never committed, and the live loop doesn't depend on it. | `data/raw/yahoo/` |
+| Earnings history (cross-check) | Alpha Vantage `EARNINGS` | Independent second source for dates and timing. Free key is 25 requests/day, so it fills in over ~20 days via the daily task; raw JSON cached forever with a local budget. | `data/raw/alphavantage/` |
+| Combined history | Yahoo + AV, reconciled | See [`history.py`](src/earnings_bot/data/history.py): timing used where the sources agree or only one knows; bmo-vs-amc **conflicts are skipped and counted**. | `data/earnings/history.parquet` |
 | Earnings calendar (live) | Finnhub `calendar/earnings` | Forward dates, bmo/amc, EPS **and revenue** estimates/actuals. Free tier only looks back ~1 month and caps a response at 1,500 rows, so it's fetched day by day. | `data/raw/finnhub/` |
 | Universe + sectors | Wikipedia S&P 500 list (+ historical changes page) | Today's constituents and GICS sectors (for the 2-per-sector limit). | `data/universe/` |
 | Trading calendar | Alpaca market calendar | Holidays and half days for the day-1 rule. | `data/calendar/` |
@@ -35,7 +37,8 @@ All parameters live in [`src/earnings_bot/config.py`](src/earnings_bot/config.py
 
 **Known data issues**
 
-- *Alpha Vantage timing labels are wrong on older rows.* NVDA always reports after the close, but every report before Nov 2014 is labelled "pre-market" (apparently a default). [`quality.py`](src/earnings_bot/data/quality.py) checks each label against where the volume spike landed; backtest rows that disagree are excluded and counted, not relabelled (relabelling from the volume would use the outcome to choose the entry day).
+- *Alpha Vantage timing labels are wrong on older rows.* NVDA always reports after the close, but every report before Nov 2014 is labelled "pre-market" (apparently a default). That's why Yahoo's timestamps are primary and AV is the cross-check.
+- *A volume-spike timing check is too noisy to filter on.* [`quality.py`](src/earnings_bot/data/quality.py) compares each label with the day the volume spike landed. On 29 reports it flagged, Yahoo and AV agreed with each other 26 times, so the check stays a diagnostic. It's also never used to pick day 1, because that would use the outcome to choose the entry.
 - *Finnhub often has no timing for upcoming reports* (~70% of next-3-weeks rows are blank, including large caps such as WMT and TGT). The live loop has to handle this; see milestone 4.
 - *Survivorship bias:* the universe is today's S&P 500. 109 names were removed from the index between Jan 2021 and Nov 2026 (~22% of it), and the backtest can't see any of them. Removed names skew towards decliners and acquired companies, so results on today's list are likely flattered; treat any edge as an upper bound.
 - *No revenue history:* the "revenue also beat" condition can only be applied in the live loop (Finnhub), not in the backtest.

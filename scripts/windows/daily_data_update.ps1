@@ -1,6 +1,6 @@
 # Daily data refresh for Windows Task Scheduler.
-# Updates prices + universe and spends the day's Alpha Vantage budget (25 calls) on
-# symbols whose earnings history isn't cached yet. Output is appended to logs/.
+# Updates prices + universe, refreshes Yahoo earnings histories older than 30 days, and
+# spends the day's Alpha Vantage budget (25 calls, cross-check source) on uncached symbols. Output is appended to logs/.
 # Keys are read from .env by the Python code and are never written to the log.
 
 $Root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -13,7 +13,7 @@ $env:PYTHONIOENCODING = "utf-8"
 Set-Location $Root
 Add-Content -Encoding utf8 $Log "===== $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') start ====="
 # cmd does the redirection: PowerShell 5.1 would turn Python's stderr logging into error records.
-cmd /c "`"$Python`" scripts\update_data.py --earnings-backfill >> `"$Log`" 2>&1"
+cmd /c "`"$Python`" scripts\update_data.py --yahoo-backfill --earnings-backfill >> `"$Log`" 2>&1"
 $code = $LASTEXITCODE
 Add-Content -Encoding utf8 $Log "===== $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') exit $code ====="
 exit $code

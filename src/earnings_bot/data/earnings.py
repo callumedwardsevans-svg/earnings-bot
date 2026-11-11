@@ -30,12 +30,10 @@ import pandas as pd
 import requests
 
 from earnings_bot.data.cache import (
-    EARNINGS_DIR,
     RAW_DIR,
     age_hours,
     read_json,
     write_json,
-    write_parquet,
 )
 
 log = logging.getLogger(__name__)
@@ -227,17 +225,15 @@ def backfill_av(symbols: list[str], api_key: str, budget: AlphaVantageBudget | N
     return status
 
 
-def build_history(symbols: list[str] | None = None) -> pd.DataFrame:
-    """Combine every cached AV response into ``data/earnings/history.parquet``."""
+def load_av_history(symbols: list[str] | None = None) -> pd.DataFrame:
+    """Every cached AV response, normalised (no API calls)."""
     frames = []
     for path in sorted(AV_DIR.glob("EARNINGS_*.json")):
         sym = path.stem.removeprefix("EARNINGS_").replace("-", ".")
         if symbols is None or sym in symbols:
             frames.append(normalize_av(sym, read_json(path)))
     df = pd.concat(frames, ignore_index=True) if frames else _frame([])
-    df = df.sort_values(["symbol", "report_date"]).reset_index(drop=True)
-    write_parquet(df, EARNINGS_DIR / "history.parquet")
-    return df
+    return df.sort_values(["symbol", "report_date"]).reset_index(drop=True)
 
 
 # --------------------------------------------------------------------------- #
