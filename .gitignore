@@ -1,0 +1,40 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Kill switch file (local only) ---
+/STOP
+
+# --- Runtime output: keep folders, ignore contents ---
+/data/*
+!/data/.gitkeep
+/plans/*
+!/plans/.gitkeep
+/journal/*
+!/journal/.gitkeep
+/reports/*
+!/reports/.gitkeep
+/logs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

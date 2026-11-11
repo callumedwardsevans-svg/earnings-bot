@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "earnings-bot"
+version = "0.1.0"
+description = "Rules-based earnings-play strategy: backtest and Alpaca paper trading."
+readme = "README.md"
+requires-python = ">=3.12"
+# Pinned versions live in requirements.txt; these are the direct dependencies.
+dependencies = [
+    "alpaca-py",
+    "python-dotenv",
+    "pandas",
+    "numpy",
+    "pyarrow",
+    "matplotlib",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

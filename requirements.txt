@@ -1,0 +1,14 @@
+# Pinned direct dependencies (Python 3.12). Used by GitHub Actions / any plain-pip setup:
+#   pip install -r requirements.txt
+# Update after installing anything new in the conda env:
+#   python -m pip freeze | grep -iE '^(<package>)=='
+alpaca-py==0.45.0
+python-dotenv==1.2.4
+pandas==3.1.1
+numpy==2.5.4
+pyarrow==26.0.1
+matplotlib==3.11.2
+requests==2.34.2
+pytest==9.2.0
+# Install this project itself (src/earnings_bot) in editable mode
+-e .
