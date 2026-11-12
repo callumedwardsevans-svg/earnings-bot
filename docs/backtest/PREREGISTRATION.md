@@ -30,3 +30,27 @@ Signal-level expectancy (R), market-adjusted expectancy, and the $10k portfolio 
 only. The in-sample market-adjusted expectancy was +0.027R (weekly-clustered t ≈ 0.9). With about
 one year of signals (~100), the held-out check can't confirm a small edge; it can only reveal a
 broken one (for example, a large negative expectancy).
+
+---
+
+# Addendum (2026-11-12): out-of-sample test on 2002-2015
+
+Written **before** any 2002-2015 prices were downloaded or any results seen.
+
+- **Configuration: unchanged.** `A:ema+fixed`, no regime filter, every parameter as above. Same
+  costs (5 bps per fill), $10k start, same risk limits, whole shares.
+- **Period:** signals with day 1 from 2002-01-01 to 2015-12-31. This data has never been used in
+  this project (earlier backtests start in April 2016).
+- **Data:** Yahoo daily prices (split- and dividend-adjusted) for today's S&P 500 names plus SPY,
+  because Alpaca's history starts in 2016. Earnings dates and timing come from the existing
+  Yahoo + Alpha Vantage history. Survivorship bias is larger this far back (today's index list), which
+  flatters results.
+- **Primary measure:** signal-level **market-adjusted** expectancy (R minus SPY's move over the
+  same holding window), with weekly-clustered t-stat.
+- **Decision rule:**
+  - market-adjusted expectancy > 0 with clustered t >= 2 → evidence of a real (stock-specific)
+    edge; worth keeping A as a candidate strategy, not just a pipeline test;
+  - otherwise → A is settled as market exposure. Paper trading A continues only as an
+    execution/pipeline test, and research moves on (next: ETF momentum rotation).
+- Also reported, not used for the decision: raw expectancy, the $10k portfolio vs SPY, the
+  "already in the S&P 500 on the signal date" robustness run, and results by year.
