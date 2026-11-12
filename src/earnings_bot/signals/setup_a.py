@@ -37,7 +37,12 @@ def generate(
     regime: pd.Series | None = None,
     p: SetupAParams = SETUP_A,
     u: UniverseParams = UNIVERSE,
+    rejected: list | None = None,
+    require_entry_bar: bool = True,
 ) -> tuple[pd.DataFrame, OrderedDict]:
+    """``rejected``: if a list is passed, a dict with the reason is appended for every report
+    that fails a check (the live loop logs these). ``require_entry_bar=False`` is for live
+    planning, where the day-2 bar doesn't exist yet."""
     variant = f"{'ema' if ema_filter else 'noema'}+{'trail' if trailing else 'fixed'}"
     meta = universe.set_index("symbol")
     funnel = OrderedDict((k, 0) for k in [
@@ -50,46 +55,61 @@ def generate(
     rows = []
     t0, t1 = pd.Timestamp(start), pd.Timestamp(end)
 
+    def reject(r, reason, **detail):
+        if rejected is not None:
+            rejected.append({"symbol": r.symbol, "report_date": r.report_date, "reason": reason, **detail})
+
     for r, nxt in zip(hist.itertuples(), next_report):
         if not (t0 <= r.report_date <= t1) or r.symbol not in meta.index:
             continue
         funnel["reports in period"] += 1
         d1 = day1_session(r.report_date, r.report_time, sessions)
         if d1 is None:
+            reject(r, f"report timing not usable ({r.report_time})")
             continue
         funnel["timing known (bmo/amc)"] += 1
         df = px.get(r.symbol)
         if df is None or d1 not in df.index or d1 > t1:
+            reject(r, "no price bar for day 1")
             continue
         b = df.loc[d1]
         if not np.isfinite(b.prev_close) or not np.isfinite(b.atr):
+            reject(r, "not enough price history")
             continue
         funnel["price data on day 1"] += 1
         if not (r.surprise_pct >= p.min_eps_surprise_pct):
+            reject(r, f"EPS surprise {r.surprise_pct:.1f}% < {p.min_eps_surprise_pct:g}%")
             continue
         funnel[f"EPS surprise >= {p.min_eps_surprise_pct:g}%"] += 1
         gap = (b.open / b.prev_close - 1) * 100
         if gap < p.min_gap_pct:
+            reject(r, f"gap {gap:.1f}% < {p.min_gap_pct:g}%")
             continue
         funnel[f"gap >= {p.min_gap_pct:g}%"] += 1
         rng = b.high - b.low
         if rng <= 0 or (b.close - b.low) / rng < p.min_close_in_range:
+            reject(r, "day-1 close in lower half of range")
             continue
         funnel["close in upper half"] += 1
         if not (b.volume >= p.min_volume_multiple * b.vol_avg_prior):
+            reject(r, f"volume {b.volume / b.vol_avg_prior:.1f}x avg < {p.min_volume_multiple:g}x")
             continue
         funnel[f"volume >= {p.min_volume_multiple:g}x avg"] += 1
         if not (b.close > u.min_price and b.adv > u.min_avg_dollar_volume):
+            reject(r, "not liquid enough (price or 20-day dollar volume)")
             continue
         funnel["liquid (price > $10, ADV > $50m)"] += 1
         if ema_filter and not (b.close > b.ema):
+            reject(r, "close below 50 EMA")
             continue
         funnel["above 50 EMA" if ema_filter else "EMA filter off"] += 1
         if regime is not None and not regime.get(d1, False):  # SPY trend at the day-1 close
+            reject(r, "market regime off")
             continue
         funnel["market regime on" if regime is not None else "no market regime filter"] += 1
         d2 = next_session(d1, sessions, inclusive=False)
-        if d2 is None or d2 not in df.index:
+        if d2 is None or (require_entry_bar and d2 not in df.index):
+            reject(r, "no next session")
             continue
         funnel["next session exists"] += 1
 

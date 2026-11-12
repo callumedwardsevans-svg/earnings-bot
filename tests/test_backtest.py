@@ -133,3 +133,11 @@ def test_r_multiple_uses_planned_risk_when_fill_is_below_limit():
     df = bars({DAYS[1]: {"open": 96.5, "low": 96.2, "high": 97}, DAYS[2]: {"high": 120}})
     out = simulate(cand(target=110.0), df, END, slip=0)
     assert out["r_multiple"] == pytest.approx((110 - 96.5) / 4.5)  # 3.0R, not 27R
+
+
+def test_live_rule_scheduled_exits_at_open():
+    df = bars({DAYS[21]: {"open": 103.0, "close": 99.0}})
+    out = simulate(cand(), df, END, slip=0, scheduled_exit_at="open")
+    assert out["exit_date"] == DAYS[21] and out["exit_price"] == 103.0 and out["exit_reason"] == "time exit"
+    out2 = simulate(cand(exit_by=DAYS[5]), bars({DAYS[5]: {"open": 101.0}}), END, slip=0, scheduled_exit_at="open")
+    assert out2["exit_reason"] == "flat before report" and out2["exit_price"] == 101.0

@@ -32,8 +32,13 @@ SLIP = SLIPPAGE_BPS / 10_000
 
 def simulate(c, df: pd.DataFrame, end: pd.Timestamp, slip: float = SLIP,
              trail_activate_r: float = SETUP_A.trail_activate_r,
-             trail_atr_mult: float = SETUP_A.trail_atr_multiple) -> dict:
-    """Simulate one candidate (a row/namedtuple with CANDIDATE_COLUMNS) on its symbol's bars."""
+             trail_atr_mult: float = SETUP_A.trail_atr_multiple,
+             scheduled_exit_at: str = "close") -> dict:
+    """Simulate one candidate (a row/namedtuple with CANDIDATE_COLUMNS) on its symbol's bars.
+
+    ``scheduled_exit_at``: "close" (backtest default: time / pre-report exits at that
+    session's close) or "open" (the live loop's rule: a market-on-open sell that day).
+    """
     out = {"filled": False, "fill_reason": "", "entry_price": np.nan, "exit_date": pd.NaT,
            "exit_price": np.nan, "exit_reason": "", "r_multiple": np.nan, "initial_risk": np.nan}
     if c.entry_date not in df.index:
@@ -76,7 +81,12 @@ def simulate(c, df: pd.DataFrame, end: pd.Timestamp, slip: float = SLIP,
     while exit_price is None and j <= last:
         b = df.iloc[j]
         d = df.index[j]
-        if b.low <= stop:
+        due = (exit_by is not None and d >= exit_by) or (max_hold is not None and j - i0 >= max_hold)
+        if scheduled_exit_at == "open" and due and j > i0:
+            # live rule: scheduled exits are market-on-open orders on the day they fall due
+            exit_price = b.open * (1 - slip)
+            reason = "flat before report" if exit_by is not None and d >= exit_by else "time exit"
+        elif b.low <= stop:
             exit_price, reason = min(b.open, stop) * (1 - slip), "trailing stop" if stop_moved else "stop"
         elif pd.notna(target) and b.high >= target:
             exit_price, reason = max(b.open, target) * (1 - slip), "target"
@@ -103,7 +113,8 @@ def simulate(c, df: pd.DataFrame, end: pd.Timestamp, slip: float = SLIP,
     return out
 
 
-def simulate_all(candidates: pd.DataFrame, px: dict[str, pd.DataFrame], end) -> pd.DataFrame:
+def simulate_all(candidates: pd.DataFrame, px: dict[str, pd.DataFrame], end,
+                 scheduled_exit_at: str = "close") -> pd.DataFrame:
     end = pd.Timestamp(end)
-    res = [simulate(c, px[c.symbol], end) for c in candidates.itertuples()]
+    res = [simulate(c, px[c.symbol], end, scheduled_exit_at=scheduled_exit_at) for c in candidates.itertuples()]
     return pd.concat([candidates.reset_index(drop=True), pd.DataFrame(res)], axis=1)

@@ -12,7 +12,7 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 | 2. Data: price + earnings fetchers with caching, NVDA sanity report | done |
 | 3. Backtest: setups A and B with variants vs SPY | done, including the pre-registered held-out check. **[Findings](docs/backtest/FINDINGS.md)** |
 | 3b. Setup D: SPY/QQQ moving-average trend filter (and as a regime filter for A/B) | done: no regime filter adopted |
-| 4. Paper loop: plan → submit → reconcile, journal, daily report | not started |
+| 4. Paper loop: plan → submit → reconcile, journal, daily report | built and dry-run tested; **[runbook](docs/PAPER_TRADING.md)** |
 | 5. Review after 6–8 weeks of paper trading | not started |
 
 ## Headline result (in-sample, 2016-2025)
@@ -97,6 +97,8 @@ python scripts/robustness.py                       # market-adjusted + clustered
 python scripts/run_setup_d.py                      # Setup D trend filter vs buy-and-hold -> docs/backtest/setup_d
 python scripts/run_oos_2002.py                     # pre-registered 2002-2015 out-of-sample test for Setup A
 python scripts/oos_controls.py                     # survivorship control: Setup A vs every report in the same stocks
+python scripts/evening.py [--send]                 # paper loop, evening: reconcile -> plan -> daily report
+python scripts/submit_orders.py [--send]           # paper loop, morning: re-check plan, send bracket orders
 python -m pytest                  # run the tests
 ```
 
