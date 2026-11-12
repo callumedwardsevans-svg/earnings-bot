@@ -17,7 +17,7 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 
 ## Headline result (in-sample, 2016-2025)
 
-Setup A (post-earnings drift) earns about +0.2R per trade, but almost all of that is the market rising during the ~11-day hold: market-adjusted it's about +0.03R and not statistically different from zero. Setup B (pre-earnings run-up) shows no edge. Neither beats buying and holding SPY (CAGR ~5% vs 15%, though with a much smaller drawdown). The pre-registered held-out year (Nov 2025 to Nov 2026) gave -0.02R per signal, so no edge there either. Setup D (an SPY/QQQ moving-average trend filter) halved drawdowns over 1994-2024 but gave up ~6 points of CAGR a year since 2016, so it wasn't adopted as a regime filter. Full write-up, including overfitting caveats: [docs/backtest/FINDINGS.md](docs/backtest/FINDINGS.md).
+Setup A (post-earnings drift) earns about +0.2R per trade, but almost all of that is the market rising during the ~11-day hold: market-adjusted it's about +0.03R and not statistically different from zero. Setup B (pre-earnings run-up) shows no edge. Neither beats buying and holding SPY (CAGR ~5% vs 15%, though with a much smaller drawdown). The pre-registered held-out year (Nov 2025 to Nov 2026) gave -0.02R per signal, so no edge there either. **But** a pre-registered test on never-used 2002-2015 data found a real edge: +0.18R per trade over a no-filter control in the same stocks (t ≈ 3.5), so survivorship doesn't explain it. The effect looks to have faded since 2016 (about +0.07R, not significant), which fits research on post-earnings drift decaying in large caps. Setup D (an SPY/QQQ moving-average trend filter) halved drawdowns over 1994-2024 but gave up ~6 points of CAGR a year since 2016, so it wasn't adopted as a regime filter. Full write-up, including overfitting caveats: [docs/backtest/FINDINGS.md](docs/backtest/FINDINGS.md).
 
 ![Setup A vs SPY](docs/backtest/in_sample/equity_setup_A.png)
 
@@ -95,6 +95,8 @@ python scripts/sanity_report.py NVDA               # last 8 reports with timing 
 python scripts/run_backtest.py                     # in-sample backtest, all variants -> docs/backtest/in_sample
 python scripts/robustness.py                       # market-adjusted + clustered significance checks
 python scripts/run_setup_d.py                      # Setup D trend filter vs buy-and-hold -> docs/backtest/setup_d
+python scripts/run_oos_2002.py                     # pre-registered 2002-2015 out-of-sample test for Setup A
+python scripts/oos_controls.py                     # survivorship control: Setup A vs every report in the same stocks
 python -m pytest                  # run the tests
 ```
 

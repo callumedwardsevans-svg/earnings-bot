@@ -137,3 +137,61 @@ A, 50-EMA filter, fixed exit, no regime filter. Results: [holdout/summary.md](ho
   plan → submit → reconcile, bracket orders, journal and daily report. Expect results close to the
   market's drift on ~30% of capital, with a lot of noise. Judge it on whether live fills and exits
   match the backtest, not on P&L.
+
+---
+
+# Update (2026-11-12): out-of-sample test on 2002-2015
+
+Pre-registered (addendum in [PREREGISTRATION.md](PREREGISTRATION.md), committed before the data was
+downloaded). Same `A:ema+fixed` configuration, never-used data from 2002-2015, Yahoo prices.
+Details: [oos_2002_2015/summary.md](oos_2002_2015/summary.md) and
+[oos_2002_2015/controls.md](oos_2002_2015/controls.md).
+
+## Pre-registered result: passes
+
+515 filled signals; market-adjusted expectancy **+0.125R, weekly-clustered t = 2.47**. Under the rule
+set in advance, that counts as evidence of a stock-specific edge, so A stays a candidate strategy.
+(Data check: the timing labels match the volume spike about as well as in 2016-2025, 66% vs 73%
+agree and 9% vs 7% disagree, so the test isn't distorted by bad day-1 dates.)
+
+## Post-hoc control (not pre-registered, but needed to read the result)
+
+Today's S&P 500 names are survivors, so anything bought in them might beat SPY. The control enters
+**every** report in the same stocks with the same entry/stop/target/time-exit machinery, but none of
+the PEAD filters:
+
+| Market-adjusted R per trade | 2002-2015 | 2016-2025 |
+|---|---|---|
+| Setup A (ema+fixed) | +0.125 (t 2.5) | +0.027 (t 0.9) |
+| Control: all reports, no filters | -0.058 | -0.038 |
+| **Setup A minus control** | **+0.18R (t ≈ 3.5)** | **+0.07R (t ≈ 1.6)** |
+| Setup A, only stocks already in the index | +0.174 (t 2.8) | -0.029 (t -0.3) |
+
+What this shows:
+
+1. **Survivorship doesn't explain 2002-2015.** The control lost to SPY, so simply holding today's
+   survivors after earnings wasn't the source. The PEAD filters picked genuinely better trades, and
+   the effect is even stronger in stocks that were already index members.
+2. **It corrects the earlier reading of 2016-2025.** The trade machinery itself (tight stops, costs,
+   20-day cap) costs about -0.04 to -0.06R against SPY even with random entries. "Market-adjusted R ≈ 0"
+   therefore understated A slightly; measured against the control, A's recent edge is about +0.07R,
+   positive but not statistically significant.
+3. **The effect looks much weaker since 2016**: about a third of its 2002-2015 size, and the 2025-26
+   held-out year was negative. That fits academic work arguing post-earnings drift in large US stocks
+   has faded as it became widely known and traded (e.g. Martineau, *Rest in Peace Post-Earnings
+   Announcement Drift*). Decay, not a broken backtest, is the most likely explanation, but 2016-2025
+   alone can't tell decay apart from noise.
+
+$10k portfolio, 2002-2015: CAGR 2.5% vs SPY 6.2%, but Sharpe 0.46 vs 0.40 and max drawdown -14% vs
+-55%. It uses only ~17% of capital on average, because of the 0.75% risk rule, the 15% position cap
+and the small number of signals in the early years.
+
+## Revised bottom line
+
+- **Setup A has real historical evidence behind it** (2002-2015, robust to the survivorship control),
+  but its edge in large caps appears to have shrunk a lot recently. Paper trading A is now a genuine
+  (small) test of whether any edge remains, as well as a pipeline test. Fresh live data is the only
+  clean evidence left, since all historical held-out periods are used.
+- **Most promising research direction: the same PEAD rules on smaller caps** (S&P 400/600), where the
+  literature says the drift has persisted longer. This now ranks above ETF momentum rotation, because
+  this project has evidence the rules work when the effect is present.

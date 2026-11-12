@@ -10,6 +10,7 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
+from earnings_bot.backtest.metrics import clustered_t, market_adjust
 from earnings_bot.backtest.simulate import simulate_all
 from earnings_bot.config import BACKTEST_END, BACKTEST_START, HOLDOUT_START, PROJECT_ROOT, SETUP_A, SETUP_B
 from earnings_bot.data import calendar, history, prices, universe
@@ -21,9 +22,6 @@ RUNS = [("A", "ema+fixed", dict(ema_filter=True, trailing=False)), ("A", "noema+
         ("B", "ema", dict(ema_filter=True)), ("B", "noema", dict(ema_filter=False))]
 
 
-def clustered_t(r: pd.Series, dates: pd.Series) -> float:
-    weekly = r.groupby(dates.dt.to_period("W")).mean()
-    return float(weekly.mean() / (weekly.std(ddof=1) / np.sqrt(len(weekly))))
 
 
 def main():
@@ -49,13 +47,7 @@ def main():
         gen = setup_a.generate if setup == "A" else setup_b.generate
         cands, _ = gen(hist, px, sessions, uni, start, end, **kw)
         s = simulate_all(cands, px, end)
-        s = s[s.filled].copy()
-        # SPY over the same window: entry at the same price point (open for A, close for B) to exit close
-        spy_in = np.where(s.entry_type == "open_limit", spy.open.reindex(s.entry_date).values, spy.close.reindex(s.entry_date).values)
-        spy_out = spy.close.reindex(s.exit_date).values
-        risk_pct = s.initial_risk / s.entry_price
-        s["spy_r"] = (spy_out / spy_in - 1) / risk_pct
-        s["excess_r"] = s.r_multiple - s.spy_r
+        s = market_adjust(s[s.filled], spy)
         s["hold"] = [sessions.searchsorted(b) - sessions.searchsorted(a) for a, b in zip(s.entry_date, s.exit_date)]
         rows.append({"setup": setup, "variant": variant, "trades": len(s),
                      "avg hold (sessions)": round(s.hold.mean(), 1),

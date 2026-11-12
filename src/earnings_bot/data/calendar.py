@@ -21,7 +21,7 @@ from earnings_bot.data.cache import CALENDAR_DIR, read_parquet, write_parquet
 log = logging.getLogger(__name__)
 
 SESSIONS_PATH = CALENDAR_DIR / "nyse_sessions.parquet"
-CAL_START = date(2015, 1, 1)
+CAL_START = date(2000, 1, 1)
 
 
 def fetch_sessions(trading_client, start: date = CAL_START, end: date | None = None) -> pd.DataFrame:

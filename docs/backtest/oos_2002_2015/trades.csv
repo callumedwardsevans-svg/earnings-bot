@@ -1,0 +1,426 @@
+trade_id,setup,variant,ticker,signal_date,entry_date,entry_price,stop_price,target_price,shares,exit_date,exit_price,exit_reason,pnl_usd,r_multiple,eps_surprise_pct,gap_pct,notes
+A-ema+fixed-0001,A,ema+fixed,DIS,2002-02-01,2002-02-04,17.1538,16.6696,18.8844,87,2002-02-04,16.6612,stop,-42.85,-0.89,50.0,6.6,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0002,A,ema+fixed,NTAP,2002-02-13,2002-02-14,13.7717,12.9953,17.7868,62,2002-02-19,12.9888,stop,-48.53,-0.654,100.0,10.94,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0003,A,ema+fixed,MSI,2002-04-17,2002-04-18,40.6469,39.4668,49.3354,30,2002-04-18,39.4471,stop,-36.0,-0.486,35.63,5.33,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0004,A,ema+fixed,MCD,2002-04-18,2002-04-19,15.1959,14.9034,16.113,97,2002-04-25,14.8109,stop,-37.35,-1.273,6.9,4.38,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0006,A,ema+fixed,LOW,2002-05-20,2002-05-21,16.1932,15.968,17.0212,91,2002-05-21,15.96,stop,-21.22,-0.885,22.22,3.53,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0005,A,ema+fixed,CSCO,2002-05-08,2002-05-09,10.1986,9.6661,12.7753,94,2002-06-07,9.4798,stop,-67.57,-0.925,22.22,16.44,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0007,A,ema+fixed,AMGN,2002-07-25,2002-07-26,27.9054,26.8803,31.8851,51,2002-08-08,31.8691,target,202.15,3.168,11.76,9.49,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0008,A,ema+fixed,LOW,2002-08-19,2002-08-20,14.1636,13.3213,16.9453,82,2002-09-18,15.4643,time exit,106.66,1.436,11.11,7.37,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0009,A,ema+fixed,AZO,2002-09-25,2002-09-26,79.7062,74.99,93.6954,16,2002-10-24,84.9875,time exit,84.5,1.129,22.7,4.3,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0010,A,ema+fixed,ALL,2002-10-17,2002-10-18,22.2726,21.8319,24.1526,67,2002-10-29,21.821,stop,-30.25,-0.778,19.12,5.8,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0011,A,ema+fixed,CIEN,2002-12-12,2002-12-13,42.6513,41.15,51.018,30,2002-12-13,41.1294,stop,-45.66,-0.617,12.5,18.15,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0012,A,ema+fixed,LOW,2003-02-24,2003-02-25,13.0557,12.818,14.4903,114,2003-03-05,12.8116,stop,-27.83,-0.584,17.65,5.08,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0013,A,ema+fixed,ADBE,2003-03-14,2003-03-17,15.1512,14.8943,17.0364,97,2003-03-20,17.0279,target,182.04,3.504,18.18,6.17,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0014,A,ema+fixed,TXN,2003-04-16,2003-04-17,11.2852,10.9428,13.3912,125,2003-05-16,11.8634,time exit,72.27,0.945,16.67,5.11,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0015,A,ema+fixed,SNPS,2003-05-22,2003-05-23,29.1196,27.6965,35.3398,40,2003-06-23,30.8346,time exit,68.6,0.898,14.29,7.74,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0016,A,ema+fixed,INTC,2003-07-16,2003-07-17,14.1701,14.2276,15.6823,106,2003-07-17,14.156,stop,-1.5,-0.039,7.69,4.73,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0017,A,ema+fixed,CAT,2003-07-17,2003-07-18,18.357,17.5017,20.9528,84,2003-08-15,20.3968,time exit,171.34,2.364,72.73,3.79,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0018,A,ema+fixed,DD,2003-07-24,2003-07-25,30.7682,29.9774,33.6941,50,2003-08-22,31.2384,time exit,23.51,0.506,26.47,3.0,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0019,A,ema+fixed,HIG,2003-08-07,2003-08-08,32.4745,31.536,35.9476,48,2003-09-08,33.5608,time exit,52.14,0.985,6.78,3.47,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0021,A,ema+fixed,NTAP,2003-08-20,2003-08-21,15.2694,14.5215,17.729,99,2003-09-09,17.7201,target,242.62,3.056,14.29,11.8,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0020,A,ema+fixed,LOW,2003-08-18,2003-08-19,18.0798,17.4138,20.042,87,2003-09-12,17.405,stop,-58.71,-1.027,11.76,4.29,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0024,A,ema+fixed,CSCO,2003-11-06,2003-11-07,14.6397,14.4308,15.5042,110,2003-11-07,14.4236,stop,-23.77,-0.805,13.33,5.32,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0023,A,ema+fixed,CI,2003-10-31,2003-11-03,16.702,15.7872,19.6996,82,2003-11-18,15.7793,stop,-75.66,-0.943,23.08,8.71,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0025,A,ema+fixed,ADI,2003-11-19,2003-11-20,28.318,27.82,30.3215,56,2003-11-20,27.8061,stop,-28.67,-0.819,8.7,3.25,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0022,A,ema+fixed,BA,2003-10-29,2003-10-30,26.5381,25.4231,29.8299,61,2003-11-28,26.4215,time exit,-7.11,-0.106,23.08,3.36,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0026,A,ema+fixed,EBAY,2004-01-22,2004-01-23,12.8558,12.3643,14.6213,123,2004-01-28,12.3581,stop,-61.22,-0.882,9.09,4.33,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0029,A,ema+fixed,DE,2004-02-17,2004-02-18,21.8335,21.5521,23.0708,73,2004-02-20,21.5413,stop,-21.34,-0.77,30.77,4.83,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0027,A,ema+fixed,SLB,2004-01-23,2004-01-26,18.8274,18.0189,21.4778,84,2004-02-24,20.3176,time exit,125.18,1.723,19.05,3.45,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0028,A,ema+fixed,AKAM,2004-02-05,2004-02-06,14.3472,12.69,20.2201,42,2004-03-08,15.892,time exit,64.88,0.821,200.0,12.14,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0030,A,ema+fixed,ADBE,2004-03-19,2004-03-22,19.6594,19.2401,22.2748,80,2004-03-24,19.2155,stop,-35.51,-0.585,25.0,8.91,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0032,A,ema+fixed,FISV,2004-04-22,2004-04-23,9.8799,9.6821,12.0079,138,2004-04-23,9.6773,stop,-27.97,-0.349,9.09,6.67,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0033,A,ema+fixed,MSFT,2004-04-23,2004-04-26,16.8181,16.7323,17.5995,94,2004-04-26,16.7239,stop,-8.85,-0.434,17.24,5.59,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0031,A,ema+fixed,EBAY,2004-04-22,2004-04-23,15.1526,14.5884,17.8487,98,2004-05-10,14.542,stop,-59.83,-0.749,23.08,3.89,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0034,A,ema+fixed,MCK,2004-04-30,2004-05-03,27.6736,26.4815,32.4632,53,2004-06-01,29.1362,time exit,77.52,0.978,10.61,3.02,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0035,A,ema+fixed,NTAP,2004-08-18,2004-08-19,14.3488,13.3093,17.9016,69,2004-09-17,16.7649,time exit,166.71,2.105,8.33,6.33,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0036,A,ema+fixed,ADSK,2004-08-20,2004-08-23,21.0284,20.0743,24.1887,76,2004-09-17,24.1766,target,239.26,3.061,13.33,8.19,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0037,A,ema+fixed,ADBE,2004-09-21,2004-09-22,24.8458,24.6035,27.5261,65,2004-09-22,24.5912,stop,-16.55,-0.348,15.79,4.8,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0039,A,ema+fixed,GEN,2004-10-21,2004-10-22,10.5546,10.0545,12.6575,127,2004-10-29,10.0495,stop,-64.15,-0.776,10.53,4.74,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0038,A,ema+fixed,VRSN,2004-10-21,2004-10-22,21.5867,20.473,26.7915,52,2004-11-18,26.7781,target,269.95,3.286,18.75,11.36,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0040,A,ema+fixed,NTAP,2004-11-17,2004-11-18,21.2602,20.67,24.793,77,2004-12-02,24.7806,target,271.07,3.415,14.29,13.91,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0041,A,ema+fixed,ORCL,2004-12-13,2004-12-14,11.4446,10.9626,13.6371,129,2004-12-20,10.9571,stop,-62.88,-0.729,23.08,7.0,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0042,A,ema+fixed,INTC,2005-01-12,2005-01-13,13.3647,13.2093,14.1875,128,2005-01-13,13.2027,stop,-20.74,-0.662,6.45,3.02,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0043,A,ema+fixed,FFIV,2005-01-20,2005-01-21,25.2226,23.2343,32.3045,37,2005-01-28,23.2227,stop,-74.0,-0.882,18.18,5.5,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0046,A,ema+fixed,ZBH,2005-02-01,2005-02-02,74.7592,71.6237,85.5107,23,2005-02-10,71.5879,stop,-72.94,-0.913,10.94,6.53,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0044,A,ema+fixed,FLEX,2005-01-26,2005-01-27,10.4725,9.9146,12.4858,133,2005-02-23,9.9097,stop,-74.85,-0.876,5.26,6.52,timing amc (agree); size limited by risk
+A-ema+fixed-0045,A,ema+fixed,MCK,2005-01-28,2005-01-31,28.5914,27.5958,32.0926,59,2005-02-25,32.0765,target,205.62,3.1,11.36,6.79,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0047,A,ema+fixed,MSI,2005-04-21,2005-04-22,47.295,46.3711,50.9175,36,2005-04-25,46.3479,stop,-34.09,-0.833,13.24,6.1,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0048,A,ema+fixed,VRSN,2005-04-21,2005-04-22,24.1985,22.9837,28.848,58,2005-04-27,22.9723,stop,-71.12,-0.836,5.56,11.88,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0049,A,ema+fixed,HIG,2005-04-29,2005-05-02,45.574,43.9213,50.8975,37,2005-05-31,47.1163,time exit,57.07,0.884,6.63,5.09,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0051,A,ema+fixed,ORCL,2005-06-29,2005-06-30,10.7323,10.4558,11.7864,159,2005-06-30,10.4506,stop,-44.78,-0.847,13.04,4.99,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0050,A,ema+fixed,BBY,2005-06-14,2005-06-15,24.3255,23.3163,28.2254,69,2005-07-14,27.0444,time exit,187.6,2.215,70.0,9.86,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0055,A,ema+fixed,TXN,2005-07-26,2005-07-27,19.7286,19.2875,21.4068,87,2005-07-27,19.2778,stop,-39.21,-0.851,10.34,4.38,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0056,A,ema+fixed,GLW,2005-07-27,2005-07-28,12.4489,12.2034,13.8567,138,2005-07-28,12.1973,stop,-34.71,-0.609,11.11,3.3,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0057,A,ema+fixed,CI,2005-08-03,2005-08-04,33.6559,33.1104,38.3641,51,2005-08-05,33.0938,stop,-28.66,-0.428,26.92,4.24,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0052,A,ema+fixed,AMGN,2005-07-20,2005-07-21,53.5471,51.4986,63.2851,29,2005-08-18,53.0799,time exit,-13.55,-0.159,22.22,9.84,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0053,A,ema+fixed,EBAY,2005-07-21,2005-07-22,15.4626,14.7842,18.4623,94,2005-08-18,14.7768,stop,-64.46,-0.746,22.22,14.4,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0054,A,ema+fixed,QCOM,2005-07-21,2005-07-22,24.0429,23.1772,27.7456,71,2005-08-19,24.9302,time exit,63.0,0.777,12.0,3.88,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0059,A,ema+fixed,AMAT,2005-08-17,2005-08-18,13.1183,12.9496,14.2098,130,2005-08-26,12.9431,stop,-22.77,-0.556,7.14,4.19,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0060,A,ema+fixed,ADSK,2005-08-19,2005-08-22,40.2401,39.68,43.4082,42,2005-09-01,43.3865,target,132.15,3.376,20.83,4.22,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0058,A,ema+fixed,A,2005-08-15,2005-08-16,17.5714,17.4338,20.1641,95,2005-09-14,19.3835,time exit,172.15,2.655,7.69,12.46,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0061,A,ema+fixed,ADBE,2005-09-16,2005-09-19,29.2846,27.9932,34.329,55,2005-09-20,27.9792,stop,-71.8,-0.824,7.41,3.38,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0063,A,ema+fixed,MU,2005-09-30,2005-10-03,13.0386,12.4405,14.8069,135,2005-10-05,12.4343,stop,-81.58,-1.022,200.0,6.64,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0062,A,ema+fixed,FDX,2005-09-21,2005-09-22,53.3439,52.7005,57.6611,32,2005-10-20,57.71,target,139.71,3.521,6.84,6.87,timing bmo (agree); size limited by max position
+A-ema+fixed-0065,A,ema+fixed,NTAP,2005-11-17,2005-11-18,21.741,21.0278,23.837,81,2005-11-18,21.0173,stop,-58.62,-1.03,16.67,3.75,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0064,A,ema+fixed,FFIV,2005-10-26,2005-10-27,25.3327,23.79,31.4214,46,2005-11-25,27.1064,time exit,81.59,0.93,26.32,15.41,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0066,A,ema+fixed,MRVL,2005-11-18,2005-11-21,24.2101,22.7343,29.3638,53,2005-12-20,25.0747,time exit,45.83,0.522,5.88,6.38,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0067,A,ema+fixed,ADBE,2005-12-16,2005-12-19,38.5293,36.92,45.2964,42,2005-12-22,36.9015,stop,-68.36,-0.777,7.14,5.87,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0070,A,ema+fixed,ADM,2006-01-31,2006-02-01,18.3554,17.9364,22.0867,85,2006-02-01,17.9275,stop,-36.37,-0.412,21.43,3.69,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0069,A,ema+fixed,NUE,2006-01-27,2006-01-30,23.8876,22.8688,27.3739,73,2006-02-02,22.8573,stop,-75.21,-0.915,17.2,5.38,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0071,A,ema+fixed,RCL,2006-02-02,2006-02-03,34.0173,33.3999,37.1371,50,2006-02-08,33.3832,stop,-31.7,-0.679,91.3,4.43,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0068,A,ema+fixed,TXT,2006-01-26,2006-01-27,36.5401,36.4855,42.1463,46,2006-02-27,40.181,time exit,167.48,2.573,8.62,4.67,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0073,A,ema+fixed,LOW,2006-02-27,2006-02-28,24.1199,23.6097,26.2944,73,2006-03-01,23.5979,stop,-38.1,-0.778,10.0,4.24,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0074,A,ema+fixed,ADSK,2006-03-01,2006-03-02,41.5608,39.57,48.8436,38,2006-03-06,39.5502,stop,-76.4,-0.867,8.82,5.18,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0072,A,ema+fixed,AON,2006-02-10,2006-02-13,30.1625,29.0376,34.5912,57,2006-03-14,32.4747,time exit,131.79,1.665,19.64,4.64,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0075,A,ema+fixed,GS,2006-03-14,2006-03-15,106.6948,104.7043,117.8234,16,2006-04-10,117.7645,target,177.12,3.375,53.94,3.7,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0076,A,ema+fixed,FCX,2006-04-18,2006-04-19,22.632,21.7605,25.2012,79,2006-04-21,21.7496,stop,-69.71,-1.026,61.36,3.97,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0079,A,ema+fixed,AMT,2006-04-26,2006-04-27,24.6934,24.0538,26.657,72,2006-04-27,24.0418,stop,-46.91,-1.001,200.0,3.8,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0080,A,ema+fixed,ISRG,2006-04-28,2006-05-01,14.1888,13.2211,17.0633,92,2006-05-12,13.2145,stop,-89.63,-1.014,100.0,16.12,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0082,A,ema+fixed,CBRE,2006-05-03,2006-05-04,29.0512,28.2533,31.7798,61,2006-05-12,28.2392,stop,-49.53,-0.921,41.67,4.62,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0077,A,ema+fixed,STT,2006-04-18,2006-04-19,41.3884,40.4034,46.6743,42,2006-05-17,40.3832,stop,-42.22,-0.641,9.09,3.65,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0078,A,ema+fixed,ALL,2006-04-19,2006-04-20,33.5398,32.6952,36.0066,53,2006-05-18,34.4282,time exit,47.08,1.073,21.82,3.66,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0081,A,ema+fixed,ADM,2006-05-02,2006-05-03,25.207,23.7012,30.1778,54,2006-05-19,23.6894,stop,-81.95,-0.937,15.22,3.26,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0084,A,ema+fixed,LUV,2006-07-19,2006-07-20,14.3086,14.1984,16.0185,118,2006-08-09,14.1913,stop,-13.84,-0.258,26.92,5.46,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0087,A,ema+fixed,CSCO,2006-08-09,2006-08-10,12.5246,12.3486,13.7399,138,2006-08-10,12.3425,stop,-25.13,-0.524,7.14,12.26,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0083,A,ema+fixed,ILMN,2006-07-19,2006-07-20,18.0246,16.4491,23.1924,51,2006-08-16,16.4409,stop,-80.77,-0.939,175.0,18.68,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0085,A,ema+fixed,SPGI,2006-07-25,2006-07-26,36.2894,34.5076,41.5929,48,2006-08-23,37.2826,time exit,47.68,0.561,15.38,3.67,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0086,A,ema+fixed,AKAM,2006-07-27,2006-07-28,36.8484,34.97,43.1466,43,2006-08-25,37.8511,time exit,43.11,0.49,11.11,19.9,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0088,A,ema+fixed,ILMN,2006-10-18,2006-10-19,21.1925,20.4423,24.274,81,2006-10-20,20.4321,stop,-61.59,-0.794,100.0,18.78,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0090,A,ema+fixed,VRTX,2006-10-27,2006-10-30,40.2101,39.35,45.4032,42,2006-10-30,39.3303,stop,-36.95,-0.581,8.7,15.71,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0089,A,ema+fixed,TPR,2006-10-24,2006-10-25,25.1745,24.0749,28.823,68,2006-11-22,27.3343,time exit,146.87,1.819,9.68,4.54,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0091,A,ema+fixed,BIIB,2006-10-31,2006-11-01,47.6938,45.99,53.382,36,2006-11-30,52.2339,time exit,163.44,2.457,21.28,6.81,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0092,A,ema+fixed,NRG,2006-11-03,2006-11-06,19.4751,18.8316,22.3196,87,2006-12-05,21.6244,time exit,186.98,2.465,71.43,3.5,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0093,A,ema+fixed,EMR,2006-11-07,2006-11-08,25.4289,24.6671,28.2773,67,2006-12-07,25.2259,time exit,-13.6,-0.225,8.33,3.26,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0094,A,ema+fixed,DHI,2006-11-14,2006-11-15,18.9445,17.7271,22.9376,66,2006-12-14,20.5787,time exit,107.85,1.255,27.54,6.34,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0095,A,ema+fixed,CIEN,2006-12-14,2006-12-15,27.8839,26.62,32.0166,64,2007-01-18,28.4058,time exit,33.4,0.387,33.33,9.09,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0099,A,ema+fixed,ADM,2007-02-01,2007-02-02,21.6067,20.7757,24.0565,84,2007-02-06,20.7653,stop,-70.68,-1.026,11.67,7.22,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0100,A,ema+fixed,ISRG,2007-02-02,2007-02-05,12.902,12.6056,14.3406,139,2007-02-07,12.5993,stop,-42.08,-0.698,16.67,15.79,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0096,A,ema+fixed,GLW,2007-01-24,2007-01-25,13.7622,13.2185,15.3659,131,2007-02-23,14.1448,time exit,50.12,0.713,10.71,7.27,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0101,A,ema+fixed,DE,2007-02-14,2007-02-15,38.7481,37.2313,43.221,47,2007-02-27,37.2127,stop,-72.16,-1.025,30.0,5.67,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0097,A,ema+fixed,CHRW,2007-01-31,2007-02-01,33.8953,32.653,41.268,42,2007-03-01,32.6366,stop,-52.86,-0.584,5.13,8.3,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0098,A,ema+fixed,GILD,2007-02-01,2007-02-02,12.12,11.8497,13.5124,148,2007-03-01,11.8438,stop,-40.88,-0.664,17.65,8.6,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0102,A,ema+fixed,LH,2007-02-15,2007-02-16,65.2043,63.5324,71.3931,27,2007-03-01,60.3351,stop,-131.47,-2.478,18.06,4.78,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0103,A,ema+fixed,MS,2007-03-21,2007-03-22,43.6057,41.9615,50.4285,39,2007-03-29,41.9405,stop,-64.94,-0.787,24.35,3.07,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0104,A,ema+fixed,ORCL,2007-03-21,2007-03-22,14.2543,14.0552,15.6167,121,2007-04-20,15.0228,time exit,92.99,1.969,13.64,4.33,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0105,A,ema+fixed,ISRG,2007-04-20,2007-04-23,14.6484,14.2111,16.215,119,2007-05-01,14.204,stop,-52.89,-0.887,16.67,5.61,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0107,A,ema+fixed,HON,2007-04-20,2007-04-23,31.1993,30.5037,34.3369,56,2007-05-04,34.3198,target,174.75,3.256,7.32,4.57,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0106,A,ema+fixed,CAT,2007-04-20,2007-04-23,44.434,43.4979,47.1536,39,2007-05-15,47.13,target,105.15,2.95,13.89,4.97,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0109,A,ema+fixed,CBRE,2007-05-02,2007-05-03,38.6012,36.54,44.7078,43,2007-05-15,36.5217,stop,-89.42,-1.018,80.0,8.77,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0110,A,ema+fixed,INTU,2007-05-18,2007-05-21,27.0642,26.5359,30.8155,64,2007-05-24,26.5226,stop,-34.66,-0.506,5.61,10.1,timing amc (agree); size limited by max position
+A-ema+fixed-0108,A,ema+fixed,LH,2007-04-26,2007-04-27,64.3159,62.3105,71.6203,27,2007-05-25,64.0236,time exit,-7.89,-0.126,5.38,5.96,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0111,A,ema+fixed,HUM,2007-07-18,2007-07-19,58.5517,57.1913,67.1107,29,2007-07-24,57.1627,stop,-40.28,-0.56,9.4,6.11,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0113,A,ema+fixed,BA,2007-07-25,2007-07-26,77.2262,77.4105,81.4857,22,2007-07-26,77.149,stop,-1.7,-0.076,16.38,3.06,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0112,A,ema+fixed,MRK,2007-07-23,2007-07-24,25.6999,24.9876,27.7855,69,2007-07-27,24.9751,stop,-50.01,-1.036,13.89,5.14,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0114,A,ema+fixed,BBY,2007-09-18,2007-09-19,26.2052,25.0798,29.5289,67,2007-09-25,25.0499,stop,-77.41,-1.039,25.0,5.48,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0115,A,ema+fixed,KR,2007-09-18,2007-09-19,10.2278,9.8818,11.5206,171,2007-09-25,9.8768,stop,-60.01,-0.857,11.76,4.0,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0116,A,ema+fixed,STX,2007-10-17,2007-10-18,13.2392,12.9812,14.5485,130,2007-10-24,12.9747,stop,-34.39,-0.675,11.29,3.59,timing amc (agree); size limited by max position
+A-ema+fixed-0119,A,ema+fixed,HIG,2007-10-26,2007-10-29,64.4414,61.4432,76.3675,23,2007-11-02,61.4124,stop,-69.67,-0.812,35.37,3.23,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0120,A,ema+fixed,EQIX,2007-10-31,2007-11-01,85.2663,81.971,97.3628,20,2007-11-02,81.93,stop,-66.73,-0.867,433.33,13.13,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0117,A,ema+fixed,AXON,2007-10-24,2007-10-25,17.2745,15.0668,23.8633,39,2007-11-07,15.0592,stop,-86.4,-1.007,20.0,4.23,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0118,A,ema+fixed,PCAR,2007-10-24,2007-10-25,20.0913,18.7959,24.1241,65,2007-11-07,18.7865,stop,-84.81,-0.98,5.88,5.7,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0122,A,ema+fixed,FSLR,2007-11-08,2007-11-09,216.5382,205.86,284.6286,4,2007-11-09,205.7571,stop,-43.12,-0.547,145.0,32.35,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0123,A,ema+fixed,TEL,2007-11-16,2007-11-19,23.9033,23.4548,26.4807,69,2007-11-27,23.4431,stop,-31.75,-0.608,9.26,5.35,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0121,A,ema+fixed,MA,2007-10-31,2007-11-01,16.8993,15.8285,21.8208,57,2007-11-30,18.2062,time exit,74.5,0.872,28.57,12.95,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0124,A,ema+fixed,AZO,2007-12-04,2007-12-05,129.5087,120.4151,156.5308,9,2007-12-13,120.3549,stop,-82.38,-1.014,5.76,8.11,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0125,A,ema+fixed,WDC,2008-01-24,2008-01-25,16.3388,15.6718,18.3072,102,2008-01-28,15.6639,stop,-68.84,-1.024,29.81,8.22,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0127,A,ema+fixed,ISRG,2008-02-01,2008-02-04,34.1215,32.3233,39.5358,46,2008-02-07,32.2061,stop,-88.11,-1.062,16.67,15.25,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0130,A,ema+fixed,FSLR,2008-02-13,2008-02-14,229.7171,207.49,295.9392,3,2008-02-20,205.3273,stop,-73.17,-1.103,42.59,22.22,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0126,A,ema+fixed,ZBH,2008-01-29,2008-01-30,65.4699,63.6404,73.8205,25,2008-02-28,65.9941,time exit,13.1,0.206,13.46,9.62,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0128,A,ema+fixed,RL,2008-02-06,2008-02-07,47.1217,45.6377,55.9932,32,2008-03-06,45.6149,stop,-48.22,-0.582,40.26,6.06,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0129,A,ema+fixed,AKAM,2008-02-07,2008-02-08,32.3061,29.72,41.1282,29,2008-03-10,32.3438,time exit,1.09,0.013,10.81,4.78,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0131,A,ema+fixed,NKE,2008-03-20,2008-03-24,12.8516,12.1415,15.429,99,2008-04-21,13.1512,time exit,29.66,0.364,15.0,4.66,timing amc (agree); size limited by risk
+A-ema+fixed-0133,A,ema+fixed,CAT,2008-04-18,2008-04-21,52.6357,50.8294,62.5058,28,2008-04-24,50.804,stop,-51.29,-0.627,9.02,3.1,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0132,A,ema+fixed,GOOGL,2008-04-18,2008-04-21,13.3777,12.9986,14.7577,122,2008-05-02,14.8286,target,177.01,3.299,9.09,19.06,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0134,A,ema+fixed,MA,2008-04-29,2008-04-30,25.0448,23.445,29.7941,51,2008-05-29,28.0774,time exit,154.66,1.911,30.0,7.65,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0136,A,ema+fixed,MRVL,2008-05-30,2008-06-02,14.7551,14.3037,16.4773,113,2008-06-09,14.2966,stop,-51.81,-0.844,84.62,20.38,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0135,A,ema+fixed,RL,2008-05-28,2008-05-29,52.1854,49.4057,62.5939,25,2008-06-11,49.381,stop,-70.11,-0.851,61.54,7.72,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0137,A,ema+fixed,JBL,2008-06-25,2008-06-26,12.8664,12.5782,15.5047,114,2008-06-27,12.572,stop,-33.57,-0.402,30.0,10.4,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0138,A,ema+fixed,ACN,2008-06-27,2008-06-30,29.0385,28.1217,32.3961,57,2008-07-01,27.9702,stop,-60.9,-1.0,7.25,3.06,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0142,A,ema+fixed,DGX,2008-07-22,2008-07-23,39.3471,38.2396,43.3776,42,2008-07-23,38.2205,stop,-47.32,-0.877,6.41,5.14,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0143,A,ema+fixed,ILMN,2008-07-23,2008-07-24,44.7403,42.6456,51.8486,36,2008-08-04,42.6243,stop,-76.17,-0.92,14.29,7.66,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0145,A,ema+fixed,HUM,2008-08-04,2008-08-05,40.4636,39.6859,44.5031,40,2008-08-12,44.4808,target,160.69,3.336,5.08,5.29,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0139,A,ema+fixed,WFC,2008-07-16,2008-07-17,16.6473,14.5884,23.7684,36,2008-08-14,18.8067,time exit,77.74,0.941,8.16,15.94,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0140,A,ema+fixed,PNC,2008-07-17,2008-07-18,39.3769,36.3845,49.6908,24,2008-08-15,43.0977,time exit,89.3,1.119,22.88,4.9,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0147,A,ema+fixed,ADSK,2008-08-15,2008-08-18,38.5192,37.45,41.8974,44,2008-08-19,37.4313,stop,-47.87,-0.979,7.69,9.93,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0141,A,ema+fixed,WAT,2008-07-22,2008-07-23,69.3547,65.7651,81.0094,22,2008-08-20,68.6557,time exit,-15.38,-0.183,7.04,4.22,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0144,A,ema+fixed,MDLZ,2008-07-28,2008-07-29,12.8524,12.391,14.3675,127,2008-08-26,13.33,time exit,60.66,0.967,16.0,3.13,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0146,A,ema+fixed,EL,2008-08-14,2008-08-15,20.1594,19.0294,24.2136,65,2008-09-15,21.1451,time exit,64.07,0.76,10.71,6.76,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0148,A,ema+fixed,NKE,2008-09-25,2008-09-26,12.4004,12.0443,14.3361,134,2008-10-06,11.9653,stop,-58.3,-0.759,13.04,5.31,timing amc (agree); size limited by max position
+A-ema+fixed-0149,A,ema+fixed,SHW,2008-10-16,2008-10-17,14.7935,13.4156,21.323,42,2008-10-28,13.4089,stop,-58.16,-0.7,19.05,3.56,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0150,A,ema+fixed,CB,2008-10-29,2008-10-30,39.5517,32.6882,60.0631,12,2008-11-19,32.6719,stop,-82.56,-1.005,5.59,3.28,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0151,A,ema+fixed,DLTR,2008-11-25,2008-11-26,13.5134,12.75,17.7352,66,2008-12-02,12.7436,stop,-50.81,-0.618,6.67,5.33,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0152,A,ema+fixed,BBY,2008-12-16,2008-12-17,15.2927,14.3713,18.9598,72,2009-01-14,14.3642,stop,-66.86,-0.809,45.83,10.44,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0155,A,ema+fixed,DGX,2009-01-26,2009-01-27,37.6217,35.5632,43.722,40,2009-02-02,35.5454,stop,-83.05,-1.018,8.75,7.88,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0156,A,ema+fixed,DHR,2009-01-26,2009-01-27,11.266,10.66,13.1659,131,2009-02-17,10.6547,stop,-80.08,-0.976,7.69,3.99,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0153,A,ema+fixed,NTRS,2009-01-21,2009-01-22,36.1903,31.6886,53.2085,15,2009-02-20,36.2119,time exit,0.32,0.004,72.94,14.02,timing bmo (agree); size limited by risk
+A-ema+fixed-0154,A,ema+fixed,IBM,2009-01-21,2009-01-22,47.192,45.1474,57.5313,26,2009-02-20,46.8526,time exit,-8.83,-0.11,7.89,5.26,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0157,A,ema+fixed,ILMN,2009-02-04,2009-02-05,32.6817,30.3207,41.643,29,2009-02-27,30.3056,stop,-68.91,-0.839,41.18,13.58,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0158,A,ema+fixed,V,2009-02-05,2009-02-06,11.8581,11.3039,13.5484,139,2009-03-06,11.2983,stop,-77.81,-0.998,25.0,6.33,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0159,A,ema+fixed,INTU,2009-02-20,2009-02-23,20.8903,19.0995,26.6386,43,2009-03-23,23.3226,time exit,104.59,1.291,25.93,6.54,timing amc (agree); size limited by risk
+A-ema+fixed-0160,A,ema+fixed,DRI,2009-03-18,2009-03-19,18.25,16.9268,22.9588,53,2009-04-17,20.3181,time exit,109.61,1.371,17.65,12.11,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0162,A,ema+fixed,TFC,2009-04-17,2009-04-20,11.7943,11.1988,17.8812,48,2009-04-20,11.1932,stop,-28.85,-0.36,33.33,4.41,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0163,A,ema+fixed,TPR,2009-04-21,2009-04-22,12.6995,12.7921,15.5364,118,2009-04-22,12.6868,stop,-1.5,-0.019,5.56,10.7,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0164,A,ema+fixed,MAR,2009-04-23,2009-04-24,16.5661,16.2889,20.5017,77,2009-04-27,16.2808,stop,-21.97,-0.271,84.62,6.33,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0165,A,ema+fixed,RCL,2009-04-23,2009-04-24,10.9885,9.9332,15.1359,62,2009-04-27,9.9283,stop,-65.74,-0.815,48.48,14.46,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0169,A,ema+fixed,DD,2009-04-30,2009-05-01,18.268,17.5281,21.0002,87,2009-05-06,17.5193,stop,-65.13,-0.862,194.74,15.32,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0161,A,ema+fixed,SHW,2009-04-16,2009-04-17,15.4827,14.8159,18.003,102,2009-05-13,14.8085,stop,-68.77,-0.846,57.14,7.02,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0171,A,ema+fixed,LOW,2009-05-18,2009-05-19,14.3663,13.8856,16.3868,111,2009-05-21,13.8787,stop,-54.12,-0.78,28.0,10.08,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0166,A,ema+fixed,AXP,2009-04-24,2009-04-27,18.8365,17.5666,26.2947,37,2009-05-26,19.0738,time exit,8.78,0.109,100.0,8.2,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0167,A,ema+fixed,HUM,2009-04-27,2009-04-28,25.2626,24.3447,29.1696,63,2009-05-27,27.0791,time exit,114.44,1.506,7.02,5.63,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0168,A,ema+fixed,WAT,2009-04-28,2009-04-29,44.0712,40.71,54.0666,24,2009-05-28,43.988,time exit,-2.0,-0.025,29.82,8.01,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0170,A,ema+fixed,DVN,2009-05-06,2009-05-07,38.2706,35.5932,46.2264,30,2009-06-05,40.3555,time exit,62.55,0.784,65.52,7.12,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0172,A,ema+fixed,INTC,2009-07-15,2009-07-16,11.4501,11.294,12.4064,139,2009-07-23,12.4002,target,132.06,3.416,100.0,6.89,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0175,A,ema+fixed,WYNN,2009-07-30,2009-07-31,29.4703,28.1638,35.6932,44,2009-08-12,35.6754,target,273.02,3.296,1000.0,7.42,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0178,A,ema+fixed,ADSK,2009-08-14,2009-08-17,24.7124,25.02,26.9676,68,2009-08-17,24.6877,stop,-1.68,-0.051,33.33,4.17,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0173,A,ema+fixed,ETN,2009-07-20,2009-07-21,15.9376,15.1278,18.3349,101,2009-08-18,17.4938,time exit,157.18,1.941,50.0,5.74,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0174,A,ema+fixed,ISRG,2009-07-23,2009-07-24,23.5429,22.1019,29.8928,42,2009-08-21,25.625,time exit,87.45,1.069,14.29,17.13,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0176,A,ema+fixed,HIG,2009-07-30,2009-07-31,12.1181,11.1698,15.4693,77,2009-08-24,15.4616,target,257.45,3.111,63.79,6.28,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0177,A,ema+fixed,CTSH,2009-08-04,2009-08-05,14.6147,14.2448,16.0751,116,2009-09-02,14.9657,time exit,40.71,0.767,26.32,8.57,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0179,A,ema+fixed,A,2009-08-18,2009-08-19,15.8721,15.2297,18.7442,98,2009-09-17,17.962,time exit,204.81,2.379,36.36,4.07,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0180,A,ema+fixed,TGT,2009-08-18,2009-08-19,27.2915,26.7656,30.1574,62,2009-09-17,30.1423,target,176.75,3.362,19.7,5.7,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0182,A,ema+fixed,NKE,2009-09-30,2009-10-01,12.6119,12.5976,13.4361,141,2009-10-01,12.5913,stop,-2.91,-0.098,8.33,6.52,timing amc (agree); size limited by max position
+A-ema+fixed-0183,A,ema+fixed,GOOGL,2009-10-16,2009-10-19,13.7053,13.4884,14.3285,133,2009-10-20,13.4817,stop,-29.74,-1.065,7.14,3.29,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0184,A,ema+fixed,PH,2009-10-20,2009-10-21,43.427,42.6103,48.085,41,2009-10-21,42.589,stop,-34.36,-0.612,164.71,6.04,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0181,A,ema+fixed,GIS,2009-09-23,2009-09-24,17.3217,17.0453,18.4406,104,2009-10-22,17.9031,time exit,60.47,1.667,25.49,3.33,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0186,A,ema+fixed,KMB,2009-10-22,2009-10-23,33.0593,32.3673,35.7932,54,2009-10-23,32.3511,stop,-38.24,-0.827,22.41,3.74,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0189,A,ema+fixed,TXT,2009-10-27,2009-10-28,18.6808,18.3037,21.5475,93,2009-10-28,18.2945,stop,-35.92,-0.476,500.0,5.07,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0188,A,ema+fixed,FFIV,2009-10-22,2009-10-23,48.2241,45.1635,57.4696,29,2009-10-30,45.1409,stop,-89.41,-1.002,21.95,11.44,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0190,A,ema+fixed,MSI,2009-10-29,2009-10-30,27.5446,26.5063,30.6046,65,2009-11-11,26.493,stop,-68.35,-1.026,250.0,7.91,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0185,A,ema+fixed,PNC,2009-10-22,2009-10-23,31.6052,29.5046,37.8436,43,2009-11-20,34.0154,time exit,103.64,1.156,222.58,6.36,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0187,A,ema+fixed,TRV,2009-10-22,2009-10-23,34.8872,33.466,40.2138,51,2009-11-20,35.4204,time exit,27.19,0.316,21.97,4.14,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0192,A,ema+fixed,NTAP,2009-11-19,2009-11-20,22.2831,21.999,24.5047,80,2009-11-20,21.988,stop,-23.6,-0.471,23.33,3.75,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0191,A,ema+fixed,CTSH,2009-11-03,2009-11-04,18.374,17.7758,20.1318,97,2009-12-03,19.2434,time exit,84.34,1.476,15.0,7.35,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0193,A,ema+fixed,ADI,2009-11-24,2009-11-25,20.0867,19.2254,23.7163,80,2009-12-24,21.7066,time exit,129.59,1.443,38.46,4.33,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0194,A,ema+fixed,MRVL,2009-12-04,2009-12-07,15.3255,14.8313,17.2892,117,2009-12-24,17.2805,target,228.73,3.182,34.62,8.29,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0196,A,ema+fixed,NTRS,2010-01-20,2010-01-21,35.7368,35.106,40.7216,51,2010-01-21,35.0885,stop,-33.06,-0.462,22.39,3.32,timing bmo (agree); size limited by max position
+A-ema+fixed-0195,A,ema+fixed,LEN,2010-01-07,2010-01-08,12.583,11.9297,14.9663,122,2010-01-25,11.9238,stop,-80.43,-0.868,133.33,8.98,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0197,A,ema+fixed,ISRG,2010-01-22,2010-01-25,37.8678,36.4911,42.5497,48,2010-01-29,36.4729,stop,-66.96,-0.921,15.79,7.97,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0198,A,ema+fixed,GILD,2010-01-27,2010-01-28,16.1247,15.9838,17.9486,111,2010-02-04,15.9758,stop,-16.53,-0.303,9.76,4.93,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0199,A,ema+fixed,DHI,2010-02-02,2010-02-03,11.0645,10.2097,13.627,107,2010-02-05,10.2046,stop,-92.01,-1.007,609.09,7.39,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0200,A,ema+fixed,CMI,2010-02-02,2010-02-03,34.6595,33.2834,39.357,52,2010-02-05,33.2668,stop,-72.42,-0.917,76.62,6.84,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0201,A,ema+fixed,EMR,2010-02-02,2010-02-03,29.5575,28.5822,34.3503,61,2010-02-05,28.5679,stop,-60.36,-0.686,33.33,6.59,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0202,A,ema+fixed,INTU,2010-02-19,2010-02-22,28.3878,28.0155,30.4354,62,2010-02-23,28.0015,stop,-23.95,-0.639,18.75,6.37,timing amc (agree); size limited by max position
+A-ema+fixed-0203,A,ema+fixed,PWR,2010-02-22,2010-02-23,18.8426,18.0977,21.6133,94,2010-03-05,18.0886,stop,-70.87,-0.858,19.23,3.58,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0206,A,ema+fixed,NKE,2010-03-18,2010-03-19,14.7534,14.5454,15.9621,121,2010-03-19,14.5381,stop,-26.05,-0.608,13.64,3.48,timing amc (agree); size limited by max position
+A-ema+fixed-0204,A,ema+fixed,DLTR,2010-02-24,2010-02-25,18.5393,17.7697,21.4362,95,2010-03-25,19.7035,time exit,110.6,1.27,6.25,4.45,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0205,A,ema+fixed,VTRS,2010-02-25,2010-02-26,16.539,15.9298,18.6643,108,2010-03-26,17.8635,time exit,143.04,1.937,10.0,3.14,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0207,A,ema+fixed,JPM,2010-04-14,2010-04-15,31.201,30.606,33.7577,57,2010-04-16,30.5907,stop,-34.79,-0.775,15.62,3.34,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0208,A,ema+fixed,COR,2010-04-22,2010-04-23,21.5373,21.0108,23.2569,83,2010-04-28,21.0003,stop,-44.57,-0.956,14.55,3.06,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0209,A,ema+fixed,FSLR,2010-04-29,2010-04-30,148.7243,141.68,181.4574,9,2010-05-04,141.6092,stop,-64.04,-0.715,20.48,10.69,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0210,A,ema+fixed,AKAM,2010-04-29,2010-04-30,39.6498,37.31,47.3825,35,2010-05-06,37.2914,stop,-82.54,-0.937,6.06,10.73,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0211,A,ema+fixed,DLTR,2010-05-20,2010-05-21,20.2701,20.0167,22.6012,86,2010-06-07,20.0067,stop,-22.66,-0.408,10.71,3.1,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0213,A,ema+fixed,JBL,2010-06-23,2010-06-24,12.5636,12.2427,14.3986,140,2010-06-24,12.2365,stop,-45.78,-0.607,17.65,8.76,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0212,A,ema+fixed,NTAP,2010-05-27,2010-05-28,27.4776,25.6794,35.0104,38,2010-06-28,29.0412,time exit,59.42,0.67,16.28,9.25,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0214,A,ema+fixed,ACN,2010-06-25,2010-06-28,29.6391,28.7922,33.2736,59,2010-06-29,28.6117,stop,-60.61,-0.917,5.8,4.93,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0217,A,ema+fixed,QCOM,2010-07-22,2010-07-23,25.9442,25.4363,28.1486,68,2010-07-29,25.4235,stop,-35.41,-0.768,7.55,6.03,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0215,A,ema+fixed,HAL,2010-07-19,2010-07-20,22.0575,21.5188,24.713,79,2010-08-11,21.508,stop,-43.41,-0.688,44.44,4.65,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0218,A,ema+fixed,CBRE,2010-07-28,2010-07-29,16.5983,16.04,18.5316,107,2010-08-12,15.992,stop,-64.87,-0.973,77.78,7.72,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0216,A,ema+fixed,FFIV,2010-07-22,2010-07-23,83.2416,79.39,97.098,20,2010-08-20,90.9945,time exit,155.06,1.751,11.86,9.56,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0221,A,ema+fixed,INTU,2010-08-20,2010-08-23,37.9055,36.9566,45.1781,43,2010-08-24,36.9381,stop,-41.6,-0.471,50.0,6.68,timing amc (agree); size limited by risk
+A-ema+fixed-0220,A,ema+fixed,AMP,2010-07-29,2010-07-30,30.0793,29.2294,35.1711,58,2010-08-25,29.2148,stop,-50.14,-0.582,42.86,11.44,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0219,A,ema+fixed,CHRW,2010-07-28,2010-07-29,45.0774,43.9315,48.5478,39,2010-08-26,44.8664,time exit,-8.23,-0.183,7.27,4.49,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0222,A,ema+fixed,ORCL,2010-09-17,2010-09-20,21.9412,21.1585,25.1031,79,2010-10-18,23.4691,time exit,120.7,1.549,13.51,4.26,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0223,A,ema+fixed,LEN,2010-09-20,2010-09-21,12.5258,11.9206,14.3161,140,2010-10-19,12.1848,time exit,-47.73,-0.569,128.57,5.65,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0228,A,ema+fixed,IP,2010-10-27,2010-10-28,12.4648,12.1828,13.2859,144,2010-10-28,12.1767,stop,-41.49,-1.045,15.19,3.52,timing bmo (agree); size limited by max position
+A-ema+fixed-0224,A,ema+fixed,GOOG,2010-10-15,2010-10-18,14.8248,14.5865,15.8954,119,2010-11-15,14.6847,time exit,-16.67,-0.428,15.15,10.79,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0225,A,ema+fixed,GOOGL,2010-10-15,2010-10-18,14.8946,14.6553,15.9701,118,2010-11-15,14.7538,time exit,-16.61,-0.428,11.76,10.79,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0229,A,ema+fixed,HIG,2010-11-03,2010-11-04,18.6356,17.5451,21.8698,83,2010-11-15,17.5363,stop,-91.24,-1.017,50.53,5.68,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0226,A,ema+fixed,DAL,2010-10-20,2010-10-21,11.1459,10.5319,12.9824,144,2010-11-18,11.7672,time exit,89.46,1.014,17.02,6.58,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0227,A,ema+fixed,TPR,2010-10-26,2010-10-27,32.0878,30.8944,37.818,51,2010-11-24,36.9117,time exit,246.02,2.787,14.55,6.72,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0230,A,ema+fixed,ADBE,2010-12-21,2010-12-22,30.8654,30.27,33.5286,57,2011-01-12,33.5118,target,150.85,3.249,7.69,6.17,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0235,A,ema+fixed,QCOM,2011-01-27,2011-01-28,36.2859,36.0366,39.8428,49,2011-01-28,36.0185,stop,-13.1,-0.281,13.89,4.51,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0231,A,ema+fixed,EBAY,2011-01-20,2011-01-21,11.4187,11.069,12.7182,158,2011-01-31,11.0634,stop,-56.13,-0.862,10.64,3.4,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0233,A,ema+fixed,TER,2011-01-27,2011-01-28,15.1149,14.59,16.6591,120,2011-02-04,16.6508,target,184.31,2.969,48.0,11.28,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0232,A,ema+fixed,GE,2011-01-21,2011-01-24,70.5047,68.3684,76.7729,25,2011-02-14,76.7345,target,155.74,2.965,12.94,4.77,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0239,A,ema+fixed,DE,2011-02-16,2011-02-17,71.5886,69.9213,76.8617,26,2011-02-18,69.8864,stop,-44.26,-0.981,12.15,3.82,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0234,A,ema+fixed,SWK,2011-01-27,2011-01-28,47.7016,46.2943,55.2683,37,2011-02-28,50.6826,time exit,110.29,1.329,16.67,3.55,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0240,A,ema+fixed,BKNG,2011-02-24,2011-02-25,18.1647,17.6947,19.5386,102,2011-02-28,17.6858,stop,-48.85,-1.039,16.67,9.54,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0236,A,ema+fixed,EL,2011-02-03,2011-02-04,37.8188,36.3525,43.0635,48,2011-03-07,37.3901,time exit,-20.57,-0.255,22.22,6.75,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0238,A,ema+fixed,MRSH,2011-02-15,2011-02-16,22.3379,21.6692,24.2994,83,2011-03-10,21.6584,stop,-56.4,-1.033,5.13,3.05,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0237,A,ema+fixed,RL,2011-02-09,2011-02-10,95.751,92.4187,110.0659,19,2011-03-11,97.7449,time exit,37.89,0.452,34.37,4.01,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0241,A,ema+fixed,JBL,2011-03-23,2011-03-24,18.0893,17.2297,20.6831,102,2011-04-01,17.2211,stop,-88.56,-1.006,5.88,7.87,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0243,A,ema+fixed,INTC,2011-04-20,2011-04-21,14.4051,14.085,15.6787,127,2011-05-03,15.6709,target,160.75,3.177,28.26,6.8,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0242,A,ema+fixed,WYNN,2011-04-20,2011-04-21,100.7458,98.2798,113.8801,18,2011-05-04,98.2307,stop,-45.27,-0.645,89.04,3.48,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0244,A,ema+fixed,CMI,2011-04-26,2011-04-27,80.4406,78.5195,86.0432,23,2011-05-04,78.4803,stop,-45.09,-1.042,23.24,5.91,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0247,A,ema+fixed,SKYD,2011-05-04,2011-05-05,20.2779,19.6319,23.5808,89,2011-05-13,19.6221,stop,-58.36,-0.664,52.63,4.28,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0250,A,ema+fixed,ADI,2011-05-18,2011-05-19,30.264,29.1968,33.8106,61,2011-05-23,29.1822,stop,-65.99,-0.938,10.29,4.4,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0245,A,ema+fixed,ITW,2011-04-26,2011-04-27,39.9655,38.7765,44.5022,46,2011-05-25,39.51,time exit,-20.96,-0.318,5.81,3.38,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0246,A,ema+fixed,MCO,2011-04-27,2011-04-28,32.2522,31.0835,36.2035,57,2011-05-26,32.7759,time exit,29.85,0.409,24.07,3.9,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0248,A,ema+fixed,MGM,2011-05-04,2011-05-05,13.3243,12.6748,15.968,112,2011-06-03,13.3959,time exit,8.02,0.087,15.79,6.44,timing bmo (agree); size limited by risk
+A-ema+fixed-0251,A,ema+fixed,AZO,2011-05-24,2011-05-25,294.5872,286.79,318.696,6,2011-06-03,286.6466,stop,-47.64,-0.996,6.65,4.08,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0249,A,ema+fixed,SYY,2011-05-09,2011-05-10,20.18,19.6681,23.0139,90,2011-06-08,19.6583,stop,-46.95,-0.624,9.52,6.35,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0256,A,ema+fixed,MS,2011-07-21,2011-07-22,16.7226,15.9,20.3347,83,2011-07-27,15.8921,stop,-68.94,-0.749,37.7,5.66,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0252,A,ema+fixed,NKE,2011-06-28,2011-06-29,18.1418,17.3491,21.0413,98,2011-07-28,18.2894,time exit,14.47,0.16,6.9,4.47,timing amc (agree); size limited by risk
+A-ema+fixed-0255,A,ema+fixed,TXT,2011-07-20,2011-07-21,23.8202,22.3565,28.5225,59,2011-07-29,22.269,stop,-91.52,-1.006,20.83,5.2,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0253,A,ema+fixed,GOOG,2011-07-15,2011-07-18,14.6258,14.5016,15.7702,123,2011-08-03,14.4944,stop,-16.16,-0.414,12.82,12.96,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0254,A,ema+fixed,GOOGL,2011-07-15,2011-07-18,14.6947,14.57,15.8443,122,2011-08-03,14.5627,stop,-16.1,-0.414,10.0,12.96,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0257,A,ema+fixed,VRTX,2011-07-29,2011-08-01,52.1454,48.44,63.1572,24,2011-08-03,48.4158,stop,-89.51,-1.014,18.81,3.98,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0258,A,ema+fixed,EXPE,2011-07-29,2011-08-01,41.9334,39.5483,49.8433,35,2011-08-03,39.5285,stop,-84.17,-0.934,12.24,5.24,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0259,A,ema+fixed,MA,2011-08-03,2011-08-04,30.648,29.3096,36.926,46,2011-08-05,29.295,stop,-62.24,-0.711,14.29,4.6,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0260,A,ema+fixed,BKNG,2011-08-05,2011-08-08,19.9473,19.9379,23.0927,84,2011-08-08,19.9273,stop,-1.67,-0.025,10.0,11.23,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0261,A,ema+fixed,CSCO,2011-08-11,2011-08-12,10.2603,9.872,11.558,170,2011-08-18,9.8671,stop,-66.85,-0.933,5.26,12.53,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0263,A,ema+fixed,NKE,2011-09-23,2011-09-26,18.0898,17.585,19.568,96,2011-09-29,17.5762,stop,-49.3,-1.036,13.33,4.28,timing amc (agree); size limited by max position
+A-ema+fixed-0262,A,ema+fixed,ULTA,2011-09-09,2011-09-12,67.3405,61.3336,88.1233,13,2011-10-03,60.5419,stop,-88.38,-1.015,18.75,3.97,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0267,A,ema+fixed,DECK,2011-10-28,2011-10-31,19.3713,18.2467,24.0922,61,2011-11-01,18.2375,stop,-69.16,-0.776,22.73,4.32,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0264,A,ema+fixed,PH,2011-10-18,2011-10-19,60.3595,56.6502,72.1652,22,2011-11-16,65.1935,time exit,106.35,1.246,13.02,4.35,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0265,A,ema+fixed,STT,2011-10-18,2011-10-19,25.513,23.952,31.177,47,2011-11-16,27.2846,time exit,83.27,0.981,7.87,6.58,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0269,A,ema+fixed,SBUX,2011-11-04,2011-11-07,16.5302,16.0307,18.6886,106,2011-11-17,16.0227,stop,-53.79,-0.764,5.56,3.67,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0268,A,ema+fixed,EL,2011-11-03,2011-11-04,48.167,45.9104,59.0299,26,2011-11-21,45.5437,stop,-68.21,-0.8,20.34,13.02,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0266,A,ema+fixed,FFIV,2011-10-26,2011-10-27,101.8172,96.55,117.4152,16,2011-11-25,97.5712,time exit,-67.94,-0.814,8.16,9.57,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0270,A,ema+fixed,COO,2011-12-09,2011-12-12,16.8041,15.6776,20.8463,66,2012-01-11,17.6186,time exit,53.76,0.63,23.33,9.16,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0274,A,ema+fixed,HCA,2012-02-06,2012-02-07,21.1146,20.3159,23.652,83,2012-02-09,20.3058,stop,-67.13,-0.97,20.51,9.56,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0272,A,ema+fixed,TXT,2012-01-25,2012-01-26,23.9748,23.2308,27.4225,71,2012-02-14,27.4713,target,248.25,3.337,40.0,10.97,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0271,A,ema+fixed,EBAY,2012-01-19,2012-01-20,11.6972,11.4995,12.5157,146,2012-02-15,12.5095,target,118.59,3.197,5.26,3.13,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0273,A,ema+fixed,STX,2012-02-01,2012-02-02,13.619,12.7655,16.5752,91,2012-03-02,14.7184,time exit,100.05,1.154,22.22,11.59,timing amc (agree); size limited by risk
+A-ema+fixed-0275,A,ema+fixed,CRM,2012-02-24,2012-02-27,34.5407,34.273,38.8349,50,2012-03-06,34.2559,stop,-14.24,-0.25,10.0,10.45,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0277,A,ema+fixed,ISRG,2012-04-18,2012-04-19,65.2004,63.2789,71.2489,27,2012-04-20,63.2473,stop,-52.73,-0.98,11.43,5.23,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0276,A,ema+fixed,URI,2012-04-18,2012-04-19,44.0835,41.3704,52.6299,31,2012-05-03,41.3497,stop,-84.75,-0.971,620.0,8.48,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0278,A,ema+fixed,EBAY,2012-04-19,2012-04-20,15.0764,14.4762,17.1783,117,2012-05-07,14.4689,stop,-71.08,-0.899,5.77,9.09,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0280,A,ema+fixed,PH,2012-04-24,2012-04-25,68.8678,66.2749,79.6903,25,2012-05-08,66.2418,stop,-65.65,-0.783,16.86,3.21,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0279,A,ema+fixed,HSY,2012-04-24,2012-04-25,47.0323,45.7275,51.2503,37,2012-05-23,47.9849,time exit,35.25,0.69,18.52,3.9,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0281,A,ema+fixed,EW,2012-04-25,2012-04-26,13.5634,13.0004,15.8316,125,2012-05-24,14.5477,time exit,123.03,1.391,12.5,3.65,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0282,A,ema+fixed,TXT,2012-07-19,2012-07-20,25.9101,24.6167,30.2564,62,2012-07-24,24.6044,stop,-80.95,-0.926,31.82,8.75,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0283,A,ema+fixed,PHM,2012-07-26,2012-07-27,10.1029,9.0304,13.3317,81,2012-08-24,11.4486,time exit,109.01,1.251,120.0,6.39,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0284,A,ema+fixed,EQIX,2012-07-26,2012-07-27,133.3517,125.8967,157.5565,11,2012-08-24,141.5733,time exit,90.44,1.039,22.95,6.79,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0285,A,ema+fixed,AKAM,2012-07-26,2012-07-27,35.0775,32.92,42.1008,38,2012-08-24,37.0814,time exit,76.15,0.873,16.22,18.41,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0286,A,ema+fixed,LYB,2012-07-27,2012-07-30,20.9909,20.1254,23.6254,84,2012-08-27,22.1148,time exit,94.41,1.284,17.86,6.23,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0287,A,ema+fixed,ALL,2012-08-01,2012-08-02,26.7719,26.4091,28.7574,64,2012-08-30,27.5856,time exit,52.07,1.386,52.63,4.55,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0288,A,ema+fixed,ULTA,2012-09-07,2012-09-10,101.5507,99.25,110.4408,17,2012-09-11,98.9705,stop,-43.86,-0.922,5.88,7.86,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0292,A,ema+fixed,REGN,2012-10-24,2012-10-25,162.0559,151.2892,194.0322,8,2012-10-26,151.2135,stop,-86.74,-1.015,78.3,3.58,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0291,A,ema+fixed,COF,2012-10-19,2012-10-22,47.9388,46.2303,52.9686,37,2012-11-08,46.2072,stop,-64.07,-1.028,14.84,3.14,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0290,A,ema+fixed,BNY,2012-10-17,2012-10-18,17.8074,17.166,20.0523,101,2012-11-14,17.1574,stop,-65.66,-0.901,16.67,3.1,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0294,A,ema+fixed,GM,2012-10-31,2012-11-01,18.9223,17.8161,22.492,77,2012-11-15,17.8072,stop,-85.86,-0.954,55.0,4.38,timing bmo (agree); size limited by risk
+A-ema+fixed-0289,A,ema+fixed,URI,2012-10-17,2012-10-18,37.459,34.6171,47.6631,27,2012-11-19,38.7086,time exit,33.74,0.383,20.54,8.45,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0293,A,ema+fixed,RCL,2012-10-25,2012-10-26,27.7393,27.0196,31.2965,64,2012-11-28,28.8127,time exit,68.7,1.004,14.29,4.85,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0297,A,ema+fixed,ULTA,2012-11-30,2012-12-03,100.05,97.51,110.5956,17,2012-12-11,97.4612,stop,-44.01,-0.791,5.36,5.21,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0299,A,ema+fixed,ADBE,2012-12-14,2012-12-17,37.0885,36.99,40.0212,47,2012-12-17,36.9715,stop,-5.5,-0.154,8.93,4.7,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0295,A,ema+fixed,TSN,2012-11-19,2012-11-20,13.7894,13.2054,15.9977,127,2012-12-19,14.5919,time exit,101.91,1.15,25.0,4.86,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0300,A,ema+fixed,JBL,2012-12-20,2012-12-21,17.2161,16.9859,19.7402,102,2012-12-21,16.9774,stop,-24.34,-0.347,8.93,6.03,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0296,A,ema+fixed,KR,2012-11-29,2012-11-30,10.0227,9.9076,10.9043,176,2012-12-28,9.9026,stop,-21.13,-0.482,9.52,3.99,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0301,A,ema+fixed,NKE,2012-12-21,2012-12-24,21.6264,21.024,24.2714,82,2012-12-31,21.0055,stop,-50.91,-0.765,12.0,3.54,timing amc (agree); size limited by max position
+A-ema+fixed-0298,A,ema+fixed,LULU,2012-12-06,2012-12-07,73.2366,68.7067,89.6312,17,2013-01-08,71.5942,time exit,-27.92,-0.314,5.41,3.16,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0305,A,ema+fixed,EL,2013-02-05,2013-02-06,54.0839,52.6165,61.0147,32,2013-02-07,52.5902,stop,-47.8,-0.711,10.48,5.32,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0306,A,ema+fixed,EQIX,2013-02-14,2013-02-15,163.5827,158.9308,188.2205,10,2013-02-19,158.8513,stop,-47.31,-0.646,51.52,4.83,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0302,A,ema+fixed,MS,2013-01-18,2013-01-22,15.7591,15.4992,17.5376,110,2013-02-20,16.6976,time exit,103.24,1.842,66.67,5.93,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0304,A,ema+fixed,DHI,2013-01-29,2013-01-30,20.4987,19.6067,24.5231,72,2013-02-20,19.5969,stop,-64.93,-0.734,42.86,4.36,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0303,A,ema+fixed,VLO,2013-01-29,2013-01-30,24.8148,23.5865,28.4503,71,2013-02-28,25.8042,time exit,70.25,0.814,63.48,8.71,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0308,A,ema+fixed,BBY,2013-03-01,2013-03-04,10.5046,9.8992,12.7073,126,2013-03-13,12.701,target,276.75,3.129,7.19,5.91,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0309,A,ema+fixed,CIEN,2013-03-07,2013-03-08,17.6265,16.79,20.1006,102,2013-03-13,16.7816,stop,-86.18,-1.021,185.71,14.46,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0307,A,ema+fixed,CRM,2013-03-01,2013-03-04,44.6749,42.6373,51.5716,39,2013-03-19,42.616,stop,-80.3,-0.922,30.0,4.89,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0311,A,ema+fixed,GWW,2013-04-16,2013-04-17,191.3806,190.5971,212.8754,9,2013-04-17,190.5018,stop,-7.91,-0.158,7.69,5.82,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0310,A,ema+fixed,NKE,2013-03-22,2013-03-25,24.6628,24.0096,27.2998,72,2013-04-23,25.5882,time exit,66.63,1.125,12.12,8.21,timing amc (agree); size limited by max position
+A-ema+fixed-0313,A,ema+fixed,KMB,2013-04-19,2013-04-22,63.3878,62.5334,69.1974,27,2013-04-24,62.5021,stop,-23.91,-0.532,11.28,3.59,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0317,A,ema+fixed,DHI,2013-04-26,2013-04-29,23.172,22.2714,26.4658,77,2013-04-30,22.2602,stop,-70.21,-0.87,68.42,5.3,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0314,A,ema+fixed,ILMN,2013-04-23,2013-04-24,60.3317,58.346,69.1339,29,2013-05-10,69.0993,target,254.26,3.251,17.95,8.85,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0312,A,ema+fixed,COF,2013-04-19,2013-04-22,44.2731,42.7552,49.2441,40,2013-05-20,48.8108,time exit,181.51,2.797,18.52,4.13,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0315,A,ema+fixed,ELV,2013-04-24,2013-04-25,60.3752,58.4833,66.0832,29,2013-05-23,63.8609,time exit,101.08,1.835,23.53,3.85,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0316,A,ema+fixed,EQT,2013-04-25,2013-04-26,36.457,35.0984,41.2086,49,2013-05-24,39.7014,time exit,158.98,2.124,22.22,3.89,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0318,A,ema+fixed,IVZ,2013-04-30,2013-05-01,18.2736,17.5584,20.7248,98,2013-05-30,20.0478,time exit,173.87,2.241,10.64,5.62,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0320,A,ema+fixed,COO,2013-06-07,2013-06-10,29.9845,29.0596,33.0783,63,2013-06-25,29.0451,stop,-59.19,-0.935,11.76,3.08,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0319,A,ema+fixed,CIEN,2013-06-06,2013-06-07,19.1296,18.16,22.503,88,2013-07-08,20.07,time exit,82.76,0.866,300.0,13.12,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0323,A,ema+fixed,ILMN,2013-07-24,2013-07-25,78.9305,76.6242,89.1073,24,2013-08-02,76.5859,stop,-56.27,-0.751,7.5,7.7,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0325,A,ema+fixed,TSN,2013-08-05,2013-08-06,22.1752,21.8848,23.6256,88,2013-08-13,23.6138,target,126.6,3.306,16.95,3.58,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0321,A,ema+fixed,URI,2013-07-17,2013-07-18,54.2367,50.8938,65.0867,27,2013-08-15,51.9733,time exit,-61.11,-0.638,7.69,4.75,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0322,A,ema+fixed,UNH,2013-07-18,2013-07-19,56.702,55.2991,61.7369,33,2013-08-16,57.3031,time exit,19.84,0.373,12.0,4.71,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0324,A,ema+fixed,META,2013-07-25,2013-07-26,33.4664,32.4293,39.5289,54,2013-08-23,39.5091,target,326.31,3.405,44.44,26.52,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0326,A,ema+fixed,DVN,2013-08-07,2013-08-08,37.0975,36.0554,40.8389,52,2013-09-06,38.1586,time exit,55.17,0.887,28.72,3.05,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0327,A,ema+fixed,BBY,2013-08-20,2013-08-21,21.6144,20.5651,25.5018,79,2013-09-19,24.4698,time exit,225.58,2.314,190.91,11.23,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0328,A,ema+fixed,CRM,2013-08-30,2013-09-03,48.4749,46.4824,54.3555,40,2013-10-01,51.6183,time exit,125.73,1.597,28.57,9.21,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0329,A,ema+fixed,CIEN,2013-09-04,2013-09-05,23.6018,21.96,28.7508,58,2013-10-03,25.7271,time exit,123.27,1.252,43.75,8.08,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0330,A,ema+fixed,ULTA,2013-09-13,2013-09-16,118.1767,112.46,135.0906,17,2013-10-14,118.1609,time exit,-0.27,-0.003,6.06,13.92,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0332,A,ema+fixed,MS,2013-10-18,2013-10-21,21.1695,20.9126,22.7532,95,2013-10-22,20.9021,stop,-25.4,-0.581,21.95,3.42,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0335,A,ema+fixed,PHM,2013-10-24,2013-10-25,15.2731,14.6841,17.1435,134,2013-11-05,14.6767,stop,-79.91,-0.97,25.0,3.48,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0331,A,ema+fixed,ALGN,2013-10-18,2013-10-21,58.299,53.7504,71.8283,22,2013-11-18,53.7235,stop,-100.66,-1.012,40.0,15.83,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0333,A,ema+fixed,TT,2013-10-18,2013-10-21,33.7739,32.8956,36.7128,60,2013-11-18,34.1376,time exit,21.82,0.381,5.45,5.04,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0334,A,ema+fixed,ILMN,2013-10-22,2013-10-23,86.4245,84.0367,100.031,23,2013-11-20,89.7411,time exit,76.28,0.829,12.5,5.8,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0336,A,ema+fixed,DECK,2013-10-25,2013-10-28,11.7259,11.04,13.7733,150,2013-11-25,13.7664,target,306.08,2.986,33.33,17.99,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0337,A,ema+fixed,BKNG,2013-11-08,2013-11-11,41.7691,40.6922,46.4973,48,2013-11-27,46.474,target,225.84,3.242,6.15,3.23,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0338,A,ema+fixed,WDAY,2013-11-26,2013-11-27,82.4212,78.49,96.582,23,2013-12-03,78.4508,stop,-91.32,-0.878,29.41,11.92,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0339,A,ema+fixed,LEN,2013-12-18,2013-12-19,31.2522,29.89,36.8133,60,2014-01-21,31.3133,time exit,3.67,0.035,18.03,4.23,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0341,A,ema+fixed,TEL,2014-01-22,2014-01-23,47.6903,46.3849,52.4644,43,2014-01-24,46.3617,stop,-57.13,-0.874,6.49,3.11,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0344,A,ema+fixed,WAT,2014-01-28,2014-01-29,110.065,107.89,120.1782,18,2014-01-31,107.8361,stop,-40.12,-0.726,5.59,5.93,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0345,A,ema+fixed,TSN,2014-01-31,2014-02-03,28.0675,26.9231,32.1569,74,2014-02-04,26.9096,stop,-85.69,-0.885,12.5,3.45,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0346,A,ema+fixed,YUM,2014-02-04,2014-02-05,40.6536,39.9438,44.2205,50,2014-02-05,39.9238,stop,-36.49,-0.683,7.5,8.21,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0340,A,ema+fixed,STZ,2014-01-08,2014-01-09,64.0294,62.0413,70.009,32,2014-02-07,64.4226,time exit,12.58,0.197,20.88,6.98,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0342,A,ema+fixed,CAT,2014-01-27,2014-01-28,67.0722,65.3197,73.2121,31,2014-02-26,71.2572,time exit,129.73,2.121,23.44,6.5,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0343,A,ema+fixed,DHI,2014-01-28,2014-01-29,19.6714,19.0945,23.1904,102,2014-02-27,21.6709,time exit,203.95,1.953,20.0,6.3,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0347,A,ema+fixed,AKAM,2014-02-06,2014-02-07,57.0185,54.79,65.4936,36,2014-03-10,59.3603,time exit,84.31,0.875,5.77,15.96,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0348,A,ema+fixed,EXPE,2014-02-07,2014-02-10,69.0231,67.3332,76.2317,30,2014-03-11,69.5845,time exit,16.84,0.252,6.98,13.6,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0349,A,ema+fixed,TRMB,2014-02-12,2014-02-13,36.1281,35.2921,43.6275,50,2014-03-14,37.981,time exit,92.65,0.889,19.44,6.1,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0350,A,ema+fixed,TGT,2014-02-26,2014-02-27,41.2018,39.8599,46.1609,52,2014-03-27,40.6974,time exit,-26.23,-0.32,11.11,3.66,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0351,A,ema+fixed,PPG,2014-04-17,2014-04-21,78.7654,78.0723,84.4347,26,2014-04-21,78.0332,stop,-19.04,-0.46,5.32,4.36,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0355,A,ema+fixed,DECK,2014-04-25,2014-04-28,13.9363,13.5567,15.0472,153,2014-04-28,13.5499,stop,-59.12,-1.037,50.0,6.0,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0354,A,ema+fixed,DHI,2014-04-24,2014-04-25,20.2097,19.3876,22.8996,105,2014-04-29,19.3779,stop,-87.34,-0.947,11.76,5.01,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0353,A,ema+fixed,AAPL,2014-04-24,2014-04-25,17.5761,17.4391,18.7087,120,2014-05-06,18.7177,target,137.0,3.597,16.67,8.28,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0352,A,ema+fixed,SWKS,2014-04-23,2014-04-24,32.5955,31.5753,35.8335,65,2014-05-07,31.5595,stop,-67.34,-0.973,5.08,9.33,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0357,A,ema+fixed,MDLZ,2014-05-07,2014-05-08,28.4904,28.2776,30.7028,73,2014-05-12,28.2635,stop,-16.57,-0.374,11.43,6.62,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0358,A,ema+fixed,MCK,2014-05-13,2014-05-14,163.074,162.3606,174.5804,12,2014-05-14,162.2794,stop,-9.53,-0.26,6.25,3.31,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0356,A,ema+fixed,MGM,2014-04-29,2014-04-30,23.3883,22.3749,27.7227,79,2014-05-15,22.3637,stop,-80.94,-0.766,144.44,3.78,timing bmo (agree); size limited by risk
+A-ema+fixed-0360,A,ema+fixed,WDAY,2014-05-28,2014-05-29,83.3116,80.51,96.3108,25,2014-05-29,80.4697,stop,-71.05,-0.719,13.33,4.76,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0359,A,ema+fixed,ADSK,2014-05-16,2014-05-19,51.2456,49.6,58.9134,40,2014-06-17,54.6027,time exit,134.28,1.442,52.38,5.5,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0361,A,ema+fixed,CIEN,2014-06-05,2014-06-06,22.5413,21.52,25.8096,93,2014-06-25,21.5092,stop,-95.98,-0.962,30.77,15.85,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0362,A,ema+fixed,INTC,2014-07-16,2014-07-17,25.909,25.4351,29.1667,80,2014-07-18,25.4224,stop,-38.93,-0.522,5.77,5.05,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0366,A,ema+fixed,EW,2014-07-30,2014-07-31,15.3627,15.0767,16.9996,135,2014-07-31,15.0691,stop,-39.63,-0.611,15.38,7.77,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0364,A,ema+fixed,BIIB,2014-07-23,2014-07-24,337.7688,330.99,364.182,6,2014-08-01,330.8245,stop,-41.67,-0.837,22.89,10.32,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0365,A,ema+fixed,VRSN,2014-07-25,2014-07-28,54.4003,52.3701,62.3777,38,2014-08-01,52.3439,stop,-78.14,-0.822,6.25,5.36,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0367,A,ema+fixed,CHRW,2014-07-30,2014-07-31,51.3414,50.2914,57.0227,40,2014-08-06,50.2663,stop,-43.0,-0.639,5.26,5.57,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0368,A,ema+fixed,MPC,2014-07-31,2014-08-01,29.2276,28.3617,32.0563,71,2014-08-19,32.0403,target,199.7,3.045,37.04,3.01,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0363,A,ema+fixed,CMG,2014-07-22,2014-07-23,13.1808,12.9754,14.1193,158,2014-08-20,13.5614,time exit,60.14,1.331,16.67,10.17,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0369,A,ema+fixed,EXPE,2014-08-01,2014-08-04,79.1816,76.3972,87.7212,26,2014-09-02,82.538,time exit,87.27,1.186,37.33,3.48,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0370,A,ema+fixed,CRM,2014-08-22,2014-08-25,58.2575,56.6778,65.8593,35,2014-09-15,56.6495,stop,-56.28,-0.701,8.33,3.91,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0372,A,ema+fixed,LEN,2014-09-17,2014-09-18,35.0192,34.0135,38.2932,60,2014-09-22,33.9965,stop,-61.36,-0.956,15.15,3.12,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0371,A,ema+fixed,ROST,2014-08-22,2014-08-25,33.037,32.0512,36.6246,63,2014-09-23,33.0112,time exit,-1.63,-0.023,5.56,4.33,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0373,A,ema+fixed,NKE,2014-09-26,2014-09-29,37.3598,36.9207,41.4407,55,2014-10-02,36.9023,stop,-25.16,-0.405,25.0,10.32,timing amc (agree); size limited by max position
+A-ema+fixed-0374,A,ema+fixed,ILMN,2014-10-21,2014-10-22,175.6206,169.2604,194.35,11,2014-11-19,184.7617,time exit,100.55,1.457,37.5,9.72,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0375,A,ema+fixed,ORLY,2014-10-23,2014-10-24,11.1876,10.9047,12.1599,188,2014-11-21,11.93,time exit,139.58,2.366,7.69,4.86,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0376,A,ema+fixed,EW,2014-10-24,2014-10-27,19.4364,18.86,21.6492,108,2014-11-24,21.2427,time exit,195.08,2.59,8.33,7.9,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0377,A,ema+fixed,MA,2014-10-30,2014-10-31,77.3381,74.2801,87.6048,27,2014-12-01,81.207,time exit,104.46,1.161,11.54,3.11,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0380,A,ema+fixed,ADSK,2014-11-21,2014-11-24,61.7108,60.64,67.119,35,2014-12-01,60.6097,stop,-38.54,-0.68,13.64,4.43,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0378,A,ema+fixed,MDLZ,2014-11-05,2014-11-06,28.4072,27.504,31.0597,75,2014-12-05,29.2637,time exit,64.24,0.964,28.21,3.48,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0382,A,ema+fixed,ADBE,2014-12-12,2014-12-15,75.6978,73.7,84.5004,28,2014-12-15,73.6631,stop,-56.97,-0.754,20.0,6.35,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0379,A,ema+fixed,TGT,2014-11-19,2014-11-20,49.83,48.8021,57.0655,42,2014-12-19,51.6014,time exit,74.4,0.857,14.89,3.61,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0381,A,ema+fixed,LULU,2014-12-11,2014-12-12,51.1155,49.64,55.9392,42,2014-12-29,55.9112,target,201.42,3.045,10.53,6.83,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0383,A,ema+fixed,ACN,2014-12-18,2014-12-19,73.2753,71.3114,79.1463,30,2015-01-05,71.2757,stop,-59.99,-1.021,7.5,3.31,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0384,A,ema+fixed,CTAS,2014-12-19,2014-12-22,17.6633,17.0245,19.5443,125,2015-01-06,17.016,stop,-80.91,-1.028,15.79,3.22,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0385,A,ema+fixed,LUV,2015-01-22,2015-01-23,39.6252,37.7568,45.5932,55,2015-02-02,37.7379,stop,-103.8,-0.963,7.27,3.87,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0386,A,ema+fixed,AMZN,2015-01-30,2015-02-02,17.5113,17.027,20.1795,123,2015-03-03,19.2209,time exit,210.28,2.169,100.0,11.08,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0387,A,ema+fixed,BIIB,2015-01-30,2015-02-02,389.2245,372.74,446.2032,5,2015-03-03,412.5836,time exit,116.8,1.272,8.49,5.52,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0388,A,ema+fixed,ETN,2015-02-03,2015-02-04,52.7514,51.2256,59.5306,41,2015-03-05,53.0952,time exit,14.09,0.166,5.83,5.42,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0389,A,ema+fixed,DIS,2015-02-04,2015-02-05,91.0969,89.2883,100.0506,23,2015-03-06,93.7696,time exit,61.47,0.993,19.81,5.62,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0390,A,ema+fixed,ORLY,2015-02-05,2015-02-06,13.955,13.3813,15.6643,159,2015-03-09,13.7651,time exit,-30.19,-0.333,9.09,4.68,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0391,A,ema+fixed,KR,2015-03-05,2015-03-06,29.4447,28.9219,32.2799,75,2015-04-06,30.658,time exit,91.0,1.445,15.56,5.53,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0392,A,ema+fixed,COO,2015-03-06,2015-03-09,44.6832,43.3792,50.6628,49,2015-04-07,46.1472,time exit,71.74,0.804,12.82,5.49,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0393,A,ema+fixed,CCL,2015-03-27,2015-03-30,39.8144,38.8554,42.6117,56,2015-04-20,38.836,stop,-54.79,-1.042,122.22,5.38,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0397,A,ema+fixed,KMB,2015-04-21,2015-04-22,75.6137,74.1748,81.6941,29,2015-04-23,74.1377,stop,-42.8,-0.785,6.77,4.78,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0394,A,ema+fixed,PM,2015-04-16,2015-04-17,48.3771,47.1121,53.939,46,2015-04-27,47.0885,stop,-59.28,-0.755,14.85,5.49,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0395,A,ema+fixed,HAS,2015-04-20,2015-04-21,51.0538,48.9744,58.1274,44,2015-04-27,48.9499,stop,-92.57,-0.919,133.33,6.24,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0399,A,ema+fixed,ORLY,2015-04-23,2015-04-24,15.2109,14.9233,16.4171,146,2015-04-28,14.9159,stop,-43.08,-0.79,7.69,3.84,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0400,A,ema+fixed,VRSK,2015-04-29,2015-04-30,71.8241,71.1145,79.5906,30,2015-04-30,71.0789,stop,-22.36,-0.352,9.84,3.26,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0398,A,ema+fixed,PCAR,2015-04-21,2015-04-22,29.3909,28.3072,32.5835,76,2015-05-06,28.293,stop,-83.44,-1.027,5.97,3.13,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0396,A,ema+fixed,NTRS,2015-04-21,2015-04-22,53.4931,52.6206,56.0038,42,2015-05-11,55.9758,target,104.27,2.935,8.05,3.1,timing bmo (agree); size limited by max position
+A-ema+fixed-0401,A,ema+fixed,EQIX,2015-04-30,2015-05-01,197.1721,191.3097,214.3652,11,2015-06-01,208.1967,time exit,121.27,1.913,66.67,4.27,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0403,A,ema+fixed,HAS,2015-07-20,2015-07-21,56.7194,56.5427,61.7769,38,2015-07-21,56.5144,stop,-7.79,-0.157,13.79,4.4,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0402,A,ema+fixed,GOOG,2015-07-17,2015-07-20,32.6691,31.9374,38.1776,66,2015-07-23,31.9214,stop,-49.34,-0.479,6.06,11.93,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0404,A,ema+fixed,PKG,2015-07-22,2015-07-23,51.1236,49.5141,55.8498,43,2015-07-27,49.4894,stop,-70.27,-1.032,14.56,9.99,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0408,A,ema+fixed,FSLR,2015-08-05,2015-08-06,52.2057,49.0,61.7184,34,2015-08-19,48.9755,stop,-109.83,-1.016,108.0,12.63,timing amc (yahoo only); size limited by risk
+A-ema+fixed-0409,A,ema+fixed,TJX,2015-08-18,2015-08-19,32.2931,32.0823,36.2677,67,2015-08-19,32.0663,stop,-15.19,-0.217,5.26,4.43,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0407,A,ema+fixed,RCL,2015-07-31,2015-08-03,78.4933,76.4899,84.3467,28,2015-08-20,76.4517,stop,-57.17,-1.039,15.07,6.5,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0405,A,ema+fixed,CDNS,2015-07-28,2015-07-29,20.8104,19.9758,23.6484,106,2015-08-21,19.9658,stop,-89.53,-0.92,12.5,3.64,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0406,A,ema+fixed,NOC,2015-07-29,2015-07-30,144.1028,140.2163,160.2973,15,2015-08-21,140.1462,stop,-59.35,-0.788,16.1,4.44,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0410,A,ema+fixed,SJM,2015-08-27,2015-08-28,82.9103,80.8412,90.7814,26,2015-09-01,80.8007,stop,-54.85,-0.849,7.32,4.16,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0412,A,ema+fixed,KR,2015-09-11,2015-09-14,29.881,28.9105,33.3946,72,2015-09-22,28.896,stop,-70.92,-0.879,12.82,5.68,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0413,A,ema+fixed,NKE,2015-09-25,2015-09-28,53.2781,52.4716,57.516,40,2015-09-28,52.4454,stop,-33.31,-0.66,11.67,7.27,timing amc (agree); size limited by max position
+A-ema+fixed-0411,A,ema+fixed,PANW,2015-09-10,2015-09-11,29.6281,28.3233,33.888,72,2015-09-29,28.3092,stop,-94.97,-0.948,25.0,5.82,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0416,A,ema+fixed,GM,2015-10-21,2015-10-22,28.1684,27.4506,30.2655,76,2015-10-28,27.4369,stop,-55.59,-1.04,27.12,4.42,timing bmo (agree); size limited by max position
+A-ema+fixed-0419,A,ema+fixed,CBRE,2015-10-28,2015-10-29,37.5888,36.84,40.5114,57,2015-11-04,36.8216,stop,-43.73,-0.836,10.87,7.54,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0414,A,ema+fixed,STZ,2015-10-07,2015-10-08,112.5052,110.3072,121.3249,18,2015-11-05,111.608,time exit,-16.15,-0.326,18.18,3.11,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0415,A,ema+fixed,GPN,2015-10-07,2015-10-08,60.6594,57.5175,69.9637,34,2015-11-05,64.5303,time exit,131.61,1.244,9.72,7.91,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0417,A,ema+fixed,TXN,2015-10-22,2015-10-23,42.9315,41.1216,48.9554,49,2015-11-20,43.1471,time exit,10.57,0.11,13.43,8.09,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0418,A,ema+fixed,MCD,2015-10-22,2015-10-23,84.8556,82.6673,91.9968,25,2015-11-20,86.8523,time exit,49.92,0.856,9.37,7.67,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0422,A,ema+fixed,ADI,2015-11-24,2015-11-25,48.8795,46.3886,57.1017,40,2015-12-04,46.3654,stop,-100.56,-0.939,24.1,4.54,timing bmo (yahoo only); size limited by risk
+A-ema+fixed-0424,A,ema+fixed,DE,2015-11-25,2015-11-27,66.7846,64.3406,75.0501,32,2015-12-11,64.3084,stop,-79.24,-0.925,44.0,5.04,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0423,A,ema+fixed,PANW,2015-11-24,2015-11-25,30.587,29.735,33.3045,70,2015-12-14,29.7201,stop,-60.68,-0.971,20.0,4.35,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0420,A,ema+fixed,SJM,2015-11-19,2015-11-20,87.4551,83.5025,99.1382,24,2015-12-21,88.1659,time exit,17.06,0.182,7.28,4.14,timing bmo (yahoo only); size limited by max position
+A-ema+fixed-0421,A,ema+fixed,ROST,2015-11-20,2015-11-23,45.8425,44.0926,51.4472,46,2015-12-22,48.9043,time exit,140.84,1.665,6.0,9.09,timing amc (yahoo only); size limited by max position
+A-ema+fixed-0425,A,ema+fixed,ULTA,2015-12-04,2015-12-07,184.7323,173.86,218.4216,9,2016-01-06,183.1184,time exit,-14.53,-0.145,5.71,6.93,timing amc (yahoo only); size limited by risk

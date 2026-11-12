@@ -1,0 +1,118 @@
+setup,variant,ticker,signal_date,entry_date,reason,eps_surprise_pct
+A,ema+fixed,AZO,2002-05-22,2002-05-23,limit not reached,21.518987341772142
+A,ema+fixed,NOC,2003-07-28,2003-07-29,max 2 positions in Industrials,27.906976744186057
+A,ema+fixed,VLO,2005-02-01,2005-02-02,limit not reached,31.944444444444443
+A,ema+fixed,HAL,2005-07-22,2005-07-25,limit not reached,35.7142857142857
+A,ema+fixed,FISV,2006-04-26,2006-04-27,max 2 positions in Financials,6.666666666666673
+A,ema+fixed,EXPD,2006-05-04,2006-05-05,max 5 open positions,19.99999999999999
+A,ema+fixed,LVS,2006-05-05,2006-05-08,max 5 open positions,8.57142857142858
+A,ema+fixed,CIEN,2006-06-01,2006-06-02,limit not reached,216.66666666666669
+A,ema+fixed,MDT,2006-11-21,2006-11-22,max 5 open positions,5.357142857142842
+A,ema+fixed,CTSH,2007-02-05,2007-02-06,max 5 open positions,9.090909090909086
+A,ema+fixed,TXT,2007-04-19,2007-04-20,limit not reached,25.80645161290323
+A,ema+fixed,MMM,2007-04-26,2007-04-27,max 2 positions in Industrials,14.285714285714276
+A,ema+fixed,WM,2007-04-27,2007-04-30,max 2 positions in Industrials,19.444444444444446
+A,ema+fixed,ISRG,2007-07-20,2007-07-23,limit not reached,28.57142857142855
+A,ema+fixed,GRMN,2007-08-01,2007-08-02,limit not reached,32.432432432432435
+A,ema+fixed,MCK,2007-10-31,2007-11-01,max 5 open positions,13.888888888888888
+A,ema+fixed,ILMN,2008-02-05,2008-02-06,max 2 positions in Health Care,91.66666666666669
+A,ema+fixed,AMAT,2008-02-13,2008-02-14,max 2 positions in Information Technology,15.0
+A,ema+fixed,JPM,2008-07-17,2008-07-18,max 2 positions in Financials,22.727272727272734
+A,ema+fixed,BLK,2008-07-17,2008-07-18,max 2 positions in Financials,13.829787234042568
+A,ema+fixed,ISRG,2008-07-23,2008-07-24,max 2 positions in Health Care,7.692307692307699
+A,ema+fixed,ELV,2008-07-23,2008-07-24,max 2 positions in Health Care,5.8823529411764595
+A,ema+fixed,SPGI,2008-07-29,2008-07-30,max 5 open positions,7.575757575757565
+A,ema+fixed,MSI,2008-07-31,2008-08-01,max 5 open positions,173.6842105263158
+A,ema+fixed,IP,2008-07-31,2008-08-01,max 5 open positions,40.00000000000001
+A,ema+fixed,RL,2008-08-06,2008-08-07,max 5 open positions,30.985915492957762
+A,ema+fixed,ON,2008-08-06,2008-08-07,max 5 open positions,5.263157894736847
+A,ema+fixed,MCK,2009-01-27,2009-01-28,max 2 positions in Health Care,22.09302325581396
+A,ema+fixed,MA,2009-02-05,2009-02-06,max 5 open positions,18.75
+A,ema+fixed,AKAM,2009-02-05,2009-02-06,max 5 open positions,9.999999999999995
+A,ema+fixed,VTRS,2009-02-20,2009-02-23,limit not reached,85.7142857142857
+A,ema+fixed,YUM,2009-04-23,2009-04-24,max 2 positions in Consumer Discretionary,19.99999999999999
+A,ema+fixed,FSLR,2009-04-30,2009-05-01,max 5 open positions,31.788079470198678
+A,ema+fixed,AKAM,2009-04-30,2009-05-01,max 5 open positions,7.499999999999993
+A,ema+fixed,EL,2009-05-04,2009-05-05,max 5 open positions,300.0
+A,ema+fixed,DIS,2009-05-06,2009-05-07,max 5 open positions,7.499999999999993
+A,ema+fixed,PRU,2009-05-07,2009-05-08,max 5 open positions,34.61538461538461
+A,ema+fixed,VRSN,2009-05-08,2009-05-11,max 5 open positions,14.285714285714276
+A,ema+fixed,AIG,2009-08-07,2009-08-10,max 5 open positions,167.70833333333331
+A,ema+fixed,TROW,2009-10-23,2009-10-26,max 2 positions in Financials,8.69565217391304
+A,ema+fixed,AKAM,2009-10-29,2009-10-30,max 2 positions in Information Technology,8.57142857142858
+A,ema+fixed,TXT,2010-07-21,2010-07-22,limit not reached,189.99999999999997
+A,ema+fixed,ETN,2010-07-21,2010-07-22,limit not reached,17.241379310344847
+A,ema+fixed,TER,2010-07-29,2010-07-30,max 5 open positions,41.30434782608695
+A,ema+fixed,RL,2010-08-04,2010-08-05,max 5 open positions,34.444444444444436
+A,ema+fixed,SKYD,2010-08-04,2010-08-05,max 5 open positions,19.04761904761905
+A,ema+fixed,BKNG,2010-08-04,2010-08-05,max 5 open positions,9.090909090909086
+A,ema+fixed,FFIV,2010-10-27,2010-10-28,max 5 open positions,11.267605633802827
+A,ema+fixed,RL,2010-11-10,2010-11-11,max 5 open positions,22.941176470588232
+A,ema+fixed,JBL,2010-12-21,2010-12-22,limit not reached,10.909090909090898
+A,ema+fixed,UAL,2011-01-26,2011-01-27,limit not reached,69.23076923076923
+A,ema+fixed,ROK,2011-01-26,2011-01-27,max 2 positions in Industrials,18.181818181818183
+A,ema+fixed,UHS,2011-04-27,2011-04-28,max 5 open positions,22.34042553191489
+A,ema+fixed,ILMN,2011-04-27,2011-04-28,max 5 open positions,12.903225806451607
+A,ema+fixed,MSI,2011-04-28,2011-04-29,max 5 open positions,68.75000000000001
+A,ema+fixed,ALL,2011-04-28,2011-04-29,max 5 open positions,36.764705882352935
+A,ema+fixed,NSC,2011-04-28,2011-04-29,max 5 open positions,12.359550561797752
+A,ema+fixed,SWKS,2011-04-29,2011-05-02,max 5 open positions,5.128205128205118
+A,ema+fixed,SWKS,2011-07-22,2011-07-25,max 5 open positions,6.521739130434775
+A,ema+fixed,DG,2011-08-30,2011-08-31,limit not reached,8.333333333333341
+A,ema+fixed,MCK,2011-10-26,2011-10-27,limit not reached,17.26618705035971
+A,ema+fixed,CMI,2012-02-02,2012-02-03,limit not reached,12.775330396475773
+A,ema+fixed,AFL,2012-04-25,2012-04-26,max 5 open positions,6.097560975609762
+A,ema+fixed,EQIX,2012-04-26,2012-04-27,max 5 open positions,35.29411764705881
+A,ema+fixed,REGN,2012-07-25,2012-07-26,limit not reached,91.48936170212768
+A,ema+fixed,LLY,2012-07-25,2012-07-26,limit not reached,7.792207792207785
+A,ema+fixed,VTRS,2012-07-26,2012-07-27,limit not reached,9.09090909090908
+A,ema+fixed,FSLR,2012-08-02,2012-08-03,max 5 open positions,79.3478260869565
+A,ema+fixed,EOG,2012-08-03,2012-08-06,max 5 open positions,26.08695652173912
+A,ema+fixed,EL,2012-08-14,2012-08-15,max 5 open positions,6.250000000000005
+A,ema+fixed,NTAP,2012-08-16,2012-08-17,max 5 open positions,10.52631578947368
+A,ema+fixed,WYNN,2012-10-25,2012-10-26,max 5 open positions,11.278195488721797
+A,ema+fixed,PRU,2013-05-02,2013-05-03,max 5 open positions,21.925133689839555
+A,ema+fixed,STX,2013-05-02,2013-05-03,max 5 open positions,7.6923076923077
+A,ema+fixed,AIG,2013-05-03,2013-05-06,max 5 open positions,52.27272727272728
+A,ema+fixed,EOG,2013-05-07,2013-05-08,max 5 open positions,52.542372881355945
+A,ema+fixed,BSX,2013-07-25,2013-07-26,max 2 positions in Health Care,33.33333333333333
+A,ema+fixed,MA,2013-07-31,2013-08-01,limit not reached,11.111111111111104
+A,ema+fixed,MCHP,2013-10-31,2013-11-01,max 5 open positions,6.666666666666673
+A,ema+fixed,EXPE,2013-10-31,2013-11-01,max 5 open positions,5.925925925925914
+A,ema+fixed,FSLR,2013-11-01,2013-11-04,max 5 open positions,107.27272727272722
+A,ema+fixed,TRMB,2013-11-01,2013-11-04,max 5 open positions,8.333333333333341
+A,ema+fixed,REGN,2013-11-05,2013-11-06,max 2 positions in Health Care,26.984126984126988
+A,ema+fixed,A,2013-11-15,2013-11-18,max 5 open positions,6.5789473684210575
+A,ema+fixed,WSM,2013-11-21,2013-11-22,max 2 positions in Consumer Discretionary,7.407407407407393
+A,ema+fixed,PKG,2014-02-12,2014-02-13,max 5 open positions,16.853932584269664
+A,ema+fixed,GNRC,2014-02-13,2014-02-14,max 5 open positions,29.069767441860478
+A,ema+fixed,BKNG,2014-02-21,2014-02-24,max 5 open positions,6.060606060606049
+A,ema+fixed,WDAY,2014-02-27,2014-02-28,max 2 positions in Information Technology,18.75
+A,ema+fixed,AMGN,2014-07-30,2014-07-31,max 2 positions in Health Care,14.49275362318842
+A,ema+fixed,ELV,2014-07-30,2014-07-31,max 2 positions in Health Care,7.964601769911512
+A,ema+fixed,TSN,2014-11-17,2014-11-18,max 5 open positions,12.987012987012983
+A,ema+fixed,BBY,2014-11-20,2014-11-21,max 5 open positions,28.000000000000004
+A,ema+fixed,WSM,2014-11-20,2014-11-21,max 5 open positions,9.677419354838717
+A,ema+fixed,ROST,2014-11-21,2014-11-24,max 5 open positions,9.302325581395344
+A,ema+fixed,KR,2014-12-04,2014-12-05,max 2 positions in Consumer Staples,12.903225806451607
+A,ema+fixed,GM,2015-02-04,2015-02-05,limit not reached,43.373493975903614
+A,ema+fixed,ON,2015-02-06,2015-02-09,max 5 open positions,6.250000000000005
+A,ema+fixed,GNRC,2015-02-11,2015-02-12,max 5 open positions,24.0506329113924
+A,ema+fixed,BKNG,2015-02-19,2015-02-20,max 5 open positions,7.499999999999993
+A,ema+fixed,INTU,2015-02-20,2015-02-23,max 5 open positions,53.846153846153854
+A,ema+fixed,HD,2015-02-24,2015-02-25,max 5 open positions,12.359550561797752
+A,ema+fixed,MNST,2015-02-27,2015-03-02,max 5 open positions,19.99999999999999
+A,ema+fixed,ROST,2015-02-27,2015-03-02,max 5 open positions,7.142857142857128
+A,ema+fixed,DRI,2015-03-20,2015-03-23,limit not reached,17.85714285714286
+A,ema+fixed,YUM,2015-04-22,2015-04-23,max 5 open positions,12.67605633802818
+A,ema+fixed,MSFT,2015-04-24,2015-04-27,max 5 open positions,16.98113207547169
+A,ema+fixed,MAS,2015-07-28,2015-07-29,limit not reached,5.71428571428572
+A,ema+fixed,URI,2015-10-22,2015-10-23,max 5 open positions,8.898305084745761
+A,ema+fixed,EBAY,2015-10-22,2015-10-23,max 5 open positions,7.499999999999993
+A,ema+fixed,SWK,2015-10-22,2015-10-23,max 5 open positions,6.164383561643842
+A,ema+fixed,COF,2015-10-23,2015-10-26,max 5 open positions,7.653061224489792
+A,ema+fixed,ORLY,2015-10-29,2015-10-30,max 5 open positions,12.499999999999993
+A,ema+fixed,ZBH,2015-10-29,2015-10-30,max 5 open positions,5.128205128205118
+A,ema+fixed,FSLR,2015-10-30,2015-11-02,max 5 open positions,108.64197530864195
+A,ema+fixed,EL,2015-11-02,2015-11-03,max 5 open positions,17.142857142857142
+A,ema+fixed,SPGI,2015-11-03,2015-11-04,max 5 open positions,11.214953271028026

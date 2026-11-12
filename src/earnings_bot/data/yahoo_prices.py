@@ -48,3 +48,29 @@ def tbill_daily_return(index: pd.DatetimeIndex) -> pd.Series:
     """
     irx = load("^IRX").close.clip(lower=0).reindex(index).ffill().shift(1)
     return ((1 + irx / 100) ** (1 / 252) - 1).fillna(0.0).rename("cash")
+
+
+HIST_CACHE = DATA_DIR / "prices_yahoo_hist"
+
+
+def load_history_range(symbol: str, start: str, end: str) -> pd.DataFrame | None:
+    """Adjusted daily OHLCV for a stock over a fixed past window (cached; fetched once).
+
+    Used for the 2002-2015 out-of-sample test, where Alpaca has no data. Same column
+    layout as the Alpaca price cache. Returns None if Yahoo has nothing for the window.
+    """
+    path = HIST_CACHE / f"{symbol.replace('.', '-')}_{start}_{end}.parquet"
+    if path.exists():
+        df = read_parquet(path)
+        return df if len(df) else None
+    import yfinance as yf
+
+    df = yf.Ticker(symbol.replace(".", "-")).history(start=start, end=end, auto_adjust=True)
+    if not df.empty:
+        df.index = pd.DatetimeIndex(df.index.tz_localize(None).normalize(), name="date")
+        df = df.rename(columns=str.lower)[["open", "high", "low", "close", "volume"]].astype(float)
+        df = df[(df.open > 0) & (df.high >= df.low)]
+    else:
+        df = pd.DataFrame(columns=["open", "high", "low", "close", "volume"], dtype=float)
+    write_parquet(df, path)  # cache empties too, so missing symbols aren't re-requested
+    return df if len(df) else None

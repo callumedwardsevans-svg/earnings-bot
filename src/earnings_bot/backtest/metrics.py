@@ -55,3 +55,28 @@ def benchmark(spy: pd.DataFrame, start, end, start_equity: float) -> tuple[dict,
     eq = start_equity * c / c.iloc[0]
     return {"total_return": float(eq.iloc[-1] / eq.iloc[0] - 1), "cagr": _cagr(eq),
             "max_drawdown": _drawdown(eq), "sharpe": _sharpe(eq), "exposure_time": 1.0}, eq
+
+
+def clustered_t(r: pd.Series, dates: pd.Series) -> float:
+    """t-stat of the mean using weekly clusters (mean R per entry week).
+
+    Earnings signals bunch in reporting season and share market moves, so treating
+    them as independent overstates significance.
+    """
+    weekly = r.groupby(pd.to_datetime(dates).dt.to_period("W")).mean()
+    return float(weekly.mean() / (weekly.std(ddof=1) / np.sqrt(len(weekly)))) if len(weekly) > 1 else np.nan
+
+
+def market_adjust(sims: pd.DataFrame, spy: pd.DataFrame) -> pd.DataFrame:
+    """Add spy_r (SPY's move over each trade's window, in the trade's R units) and excess_r.
+
+    SPY is entered at the same price point as the trade (open for open-limit entries,
+    close for close entries) and exited at the trade's exit-date close. Assumes beta 1.
+    """
+    s = sims.copy()
+    spy_in = np.where(s.entry_type == "open_limit", spy.open.reindex(s.entry_date).values,
+                      spy.close.reindex(s.entry_date).values)
+    spy_out = spy.close.reindex(s.exit_date).values
+    s["spy_r"] = (spy_out / spy_in - 1) / (s.initial_risk / s.entry_price)
+    s["excess_r"] = s.r_multiple - s.spy_r
+    return s
