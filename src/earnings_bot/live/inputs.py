@@ -17,6 +17,7 @@ import pandas as pd
 
 from earnings_bot.config import LIVE_FORWARD_CALENDAR_DAYS, SETUP_A, SETUP_B, Settings
 from earnings_bot.data import earnings, prices, yahoo
+from earnings_bot.data.cache import DATA_DIR, write_parquet
 from earnings_bot.data.earnings import surprise_pct
 from earnings_bot.data.history import _reconcile
 from earnings_bot.indicators import add_indicators
@@ -73,9 +74,25 @@ def recent_reports(settings: Settings, today: pd.Timestamp, universe_symbols: se
                                        "yahoo_time"])
 
 
-def next_report_dates(settings: Settings, today: pd.Timestamp) -> dict[str, pd.Timestamp]:
-    """Earliest scheduled report date after today, per symbol (Finnhub forward calendar)."""
+CONSENSUS_LOG_DIR = DATA_DIR / "consensus_log"
+
+
+def next_report_dates(settings: Settings, today: pd.Timestamp,
+                      log_universe: set[str] | None = None) -> dict[str, pd.Timestamp]:
+    """Earliest scheduled report date after today, per symbol (Finnhub forward calendar).
+
+    If ``log_universe`` is given, also saves tonight's consensus (EPS and revenue estimates)
+    for every upcoming report in it to data/consensus_log/YYYY-MM-DD.parquet. The last
+    snapshot before a report is the consensus as it stood before the release, which free
+    APIs can't guarantee historically (research addendum, ground rule 6).
+    """
     cal = earnings.fetch_finnhub_calendar((today + timedelta(days=1)).date(),
                                           (today + timedelta(days=LIVE_FORWARD_CALENDAR_DAYS)).date(),
                                           settings.finnhub_api_key)
+    if log_universe is not None:
+        snap = cal[cal.symbol.isin(log_universe)][["symbol", "report_date", "report_time", "eps_estimate",
+                                                    "revenue_estimate"]].copy()
+        snap.insert(0, "snapshot_date", pd.Timestamp(today).normalize())
+        snap["source"] = "finnhub"
+        write_parquet(snap.reset_index(drop=True), CONSENSUS_LOG_DIR / f"{pd.Timestamp(today).date()}.parquet")
     return cal.groupby("symbol").report_date.min().to_dict()

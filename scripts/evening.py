@@ -87,7 +87,7 @@ def main() -> int:
         if state.get("start") is None and args.send:  # performance baseline starts with live paper orders
             state["start"] = {"date": str(today.date()), "equity": account["equity"], "spy_close": spy_close}
         reports = inputs.recent_reports(settings, today, set(uni.symbol))
-        next_reports = inputs.next_report_dates(settings, today)
+        next_reports = inputs.next_report_dates(settings, today, log_universe=set(uni.symbol))
         plan = planner.build_plan(today, nxt, reports, px, sessions, uni, next_reports, account, positions, state,
                                   kill_switch=kill_switch_active())
         plan["mode_tonight"] = "send" if args.send else "dry run"

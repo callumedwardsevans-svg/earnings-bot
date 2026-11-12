@@ -56,6 +56,19 @@ def main() -> int:
         # subset is a random sample of the index rather than just A-to-M tickers.
         targets = [s for s in symbols if s != BENCHMARK]
         random.Random(42).shuffle(targets)
+        # Priority: past index members (since 2010) with no earnings history at all. Yahoo drops
+        # delisted tickers, so Alpha Vantage is the only free source for them (research addendum).
+        try:
+            from earnings_bot.data import history, membership
+
+            iv = membership.load_intervals()
+            have = set(history.load_history().symbol) if history.load_history() is not None else set()
+            past = sorted({membership.data_symbol(t) for t in membership.all_tickers_since("2010-01-01", iv)}
+                          - {None} - set(symbols) - have)
+            targets = past + targets
+            print(f"Alpha Vantage priority: {len(past)} past members without earnings history")
+        except Exception as exc:  # membership not built yet: fall back to the plain order
+            print(f"(no membership priority: {exc})")
         budget = earnings.AlphaVantageBudget()
         status = earnings.backfill_av(targets, settings.alphavantage_api_key, budget)
         cached = sum(earnings.av_raw_path(s).exists() for s in targets)

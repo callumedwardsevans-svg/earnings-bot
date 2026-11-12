@@ -80,3 +80,40 @@ def market_adjust(sims: pd.DataFrame, spy: pd.DataFrame) -> pd.DataFrame:
     s["spy_r"] = (spy_out / spy_in - 1) / (s.initial_risk / s.entry_price)
     s["excess_r"] = s.r_multiple - s.spy_r
     return s
+
+
+EULER_GAMMA = 0.5772156649
+
+
+def deflated_sharpe(returns: pd.Series, n_trials: int, sr_trials_var: float) -> dict:
+    """Deflated Sharpe Ratio (Bailey & Lopez de Prado, 2014), on per-period (daily) returns.
+
+    ``n_trials``: number of variants tried; ``sr_trials_var``: variance of the per-period
+    Sharpe ratios across those trials. Returns the expected maximum Sharpe under the null
+    (SR0) and the probability that the true Sharpe exceeds it (the DSR).
+    """
+    from scipy.stats import kurtosis, norm, skew
+
+    r = returns.dropna()
+    sr = r.mean() / r.std(ddof=1)
+    t = len(r)
+    g3, g4 = skew(r), kurtosis(r, fisher=False)
+    n = max(int(n_trials), 1)
+    if n > 1:
+        sr0 = np.sqrt(sr_trials_var) * ((1 - EULER_GAMMA) * norm.ppf(1 - 1 / n)
+                                        + EULER_GAMMA * norm.ppf(1 - 1 / (n * np.e)))
+    else:
+        sr0 = 0.0
+    z = (sr - sr0) * np.sqrt(t - 1) / np.sqrt(1 - g3 * sr + (g4 - 1) / 4 * sr ** 2)
+    return {"sr_daily": float(sr), "sr0_daily": float(sr0), "dsr": float(norm.cdf(z)), "n_trials": n,
+            "skew": float(g3), "kurtosis": float(g4)}
+
+
+def profit_concentration(pnl: pd.Series, top: float = 0.05) -> float:
+    """Share of total profit from the best ``top`` fraction of trades (NaN if total <= 0)."""
+    pnl = pnl.dropna().sort_values(ascending=False)
+    total = pnl.sum()
+    if total <= 0 or len(pnl) == 0:
+        return float("nan")
+    k = max(1, int(np.ceil(top * len(pnl))))
+    return float(pnl.iloc[:k].sum() / total)
