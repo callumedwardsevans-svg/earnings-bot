@@ -1,0 +1,4 @@
+variant,in-sample excess Sharpe,holdout excess Sharpe,DSR,top-5% months,corr with A (monthly),verdict
+F base,0.37,0.73,0.72,107%,0.5,drop: DSR 0.72; no edge over equal-weight at x2 costs (0.33 vs 0.48; at x1 0.37 vs 0.52); best 5% of months = 107% of profit
+F crash guard,0.31,0.73,0.67,115%,0.49,drop: DSR 0.67; no edge over equal-weight at x2 costs (0.28 vs 0.48; at x1 0.31 vs 0.52); best 5% of months = 115% of profit
+F skip early reporters,0.41,0.72,0.75,98%,0.53,drop: DSR 0.75; no edge over equal-weight at x2 costs (0.38 vs 0.48; at x1 0.41 vs 0.52); best 5% of months = 98% of profit

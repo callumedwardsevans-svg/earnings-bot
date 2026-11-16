@@ -8,9 +8,7 @@ Every variant run for the addendum is counted here, including abandoned ones. Co
 | 1 | Step 0 | Setup A as live (ema+fixed, next-open scheduled exits), point-in-time S&P 500, 2010-2026 | 2026-11-12 | Also run on today's list for the before/after comparison |
 | 2-6 | Setup E, SPY | trend only; trend + vol target; TOM only -2..+3; TOM only -3..+3; combined (trend + vol + TOM -2..+3) | 2026-11-16 | Rules as written; interpretation choices fixed in `scripts/run_setup_e.py` before results |
 | 7-11 | Setup E, QQQ | the same 5 rules | 2026-11-16 | as above |
-
-| 12-13 | Setup G | EPS beat >= 5% alone, exit day +10; EPS beat >= 5% alone, exit day +20 (next-open entry per rule 4) | 2026-11-16 | Revenue-beat pair not run yet (no revenue-consensus history); will be added when run |
-
+| 12-13 | Setup G | EPS beat >= 5% alone, exit day +10; EPS beat >= 5% alone, exit day +20 (next-open entry per rule 4) | 2026-11-16 | Revenue-beat pair never run: no free revenue-consensus history; skipped by the user |
 | 14-16 | Setup F | base; crash guard; skip names reporting in the holding month's first 5 sessions | 2026-11-16 | Start 2016 (user's choice); benchmarks (equal-weight, 12-1 momentum, SPY) not counted |
 
 **Addendum total: 16** (Step 0, Setup E, Setup G EPS-only, Setup F). Setup G's 2 revenue-beat variants were skipped by the user and never run.
