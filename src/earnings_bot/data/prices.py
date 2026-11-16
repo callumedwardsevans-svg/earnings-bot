@@ -144,3 +144,45 @@ def update_prices(
                     status[sym] = "updated"
                 write_parquet(merged, price_path(sym))
     return status
+
+
+def fetch_adjustment_panel(client, symbols: list[str], adjustment: str, start: date = date(2016, 1, 1),
+                           end: date | None = None, batch_size: int = 100) -> dict[str, pd.DataFrame]:
+    """Daily SIP bars with a given adjustment ('raw' or 'split'), cached under data/prices_<adj>/.
+
+    Used by Setup F: raw volume / raw SEC share counts keeps turnover on one basis, and
+    raw close / split-adjusted close gives the cumulative split factor.
+    """
+    from alpaca.data.enums import Adjustment, DataFeed
+    from alpaca.data.requests import StockBarsRequest
+    from alpaca.data.timeframe import TimeFrame
+
+    from earnings_bot.data.cache import DATA_DIR
+
+    folder = DATA_DIR / f"prices_{adjustment}"
+    end = end or (pd.Timestamp.now(tz=NY) - pd.Timedelta(days=1)).date()
+    out, todo = {}, []
+    for s in symbols:
+        df = read_parquet(folder / f"{s.replace('/', '_')}.parquet")
+        if df is not None:
+            out[s] = df
+        else:
+            todo.append(s)
+    adj = {"raw": Adjustment.RAW, "split": Adjustment.SPLIT}[adjustment]
+    for i in range(0, len(todo), batch_size):
+        batch = todo[i:i + batch_size]
+        req = StockBarsRequest(symbol_or_symbols=batch, timeframe=TimeFrame.Day, start=datetime.combine(start, time()),
+                               end=datetime.combine(end, time(23, 59)), feed=DataFeed.SIP, adjustment=adj)
+        df = client.get_stock_bars(req).df
+        got = set()
+        if not df.empty:
+            for sym, g in df.groupby(level="symbol"):
+                g = g.droplevel("symbol")
+                g.index = pd.DatetimeIndex(g.index.tz_convert(NY).date, name="date")
+                g = g[COLUMNS].astype(float)
+                write_parquet(g, folder / f"{sym.replace('/', '_')}.parquet")
+                out[sym] = g
+                got.add(sym)
+        for sym in set(batch) - got:  # remember "no data" so it isn't re-requested
+            write_parquet(pd.DataFrame(columns=COLUMNS, dtype=float), folder / f"{sym.replace('/', '_')}.parquet")
+    return {k: v for k, v in out.items() if len(v)}

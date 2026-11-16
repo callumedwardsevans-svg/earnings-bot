@@ -74,3 +74,31 @@ def load_history_range(symbol: str, start: str, end: str) -> pd.DataFrame | None
         df = pd.DataFrame(columns=["open", "high", "low", "close", "volume"], dtype=float)
     write_parquet(df, path)  # cache empties too, so missing symbols aren't re-requested
     return df if len(df) else None
+
+
+SHARES_CACHE = DATA_DIR / "shares_yahoo"
+
+
+def shares_history(symbol: str) -> pd.Series | None:
+    """Yahoo shares-outstanding history (raw counts, from Nov 2015), cached once.
+
+    Yahoo gives no filing dates, so callers should lag these values before using them.
+    """
+    path = SHARES_CACHE / f"{symbol.replace('.', '-')}.parquet"
+    if path.exists():
+        df = read_parquet(path)
+        return df.shares if len(df) else None
+    import yfinance as yf
+
+    try:
+        s = yf.Ticker(symbol.replace(".", "-")).get_shares_full(start="2015-01-01", end="2026-11-15")
+    except Exception:
+        s = None
+    if s is None or len(s) == 0:
+        write_parquet(pd.DataFrame({"shares": pd.Series(dtype=float)}), path)
+        return None
+    s = s[~s.index.duplicated(keep="last")]
+    s.index = pd.DatetimeIndex(s.index.tz_localize(None).normalize(), name="date")
+    df = pd.DataFrame({"shares": s.astype(float)}).sort_index()
+    write_parquet(df, path)
+    return df.shares

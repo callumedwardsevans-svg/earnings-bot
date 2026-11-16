@@ -11,7 +11,9 @@ Every variant run for the addendum is counted here, including abandoned ones. Co
 
 | 12-13 | Setup G | EPS beat >= 5% alone, exit day +10; EPS beat >= 5% alone, exit day +20 (next-open entry per rule 4) | 2026-11-16 | Revenue-beat pair not run yet (no revenue-consensus history); will be added when run |
 
-**Addendum total: 13** (Step 0, Setup E, Setup G EPS-only)
+| 14-16 | Setup F | base; crash guard; skip names reporting in the holding month's first 5 sessions | 2026-11-16 | Start 2016 (user's choice); benchmarks (equal-weight, 12-1 momentum, SPY) not counted |
+
+**Addendum total: 16** (Step 0, Setup E, Setup G EPS-only, Setup F). Setup G's 2 revenue-beat variants were skipped by the user and never run.
 
 Earlier in the project (before the addendum), for context in Deflated Sharpe calculations:
 13 earnings variants (Setup A: 8 in-sample + the open-exit rule; Setup B: 4) and 30 Setup D

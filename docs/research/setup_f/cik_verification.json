@@ -1,0 +1,19 @@
+{
+  "tickers with membership since 2016": 728,
+  "passed as first matched": 599,
+  "fixed by another EDGAR candidate": 18,
+  "dropped": 111,
+  "failures of first match, by reason": {
+    "no share count": 73,
+    "no SEC share data": 34,
+    "no CIK": 17,
+    "market cap $0.00bn": 4,
+    "no raw prices": 1
+  },
+  "first-match failures by source": {
+    "wikipedia": 53,
+    "edgar name search": 40,
+    "sec ticker map": 19,
+    "unresolved": 17
+  }
+}

@@ -74,3 +74,10 @@ def shares_known_on(hist: pd.DataFrame, date, max_age_days: int = 200) -> float 
     d = pd.Timestamp(date)
     h = hist[(hist.filed < d) & (hist.end >= d - pd.Timedelta(days=max_age_days))]
     return float(h.sort_values(["end", "filed"]).val.iloc[-1]) if len(h) else None
+
+
+def search_candidates(name: str, n: int = 5) -> list[tuple[int, str]]:
+    """Top EDGAR entity matches for a company name: [(CIK, EDGAR name), ...]."""
+    j = _get("https://efts.sec.gov/LATEST/search-index", {"keysTyped": name})
+    hits = (j or {}).get("hits", {}).get("hits", [])
+    return [(int(h["_id"]), h["_source"]["entity"]) for h in hits[:n]]

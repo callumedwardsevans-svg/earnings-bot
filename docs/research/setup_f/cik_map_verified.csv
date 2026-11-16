@@ -1,0 +1,729 @@
+ticker,original_cik,original_source,original_check,final_cik,final_source
+A,1090872.0,wikipedia,ok,1090872.0,wikipedia
+AA,1675149.0,sec ticker map,no share count on 2016-02-01,,dropped
+AAL,6201.0,sec ticker map,ok,6201.0,sec ticker map
+AAP,1158449.0,sec ticker map,ok,1158449.0,sec ticker map
+AAPL,320193.0,wikipedia,ok,320193.0,wikipedia
+ABBV,1551152.0,wikipedia,ok,1551152.0,wikipedia
+ABMD,815094.0,edgar name search,ok,815094.0,edgar name search
+ABNB,1559720.0,wikipedia,ok,1559720.0,wikipedia
+ABT,1800.0,wikipedia,ok,1800.0,wikipedia
+ACE,896159.0,edgar name search,ok,896159.0,edgar name search
+ACGL,947484.0,wikipedia,ok,947484.0,wikipedia
+ACN,1467373.0,wikipedia,ok,1467373.0,wikipedia
+ADBE,796343.0,wikipedia,ok,796343.0,wikipedia
+ADI,6281.0,wikipedia,ok,6281.0,wikipedia
+ADM,7084.0,wikipedia,ok,7084.0,wikipedia
+ADP,8670.0,wikipedia,ok,8670.0,wikipedia
+ADS,,unresolved,no CIK,,dropped
+ADSK,769397.0,wikipedia,ok,769397.0,wikipedia
+ADT,1703056.0,sec ticker map,no share count on 2016-02-01,926282.0,"replaced by EDGAR candidate 'ADTRAN Holdings, Inc. (ADTN)'"
+AEE,1002910.0,wikipedia,ok,1002910.0,wikipedia
+AEP,4904.0,wikipedia,ok,4904.0,wikipedia
+AES,874761.0,wikipedia,ok,874761.0,wikipedia
+AET,1013761.0,edgar name search,no SEC share data,1122304.0,replaced by EDGAR candidate 'AETNA INC /PA/'
+AFL,4977.0,wikipedia,ok,4977.0,wikipedia
+AGN,850693.0,edgar name search,no share count on 2016-02-01,1578845.0,replaced by EDGAR candidate 'Allergan plc'
+AIG,5272.0,wikipedia,ok,5272.0,wikipedia
+AIV,922864.0,sec ticker map,ok,922864.0,sec ticker map
+AIZ,1267238.0,wikipedia,ok,1267238.0,wikipedia
+AJG,354190.0,wikipedia,ok,354190.0,wikipedia
+AKAM,1086222.0,wikipedia,ok,1086222.0,wikipedia
+ALB,915913.0,wikipedia,ok,915913.0,wikipedia
+ALGN,1097149.0,wikipedia,ok,1097149.0,wikipedia
+ALK,766421.0,sec ticker map,ok,766421.0,sec ticker map
+ALL,899051.0,wikipedia,ok,899051.0,wikipedia
+ALLE,1579241.0,wikipedia,ok,1579241.0,wikipedia
+ALXN,899866.0,edgar name search,ok,899866.0,edgar name search
+AMAT,6951.0,wikipedia,ok,6951.0,wikipedia
+AMCR,1748790.0,wikipedia,market cap $0.00bn on 2019-07-12,,dropped
+AMD,2488.0,wikipedia,ok,2488.0,wikipedia
+AME,1037868.0,wikipedia,ok,1037868.0,wikipedia
+AMG,1004434.0,sec ticker map,ok,1004434.0,sec ticker map
+AMGN,318154.0,wikipedia,ok,318154.0,wikipedia
+AMP,820027.0,wikipedia,ok,820027.0,wikipedia
+AMT,1053507.0,wikipedia,ok,1053507.0,wikipedia
+AMTM,2011286.0,sec ticker map,no share count on 2024-10-31,,dropped
+AMZN,1018724.0,wikipedia,ok,1018724.0,wikipedia
+AN,350698.0,sec ticker map,ok,350698.0,sec ticker map
+ANDV,50104.0,edgar name search,no share count on 2016-02-01,,dropped
+ANET,1596532.0,wikipedia,ok,1596532.0,wikipedia
+ANSS,1013462.0,edgar name search,ok,1013462.0,edgar name search
+AON,315293.0,wikipedia,ok,315293.0,wikipedia
+AOS,91142.0,wikipedia,no share count on 2017-08-26,,dropped
+APA,1841666.0,wikipedia,no share count on 2016-02-01,,dropped
+APC,2080921.0,sec ticker map,no share count on 2016-02-01,773910.0,replaced by EDGAR candidate 'ANADARKO PETROLEUM CORP'
+APD,2969.0,wikipedia,ok,2969.0,wikipedia
+APH,820313.0,wikipedia,ok,820313.0,wikipedia
+APO,1858681.0,wikipedia,ok,1858681.0,wikipedia
+APP,1751008.0,wikipedia,ok,1751008.0,wikipedia
+APTV,1521332.0,wikipedia,no share count on 2016-02-01,,dropped
+ARE,1035443.0,wikipedia,ok,1035443.0,wikipedia
+ARES,1176948.0,wikipedia,no share count on 2026-01-11,,dropped
+ARG,804212.0,edgar name search,ok,804212.0,edgar name search
+ARNC,1790982.0,edgar name search,no share count on 2016-12-02,,dropped
+ATO,731802.0,wikipedia,ok,731802.0,wikipedia
+ATVI,718877.0,edgar name search,ok,718877.0,edgar name search
+AVB,915912.0,edgar name search,ok,915912.0,edgar name search
+AVGO,1730168.0,wikipedia,no share count on 2016-02-01,,dropped
+AVY,8818.0,wikipedia,ok,8818.0,wikipedia
+AWK,1410636.0,wikipedia,ok,1410636.0,wikipedia
+AXON,1069183.0,wikipedia,ok,1069183.0,wikipedia
+AXP,4962.0,wikipedia,ok,4962.0,wikipedia
+AYI,1144215.0,sec ticker map,ok,1144215.0,sec ticker map
+AZO,866787.0,wikipedia,ok,866787.0,wikipedia
+BA,12927.0,wikipedia,ok,12927.0,wikipedia
+BAC,70858.0,wikipedia,ok,70858.0,wikipedia
+BALL,9389.0,wikipedia,ok,9389.0,wikipedia
+BAX,10456.0,wikipedia,ok,10456.0,wikipedia
+BBBY,1950894.0,edgar name search,no SEC share data,,dropped
+BBWI,701985.0,sec ticker map,no share count on 2016-02-01,,dropped
+BBY,764478.0,wikipedia,ok,764478.0,wikipedia
+BCR,2150272.0,edgar name search,no SEC share data,,dropped
+BDX,10795.0,wikipedia,ok,10795.0,wikipedia
+BE,1664703.0,wikipedia,ok,1664703.0,wikipedia
+BEN,38777.0,wikipedia,ok,38777.0,wikipedia
+BF.B,14693.0,wikipedia,ok,14693.0,wikipedia
+BG,1996862.0,wikipedia,no share count on 2023-04-15,,dropped
+BHF,1685040.0,sec ticker map,ok,1685040.0,sec ticker map
+BHI,1701605.0,edgar name search,no share count on 2016-02-01,808362.0,replaced by EDGAR candidate 'Baker Hughes Holdings LLC'
+BIIB,875045.0,wikipedia,ok,875045.0,wikipedia
+BIO,12208.0,sec ticker map,ok,12208.0,sec ticker map
+BKNG,1075531.0,wikipedia,ok,1075531.0,wikipedia
+BKR,1701605.0,wikipedia,no share count on 2017-08-07,,dropped
+BLDR,1316835.0,sec ticker map,ok,1316835.0,sec ticker map
+BLK,2012383.0,wikipedia,no share count on 2016-02-01,,dropped
+BMS,,unresolved,no CIK,,dropped
+BMY,14272.0,wikipedia,ok,14272.0,wikipedia
+BNY,1390777.0,wikipedia,ok,1390777.0,wikipedia
+BR,1383312.0,wikipedia,ok,1383312.0,wikipedia
+BRCM,,unresolved,no CIK,,dropped
+BRK.B,1067983.0,wikipedia,no share count on 2016-02-01,,dropped
+BRO,79282.0,wikipedia,ok,79282.0,wikipedia
+BSX,885725.0,wikipedia,ok,885725.0,wikipedia
+BWA,908255.0,sec ticker map,ok,908255.0,sec ticker map
+BX,1393818.0,wikipedia,ok,1393818.0,wikipedia
+BXLT,1620546.0,edgar name search,ok,1620546.0,edgar name search
+BXP,1037540.0,wikipedia,ok,1037540.0,wikipedia
+C,831001.0,wikipedia,ok,831001.0,wikipedia
+CA,1376793.0,edgar name search,ok,1376793.0,edgar name search
+CAG,23217.0,sec ticker map,ok,23217.0,sec ticker map
+CAH,721371.0,wikipedia,ok,721371.0,wikipedia
+CAM,1281057.0,edgar name search,no SEC share data,941548.0,replaced by EDGAR candidate 'CAMERON INTERNATIONAL CORP'
+CARR,1783180.0,wikipedia,no share count on 2020-05-04,1386716.0,replaced by EDGAR candidate 'Star Bulk Carriers Corp. (SBLK)'
+CASY,726958.0,wikipedia,ok,726958.0,wikipedia
+CAT,18230.0,wikipedia,ok,18230.0,wikipedia
+CB,896159.0,wikipedia,ok,896159.0,wikipedia
+CBOE,1374310.0,wikipedia,ok,1374310.0,wikipedia
+CBRE,1138118.0,wikipedia,ok,1138118.0,wikipedia
+CCE,1408297.0,edgar name search,no SEC share data,,dropped
+CCI,1051470.0,wikipedia,ok,1051470.0,wikipedia
+CCL,815097.0,wikipedia,ok,815097.0,wikipedia
+CDAY,1124887.0,edgar name search,no SEC share data,,dropped
+CDNS,813672.0,wikipedia,ok,813672.0,wikipedia
+CDW,1402057.0,wikipedia,ok,1402057.0,wikipedia
+CE,1306830.0,sec ticker map,ok,1306830.0,sec ticker map
+CEG,1868275.0,wikipedia,ok,1868275.0,wikipedia
+CELG,816284.0,edgar name search,ok,816284.0,edgar name search
+CERN,804753.0,edgar name search,ok,804753.0,edgar name search
+CF,1324404.0,wikipedia,ok,1324404.0,wikipedia
+CFG,759944.0,wikipedia,ok,759944.0,wikipedia
+CHD,313927.0,wikipedia,ok,313927.0,wikipedia
+CHK,1765821.0,edgar name search,no SEC share data,,dropped
+CHRW,1043277.0,wikipedia,ok,1043277.0,wikipedia
+CHTR,1091667.0,wikipedia,no share count on 2021-10-04,,dropped
+CI,1739940.0,wikipedia,no share count on 2016-02-01,,dropped
+CIEN,936395.0,wikipedia,ok,936395.0,wikipedia
+CINF,20286.0,wikipedia,ok,20286.0,wikipedia
+CL,21665.0,wikipedia,ok,21665.0,wikipedia
+CLX,21076.0,wikipedia,ok,21076.0,wikipedia
+CMA,28412.0,edgar name search,ok,28412.0,edgar name search
+CMCSA,1166691.0,wikipedia,ok,1166691.0,wikipedia
+CME,1156375.0,wikipedia,ok,1156375.0,wikipedia
+CMG,1058090.0,wikipedia,ok,1058090.0,wikipedia
+CMI,26172.0,wikipedia,ok,26172.0,wikipedia
+CMS,811156.0,wikipedia,no share count on 2016-02-01,,dropped
+CNC,1071739.0,wikipedia,ok,1071739.0,wikipedia
+CNP,1130310.0,wikipedia,ok,1130310.0,wikipedia
+CNX,1070412.0,sec ticker map,ok,1070412.0,sec ticker map
+COF,927628.0,wikipedia,ok,927628.0,wikipedia
+COHR,820318.0,wikipedia,ok,820318.0,wikipedia
+COIN,1679788.0,wikipedia,ok,1679788.0,wikipedia
+COL,1137411.0,edgar name search,ok,1137411.0,edgar name search
+COO,711404.0,wikipedia,ok,711404.0,wikipedia
+COP,1163165.0,wikipedia,ok,1163165.0,wikipedia
+COR,1140859.0,wikipedia,ok,1140859.0,wikipedia
+COST,909832.0,wikipedia,ok,909832.0,wikipedia
+COTY,1024305.0,sec ticker map,no share count on 2016-10-31,,dropped
+CPAY,1175454.0,wikipedia,ok,1175454.0,wikipedia
+CPB,16732.0,sec ticker map,ok,16732.0,sec ticker map
+CPGX,1629995.0,edgar name search,ok,1629995.0,edgar name search
+CPRI,1530721.0,sec ticker map,ok,1530721.0,sec ticker map
+CPRT,900075.0,wikipedia,ok,900075.0,wikipedia
+CPT,906345.0,wikipedia,ok,906345.0,wikipedia
+CRH,849395.0,wikipedia,ok,849395.0,wikipedia
+CRL,1100682.0,wikipedia,ok,1100682.0,wikipedia
+CRM,1108524.0,wikipedia,ok,1108524.0,wikipedia
+CRWD,1535527.0,wikipedia,no share count on 2024-07-25,,dropped
+CSCO,858877.0,wikipedia,ok,858877.0,wikipedia
+CSGP,1057352.0,wikipedia,ok,1057352.0,wikipedia
+CSRA,1646383.0,edgar name search,ok,1646383.0,edgar name search
+CSX,277948.0,wikipedia,ok,277948.0,wikipedia
+CTAS,723254.0,wikipedia,ok,723254.0,wikipedia
+CTLT,1596783.0,edgar name search,ok,1596783.0,edgar name search
+CTRA,858470.0,edgar name search,no share count on 2016-02-01,,dropped
+CTSH,1058290.0,wikipedia,ok,1058290.0,wikipedia
+CTVA,1755672.0,sec ticker map,market cap $0.00bn on 2019-07-04,,dropped
+CTXS,877890.0,edgar name search,ok,877890.0,edgar name search
+CVC,1053112.0,edgar name search,ok,1053112.0,edgar name search
+CVNA,1690820.0,wikipedia,no share count on 2026-01-22,,dropped
+CVS,64803.0,wikipedia,ok,64803.0,wikipedia
+CVX,93410.0,wikipedia,ok,93410.0,wikipedia
+CXO,1358071.0,edgar name search,ok,1358071.0,edgar name search
+CZR,1590895.0,sec ticker map,ok,1590895.0,sec ticker map
+D,715957.0,wikipedia,ok,715957.0,wikipedia
+DAL,27904.0,wikipedia,ok,27904.0,wikipedia
+DASH,1792789.0,wikipedia,ok,1792789.0,wikipedia
+DAY,1725057.0,edgar name search,ok,1725057.0,edgar name search
+DD,1666700.0,wikipedia,no share count on 2016-02-01,,dropped
+DDOG,1561550.0,wikipedia,ok,1561550.0,wikipedia
+DE,315189.0,wikipedia,ok,315189.0,wikipedia
+DECK,910521.0,wikipedia,ok,910521.0,wikipedia
+DELL,1571996.0,wikipedia,ok,1571996.0,wikipedia
+DFS,1393612.0,edgar name search,ok,1393612.0,edgar name search
+DG,29534.0,wikipedia,ok,29534.0,wikipedia
+DGX,1022079.0,wikipedia,ok,1022079.0,wikipedia
+DHI,882184.0,wikipedia,ok,882184.0,wikipedia
+DHR,313616.0,wikipedia,ok,313616.0,wikipedia
+DIS,1744489.0,wikipedia,no share count on 2016-02-01,,dropped
+DISCA,1238234.0,edgar name search,no SEC share data,,dropped
+DISCK,1238234.0,edgar name search,no SEC share data,,dropped
+DISH,920436.0,edgar name search,no SEC share data,,dropped
+DLR,1297996.0,wikipedia,ok,1297996.0,wikipedia
+DLTR,935703.0,wikipedia,ok,935703.0,wikipedia
+DNB,1115222.0,edgar name search,ok,1115222.0,edgar name search
+DO,949039.0,edgar name search,ok,949039.0,edgar name search
+DOC,765880.0,wikipedia,ok,765880.0,wikipedia
+DOV,29905.0,wikipedia,ok,29905.0,wikipedia
+DOW,1751788.0,wikipedia,no share count on 2019-05-03,,dropped
+DPS,,unresolved,no CIK,,dropped
+DPZ,1286681.0,wikipedia,ok,1286681.0,wikipedia
+DRE,783280.0,edgar name search,ok,783280.0,edgar name search
+DRI,940944.0,wikipedia,ok,940944.0,wikipedia
+DTE,936340.0,wikipedia,ok,936340.0,wikipedia
+DUK,1326160.0,wikipedia,ok,1326160.0,wikipedia
+DVA,927066.0,wikipedia,ok,927066.0,wikipedia
+DVN,1090012.0,wikipedia,ok,1090012.0,wikipedia
+DWDP,1666700.0,edgar name search,no share count on 2017-10-02,,dropped
+DXC,1688568.0,sec ticker map,market cap $0.00bn on 2017-05-05,,dropped
+DXCM,1093557.0,wikipedia,ok,1093557.0,wikipedia
+EA,712515.0,edgar name search,ok,712515.0,edgar name search
+EBAY,1065088.0,wikipedia,ok,1065088.0,wikipedia
+ECHO,1415404.0,wikipedia,ok,1415404.0,wikipedia
+ECL,31462.0,wikipedia,ok,31462.0,wikipedia
+ED,1047862.0,wikipedia,ok,1047862.0,wikipedia
+EFX,33185.0,wikipedia,ok,33185.0,wikipedia
+EG,1095073.0,wikipedia,ok,1095073.0,wikipedia
+EIX,827052.0,wikipedia,ok,827052.0,wikipedia
+EL,1001250.0,wikipedia,ok,1001250.0,wikipedia
+ELV,1156039.0,wikipedia,ok,1156039.0,wikipedia
+EMC,,unresolved,no CIK,,dropped
+EME,105634.0,wikipedia,ok,105634.0,wikipedia
+EMN,915389.0,sec ticker map,ok,915389.0,sec ticker map
+EMR,32604.0,wikipedia,ok,32604.0,wikipedia
+ENDP,1593034.0,edgar name search,ok,1593034.0,edgar name search
+ENPH,1463101.0,sec ticker map,ok,1463101.0,sec ticker map
+EOG,821189.0,wikipedia,ok,821189.0,wikipedia
+EPAM,1352010.0,sec ticker map,ok,1352010.0,sec ticker map
+EQIX,1101239.0,wikipedia,ok,1101239.0,wikipedia
+EQT,33213.0,wikipedia,ok,33213.0,wikipedia
+ERIE,922621.0,wikipedia,no SEC share data,,dropped
+ES,72741.0,wikipedia,ok,72741.0,wikipedia
+ESRX,885721.0,edgar name search,no share count on 2016-02-01,1532063.0,replaced by EDGAR candidate 'Express Scripts Holding Co.'
+ESS,920522.0,wikipedia,ok,920522.0,wikipedia
+ESV,1866291.0,edgar name search,no SEC share data,,dropped
+ETFC,1736680.0,edgar name search,no SEC share data,,dropped
+ETN,1551182.0,wikipedia,ok,1551182.0,wikipedia
+ETR,65984.0,wikipedia,ok,65984.0,wikipedia
+ETSY,1370637.0,sec ticker map,ok,1370637.0,sec ticker map
+EVHC,1344154.0,edgar name search,no share count on 2017-01-02,,dropped
+EVRG,1711269.0,wikipedia,no share count on 2018-07-06,,dropped
+EW,1099800.0,wikipedia,ok,1099800.0,wikipedia
+EXC,1109357.0,wikipedia,ok,1109357.0,wikipedia
+EXE,895126.0,wikipedia,ok,895126.0,wikipedia
+EXPD,746515.0,wikipedia,ok,746515.0,wikipedia
+EXPE,1324424.0,wikipedia,ok,1324424.0,wikipedia
+EXR,1289490.0,wikipedia,ok,1289490.0,wikipedia
+F,37996.0,wikipedia,no share count on 2016-02-01,,dropped
+FANG,1539838.0,wikipedia,ok,1539838.0,wikipedia
+FAST,815556.0,wikipedia,ok,815556.0,wikipedia
+FBHS,,unresolved,no CIK,,dropped
+FCX,831259.0,wikipedia,ok,831259.0,wikipedia
+FDS,1013237.0,wikipedia,ok,1013237.0,wikipedia
+FDX,1048911.0,wikipedia,ok,1048911.0,wikipedia
+FDXF,2082247.0,wikipedia,no share count on 2026-07-02,,dropped
+FE,1031296.0,wikipedia,ok,1031296.0,wikipedia
+FERG,2011641.0,wikipedia,ok,2011641.0,wikipedia
+FFIV,1048695.0,wikipedia,ok,1048695.0,wikipedia
+FICO,814547.0,wikipedia,ok,814547.0,wikipedia
+FIS,1136893.0,wikipedia,ok,1136893.0,wikipedia
+FISV,798354.0,wikipedia,ok,798354.0,wikipedia
+FITB,35527.0,wikipedia,ok,35527.0,wikipedia
+FIX,1035983.0,wikipedia,ok,1035983.0,wikipedia
+FL,850209.0,edgar name search,ok,850209.0,edgar name search
+FLEX,866374.0,wikipedia,ok,866374.0,wikipedia
+FLIR,,unresolved,no CIK,,dropped
+FLR,1124198.0,sec ticker map,ok,1124198.0,sec ticker map
+FLS,30625.0,sec ticker map,ok,30625.0,sec ticker map
+FMC,37785.0,sec ticker map,ok,37785.0,sec ticker map
+FOSL,883569.0,sec ticker map,no share count on 2016-01-03,,dropped
+FOX,1754301.0,wikipedia,no share count on 2019-04-19,,dropped
+FOXA,1754301.0,wikipedia,no share count on 2019-04-19,,dropped
+FOXA_21CF,,unresolved,no CIK,,dropped
+FOX_21CF,,unresolved,no CIK,,dropped
+FRC,1132979.0,edgar name search,no SEC share data,,dropped
+FRT,34903.0,wikipedia,ok,34903.0,wikipedia
+FSLR,1274494.0,wikipedia,ok,1274494.0,wikipedia
+FTI,1681459.0,sec ticker map,no share count on 2016-02-01,,dropped
+FTNT,1262039.0,wikipedia,ok,1262039.0,wikipedia
+FTR,20520.0,edgar name search,ok,20520.0,edgar name search
+FTV,1659166.0,wikipedia,ok,1659166.0,wikipedia
+GAS,,unresolved,no CIK,,dropped
+GD,40533.0,wikipedia,ok,40533.0,wikipedia
+GDDY,1609711.0,wikipedia,ok,1609711.0,wikipedia
+GE,40545.0,wikipedia,ok,40545.0,wikipedia
+GEHC,1932393.0,wikipedia,no share count on 2023-02-04,,dropped
+GEN,849399.0,wikipedia,ok,849399.0,wikipedia
+GEV,1996810.0,wikipedia,ok,1996810.0,wikipedia
+GGP,895648.0,edgar name search,no share count on 2016-02-01,,dropped
+GILD,882095.0,wikipedia,ok,882095.0,wikipedia
+GIS,40704.0,wikipedia,ok,40704.0,wikipedia
+GL,320335.0,wikipedia,ok,320335.0,wikipedia
+GLW,24741.0,wikipedia,ok,24741.0,wikipedia
+GM,1467858.0,wikipedia,ok,1467858.0,wikipedia
+GMCR,909954.0,edgar name search,ok,909954.0,edgar name search
+GME,1326380.0,sec ticker map,ok,1326380.0,sec ticker map
+GNRC,1474735.0,wikipedia,ok,1474735.0,wikipedia
+GOOG,1652044.0,wikipedia,no share count on 2016-02-01,,dropped
+GOOGL,1652044.0,wikipedia,no share count on 2016-02-01,,dropped
+GPC,40987.0,wikipedia,ok,40987.0,wikipedia
+GPN,1123360.0,wikipedia,ok,1123360.0,wikipedia
+GPS,39911.0,edgar name search,ok,39911.0,edgar name search
+GRMN,1121788.0,wikipedia,ok,1121788.0,wikipedia
+GS,886982.0,wikipedia,ok,886982.0,wikipedia
+GT,42582.0,sec ticker map,ok,42582.0,sec ticker map
+GWW,277135.0,wikipedia,ok,277135.0,wikipedia
+HAL,45012.0,wikipedia,ok,45012.0,wikipedia
+HAR,1640446.0,edgar name search,no SEC share data,800459.0,replaced by EDGAR candidate 'HARMAN INTERNATIONAL INDUSTRIES INC /DE/'
+HAS,46080.0,wikipedia,ok,46080.0,wikipedia
+HBAN,49196.0,wikipedia,ok,49196.0,wikipedia
+HBI,1359841.0,edgar name search,ok,1359841.0,edgar name search
+HCA,860730.0,wikipedia,ok,860730.0,wikipedia
+HD,354950.0,wikipedia,ok,354950.0,wikipedia
+HES,,unresolved,no CIK,,dropped
+HFC,48039.0,edgar name search,ok,48039.0,edgar name search
+HIG,874766.0,wikipedia,ok,874766.0,wikipedia
+HII,1501585.0,wikipedia,ok,1501585.0,wikipedia
+HLT,1585689.0,wikipedia,ok,1585689.0,wikipedia
+HOG,793952.0,sec ticker map,ok,793952.0,sec ticker map
+HOLX,859737.0,edgar name search,ok,859737.0,edgar name search
+HON,773840.0,wikipedia,ok,773840.0,wikipedia
+HONA,2089271.0,wikipedia,no SEC share data,,dropped
+HOOD,1783879.0,wikipedia,ok,1783879.0,wikipedia
+HOT,,unresolved,no CIK,,dropped
+HP,46765.0,sec ticker map,ok,46765.0,sec ticker map
+HPE,1645590.0,wikipedia,ok,1645590.0,wikipedia
+HPQ,47217.0,wikipedia,ok,47217.0,wikipedia
+HRB,12659.0,sec ticker map,ok,12659.0,sec ticker map
+HRL,48465.0,wikipedia,ok,48465.0,wikipedia
+HSIC,1000228.0,wikipedia,ok,1000228.0,wikipedia
+HST,1070750.0,wikipedia,ok,1070750.0,wikipedia
+HSY,47111.0,wikipedia,no share count on 2016-02-01,,dropped
+HUBB,48898.0,wikipedia,ok,48898.0,wikipedia
+HUM,49071.0,wikipedia,ok,49071.0,wikipedia
+HWM,4281.0,wikipedia,ok,4281.0,wikipedia
+IBKR,1381197.0,wikipedia,no share count on 2025-09-28,,dropped
+IBM,51143.0,wikipedia,ok,51143.0,wikipedia
+ICE,1571949.0,wikipedia,ok,1571949.0,wikipedia
+IDXX,874716.0,wikipedia,ok,874716.0,wikipedia
+IEX,832101.0,wikipedia,ok,832101.0,wikipedia
+IFF,51253.0,wikipedia,ok,51253.0,wikipedia
+ILMN,1110803.0,wikipedia,ok,1110803.0,wikipedia
+INCY,879169.0,wikipedia,ok,879169.0,wikipedia
+INFO,1598014.0,edgar name search,ok,1598014.0,edgar name search
+INTC,50863.0,wikipedia,ok,50863.0,wikipedia
+INTU,896878.0,wikipedia,ok,896878.0,wikipedia
+INVH,1687229.0,wikipedia,ok,1687229.0,wikipedia
+IP,51434.0,wikipedia,ok,51434.0,wikipedia
+IPG,51644.0,edgar name search,ok,51644.0,edgar name search
+IPGP,1111928.0,sec ticker map,ok,1111928.0,sec ticker map
+IQV,1478242.0,wikipedia,ok,1478242.0,wikipedia
+IR,1699150.0,wikipedia,ok,1699150.0,wikipedia
+IRM,1020569.0,wikipedia,ok,1020569.0,wikipedia
+ISRG,1035267.0,wikipedia,ok,1035267.0,wikipedia
+IT,749251.0,wikipedia,ok,749251.0,wikipedia
+ITW,49826.0,wikipedia,ok,49826.0,wikipedia
+IVZ,914208.0,wikipedia,ok,914208.0,wikipedia
+J,52988.0,wikipedia,ok,52988.0,wikipedia
+JBHT,728535.0,wikipedia,ok,728535.0,wikipedia
+JBL,898293.0,wikipedia,ok,898293.0,wikipedia
+JCI,833444.0,wikipedia,ok,833444.0,wikipedia
+JEF,96223.0,sec ticker map,ok,96223.0,sec ticker map
+JKHY,779152.0,wikipedia,ok,779152.0,wikipedia
+JNJ,200406.0,wikipedia,ok,200406.0,wikipedia
+JNPR,1043604.0,edgar name search,ok,1043604.0,edgar name search
+JPM,19617.0,wikipedia,ok,19617.0,wikipedia
+JWN,72333.0,edgar name search,ok,72333.0,edgar name search
+K,55067.0,edgar name search,ok,55067.0,edgar name search
+KDP,1418135.0,wikipedia,ok,1418135.0,wikipedia
+KEY,91576.0,wikipedia,ok,91576.0,wikipedia
+KEYS,1601046.0,wikipedia,ok,1601046.0,wikipedia
+KHC,1637459.0,wikipedia,ok,1637459.0,wikipedia
+KIM,879101.0,wikipedia,ok,879101.0,wikipedia
+KKR,1404912.0,wikipedia,ok,1404912.0,wikipedia
+KLAC,319201.0,wikipedia,ok,319201.0,wikipedia
+KMB,55785.0,wikipedia,ok,55785.0,wikipedia
+KMI,1506307.0,wikipedia,ok,1506307.0,wikipedia
+KMX,1170010.0,sec ticker map,ok,1170010.0,sec ticker map
+KO,21344.0,wikipedia,ok,21344.0,wikipedia
+KR,56873.0,wikipedia,ok,56873.0,wikipedia
+KSS,885639.0,sec ticker map,ok,885639.0,sec ticker map
+KSU,54480.0,edgar name search,ok,54480.0,edgar name search
+KVUE,1944048.0,edgar name search,ok,1944048.0,edgar name search
+L,60086.0,wikipedia,ok,60086.0,wikipedia
+LDOS,1336920.0,wikipedia,ok,1336920.0,wikipedia
+LEG,58492.0,edgar name search,ok,58492.0,edgar name search
+LEN,920760.0,wikipedia,no share count on 2016-02-01,,dropped
+LH,920148.0,wikipedia,ok,920148.0,wikipedia
+LHX,202058.0,wikipedia,ok,202058.0,wikipedia
+LII,1069202.0,wikipedia,ok,1069202.0,wikipedia
+LIN,1707925.0,wikipedia,no share count on 2016-02-01,,dropped
+LITE,1633978.0,wikipedia,ok,1633978.0,wikipedia
+LKQ,1065696.0,sec ticker map,ok,1065696.0,sec ticker map
+LLL,202058.0,edgar name search,ok,202058.0,edgar name search
+LLTC,791907.0,edgar name search,ok,791907.0,edgar name search
+LLY,59478.0,wikipedia,ok,59478.0,wikipedia
+LM,704051.0,edgar name search,ok,704051.0,edgar name search
+LMT,936468.0,wikipedia,ok,936468.0,wikipedia
+LNC,59558.0,sec ticker map,ok,59558.0,sec ticker map
+LNT,352541.0,wikipedia,ok,352541.0,wikipedia
+LOW,60667.0,wikipedia,ok,60667.0,wikipedia
+LRCX,707549.0,wikipedia,ok,707549.0,wikipedia
+LULU,1397187.0,wikipedia,ok,1397187.0,wikipedia
+LUMN,18926.0,sec ticker map,ok,18926.0,sec ticker map
+LUV,92380.0,wikipedia,ok,92380.0,wikipedia
+LVLT,1324502.0,edgar name search,no SEC share data,,dropped
+LVS,1300514.0,wikipedia,ok,1300514.0,wikipedia
+LW,1679273.0,sec ticker map,ok,1679273.0,sec ticker map
+LYB,1489393.0,wikipedia,ok,1489393.0,wikipedia
+LYV,1335258.0,wikipedia,ok,1335258.0,wikipedia
+M,794367.0,sec ticker map,ok,794367.0,sec ticker map
+MA,1141391.0,wikipedia,no share count on 2016-02-01,,dropped
+MAA,912595.0,wikipedia,ok,912595.0,wikipedia
+MAC,912242.0,sec ticker map,ok,912242.0,sec ticker map
+MAR,1048286.0,wikipedia,ok,1048286.0,wikipedia
+MAS,62996.0,wikipedia,ok,62996.0,wikipedia
+MAT,63276.0,sec ticker map,ok,63276.0,sec ticker map
+MBC,1941365.0,sec ticker map,no share count on 2023-01-15,,dropped
+MCD,63908.0,wikipedia,ok,63908.0,wikipedia
+MCHP,827054.0,wikipedia,ok,827054.0,wikipedia
+MCK,927653.0,wikipedia,ok,927653.0,wikipedia
+MCO,1059556.0,wikipedia,ok,1059556.0,wikipedia
+MDLZ,1103982.0,wikipedia,ok,1103982.0,wikipedia
+MDT,1613103.0,wikipedia,ok,1613103.0,wikipedia
+MET,1099219.0,wikipedia,ok,1099219.0,wikipedia
+META,1326801.0,wikipedia,ok,1326801.0,wikipedia
+MGM,789570.0,wikipedia,ok,789570.0,wikipedia
+MHK,851968.0,sec ticker map,ok,851968.0,sec ticker map
+MJN,1444904.0,edgar name search,no SEC share data,1452575.0,replaced by EDGAR candidate 'Mead Johnson Nutrition Co'
+MKC,63754.0,wikipedia,ok,63754.0,wikipedia
+MKTX,1278021.0,sec ticker map,ok,1278021.0,sec ticker map
+MLM,916076.0,wikipedia,ok,916076.0,wikipedia
+MMM,66740.0,wikipedia,ok,66740.0,wikipedia
+MNK,1766927.0,edgar name search,no SEC share data,,dropped
+MNST,865752.0,wikipedia,ok,865752.0,wikipedia
+MO,764180.0,wikipedia,ok,764180.0,wikipedia
+MOH,1179929.0,sec ticker map,ok,1179929.0,sec ticker map
+MON,1110783.0,edgar name search,ok,1110783.0,edgar name search
+MOS,1285785.0,wikipedia,no share count on 2016-02-01,,dropped
+MPC,1510295.0,wikipedia,ok,1510295.0,wikipedia
+MPWR,1280452.0,wikipedia,ok,1280452.0,wikipedia
+MRK,310158.0,wikipedia,ok,310158.0,wikipedia
+MRNA,1682852.0,wikipedia,ok,1682852.0,wikipedia
+MRO,101778.0,edgar name search,ok,101778.0,edgar name search
+MRSH,62709.0,wikipedia,ok,62709.0,wikipedia
+MRVL,1835632.0,wikipedia,ok,1835632.0,wikipedia
+MS,895421.0,wikipedia,ok,895421.0,wikipedia
+MSCI,1408198.0,wikipedia,ok,1408198.0,wikipedia
+MSFT,789019.0,wikipedia,ok,789019.0,wikipedia
+MSI,68505.0,wikipedia,ok,68505.0,wikipedia
+MTB,36270.0,wikipedia,ok,36270.0,wikipedia
+MTCH,891103.0,sec ticker map,ok,891103.0,sec ticker map
+MTD,1037646.0,wikipedia,ok,1037646.0,wikipedia
+MU,723125.0,wikipedia,ok,723125.0,wikipedia
+MUR,717423.0,sec ticker map,ok,717423.0,sec ticker map
+MXIM,743316.0,edgar name search,ok,743316.0,edgar name search
+NAVI,2152623.0,sec ticker map,no share count on 2016-02-01,1593538.0,replaced by EDGAR candidate 'Navient LLC'
+NBL,72207.0,edgar name search,ok,72207.0,edgar name search
+NCLH,1513761.0,wikipedia,ok,1513761.0,wikipedia
+NDAQ,1120193.0,wikipedia,ok,1120193.0,wikipedia
+NDSN,72331.0,wikipedia,ok,72331.0,wikipedia
+NEE,753308.0,wikipedia,ok,753308.0,wikipedia
+NEM,1164727.0,wikipedia,ok,1164727.0,wikipedia
+NFLX,1065280.0,wikipedia,ok,1065280.0,wikipedia
+NFX,912750.0,edgar name search,ok,912750.0,edgar name search
+NI,1111711.0,wikipedia,ok,1111711.0,wikipedia
+NKE,320187.0,wikipedia,no share count on 2021-06-01,,dropped
+NKTR,906709.0,sec ticker map,ok,906709.0,sec ticker map
+NLSN,1397568.0,edgar name search,no SEC share data,1492633.0,replaced by EDGAR candidate 'Nielsen Holdings plc'
+NOC,1133421.0,wikipedia,ok,1133421.0,wikipedia
+NOV,1021860.0,sec ticker map,ok,1021860.0,sec ticker map
+NOW,1373715.0,wikipedia,ok,1373715.0,wikipedia
+NRG,1013871.0,wikipedia,ok,1013871.0,wikipedia
+NSC,702165.0,wikipedia,ok,702165.0,wikipedia
+NTAP,1002047.0,wikipedia,ok,1002047.0,wikipedia
+NTRS,73124.0,wikipedia,ok,73124.0,wikipedia
+NUE,73309.0,wikipedia,ok,73309.0,wikipedia
+NVDA,1045810.0,wikipedia,ok,1045810.0,wikipedia
+NVR,906163.0,wikipedia,ok,906163.0,wikipedia
+NWL,814453.0,sec ticker map,ok,814453.0,sec ticker map
+NWS,1564708.0,wikipedia,ok,1564708.0,wikipedia
+NWSA,1564708.0,wikipedia,ok,1564708.0,wikipedia
+NXPI,1413447.0,wikipedia,ok,1413447.0,wikipedia
+O,726728.0,wikipedia,ok,726728.0,wikipedia
+ODFL,878927.0,wikipedia,ok,878927.0,wikipedia
+OGN,1821825.0,sec ticker map,ok,1821825.0,sec ticker map
+OI,812074.0,sec ticker map,ok,812074.0,sec ticker map
+OKE,1039684.0,wikipedia,ok,1039684.0,wikipedia
+OKTA,1660134.0,wikipedia,ok,1660134.0,wikipedia
+OMC,29989.0,wikipedia,ok,29989.0,wikipedia
+ON,1097864.0,wikipedia,ok,1097864.0,wikipedia
+ORCL,1341439.0,wikipedia,ok,1341439.0,wikipedia
+ORLY,898173.0,wikipedia,ok,898173.0,wikipedia
+OTIS,1781335.0,wikipedia,no share count on 2020-05-04,,dropped
+OXY,797468.0,wikipedia,ok,797468.0,wikipedia
+P,1474432.0,wikipedia,ok,1474432.0,wikipedia
+PANW,1327567.0,wikipedia,ok,1327567.0,wikipedia
+PAYC,1590955.0,sec ticker map,ok,1590955.0,sec ticker map
+PAYX,723531.0,wikipedia,ok,723531.0,wikipedia
+PBCT,,unresolved,no CIK,,dropped
+PBI,78814.0,sec ticker map,ok,78814.0,sec ticker map
+PCAR,75362.0,wikipedia,ok,75362.0,wikipedia
+PCG,1004980.0,wikipedia,ok,1004980.0,wikipedia
+PCL,849213.0,edgar name search,ok,849213.0,edgar name search
+PCP,,unresolved,no CIK,,dropped
+PDCO,891024.0,edgar name search,ok,891024.0,edgar name search
+PEG,788784.0,wikipedia,ok,788784.0,wikipedia
+PENN,921738.0,sec ticker map,ok,921738.0,sec ticker map
+PEP,77476.0,wikipedia,ok,77476.0,wikipedia
+PFE,78003.0,wikipedia,ok,78003.0,wikipedia
+PFG,1126328.0,wikipedia,ok,1126328.0,wikipedia
+PG,80424.0,wikipedia,ok,80424.0,wikipedia
+PGR,80661.0,wikipedia,ok,80661.0,wikipedia
+PH,76334.0,wikipedia,ok,76334.0,wikipedia
+PHM,822416.0,wikipedia,ok,822416.0,wikipedia
+PKG,75677.0,wikipedia,ok,75677.0,wikipedia
+PLD,1045609.0,wikipedia,ok,1045609.0,wikipedia
+PLTR,1321655.0,wikipedia,ok,1321655.0,wikipedia
+PM,1413329.0,wikipedia,ok,1413329.0,wikipedia
+PNC,713676.0,wikipedia,ok,713676.0,wikipedia
+PNR,77360.0,wikipedia,ok,77360.0,wikipedia
+PNW,764622.0,wikipedia,ok,764622.0,wikipedia
+PODD,1145197.0,wikipedia,ok,1145197.0,wikipedia
+POM,1877971.0,sec ticker map,no SEC share data,1135971.0,replaced by EDGAR candidate 'PEPCO HOLDINGS LLC'
+POOL,945841.0,sec ticker map,ok,945841.0,sec ticker map
+PPG,79879.0,wikipedia,ok,79879.0,wikipedia
+PPL,922224.0,wikipedia,ok,922224.0,wikipedia
+PRGO,1585364.0,sec ticker map,ok,1585364.0,sec ticker map
+PRU,1137774.0,wikipedia,ok,1137774.0,wikipedia
+PSA,1393311.0,wikipedia,ok,1393311.0,wikipedia
+PSX,1534701.0,wikipedia,ok,1534701.0,wikipedia
+PTC,857005.0,wikipedia,ok,857005.0,wikipedia
+PVH,78239.0,sec ticker map,ok,78239.0,sec ticker map
+PWR,1050915.0,wikipedia,ok,1050915.0,wikipedia
+PXD,1038357.0,edgar name search,ok,1038357.0,edgar name search
+PYPL,1633917.0,wikipedia,ok,1633917.0,wikipedia
+Q,2058873.0,wikipedia,no share count on 2017-09-29,,dropped
+QCOM,804328.0,wikipedia,ok,804328.0,wikipedia
+QRVO,1604778.0,edgar name search,no SEC share data,,dropped
+R,85961.0,sec ticker map,ok,85961.0,sec ticker map
+RAI,1275283.0,edgar name search,ok,1275283.0,edgar name search
+RCL,884887.0,wikipedia,ok,884887.0,wikipedia
+RDDT,1713445.0,wikipedia,ok,1713445.0,wikipedia
+REG,910606.0,wikipedia,ok,910606.0,wikipedia
+REGN,872589.0,wikipedia,no share count on 2016-02-01,,dropped
+RF,1281761.0,wikipedia,ok,1281761.0,wikipedia
+RHI,315213.0,sec ticker map,ok,315213.0,sec ticker map
+RHT,1087423.0,edgar name search,ok,1087423.0,edgar name search
+RIG,1451505.0,sec ticker map,ok,1451505.0,sec ticker map
+RJF,720005.0,wikipedia,ok,720005.0,wikipedia
+RL,1037038.0,wikipedia,ok,1037038.0,wikipedia
+RMD,943819.0,wikipedia,ok,943819.0,wikipedia
+ROK,1024478.0,wikipedia,ok,1024478.0,wikipedia
+ROL,84839.0,wikipedia,ok,84839.0,wikipedia
+ROP,882835.0,wikipedia,market cap $0.00bn on 2016-02-01,,dropped
+ROST,745732.0,wikipedia,ok,745732.0,wikipedia
+RRC,315852.0,sec ticker map,ok,315852.0,sec ticker map
+RSG,1060391.0,wikipedia,ok,1060391.0,wikipedia
+RTN,,unresolved,no CIK,,dropped
+RTX,101829.0,wikipedia,ok,101829.0,wikipedia
+RVTY,31791.0,wikipedia,ok,31791.0,wikipedia
+SBAC,1034054.0,wikipedia,ok,1034054.0,wikipedia
+SBNY,1288784.0,edgar name search,no SEC share data,,dropped
+SBUX,829224.0,wikipedia,ok,829224.0,wikipedia
+SCG,1301439.0,edgar name search,no SEC share data,754737.0,replaced by EDGAR candidate 'SCANA CORP'
+SCHW,316709.0,wikipedia,no share count on 2021-06-01,,dropped
+SE,1703399.0,sec ticker map,no share count on 2016-02-01,1373835.0,replaced by EDGAR candidate 'Spectra Energy Corp.'
+SEDG,1419612.0,sec ticker map,ok,1419612.0,sec ticker map
+SEE,1012100.0,edgar name search,ok,1012100.0,edgar name search
+SHW,89800.0,wikipedia,ok,89800.0,wikipedia
+SIG,832988.0,sec ticker map,ok,832988.0,sec ticker map
+SIVB,719739.0,edgar name search,ok,719739.0,edgar name search
+SJM,91419.0,wikipedia,ok,91419.0,wikipedia
+SKYD,2041610.0,wikipedia,no share count on 2016-02-01,,dropped
+SLB,87347.0,wikipedia,ok,87347.0,wikipedia
+SLG,1040971.0,sec ticker map,ok,1040971.0,sec ticker map
+SMCI,1375365.0,wikipedia,ok,1375365.0,wikipedia
+SNA,91440.0,wikipedia,ok,91440.0,wikipedia
+SNDK,2023554.0,wikipedia,no share count on 2016-02-01,,dropped
+SNI,1430602.0,edgar name search,no share count on 2016-02-01,,dropped
+SNPS,883241.0,wikipedia,ok,883241.0,wikipedia
+SO,92122.0,wikipedia,ok,92122.0,wikipedia
+SOLS,2064953.0,sec ticker map,ok,2064953.0,sec ticker map
+SOLV,1964738.0,wikipedia,no share count on 2024-05-02,,dropped
+SPG,1063761.0,wikipedia,no share count on 2016-02-01,,dropped
+SPGI,64040.0,wikipedia,ok,64040.0,wikipedia
+SPLS,791519.0,edgar name search,ok,791519.0,edgar name search
+SRCL,861878.0,edgar name search,ok,861878.0,edgar name search
+SRE,1032208.0,wikipedia,ok,1032208.0,wikipedia
+STE,1757898.0,wikipedia,ok,1757898.0,wikipedia
+STI,1881551.0,sec ticker map,no share count on 2016-02-01,,dropped
+STJ,203077.0,edgar name search,ok,203077.0,edgar name search
+STLD,1022671.0,wikipedia,ok,1022671.0,wikipedia
+STT,93751.0,wikipedia,ok,93751.0,wikipedia
+STX,1137789.0,wikipedia,ok,1137789.0,wikipedia
+STZ,16918.0,wikipedia,no SEC share data,,dropped
+SW,2005951.0,wikipedia,no share count on 2016-02-01,,dropped
+SWK,93556.0,wikipedia,ok,93556.0,wikipedia
+SWKS,4127.0,wikipedia,ok,4127.0,wikipedia
+SWN,7332.0,edgar name search,ok,7332.0,edgar name search
+SYF,1601712.0,wikipedia,ok,1601712.0,wikipedia
+SYK,310764.0,wikipedia,ok,310764.0,wikipedia
+SYY,96021.0,wikipedia,ok,96021.0,wikipedia
+T,732717.0,wikipedia,ok,732717.0,wikipedia
+TAP,24545.0,sec ticker map,ok,24545.0,sec ticker map
+TDC,816761.0,sec ticker map,ok,816761.0,sec ticker map
+TDG,1260221.0,wikipedia,ok,1260221.0,wikipedia
+TDY,1094285.0,wikipedia,ok,1094285.0,wikipedia
+TE,1992243.0,sec ticker map,no share count on 2016-02-01,,dropped
+TECH,842023.0,wikipedia,ok,842023.0,wikipedia
+TEL,1385157.0,wikipedia,ok,1385157.0,wikipedia
+TER,97210.0,wikipedia,ok,97210.0,wikipedia
+TFC,92230.0,wikipedia,ok,92230.0,wikipedia
+TFCF,1054263.0,edgar name search,no SEC share data,,dropped
+TFCFA,1054263.0,edgar name search,no SEC share data,,dropped
+TFX,96943.0,sec ticker map,ok,96943.0,sec ticker map
+TGNA,39899.0,edgar name search,ok,39899.0,edgar name search
+TGT,27419.0,wikipedia,ok,27419.0,wikipedia
+THC,70318.0,sec ticker map,ok,70318.0,sec ticker map
+TIF,98246.0,edgar name search,ok,98246.0,edgar name search
+TJX,109198.0,wikipedia,ok,109198.0,wikipedia
+TKO,1973266.0,wikipedia,ok,1973266.0,wikipedia
+TMO,97745.0,wikipedia,ok,97745.0,wikipedia
+TMUS,1283699.0,wikipedia,ok,1283699.0,wikipedia
+TPL,1811074.0,wikipedia,ok,1811074.0,wikipedia
+TPR,1116132.0,wikipedia,ok,1116132.0,wikipedia
+TRGP,1389170.0,wikipedia,ok,1389170.0,wikipedia
+TRIP,1526520.0,sec ticker map,no share count on 2016-02-01,1606745.0,"replaced by EDGAR candidate 'Liberty TripAdvisor Holdings, Inc.'"
+TRMB,864749.0,wikipedia,ok,864749.0,wikipedia
+TROW,1113169.0,wikipedia,ok,1113169.0,wikipedia
+TRV,86312.0,wikipedia,ok,86312.0,wikipedia
+TSCO,916365.0,wikipedia,ok,916365.0,wikipedia
+TSLA,1318605.0,wikipedia,ok,1318605.0,wikipedia
+TSN,100493.0,wikipedia,no SEC share data,,dropped
+TSS,,unresolved,no CIK,,dropped
+TT,1466258.0,wikipedia,ok,1466258.0,wikipedia
+TTD,1671933.0,sec ticker map,ok,1671933.0,sec ticker map
+TTWO,946581.0,wikipedia,ok,946581.0,wikipedia
+TWC,1450621.0,edgar name search,no SEC share data,,dropped
+TWLO,1447669.0,wikipedia,ok,1447669.0,wikipedia
+TWTR,1418091.0,edgar name search,ok,1418091.0,edgar name search
+TWX,1450621.0,edgar name search,no SEC share data,,dropped
+TXN,97476.0,wikipedia,ok,97476.0,wikipedia
+TXT,217346.0,wikipedia,ok,217346.0,wikipedia
+TYC,100441.0,edgar name search,no SEC share data,,dropped
+TYL,860731.0,wikipedia,ok,860731.0,wikipedia
+UA,1336917.0,sec ticker map,ok,1336917.0,sec ticker map
+UAA,1336917.0,sec ticker map,no share count on 2016-02-01,,dropped
+UAL,100517.0,wikipedia,ok,100517.0,wikipedia
+UBER,1543151.0,wikipedia,ok,1543151.0,wikipedia
+UDR,74208.0,wikipedia,ok,74208.0,wikipedia
+UHS,352915.0,wikipedia,ok,352915.0,wikipedia
+ULTA,1403568.0,wikipedia,ok,1403568.0,wikipedia
+UNH,731766.0,wikipedia,ok,731766.0,wikipedia
+UNM,5513.0,sec ticker map,ok,5513.0,sec ticker map
+UNP,100885.0,wikipedia,ok,100885.0,wikipedia
+UPS,1090727.0,wikipedia,ok,1090727.0,wikipedia
+URBN,912615.0,sec ticker map,ok,912615.0,sec ticker map
+URI,1067701.0,wikipedia,ok,1067701.0,wikipedia
+USB,36104.0,wikipedia,ok,36104.0,wikipedia
+V,1403161.0,wikipedia,no SEC share data,,dropped
+VAR,203527.0,edgar name search,ok,203527.0,edgar name search
+VEEV,1393052.0,wikipedia,ok,1393052.0,wikipedia
+VFC,103379.0,sec ticker map,ok,103379.0,sec ticker map
+VIAB,1339947.0,edgar name search,no share count on 2016-02-01,,dropped
+VICI,1705696.0,wikipedia,ok,1705696.0,wikipedia
+VLO,1035002.0,wikipedia,ok,1035002.0,wikipedia
+VLTO,1967680.0,wikipedia,ok,1967680.0,wikipedia
+VMC,1396009.0,wikipedia,ok,1396009.0,wikipedia
+VMRK,906107.0,wikipedia,ok,906107.0,wikipedia
+VNO,899689.0,sec ticker map,ok,899689.0,sec ticker map
+VNT,1786842.0,sec ticker map,ok,1786842.0,sec ticker map
+VRSK,1442145.0,wikipedia,ok,1442145.0,wikipedia
+VRSN,1014473.0,wikipedia,ok,1014473.0,wikipedia
+VRT,1674101.0,wikipedia,ok,1674101.0,wikipedia
+VRTX,875320.0,wikipedia,ok,875320.0,wikipedia
+VST,1692819.0,wikipedia,ok,1692819.0,wikipedia
+VTR,740260.0,wikipedia,ok,740260.0,wikipedia
+VTRS,1792044.0,wikipedia,no share count on 2016-02-01,,dropped
+VYLR,2128626.0,wikipedia,no share count on 2026-11-01,,dropped
+VZ,732712.0,wikipedia,ok,732712.0,wikipedia
+WAB,943452.0,wikipedia,ok,943452.0,wikipedia
+WAT,1000697.0,wikipedia,ok,1000697.0,wikipedia
+WBA,1618921.0,edgar name search,ok,1618921.0,edgar name search
+WBD,1437107.0,edgar name search,ok,1437107.0,edgar name search
+WCG,1804830.0,edgar name search,no SEC share data,1279363.0,"replaced by EDGAR candidate 'WELLCARE HEALTH PLANS, INC.'"
+WDAY,1327811.0,wikipedia,no share count on 2025-01-23,,dropped
+WDC,106040.0,wikipedia,ok,106040.0,wikipedia
+WEC,783325.0,wikipedia,ok,783325.0,wikipedia
+WELL,766704.0,wikipedia,ok,766704.0,wikipedia
+WFC,72971.0,wikipedia,ok,72971.0,wikipedia
+WFM,865436.0,edgar name search,ok,865436.0,edgar name search
+WHR,106640.0,sec ticker map,ok,106640.0,sec ticker map
+WLTW,1140536.0,edgar name search,no raw prices,,dropped
+WM,823768.0,wikipedia,ok,823768.0,wikipedia
+WMB,107263.0,wikipedia,ok,107263.0,wikipedia
+WMT,104169.0,wikipedia,ok,104169.0,wikipedia
+WRB,11544.0,wikipedia,ok,11544.0,wikipedia
+WSM,719955.0,wikipedia,ok,719955.0,wikipedia
+WST,105770.0,wikipedia,ok,105770.0,wikipedia
+WTW,1140536.0,wikipedia,ok,1140536.0,wikipedia
+WU,1365135.0,sec ticker map,ok,1365135.0,sec ticker map
+WY,106535.0,wikipedia,ok,106535.0,wikipedia
+WYN,,unresolved,no CIK,,dropped
+WYNN,1174922.0,wikipedia,ok,1174922.0,wikipedia
+XEC,1168054.0,edgar name search,ok,1168054.0,edgar name search
+XEL,72903.0,wikipedia,ok,72903.0,wikipedia
+XL,813298.0,edgar name search,ok,813298.0,edgar name search
+XLNX,743988.0,edgar name search,ok,743988.0,edgar name search
+XOM,2115436.0,wikipedia,no share count on 2016-02-01,,dropped
+XRAY,818479.0,sec ticker map,ok,818479.0,sec ticker map
+XRX,1770450.0,sec ticker map,no share count on 2016-02-01,108772.0,replaced by EDGAR candidate 'XEROX CORP'
+XYL,1524472.0,wikipedia,ok,1524472.0,wikipedia
+XYZ,1512673.0,wikipedia,ok,1512673.0,wikipedia
+YHOO,1426140.0,edgar name search,no SEC share data,,dropped
+YUM,1041061.0,wikipedia,ok,1041061.0,wikipedia
+ZBH,1136869.0,wikipedia,ok,1136869.0,wikipedia
+ZBRA,877212.0,wikipedia,ok,877212.0,wikipedia
+ZION,109380.0,sec ticker map,ok,109380.0,sec ticker map
+ZTS,1555280.0,wikipedia,ok,1555280.0,wikipedia

@@ -1,0 +1,67 @@
+{
+  "dsr": {
+    "F base": {
+      "sr_daily": 0.10645008064927282,
+      "sr0_daily": 0.041741509219873796,
+      "dsr": 0.7164166466334947,
+      "n_trials": 16,
+      "skew": -0.3701300855875929,
+      "kurtosis": 4.236839758168383
+    },
+    "F crash guard": {
+      "sr_daily": 0.09061477047085444,
+      "sr0_daily": 0.041741509219873796,
+      "dsr": 0.6685830803249367,
+      "n_trials": 16,
+      "skew": -0.2606270669537706,
+      "kurtosis": 4.269510322361892
+    },
+    "F skip early reporters": {
+      "sr_daily": 0.1196099043216288,
+      "sr0_daily": 0.041741509219873796,
+      "dsr": 0.7538966496836328,
+      "n_trials": 16,
+      "skew": -0.3630298966487202,
+      "kurtosis": 3.9785502199512397
+    }
+  },
+  "correlation_with_A_monthly": {
+    "F base": 0.49875254044386413,
+    "F crash guard": 0.4880601111410132,
+    "F skip early reporters": 0.5312015039825337
+  },
+  "after_spy_falls_of_5pct": {
+    "months": [
+      "2018-11",
+      "2019-01",
+      "2019-06",
+      "2020-03",
+      "2020-04",
+      "2022-02",
+      "2022-05",
+      "2022-07",
+      "2022-10"
+    ],
+    "F base": 0.04943459748815229,
+    "F crash guard": 0.026935238942955145,
+    "F skip early reporters": 0.04834390206757252,
+    "EW universe": 0.04249504562615498,
+    "12-1 momentum": 0.039675287787849456
+  },
+  "diagnostics": {
+    "avg picks per month": 19.19277108433735,
+    "avg eligible names": 465.5421686746988,
+    "share of picks with an EPS beat in the formation month": 0.3163841807909605,
+    "months crash guard on": 10,
+    "shares source (panel, all months)": {
+      "sec": 55246,
+      "yahoo": 6155,
+      "none": 1237,
+      "yahoo (SEC disagreed)": 689
+    },
+    "panel rows with turnover / all member rows": [
+      62090,
+      63327
+    ]
+  }
+}
