@@ -6,7 +6,7 @@ Every variant run for the addendum is counted here, including abandoned ones. Co
 | # | Step | Variant | Date | Notes |
 |---|---|---|---|---|
 | 1 | Step 0 | Setup A as live (ema+fixed, next-open scheduled exits), point-in-time S&P 500, 2010-2026 | 2026-11-12 | Also run on today's list for the before/after comparison |
-| 2-6 | Setup E, SPY | trend only; trend + vol target; TOM only -2..+3; TOM only -3..+3; combined (trend + vol + TOM -2..+3) | 2026-11-16 | Rules as written; interpretation choices fixed in  before results |
+| 2-6 | Setup E, SPY | trend only; trend + vol target; TOM only -2..+3; TOM only -3..+3; combined (trend + vol + TOM -2..+3) | 2026-11-16 | Rules as written; interpretation choices fixed in `scripts/run_setup_e.py` before results |
 | 7-11 | Setup E, QQQ | the same 5 rules | 2026-11-16 | as above |
 
 **Addendum total: 11** (after Step 0 and Setup E)
