@@ -133,5 +133,5 @@ LIVE_FORWARD_CALENDAR_DAYS = 35  # how far ahead to look for the next report (fl
 # Exception to the 15% max-position rule, which doesn't fit an index-allocation strategy: E runs in
 # its own paper account with exposure capped at 1.0x of that account (no leverage).
 LIVE_E_SYMBOL = "SPY"
-LIVE_E_MAX_EXPOSURE = 1.0
+LIVE_E_MAX_EXPOSURE = 1.0  # exception to the 15% cap, approved by the project owner on 2026-11-16 (Setup E only)
 LIVE_E_DRY_RUN_EQUITY = 10_000.0  # virtual book used until the E account's keys are set

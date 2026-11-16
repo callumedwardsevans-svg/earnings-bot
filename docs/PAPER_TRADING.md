@@ -88,7 +88,8 @@ runs only as a dry run with a virtual $10k book.
 **Exception to the brief's 15% max-position rule:** E is an index-allocation strategy defined to hold
 up to 1.0x, so in its own account it's capped at 100% exposure (no leverage), not 15%. The paper-only
 guard, the kill switch and a daily loss rule (down 2% on the day: only exposure-reducing orders)
-still apply. It sends nothing until you register the tasks with `-Send`.
+still apply. It sends nothing until you register the tasks with `-Send`. **Approved by the project
+owner on 2026-11-16**, for Setup E in its own paper account only; every other setup keeps the 15% cap.
 
 ## Daily cycle
 
