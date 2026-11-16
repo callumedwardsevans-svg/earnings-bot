@@ -1,0 +1,21 @@
+platform,instrument,variant,in-sample excess Sharpe,holdout excess Sharpe,edge vs B&H at x2 costs,DSR,top-5% months,corr with A,verdict
+Alpaca,SPY,trend only,0.55,0.65,0.22,0.95,52%,0.4,drop: best 5% of months = 52% of profit
+Alpaca,SPY,trend + vol target,0.55,0.56,0.22,0.95,47%,0.43,PASS
+Alpaca,SPY,TOM only (-2..+3),0.28,0.42,-0.11,0.65,77%,0.25,drop: DSR 0.65; edge gone at x2 costs (-0.11); best 5% of months = 77% of profit
+Alpaca,SPY,TOM only (-3..+3),0.38,0.49,0.01,0.81,73%,0.26,drop: DSR 0.81; best 5% of months = 73% of profit
+Alpaca,SPY,combined (trend + vol + TOM -2..+3),0.59,0.65,0.24,0.97,44%,0.43,PASS
+Alpaca,QQQ,trend only,0.46,0.75,0.18,0.89,62%,0.34,drop: DSR 0.89; best 5% of months = 62% of profit
+Alpaca,QQQ,trend + vol target,0.51,0.8,0.24,0.93,50%,0.38,PASS
+Alpaca,QQQ,TOM only (-2..+3),0.26,0.45,-0.05,0.62,113%,0.23,drop: DSR 0.62; edge gone at x2 costs (-0.05); best 5% of months = 113% of profit
+Alpaca,QQQ,TOM only (-3..+3),0.32,0.38,0.02,0.73,97%,0.24,drop: DSR 0.73; best 5% of months = 97% of profit
+Alpaca,QQQ,combined (trend + vol + TOM -2..+3),0.49,0.8,0.2,0.92,63%,0.39,drop: best 5% of months = 63% of profit
+IG,SPY,trend only,0.25,0.06,0.14,0.95,89%,0.4,drop: holdout Sharpe 0.06 (in-sample 0.25); best 5% of months = 89% of profit
+IG,SPY,trend + vol target,0.22,-0.03,0.08,0.95,83%,0.43,drop: holdout Sharpe -0.03 (in-sample 0.22); best 5% of months = 83% of profit
+IG,SPY,TOM only (-2..+3),0.16,0.24,0.18,0.65,100%,0.25,drop: holdout Sharpe 0.24 (in-sample 0.16); DSR 0.65; best 5% of months = 100% of profit
+IG,SPY,TOM only (-3..+3),0.26,0.26,0.27,0.81,94%,0.26,drop: holdout Sharpe 0.26 (in-sample 0.26); DSR 0.81; best 5% of months = 94% of profit
+IG,SPY,combined (trend + vol + TOM -2..+3),0.29,0.07,0.16,0.97,73%,0.43,drop: holdout Sharpe 0.07 (in-sample 0.29); best 5% of months = 73% of profit
+IG,QQQ,trend only,0.27,0.33,0.18,0.89,94%,0.34,drop: DSR 0.89; best 5% of months = 94% of profit
+IG,QQQ,trend + vol target,0.27,0.38,0.12,0.93,75%,0.38,drop: best 5% of months = 75% of profit
+IG,QQQ,TOM only (-2..+3),0.17,0.32,0.15,0.62,143%,0.23,drop: DSR 0.62; best 5% of months = 143% of profit
+IG,QQQ,TOM only (-3..+3),0.23,0.22,0.21,0.73,122%,0.24,drop: holdout Sharpe 0.22 (in-sample 0.23); DSR 0.73; best 5% of months = 122% of profit
+IG,QQQ,combined (trend + vol + TOM -2..+3),0.29,0.41,0.17,0.92,94%,0.39,drop: best 5% of months = 94% of profit

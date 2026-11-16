@@ -187,6 +187,11 @@ def fetch_av_earnings(
         if "requests per day" in low or ("rate limit" in low and "25" in low):
             budget.exhaust()
             raise RateLimited(f"Alpha Vantage daily limit: {msg}")
+        if data == {}:
+            # AV has nothing for this ticker (typical for delisted names): remember that, so the
+            # 25-a-day budget isn't spent asking again
+            write_json({"quarterlyEarnings": [], "empty": True}, path)
+            return {"quarterlyEarnings": []}
         raise ValueError(f"Alpha Vantage returned no earnings for {symbol}: {msg}")
     write_json(data, path)
     _time.sleep(1.2)  # be polite between calls

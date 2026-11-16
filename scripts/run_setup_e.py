@@ -121,6 +121,7 @@ def main() -> int:
             ax.plot(c.index, c.values, color=color, linewidth=1.8, label=name)
         if not args.holdout:
             ax.set_yscale("log")
+            ax.yaxis.set_major_locator(mtick.LogLocator(base=10, subs=(1.0, 2.0, 5.0)))
         ax.yaxis.set_major_formatter(mtick.FuncFormatter(lambda v, _: f"${v:,.2g}"))
         ax.yaxis.set_minor_formatter(mtick.NullFormatter())
         ax.legend(frameon=False, fontsize=8, labelcolor=INK2, loc="upper left")
