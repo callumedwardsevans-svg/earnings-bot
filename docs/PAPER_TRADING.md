@@ -69,3 +69,47 @@ skip applied in the same priority order.
 After 6-8 weeks and at least 30 closed trades: compare live R per trade, fill rate and exit-reason
 mix with the backtest, and the return with SPY over the same dates. Expect a small sample: the
 backtest averaged ~50 portfolio trades a year.
+
+---
+
+# Setup E (SPY combined) paper loop
+
+Rules: month-end 200-day SMA trend x vol target min(1, 0.12/sigma20), plus the turn-of-month
+window (-2..+3) at 1.0x. The only setup that passed the research addendum's drop rules
+([results](research/ADDENDUM_RESULTS.md)). Code: `live/setup_e_live.py`, `scripts/e_live.py`.
+
+## Separate paper account (recommended)
+
+E holds up to 100% of its account in SPY; Setup A can use up to ~75% of its account. Sharing one
+$10k account would make them compete for cash and mix up the results. Create a second Alpaca paper
+account and put its keys in `.env` as `ALPACA_E_KEY_ID` / `ALPACA_E_SECRET_KEY`. Without them, E
+runs only as a dry run with a virtual $10k book.
+
+**Exception to the brief's 15% max-position rule:** E is an index-allocation strategy defined to hold
+up to 1.0x, so in its own account it's capped at 100% exposure (no leverage), not 15%. The paper-only
+guard, the kill switch and a daily loss rule (down 2% on the day: only exposure-reducing orders)
+still apply. It sends nothing until you register the tasks with `-Send`.
+
+## Daily cycle
+
+| UK time | New York | Job | What it does |
+|---|---|---|---|
+| 13:27 | 08:27 / 09:27 | `e_live.py morning` | Exposure for today = 1.0 on a TOM full day, else yesterday's base target -> market-on-open order for the change in whole shares |
+| 19:35 | waits to 15:35 | `e_live.py close` | Only on TOM entry (day -2) and exit (day +3) days: market-on-close order |
+| 22:05 | after the close | `e_live.py evening` | Settle fills (or virtual fills), journal, backtest shadow, report |
+
+Files: `plans/setup_e/`, `reports/setup_e/`, `journal/setup_e_daily_{dry,live}.csv` (daily position,
+equity, SPY, and a **backtest shadow**: the same rules run on the same prices from the start date,
+so live-vs-backtest differences show up every day), `logs/setup_e_YYYY-MM.log`.
+
+## Differences from the backtest
+
+- **Whole shares:** with SPY around $760, one share is ~7.5% of a $10k account, so exposure moves in steps.
+- **Cash earns 0%** on paper (the backtest used T-bills).
+- Combined effect, re-run on the backtest: since 2016, 9.8% a year vs 10.4%, with the same Sharpe
+  (0.87); since 2023, 11.3% vs 12.2%.
+- A unit test checks that the live morning/close targets equal the backtest's positions day by day.
+
+Register (dry run first):
+
+    powershell -ExecutionPolicy Bypass -File scripts/windows/register_setup_e_tasks.ps1

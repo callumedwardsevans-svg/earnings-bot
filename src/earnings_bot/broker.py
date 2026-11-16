@@ -75,6 +75,16 @@ def check_endpoint(
     return False
 
 
+def make_trading_client_e(settings: Settings, confirm: Callable[[], bool] = _interactive_confirm):
+    """Client for Setup E's separate paper account (same paper-only guard)."""
+    is_paper = check_endpoint(settings.e_base_url, settings.allow_live, confirm)
+    if not settings.e_key_id or not settings.e_secret_key:
+        raise RuntimeError("ALPACA_E_KEY_ID / ALPACA_E_SECRET_KEY are missing (Setup E's own paper account).")
+    from alpaca.trading.client import TradingClient
+
+    return TradingClient(settings.e_key_id, settings.e_secret_key, paper=is_paper)
+
+
 def make_trading_client(settings: Settings, confirm: Callable[[], bool] = _interactive_confirm):
     """Build an alpaca-py TradingClient after the paper-only guard passes."""
     is_paper = check_endpoint(settings.alpaca_base_url, settings.allow_live, confirm)
@@ -157,6 +167,15 @@ class AlpacaBroker:
         from alpaca.trading.requests import MarketOrderRequest
 
         req = MarketOrderRequest(symbol=symbol, qty=qty, side=OrderSide.SELL, time_in_force=TimeInForce.OPG,
+                                 client_order_id=client_order_id)
+        return _order_dict(self.client.submit_order(req))
+
+    def submit_market(self, symbol: str, qty: int, side: str, time_in_force: str, client_order_id: str) -> dict:
+        """Market order; time_in_force 'opg' (market-on-open) or 'cls' (market-on-close)."""
+        from alpaca.trading.enums import OrderSide, TimeInForce
+        from alpaca.trading.requests import MarketOrderRequest
+
+        req = MarketOrderRequest(symbol=symbol, qty=qty, side=OrderSide(side), time_in_force=TimeInForce(time_in_force),
                                  client_order_id=client_order_id)
         return _order_dict(self.client.submit_order(req))
 

@@ -99,6 +99,10 @@ class Settings:
     allow_live: bool
     finnhub_api_key: str = field(default="", repr=False)
     alphavantage_api_key: str = field(default="", repr=False)
+    # Separate paper account for Setup E (so A and E don't share cash or contaminate results)
+    e_key_id: str = field(default="", repr=False)
+    e_secret_key: str = field(default="", repr=False)
+    e_base_url: str = "https://paper-api.alpaca.markets"
 
 
 def load_settings(env_file: Path | None = None) -> Settings:
@@ -111,6 +115,9 @@ def load_settings(env_file: Path | None = None) -> Settings:
         allow_live=os.getenv("ALLOW_LIVE", "").strip().lower() == "true",
         finnhub_api_key=os.getenv("FINNHUB_API_KEY", "").strip(),
         alphavantage_api_key=os.getenv("ALPHAVANTAGE_API_KEY", "").strip(),
+        e_key_id=os.getenv("ALPACA_E_KEY_ID", "").strip(),
+        e_secret_key=os.getenv("ALPACA_E_SECRET_KEY", "").strip(),
+        e_base_url=os.getenv("ALPACA_E_BASE_URL", "https://paper-api.alpaca.markets").strip(),
     )
 
 
@@ -120,3 +127,11 @@ LIVE_VARIANT = "ema+fixed"
 # Scheduled exits (time exit, flat before report) are market-on-open orders on the day they
 # fall due. In the backtest this costs ~0.01R/trade vs exiting at that day's close.
 LIVE_FORWARD_CALENDAR_DAYS = 35  # how far ahead to look for the next report (flat-before-report)
+
+
+# Setup E live (paper): SPY combined = trend + vol target + turn-of-month -2..+3.
+# Exception to the 15% max-position rule, which doesn't fit an index-allocation strategy: E runs in
+# its own paper account with exposure capped at 1.0x of that account (no leverage).
+LIVE_E_SYMBOL = "SPY"
+LIVE_E_MAX_EXPOSURE = 1.0
+LIVE_E_DRY_RUN_EQUITY = 10_000.0  # virtual book used until the E account's keys are set

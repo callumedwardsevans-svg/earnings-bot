@@ -13,6 +13,7 @@ A rules-based **earnings-play** strategy for US stocks, backtested on daily data
 | 3. Backtest: setups A and B with variants vs SPY | done, including the pre-registered held-out check. **[Findings](docs/backtest/FINDINGS.md)** |
 | 3b. Setup D: SPY/QQQ moving-average trend filter (and as a regime filter for A/B) | done: no regime filter adopted |
 | 4. Paper loop: plan → submit → reconcile, journal, daily report | built and dry-run tested; **[runbook](docs/PAPER_TRADING.md)** |
+| 4b. Setup E (SPY combined) paper loop | built, dry run; needs a second paper account for live paper orders. See the Setup E section of the runbook |
 | Research addendum (setups E, G, F) | done. **[Final results](docs/research/ADDENDUM_RESULTS.md)**: only Setup E passes (SPY/QQQ trend + vol target, on Alpaca), as drawdown insurance rather than extra return |
 | 5. Review after 6–8 weeks of paper trading | not started |
 
