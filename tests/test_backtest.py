@@ -141,3 +141,10 @@ def test_live_rule_scheduled_exits_at_open():
     assert out["exit_date"] == DAYS[21] and out["exit_price"] == 103.0 and out["exit_reason"] == "time exit"
     out2 = simulate(cand(exit_by=DAYS[5]), bars({DAYS[5]: {"open": 101.0}}), END, slip=0, scheduled_exit_at="open")
     assert out2["exit_reason"] == "flat before report" and out2["exit_price"] == 101.0
+
+
+def test_portfolio_takes_open_market_entries():
+    sims = _sims(1)
+    sims["entry_type"] = "open_market"
+    trades, skipped, curve = portfolio.run(sims, {s: bars() for s in sims.symbol}, DAYS)
+    assert len(trades) == 1

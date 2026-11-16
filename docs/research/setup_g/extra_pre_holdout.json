@@ -1,0 +1,68 @@
+{
+  "funnels": {
+    "G eps>=5% +10d": {
+      "reports in period": 29547,
+      "timing known (bmo/amc)": 29164,
+      "price data on day 1": 28718,
+      "EPS surprise >= 5%": 13417,
+      "revenue condition off": 13417,
+      "day-1 return > 0": 8174,
+      "liquid (price > $10, ADV > $50m)": 7340,
+      "next session exists": 7340
+    },
+    "G eps>=5% +20d": {
+      "reports in period": 29547,
+      "timing known (bmo/amc)": 29164,
+      "price data on day 1": 28718,
+      "EPS surprise >= 5%": 13417,
+      "revenue condition off": 13417,
+      "day-1 return > 0": 8174,
+      "liquid (price > $10, ADV > $50m)": 7340,
+      "next session exists": 7340
+    },
+    "A ema+fixed (as live)": {
+      "reports in period": 29547,
+      "timing known (bmo/amc)": 29164,
+      "price data on day 1": 28715,
+      "EPS surprise >= 5%": 13415,
+      "gap >= 3%": 3632,
+      "close in upper half": 1775,
+      "volume >= 2x avg": 1451,
+      "liquid (price > $10, ADV > $50m)": 1339,
+      "above 50 EMA": 1267,
+      "no market regime filter": 1267,
+      "next session exists": 1267
+    }
+  },
+  "dsr": {
+    "G eps>=5% +10d": {
+      "sr_daily": 0.03945802288260209,
+      "sr0_daily": 0.019642285289126617,
+      "dsr": 0.8732735491235893,
+      "n_trials": 13,
+      "skew": 0.22461665396394254,
+      "kurtosis": 7.2605600397400005
+    },
+    "G eps>=5% +20d": {
+      "sr_daily": 0.0426713610141727,
+      "sr0_daily": 0.019642285289126617,
+      "dsr": 0.9072857587184218,
+      "n_trials": 13,
+      "skew": 0.10927199069150334,
+      "kurtosis": 6.915940302344217
+    },
+    "A ema+fixed (as live)": {
+      "sr_daily": 0.050396919438466144,
+      "sr0_daily": 0.019642285289126617,
+      "dsr": 0.9607042091053352,
+      "n_trials": 13,
+      "skew": -0.05780244337899499,
+      "kurtosis": 10.414831475899648
+    }
+  },
+  "correlation_with_A": {
+    "G eps>=5% +10d": 0.5868986922910007,
+    "G eps>=5% +20d": 0.6080647856437928,
+    "A ema+fixed (as live)": 1.0
+  }
+}

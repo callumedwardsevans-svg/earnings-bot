@@ -1,0 +1,1092 @@
+trade_id,setup,variant,ticker,signal_date,entry_date,entry_price,stop_price,target_price,shares,exit_date,exit_price,exit_reason,pnl_usd,r_multiple,eps_surprise_pct,gap_pct,notes
+G-eps+20d-0002,G,eps+20d,PH,2010-01-19,2010-01-20,46.3629,45.932,,21,2010-01-20,45.9182,stop,-9.34,-0.698,88.24,5.43,day-1 return +4.9%; timing bmo; size limited by max position
+G-eps+20d-0003,G,eps+20d,NTRS,2010-01-20,2010-01-21,35.7296,35.116,,27,2010-01-21,35.1055,stop,-16.85,-0.515,22.39,3.32,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-0004,G,eps+20d,BNY,2010-01-20,2010-01-21,21.0602,20.291,,47,2010-01-22,20.2849,stop,-36.44,-0.973,5.77,1.22,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0001,G,eps+20d,LEN,2010-01-07,2010-01-08,12.5805,11.9397,,72,2010-01-25,11.9362,stop,-46.39,-0.939,133.33,8.98,day-1 return +12.8%; timing bmo; size limited by risk
+G-eps+20d-0006,G,eps+20d,GE,2010-01-22,2010-01-25,56.8834,55.5881,,17,2010-01-27,55.5714,stop,-22.3,-18.987,8.21,3.31,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0007,G,eps+20d,TRV,2010-01-26,2010-01-27,34.2579,34.1523,,28,2010-01-27,34.142,stop,-3.24,-2.127,42.28,3.4,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0008,G,eps+20d,SHW,2010-01-26,2010-01-27,17.4568,17.3766,,56,2010-01-27,17.3714,stop,-4.78,-1.139,41.18,6.59,day-1 return +6.6%; timing bmo; size limited by max position
+G-eps+20d-0009,G,eps+20d,ZION,2010-01-26,2010-01-27,13.7094,13.7199,,71,2010-01-27,13.7012,stop,-0.58,-0.063,17.65,5.8,day-1 return +6.5%; timing amc; size limited by max position
+G-eps+20d-0005,G,eps+20d,ISRG,2010-01-22,2010-01-25,37.8602,36.5011,,26,2010-01-29,36.4902,stop,-35.62,-1.041,15.79,7.97,day-1 return +11.8%; timing amc; size limited by max position
+G-eps+20d-0010,G,eps+20d,ATI,2010-01-27,2010-01-28,37.6113,36.0203,,26,2010-01-29,36.0095,stop,-41.65,-1.24,63.64,3.51,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0014,G,eps+20d,PCAR,2010-01-29,2010-02-01,13.6861,13.5534,,71,2010-02-01,13.5493,stop,-9.71,-1.722,125.0,2.24,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0015,G,eps+20d,GNW,2010-01-29,2010-02-01,14.0942,13.57,,70,2010-02-04,13.5659,stop,-36.98,-1.957,72.73,3.45,day-1 return +1.5%; timing amc; size limited by max position
+G-eps+20d-0016,G,eps+20d,XOM,2010-02-01,2010-02-02,35.8479,35.096,,27,2010-02-04,35.0855,stop,-20.59,-1.71,6.72,2.08,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0011,G,eps+20d,BA,2010-01-27,2010-01-28,48.4441,45.8425,,20,2010-02-05,45.8288,stop,-52.31,-1.083,30.15,1.96,day-1 return +7.3%; timing bmo; size limited by risk
+G-eps+20d-0012,G,eps+20d,BXP,2010-01-27,2010-01-28,34.7349,33.457,,28,2010-02-05,33.447,stop,-36.06,-1.418,16.67,-0.71,day-1 return +0.5%; timing amc; size limited by max position
+G-eps+20d-0013,G,eps+20d,ELV,2010-01-27,2010-01-28,51.2037,48.9124,,19,2010-02-05,48.8977,stop,-43.81,-1.167,12.62,-1.83,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0021,G,eps+20d,LNC,2010-02-09,2010-02-10,15.1258,14.7139,,63,2010-02-11,14.7095,stop,-26.23,-1.022,8.33,4.26,day-1 return +4.3%; timing amc; size limited by max position
+G-eps+20d-0017,G,eps+20d,CSCO,2010-02-04,2010-02-05,14.8859,14.7537,,64,2010-03-08,16.6839,time exit,115.07,46.92,14.29,1.47,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0018,G,eps+20d,TSN,2010-02-05,2010-02-08,10.7057,10.4719,,90,2010-03-09,12.7112,time exit,180.49,23.188,141.18,5.93,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0019,G,eps+20d,AON,2010-02-05,2010-02-08,33.4872,32.6673,,28,2010-03-09,34.8419,time exit,37.93,1.622,17.07,0.18,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0020,G,eps+20d,BIIB,2010-02-09,2010-02-10,54.2163,53.33,,17,2010-03-11,58.7624,time exit,77.28,5.982,14.29,1.97,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0022,G,eps+20d,MAR,2010-02-11,2010-02-12,21.2671,20.555,,45,2010-03-15,22.7228,time exit,65.51,2.481,23.08,-0.04,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0023,G,eps+20d,NKE,2010-03-18,2010-03-19,14.7504,14.5554,,67,2010-03-19,14.551,stop,-13.36,-0.738,13.64,3.48,day-1 return +5.3%; timing amc; size limited by max position
+G-eps+20d-0024,G,eps+20d,CCL,2010-03-23,2010-03-24,28.1293,28.0623,,35,2010-03-24,28.0539,stop,-2.64,-0.219,57.14,2.61,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0026,G,eps+20d,ADBE,2010-03-24,2010-03-25,36.671,36.48,,27,2010-03-25,36.4691,stop,-5.45,-6.732,8.11,5.39,day-1 return +3.7%; timing amc; size limited by max position
+G-eps+20d-0025,G,eps+20d,LEN,2010-03-24,2010-03-25,14.7266,14.3538,,69,2010-03-31,14.3495,stop,-26.03,-2.879,87.1,6.04,day-1 return +3.7%; timing bmo; size limited by max position
+G-eps+20d-0027,G,eps+20d,JPM,2010-04-14,2010-04-15,31.1948,30.616,,31,2010-04-16,30.6068,stop,-18.23,-0.946,15.62,3.34,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0030,G,eps+20d,MAT,2010-04-16,2010-04-19,17.3331,17.0265,,58,2010-04-19,17.0214,stop,-18.08,-3.62,450.0,1.77,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0032,G,eps+20d,LLY,2010-04-19,2010-04-20,24.1822,23.6588,,41,2010-04-22,23.6517,stop,-21.75,-0.966,6.31,-1.61,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0031,G,eps+20d,C,2010-04-19,2010-04-20,36.5048,33.7314,,28,2010-04-26,33.7213,stop,-77.94,-1.595,2242.86,1.97,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0035,G,eps+20d,WHR,2010-04-26,2010-04-27,65.1374,65.4267,,15,2010-04-27,65.0983,stop,-0.59,-0.479,93.08,12.08,day-1 return +10.0%; timing bmo; size limited by max position
+G-eps+20d-0028,G,eps+20d,PGR,2010-04-14,2010-04-15,11.9875,11.5657,,83,2010-05-04,11.5622,stop,-35.3,-1.031,7.89,2.26,day-1 return +5.9%; timing bmo; size limited by max position
+G-eps+20d-0029,G,eps+20d,PPG,2010-04-15,2010-04-16,25.3438,24.7768,,39,2010-05-04,24.7693,stop,-22.4,-1.04,9.37,0.35,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0033,G,eps+20d,ITW,2010-04-20,2010-04-21,34.3066,33.8713,,29,2010-05-04,33.8611,stop,-12.92,-1.321,12.5,2.89,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0037,G,eps+20d,MA,2010-05-04,2010-05-05,22.6927,22.7142,,42,2010-05-05,22.679,stop,-0.57,-0.051,12.9,1.05,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0038,G,eps+20d,MRK,2010-05-04,2010-05-05,19.5361,19.6295,,49,2010-05-05,19.5244,stop,-0.57,-0.101,9.21,0.94,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0034,G,eps+20d,TXT,2010-04-22,2010-04-23,23.559,21.3043,,22,2010-05-06,21.2979,stop,-49.74,-1.042,266.67,2.69,day-1 return +12.2%; timing bmo; size limited by risk
+G-eps+20d-0039,G,eps+20d,DVN,2010-05-05,2010-05-06,42.306,41.2981,,22,2010-05-06,41.2857,stop,-22.45,-0.831,30.28,1.3,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0040,G,eps+20d,LUMN,2010-05-05,2010-05-06,12.4691,12.2918,,77,2010-05-06,12.2881,stop,-13.93,-0.747,8.14,0.53,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0044,G,eps+20d,BRK.B,2010-05-10,2010-05-11,77.4532,76.63,,12,2010-05-14,76.607,stop,-10.15,-0.529,30.99,3.57,day-1 return +5.1%; timing amc; size limited by max position
+G-eps+20d-0041,G,eps+20d,FLS,2010-05-06,2010-05-07,27.2809,25.6046,,29,2010-05-17,25.597,stop,-48.84,-1.04,26.09,3.11,day-1 return +0.2%; timing amc; size limited by risk
+G-eps+20d-0036,G,eps+20d,NEM,2010-04-27,2010-04-28,37.6168,36.6563,,26,2010-05-20,36.6453,stop,-25.26,-1.223,15.28,0.06,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0043,G,eps+20d,AIG,2010-05-07,2010-05-10,25.4567,21.5827,,21,2010-05-20,21.5762,stop,-81.49,-1.701,152.08,3.59,day-1 return +5.3%; timing bmo; size limited by risk
+G-eps+20d-0046,G,eps+20d,DE,2010-05-19,2010-05-20,41.8737,41.0978,,22,2010-05-21,40.7333,stop,-25.09,-0.541,29.29,4.04,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0045,G,eps+20d,RL,2010-05-19,2010-05-20,65.6868,63.3536,,11,2010-05-25,63.3346,stop,-25.87,-0.569,79.37,-3.25,day-1 return +2.7%; timing bmo; size limited by risk
+G-eps+20d-0049,G,eps+20d,AZO,2010-06-01,2010-06-02,192.8078,189.24,,4,2010-06-04,189.1832,stop,-14.5,-1.633,17.71,0.23,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-0042,G,eps+20d,CI,2010-05-06,2010-05-07,29.6136,27.563,,25,2010-06-07,30.3568,time exit,18.58,0.386,13.48,2.5,day-1 return +2.9%; timing bmo; size limited by risk
+G-eps+20d-0047,G,eps+20d,ROST,2010-05-20,2010-05-21,11.1976,10.6298,,85,2010-06-21,11.9984,time exit,68.07,1.723,16.0,-2.55,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0050,G,eps+20d,JBL,2010-06-23,2010-06-24,12.561,12.2527,,75,2010-06-24,12.249,stop,-23.41,-0.671,17.65,8.76,day-1 return +10.6%; timing amc; size limited by max position
+G-eps+20d-0048,G,eps+20d,NTAP,2010-05-27,2010-05-28,27.4721,25.6894,,21,2010-06-28,29.047,time exit,33.07,0.721,16.28,9.25,day-1 return +17.7%; timing amc; size limited by risk
+G-eps+20d-0051,G,eps+20d,ORCL,2010-06-25,2010-06-28,18.2803,18.0507,,52,2010-06-28,18.0453,stop,-12.22,-2.936,11.11,4.14,day-1 return +2.0%; timing amc; size limited by max position
+G-eps+20d-0052,G,eps+20d,INTC,2010-07-14,2010-07-15,14.0302,13.9866,,67,2010-07-15,13.9824,stop,-3.21,-0.91,18.6,5.0,day-1 return +1.7%; timing amc; size limited by max position
+G-eps+20d-0054,G,eps+20d,JPM,2010-07-15,2010-07-16,26.4059,25.7623,,35,2010-07-16,25.7546,stop,-22.8,-0.864,47.3,0.92,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0055,G,eps+20d,PPG,2010-07-15,2010-07-16,23.5593,23.2886,,40,2010-07-16,23.2816,stop,-11.11,-0.758,10.81,-0.02,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0053,G,eps+20d,PGR,2010-07-14,2010-07-15,11.6854,11.3391,,81,2010-07-19,11.3357,stop,-28.32,-1.02,8.57,-1.61,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0056,G,eps+20d,GWW,2010-07-15,2010-07-16,82.1472,79.8302,,11,2010-07-20,79.8063,stop,-25.75,-0.877,10.0,2.46,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0057,G,eps+20d,SCHW,2010-07-16,2010-07-19,12.3822,12.1345,,76,2010-07-20,12.1308,stop,-19.1,-1.405,13.33,3.02,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0061,G,eps+20d,UNH,2010-07-20,2010-07-21,23.7283,23.2521,,40,2010-07-28,23.2452,stop,-19.33,-1.065,32.0,1.72,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0063,G,eps+20d,CBRE,2010-07-28,2010-07-29,16.595,16.05,,57,2010-07-29,16.0452,stop,-31.34,-1.037,77.78,7.72,day-1 return +7.6%; timing amc; size limited by max position
+G-eps+20d-0058,G,eps+20d,C,2010-07-19,2010-07-20,28.4331,27.9884,,32,2010-08-11,27.98,stop,-14.5,-0.479,95.65,0.77,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0059,G,eps+20d,HAL,2010-07-19,2010-07-20,22.053,21.5288,,42,2010-08-11,21.5223,stop,-22.29,-0.783,44.44,4.65,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0065,G,eps+20d,ADSK,2010-08-13,2010-08-16,27.9684,28.06,,33,2010-08-16,27.9516,stop,-0.55,-0.28,33.33,4.08,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0060,G,eps+20d,HOG,2010-07-20,2010-07-21,19.3383,17.5712,,40,2010-08-18,18.5651,time exit,-30.93,-0.655,40.48,7.29,day-1 return +13.6%; timing bmo; size limited by risk
+G-eps+20d-0062,G,eps+20d,BIIB,2010-07-20,2010-07-21,54.1662,51.74,,17,2010-08-18,56.503,time exit,39.73,1.025,16.96,-1.0,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0066,G,eps+20d,A,2010-08-17,2010-08-18,18.5064,17.9269,,50,2010-08-19,17.9215,stop,-29.25,-1.078,12.5,5.85,day-1 return +7.8%; timing amc; size limited by max position
+G-eps+20d-0067,G,eps+20d,URBN,2010-08-17,2010-08-18,32.4797,31.87,,28,2010-08-24,31.8604,stop,-17.34,-0.573,7.69,4.3,day-1 return +5.1%; timing amc; size limited by max position
+G-eps+20d-0068,G,eps+20d,ADI,2010-08-18,2010-08-19,20.8792,20.1985,,45,2010-08-24,20.1925,stop,-30.9,-0.959,8.33,1.94,day-1 return +4.4%; timing amc; size limited by max position
+G-eps+20d-0064,G,eps+20d,AMP,2010-07-29,2010-07-30,30.0733,29.2395,,31,2010-08-25,29.2307,stop,-26.12,-0.637,42.86,11.44,day-1 return +12.3%; timing amc; size limited by max position
+G-eps+20d-0070,G,eps+20d,BBY,2010-09-14,2010-09-15,21.0177,20.9197,,44,2010-09-15,20.9134,stop,-4.59,-0.791,36.36,7.5,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0069,G,eps+20d,NTAP,2010-08-19,2010-08-20,29.6196,28.0261,,27,2010-09-20,36.2595,time exit,179.28,3.919,8.89,-2.26,day-1 return +3.5%; timing amc; size limited by risk
+G-eps+20d-0073,G,eps+20d,CCL,2010-09-21,2010-09-22,27.8409,27.1922,,33,2010-09-23,27.1031,stop,-24.35,-1.591,10.74,4.43,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0075,G,eps+20d,NKE,2010-09-24,2010-09-27,15.8934,15.9006,,59,2010-09-27,15.8839,stop,-0.56,-0.529,12.0,4.74,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0071,G,eps+20d,ORCL,2010-09-17,2010-09-20,21.9368,21.1685,,42,2010-10-18,23.4738,time exit,64.55,1.775,13.51,4.26,day-1 return +8.4%; timing amc; size limited by max position
+G-eps+20d-0072,G,eps+20d,LEN,2010-09-20,2010-09-21,12.6749,11.9306,,75,2010-10-19,12.1873,time exit,-36.57,-0.926,128.57,5.65,day-1 return +8.2%; timing bmo; size limited by max position
+G-eps+20d-0079,G,eps+20d,COF,2010-10-19,2010-10-20,30.1951,29.3456,,31,2010-10-20,29.3368,stop,-26.61,-1.05,51.69,2.74,day-1 return +4.1%; timing amc; size limited by max position
+G-eps+20d-0074,G,eps+20d,KMX,2010-09-22,2010-09-23,25.7477,24.93,,35,2010-10-21,29.2712,time exit,123.32,2.865,23.08,3.44,day-1 return +8.5%; timing bmo; size limited by max position
+G-eps+20d-0081,G,eps+20d,TRV,2010-10-21,2010-10-22,38.3176,37.9097,,25,2010-10-26,37.8984,stop,-10.48,-1.311,23.97,1.06,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0076,G,eps+20d,PAYX,2010-09-28,2010-09-29,15.7572,15.45,,59,2010-10-27,16.1665,time exit,24.15,1.153,5.88,0.26,day-1 return +0.9%; timing amc; size limited by max position
+G-eps+20d-0077,G,eps+20d,GOOG,2010-10-15,2010-10-18,14.8218,14.5965,,64,2010-11-15,14.6876,time exit,-8.59,-0.552,15.15,10.79,day-1 return +11.2%; timing amc; size limited by max position
+G-eps+20d-0078,G,eps+20d,C,2010-10-18,2010-10-19,30.0329,28.8607,,31,2010-11-16,30.6689,time exit,19.72,0.437,45.45,1.27,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0085,G,eps+20d,HD,2010-11-16,2010-11-17,21.6496,21.5611,,44,2010-11-17,21.5546,stop,-4.18,-0.817,6.25,0.99,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0080,G,eps+20d,ETN,2010-10-20,2010-10-21,29.207,28.0156,,32,2010-11-18,32.4633,time exit,104.2,2.633,15.94,2.15,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0086,G,eps+20d,BBWI,2010-11-18,2010-11-19,12.2158,12.2641,,79,2010-11-19,12.2084,stop,-0.58,-0.082,5.88,4.27,day-1 return +4.4%; timing amc; size limited by max position
+G-eps+20d-0082,G,eps+20d,TPR,2010-10-26,2010-10-27,32.0814,30.9044,,29,2010-11-24,36.919,time exit,140.29,3.104,14.55,6.72,day-1 return +11.9%; timing bmo; size limited by max position
+G-eps+20d-0083,G,eps+20d,NBR,2010-10-27,2010-10-28,883.3264,854.4378,,1,2010-11-26,928.9223,time exit,45.6,2.052,27.71,3.55,day-1 return +5.6%; timing amc; size limited by max position
+G-eps+20d-0084,G,eps+20d,ANF,2010-11-16,2010-11-17,33.8146,32.5908,,28,2010-12-16,41.0847,time exit,203.57,7.215,14.29,1.57,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0087,G,eps+20d,ORCL,2010-12-17,2010-12-20,25.344,25.1999,,39,2010-12-20,25.1923,stop,-5.92,-2.099,13.33,5.45,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0090,G,eps+20d,LEN,2011-01-11,2011-01-12,16.8728,16.3316,,60,2011-01-19,16.3267,stop,-32.77,-1.505,466.67,6.24,day-1 return +7.1%; timing bmo; size limited by max position
+G-eps+20d-0091,G,eps+20d,JPM,2011-01-14,2011-01-18,29.5853,29.202,,34,2011-01-19,29.1932,stop,-13.33,-1.297,10.89,0.14,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0088,G,eps+20d,JBL,2010-12-21,2010-12-22,17.1028,15.9265,,60,2011-01-21,16.9558,time exit,-8.82,-0.187,10.91,6.96,day-1 return +10.7%; timing amc; size limited by max position
+G-eps+20d-0089,G,eps+20d,ADBE,2010-12-21,2010-12-22,30.8593,30.28,,32,2011-01-21,33.26,time exit,76.82,3.693,7.69,6.17,day-1 return +6.0%; timing amc; size limited by max position
+G-eps+20d-0095,G,eps+20d,COF,2011-01-21,2011-01-24,38.2373,37.0882,,26,2011-01-25,37.0771,stop,-30.16,-0.948,9.35,1.25,day-1 return +4.1%; timing amc; size limited by max position
+G-eps+20d-0092,G,eps+20d,EBAY,2011-01-20,2011-01-21,11.4164,11.079,,88,2011-01-31,11.0757,stop,-29.99,-0.987,10.64,3.4,day-1 return +5.8%; timing amc; size limited by max position
+G-eps+20d-0093,G,eps+20d,ISRG,2011-01-21,2011-01-24,36.2864,35.7422,,27,2011-02-22,36.779,time exit,13.3,0.905,36.0,11.51,day-1 return +12.7%; timing amc; size limited by max position
+G-eps+20d-0094,G,eps+20d,GE,2011-01-21,2011-01-24,70.8151,68.3783,,14,2011-02-22,73.933,time exit,43.65,1.791,12.94,4.77,day-1 return +7.1%; timing bmo; size limited by max position
+G-eps+20d-0096,G,eps+20d,HAL,2011-01-24,2011-01-25,30.6881,29.3624,,33,2011-02-23,36.2252,time exit,182.72,6.079,7.94,0.33,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0097,G,eps+20d,HOG,2011-01-25,2011-01-26,27.5127,26.0624,,30,2011-02-24,28.6886,time exit,35.28,0.702,21.74,2.3,day-1 return +8.1%; timing bmo; size limited by risk
+G-eps+20d-0100,G,eps+20d,SRE,2011-02-24,2011-02-25,16.1852,16.0522,,63,2011-02-28,16.0474,stop,-8.68,-1.329,17.02,0.32,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0101,G,eps+20d,BKNG,2011-02-24,2011-02-25,18.2114,17.7047,,57,2011-02-28,17.6993,stop,-29.19,-1.42,16.67,9.54,day-1 return +8.5%; timing amc; size limited by max position
+G-eps+20d-0102,G,eps+20d,CRM,2011-02-25,2011-02-28,33.5817,33.6795,,30,2011-02-28,33.5615,stop,-0.6,-0.053,14.29,8.32,day-1 return +3.4%; timing amc; size limited by max position
+G-eps+20d-0098,G,eps+20d,XOM,2011-01-31,2011-02-01,44.7676,43.5793,,22,2011-03-02,47.1605,time exit,52.64,2.598,14.2,1.18,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0099,G,eps+20d,VFC,2011-02-22,2011-02-23,15.068,14.6375,,68,2011-03-02,14.6332,stop,-29.57,-1.028,9.76,4.47,day-1 return +7.5%; timing bmo; size limited by max position
+G-eps+20d-0103,G,eps+20d,AZO,2011-03-01,2011-03-02,263.8191,260.21,,3,2011-03-15,259.4221,stop,-13.19,-1.328,9.15,2.94,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-0104,G,eps+20d,JBL,2011-03-23,2011-03-24,18.0856,17.2397,,56,2011-04-01,17.2345,stop,-47.66,-1.115,5.88,7.87,day-1 return +10.9%; timing amc; size limited by max position
+G-eps+20d-0106,G,eps+20d,SCHW,2011-04-15,2011-04-18,15.1335,15.0714,,66,2011-04-18,15.0669,stop,-4.4,-0.289,5.26,1.43,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0109,G,eps+20d,ZION,2011-04-19,2011-04-20,17.5389,17.3299,,59,2011-04-20,17.3247,stop,-12.64,-9.812,157.14,6.88,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0105,G,eps+20d,CAG,2011-03-24,2011-03-25,10.3133,10.0418,,99,2011-04-25,10.5799,time exit,26.39,1.044,6.38,1.18,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0111,G,eps+20d,WYNN,2011-04-20,2011-04-21,100.7257,98.2898,,10,2011-05-04,98.2603,stop,-24.65,-0.729,89.04,3.48,day-1 return +6.5%; timing amc; size limited by max position
+G-eps+20d-0112,G,eps+20d,CMI,2011-04-26,2011-04-27,80.7189,78.5295,,12,2011-05-04,78.506,stop,-26.55,-1.504,23.24,5.91,day-1 return +7.6%; timing bmo; size limited by max position
+G-eps+20d-0108,G,eps+20d,HAL,2011-04-18,2011-04-19,36.0709,34.9941,,28,2011-05-12,34.9836,stop,-30.44,-0.939,5.17,0.26,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0113,G,eps+20d,SKYD,2011-05-04,2011-05-05,20.2738,19.6419,,49,2011-05-13,19.636,stop,-31.25,-0.729,52.63,4.28,day-1 return +7.8%; timing amc; size limited by max position
+G-eps+20d-0107,G,eps+20d,GWW,2011-04-18,2011-04-19,114.0897,113.383,,9,2011-05-18,119.148,time exit,45.53,20.215,21.79,2.34,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0110,G,eps+20d,JNJ,2011-04-19,2011-04-20,40.6221,39.7041,,25,2011-05-19,42.6402,time exit,50.45,3.529,7.14,2.55,day-1 return +3.7%; timing bmo; size limited by max position
+G-eps+20d-0115,G,eps+20d,ANF,2011-05-18,2011-05-19,55.8591,55.0204,,18,2011-05-20,55.0039,stop,-15.39,-0.831,180.0,3.25,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0116,G,eps+20d,ADI,2011-05-18,2011-05-19,30.2579,29.2068,,33,2011-05-23,29.198,stop,-34.98,-1.068,10.29,4.4,day-1 return +5.9%; timing amc; size limited by max position
+G-eps+20d-0117,G,eps+20d,AZO,2011-05-24,2011-05-25,294.5283,286.8,,3,2011-06-03,286.7139,stop,-23.44,-1.202,6.65,4.08,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0118,G,eps+20d,NTAP,2011-05-26,2011-05-27,40.1088,38.629,,25,2011-06-03,38.3911,stop,-42.94,-0.976,11.32,2.82,day-1 return +6.9%; timing amc; size limited by max position
+G-eps+20d-0114,G,eps+20d,CI,2011-05-05,2011-05-06,42.7219,41.7411,,24,2011-06-06,42.992,time exit,6.48,0.494,25.69,2.79,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0119,G,eps+20d,BBY,2011-06-15,2011-06-16,17.6218,17.3204,,57,2011-06-16,17.3152,stop,-17.48,-0.91,6.06,-0.8,day-1 return +0.9%; timing amc; size limited by max position
+G-eps+20d-0121,G,eps+20d,KMX,2011-06-22,2011-06-23,32.3997,32.24,,30,2011-06-23,32.2303,stop,-5.08,-0.403,17.02,8.62,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0122,G,eps+20d,LEN,2011-06-23,2011-06-24,15.3519,14.9746,,65,2011-06-24,14.9701,stop,-24.82,-1.072,75.0,1.49,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0120,G,eps+20d,CCL,2011-06-21,2011-06-22,27.7029,26.8137,,36,2011-07-12,26.8057,stop,-32.3,-0.911,8.33,0.64,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-0124,G,eps+20d,YUM,2011-07-14,2011-07-15,30.5596,29.9681,,32,2011-07-15,29.9591,stop,-19.22,-1.41,8.2,2.39,day-1 return +1.4%; timing amc; size limited by max position
+G-eps+20d-0125,G,eps+20d,JPM,2011-07-14,2011-07-15,26.9968,26.7761,,37,2011-07-15,26.768,stop,-8.47,-5.738,5.83,3.94,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0126,G,eps+20d,MAT,2011-07-15,2011-07-18,20.5992,20.427,,48,2011-07-18,20.4208,stop,-8.56,-1.027,43.75,4.89,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0129,G,eps+20d,HOG,2011-07-19,2011-07-20,31.9953,31.6744,,31,2011-07-20,31.6649,stop,-10.24,-1.374,15.71,8.62,day-1 return +8.9%; timing bmo; size limited by max position
+G-eps+20d-0123,G,eps+20d,NKE,2011-06-28,2011-06-29,18.1382,17.2226,,52,2011-07-28,18.2931,time exit,8.06,0.162,6.9,4.47,day-1 return +10.1%; timing amc; size limited by risk
+G-eps+20d-0131,G,eps+20d,MTB,2011-07-20,2011-07-21,57.2613,56.0504,,17,2011-07-29,55.8902,stop,-23.31,-1.737,55.13,0.6,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0132,G,eps+20d,PLD,2011-07-28,2011-07-29,21.9109,21.703,,45,2011-07-29,21.6965,stop,-9.65,-0.431,55.56,0.73,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0130,G,eps+20d,BNY,2011-07-19,2011-07-20,17.2451,16.9758,,58,2011-08-02,16.9707,stop,-15.92,-1.273,8.93,1.91,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0134,G,eps+20d,MET,2011-07-29,2011-08-01,22.8419,21.965,,44,2011-08-02,21.9584,stop,-38.87,-1.509,10.71,2.24,day-1 return +3.5%; timing amc; size limited by max position
+G-eps+20d-0127,G,eps+20d,GOOG,2011-07-15,2011-07-18,14.6229,14.5116,,67,2011-08-03,14.5073,stop,-7.74,-0.495,12.82,12.96,day-1 return +13.0%; timing amc; size limited by max position
+G-eps+20d-0128,G,eps+20d,HAL,2011-07-18,2011-07-19,41.4378,40.3344,,24,2011-08-03,40.3223,stop,-26.77,-2.342,9.46,0.83,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0133,G,eps+20d,EXPE,2011-07-29,2011-08-01,41.925,39.5582,,21,2011-08-03,39.5464,stop,-49.95,-1.01,12.24,5.24,day-1 return +9.3%; timing amc; size limited by risk
+G-eps+20d-0136,G,eps+20d,SKYD,2011-08-03,2011-08-04,19.8129,19.1485,,46,2011-08-04,19.1428,stop,-30.83,-0.632,28.89,1.71,day-1 return +1.6%; timing amc; size limited by risk
+G-eps+20d-0137,G,eps+20d,LNC,2011-08-03,2011-08-04,15.5676,15.4946,,61,2011-08-04,15.49,stop,-4.74,-0.24,15.96,2.79,day-1 return +0.1%; timing amc; size limited by max position
+G-eps+20d-0139,G,eps+20d,DVN,2011-08-03,2011-08-04,47.7166,46.9507,,20,2011-08-04,46.9366,stop,-15.6,-0.589,11.76,1.53,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0138,G,eps+20d,MA,2011-08-03,2011-08-04,30.6418,28.5873,,19,2011-08-08,28.5787,stop,-39.2,-0.835,14.29,4.6,day-1 return +13.4%; timing bmo; size limited by risk
+G-eps+20d-0140,G,eps+20d,FLR,2011-08-05,2011-08-08,47.1493,47.3166,,19,2011-08-08,47.121,stop,-0.54,-0.014,16.05,5.59,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0141,G,eps+20d,CF,2011-08-05,2011-08-08,19.372,19.2078,,42,2011-08-08,19.2021,stop,-7.13,-0.147,15.38,5.83,day-1 return +3.6%; timing amc; size limited by risk
+G-eps+20d-0142,G,eps+20d,BKNG,2011-08-05,2011-08-08,19.9433,19.9479,,47,2011-08-08,19.9313,stop,-0.56,-0.018,10.0,11.23,day-1 return +9.2%; timing amc; size limited by max position
+G-eps+20d-0135,G,eps+20d,VMC,2011-08-03,2011-08-04,29.2226,27.5764,,25,2011-08-09,27.5682,stop,-41.36,-0.848,216.67,0.67,day-1 return +5.0%; timing amc; size limited by risk
+G-eps+20d-0144,G,eps+20d,CSCO,2011-08-11,2011-08-12,10.2582,9.882,,94,2011-08-18,9.879,stop,-35.64,-1.052,5.26,12.53,day-1 return +16.0%; timing amc; size limited by max position
+G-eps+20d-0145,G,eps+20d,TGT,2011-08-17,2011-08-18,31.8092,32.1528,,29,2011-08-18,31.7901,stop,-0.55,-0.062,6.19,5.39,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0143,G,eps+20d,RL,2011-08-10,2011-08-11,98.1869,94.919,,9,2011-08-19,94.8905,stop,-29.67,-1.961,30.14,7.63,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0146,G,eps+20d,NKE,2011-09-23,2011-09-26,18.183,17.595,,53,2011-09-29,17.5898,stop,-31.44,-1.499,13.33,4.28,day-1 return +5.3%; timing amc; size limited by max position
+G-eps+20d-0147,G,eps+20d,JBL,2011-09-28,2011-09-29,16.6232,16.0216,,58,2011-09-29,16.0168,stop,-35.17,-2.262,10.71,8.63,day-1 return +8.4%; timing amc; size limited by max position
+G-eps+20d-0148,G,eps+20d,PAYX,2011-09-28,2011-09-29,16.5846,16.1554,,58,2011-09-29,16.1505,stop,-25.17,-2.755,7.89,2.66,day-1 return +0.9%; timing amc; size limited by max position
+G-eps+20d-0150,G,eps+20d,GOOG,2011-10-14,2011-10-17,14.4064,14.4971,,65,2011-10-17,14.3978,stop,-0.56,-0.085,9.09,7.24,day-1 return +5.8%; timing amc; size limited by max position
+G-eps+20d-0154,G,eps+20d,MS,2011-10-19,2011-10-20,11.6443,11.4936,,81,2011-10-20,11.4902,stop,-12.48,-0.916,270.97,2.65,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0149,G,eps+20d,MAR,2011-10-06,2011-10-07,23.3037,22.2505,,40,2011-11-04,25.4296,time exit,85.04,2.338,7.41,0.78,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0151,G,eps+20d,PH,2011-10-18,2011-10-19,60.3475,56.6603,,13,2011-11-16,65.2066,time exit,63.17,1.362,13.02,4.35,day-1 return +6.1%; timing bmo; size limited by risk
+G-eps+20d-0152,G,eps+20d,STT,2011-10-18,2011-10-19,25.5079,23.962,,28,2011-11-16,27.29,time exit,49.9,1.068,7.87,6.58,day-1 return +10.7%; timing bmo; size limited by risk
+G-eps+20d-0153,G,eps+20d,GWW,2011-10-18,2011-10-19,131.771,123.6512,,6,2011-11-16,140.0112,time exit,49.44,1.088,7.73,1.55,day-1 return +7.2%; timing bmo; size limited by risk
+G-eps+20d-0157,G,eps+20d,ADSK,2011-11-16,2011-11-17,35.8307,34.81,,27,2011-11-17,34.7996,stop,-27.84,-1.339,10.0,3.94,day-1 return +4.5%; timing amc; size limited by max position
+G-eps+20d-0155,G,eps+20d,WDC,2011-10-20,2011-10-21,15.2878,13.671,,23,2011-11-18,15.7193,time exit,9.92,0.215,14.58,-7.36,day-1 return +6.2%; timing amc; size limited by risk
+G-eps+20d-0156,G,eps+20d,SKYD,2011-11-04,2011-11-07,19.2001,18.1909,,51,2011-11-21,18.1854,stop,-51.75,-1.068,8.7,-1.59,day-1 return +2.7%; timing amc; size limited by max position
+G-eps+20d-0158,G,eps+20d,INTU,2011-11-18,2011-11-21,44.8846,44.9759,,21,2011-11-21,44.8576,stop,-0.57,-0.058,23.08,-0.46,day-1 return +0.6%; timing amc; size limited by max position
+G-eps+20d-0160,G,eps+20d,DE,2011-11-23,2011-11-25,56.3597,55.5502,,17,2011-12-14,55.5335,stop,-14.04,-0.969,13.29,5.08,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0161,G,eps+20d,ADBE,2011-12-16,2011-12-19,28.0684,27.62,,34,2011-12-19,27.6117,stop,-15.53,-0.787,9.84,4.8,day-1 return +6.6%; timing amc; size limited by max position
+G-eps+20d-0159,G,eps+20d,XYL,2011-11-22,2011-11-23,19.1235,18.6248,,49,2011-12-22,20.3932,time exit,62.22,1.61,27.91,5.93,day-1 return +0.0%; timing amc; size limited by max position
+G-eps+20d-0165,G,eps+20d,MS,2012-01-19,2012-01-20,12.5865,12.6741,,75,2012-01-20,12.5789,stop,-0.57,-0.043,73.58,6.22,day-1 return +5.4%; timing bmo; size limited by max position
+G-eps+20d-0166,G,eps+20d,UNP,2012-01-19,2012-01-20,40.8847,40.6548,,23,2012-01-20,40.6426,stop,-5.57,-8.343,9.89,2.9,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0162,G,eps+20d,CAG,2011-12-20,2011-12-21,11.9128,11.5337,,81,2012-01-23,12.2133,time exit,24.34,0.949,9.3,3.1,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0163,G,eps+20d,MOS,2012-01-05,2012-01-06,39.9682,38.5679,,24,2012-02-06,42.6168,time exit,63.57,2.643,9.37,-0.38,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0170,G,eps+20d,TT,2012-02-08,2012-02-09,18.8867,18.5816,,53,2012-02-09,18.576,stop,-16.47,-4.521,13.43,4.23,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0171,G,eps+20d,TDC,2012-02-09,2012-02-10,61.7885,61.4,,15,2012-02-13,61.3816,stop,-6.1,-0.16,6.45,6.48,day-1 return +10.2%; timing bmo; size limited by max position
+G-eps+20d-0164,G,eps+20d,GS,2012-01-18,2012-01-19,80.7443,74.3005,,9,2012-02-16,87.144,time exit,57.6,1.294,37.31,1.35,day-1 return +6.8%; timing bmo; size limited by risk
+G-eps+20d-0173,G,eps+20d,DUK,2012-02-16,2012-02-17,34.9279,34.3752,,28,2012-02-17,34.3649,stop,-15.76,-1.904,14.29,0.24,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0167,G,eps+20d,INTC,2012-01-20,2012-01-23,18.2162,17.6233,,53,2012-02-21,18.9148,time exit,37.03,1.149,7.94,0.94,day-1 return +2.9%; timing amc; size limited by max position
+G-eps+20d-0174,G,eps+20d,DVA,2012-02-17,2012-02-21,42.9779,42.575,,23,2012-02-21,42.5622,stop,-9.56,-1.458,5.33,3.45,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-0175,G,eps+20d,HD,2012-02-21,2012-02-22,33.2155,33.092,,30,2012-02-22,33.0821,stop,-4.0,-0.672,19.05,2.89,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0168,G,eps+20d,WDC,2012-01-24,2012-01-25,22.222,21.69,,43,2012-02-23,23.9653,time exit,74.96,3.007,104.05,3.8,day-1 return +6.3%; timing amc; size limited by max position
+G-eps+20d-0169,G,eps+20d,HOG,2012-01-24,2012-01-25,30.4187,29.4978,,31,2012-02-23,33.741,time exit,102.99,2.442,91.67,-0.07,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0177,G,eps+20d,RRC,2012-02-22,2012-02-23,61.0707,60.2955,,16,2012-02-23,60.2774,stop,-12.69,-1.116,10.0,2.83,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0176,G,eps+20d,INTU,2012-02-22,2012-02-23,51.7488,51.1204,,18,2012-02-24,51.105,stop,-11.59,-0.289,13.33,2.71,day-1 return +5.9%; timing amc; size limited by max position
+G-eps+20d-0178,G,eps+20d,AMT,2012-02-23,2012-02-24,45.701,44.5883,,21,2012-02-28,44.5749,stop,-23.65,-1.103,70.0,-0.3,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0179,G,eps+20d,FLR,2012-02-23,2012-02-24,55.6171,52.9445,,17,2012-02-29,52.9286,stop,-45.7,-1.036,9.76,1.97,day-1 return +6.0%; timing amc; size limited by max position
+G-eps+20d-0182,G,eps+20d,THC,2012-02-28,2012-02-29,22.8068,22.2,,43,2012-03-05,22.1933,stop,-26.38,-0.959,47.37,-1.77,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0181,G,eps+20d,CRM,2012-02-24,2012-02-27,34.5338,34.283,,28,2012-03-06,34.2727,stop,-7.31,-0.274,10.0,10.45,day-1 return +9.0%; timing amc; size limited by max position
+G-eps+20d-0180,G,eps+20d,AIG,2012-02-24,2012-02-27,21.0822,20.8157,,47,2012-03-12,20.8094,stop,-12.82,-0.895,26.15,6.54,day-1 return +1.5%; timing amc; size limited by max position
+G-eps+20d-0172,G,eps+20d,DVN,2012-02-15,2012-02-16,46.8309,43.2949,,18,2012-03-16,47.3329,time exit,9.03,0.192,5.44,1.91,day-1 return +7.2%; timing bmo; size limited by risk
+G-eps+20d-0183,G,eps+20d,CNP,2012-02-29,2012-03-01,11.7173,11.2363,,84,2012-03-29,11.6921,time exit,-2.11,-0.046,36.84,0.38,day-1 return +5.2%; timing bmo; size limited by max position
+G-eps+20d-0185,G,eps+20d,LEN,2012-03-27,2012-03-28,23.0247,22.5259,,42,2012-03-29,22.5192,stop,-21.23,-0.994,60.0,2.73,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0184,G,eps+20d,ACN,2012-03-23,2012-03-26,49.1573,47.7963,,20,2012-04-10,47.782,stop,-27.51,-1.082,12.79,0.77,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0187,G,eps+20d,ISRG,2012-04-18,2012-04-19,65.1873,63.2889,,15,2012-04-20,63.2699,stop,-28.76,-1.157,11.43,5.23,day-1 return +7.1%; timing amc; size limited by max position
+G-eps+20d-0188,G,eps+20d,MS,2012-04-19,2012-04-20,12.7833,12.5257,,76,2012-04-20,12.522,stop,-19.86,-1.236,57.78,4.93,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0186,G,eps+20d,C,2012-04-16,2012-04-17,25.3501,24.571,,39,2012-04-23,23.8942,stop,-56.78,-8.334,11.0,2.27,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0192,G,eps+20d,KMB,2012-04-20,2012-04-23,44.1152,44.1078,,21,2012-04-23,44.0887,stop,-0.56,-0.08,5.98,1.01,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0189,G,eps+20d,UNH,2012-04-19,2012-04-20,46.5582,44.837,,21,2012-04-26,44.7842,stop,-37.25,-1.311,11.02,-0.07,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0195,G,eps+20d,CCI,2012-04-26,2012-04-27,33.6486,33.1147,,29,2012-05-04,33.1047,stop,-15.77,-1.45,11.11,0.14,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-0190,G,eps+20d,EBAY,2012-04-19,2012-04-20,15.0734,14.4862,,64,2012-05-07,14.4818,stop,-37.86,-1.002,5.77,9.09,day-1 return +13.2%; timing amc; size limited by max position
+G-eps+20d-0193,G,eps+20d,RTX,2012-04-24,2012-04-25,36.3013,35.6694,,26,2012-05-07,35.4922,stop,-21.04,-3.047,35.29,0.6,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0196,G,eps+20d,PPL,2012-05-04,2012-05-07,13.3698,13.3462,,72,2012-05-07,13.3422,stop,-1.98,-1.41,6.06,1.28,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0199,G,eps+20d,LUMN,2012-05-10,2012-05-11,16.5251,16.2766,,58,2012-05-15,16.2717,stop,-14.7,-0.784,15.25,2.73,day-1 return +3.7%; timing amc; size limited by max position
+G-eps+20d-0200,G,eps+20d,A,2012-05-15,2012-05-16,25.7195,25.5474,,37,2012-05-16,25.5397,stop,-6.65,-2.843,6.85,5.17,day-1 return +4.1%; timing amc; size limited by max position
+G-eps+20d-0198,G,eps+20d,DIS,2012-05-09,2012-05-10,39.1974,38.552,,24,2012-05-17,38.5404,stop,-15.77,-1.241,5.45,0.36,day-1 return +1.6%; timing amc; size limited by max position
+G-eps+20d-0191,G,eps+20d,TT,2012-04-20,2012-04-23,19.7154,19.5665,,48,2012-05-21,20.4576,time exit,35.63,1.636,14.81,-0.5,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0194,G,eps+20d,HSY,2012-04-24,2012-04-25,47.0229,45.7375,,20,2012-05-23,47.9946,time exit,19.43,0.855,18.52,3.9,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0202,G,eps+20d,RL,2012-05-22,2012-05-23,114.2123,114.4567,,8,2012-05-23,114.1438,stop,-0.55,-0.037,16.47,5.75,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0201,G,eps+20d,BBY,2012-05-22,2012-05-23,10.8873,10.6874,,87,2012-06-04,10.6842,stop,-17.67,-0.656,20.0,3.47,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0197,G,eps+20d,TSN,2012-05-07,2012-05-08,13.6863,12.976,,66,2012-06-06,13.8979,time exit,13.96,0.291,12.82,-1.88,day-1 return +3.3%; timing bmo; size limited by risk
+G-eps+20d-0203,G,eps+20d,URBN,2012-05-22,2012-05-23,27.9184,26.02,,23,2012-06-21,27.6817,time exit,-5.44,-0.114,15.0,0.04,day-1 return +7.4%; timing amc; size limited by risk
+G-eps+20d-0204,G,eps+20d,ORCL,2012-06-19,2012-06-20,22.7905,22.3693,,42,2012-06-25,22.3626,stop,-17.97,-1.225,5.13,4.68,day-1 return +3.1%; timing amc; size limited by max position
+G-eps+20d-0206,G,eps+20d,JPM,2012-07-13,2012-07-16,24.5154,23.8912,,39,2012-07-16,23.884,stop,-24.62,-0.761,47.56,3.0,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0207,G,eps+20d,C,2012-07-16,2012-07-17,19.7576,19.3803,,49,2012-07-17,19.3745,stop,-18.77,-2.769,12.36,3.0,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0208,G,eps+20d,GS,2012-07-17,2012-07-18,74.5589,74.4064,,12,2012-07-18,74.3841,stop,-2.1,-0.285,44.72,2.62,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0210,G,eps+20d,SCHW,2012-07-17,2012-07-18,10.924,10.5172,,87,2012-07-20,10.514,stop,-35.67,-0.975,5.88,1.26,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0211,G,eps+20d,COF,2012-07-19,2012-07-20,44.025,43.6041,,21,2012-07-20,43.591,stop,-9.11,-0.728,54.93,1.48,day-1 return +2.7%; timing amc; size limited by max position
+G-eps+20d-0213,G,eps+20d,SLB,2012-07-20,2012-07-23,47.4806,47.7649,,19,2012-07-23,47.4522,stop,-0.54,-0.077,5.0,1.86,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0212,G,eps+20d,TXT,2012-07-19,2012-07-20,25.9049,24.6267,,37,2012-07-24,24.6194,stop,-47.57,-1.012,31.82,8.75,day-1 return +11.5%; timing bmo; size limited by max position
+G-eps+20d-0216,G,eps+20d,LMT,2012-07-24,2012-07-25,58.3195,57.5147,,16,2012-07-25,57.4974,stop,-13.15,-1.445,24.61,0.67,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0205,G,eps+20d,LEN,2012-06-27,2012-06-28,23.8206,23.4126,,39,2012-07-27,25.3573,time exit,59.93,2.789,16.67,4.09,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0217,G,eps+20d,BA,2012-07-25,2012-07-26,62.2192,60.1887,,15,2012-08-01,60.1706,stop,-30.73,-1.86,14.41,3.01,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0218,G,eps+20d,EXPE,2012-07-27,2012-07-30,49.8856,48.7442,,19,2012-08-10,48.7296,stop,-21.96,-1.026,25.35,17.44,day-1 return +20.1%; timing amc; size limited by max position
+G-eps+20d-0209,G,eps+20d,MAT,2012-07-17,2012-07-18,26.619,26.0,,36,2012-08-15,27.8169,time exit,43.12,1.778,33.33,8.05,day-1 return +9.7%; timing bmo; size limited by max position
+G-eps+20d-0214,G,eps+20d,HAL,2012-07-23,2012-07-24,24.6136,22.7045,,27,2012-08-21,27.2838,time exit,72.09,1.522,6.67,-2.18,day-1 return +2.4%; timing bmo; size limited by risk
+G-eps+20d-0215,G,eps+20d,ETN,2012-07-23,2012-07-24,28.6663,26.9153,,26,2012-08-21,32.6295,time exit,103.04,2.177,5.5,-1.56,day-1 return +3.9%; timing bmo; size limited by risk
+G-eps+20d-0219,G,eps+20d,ALL,2012-08-01,2012-08-02,26.7666,26.4191,,35,2012-08-30,27.5911,time exit,28.86,1.862,52.63,4.55,day-1 return +6.1%; timing amc; size limited by max position
+G-eps+20d-0220,G,eps+20d,EL,2012-08-14,2012-08-15,49.4362,48.2496,,19,2012-09-13,50.3453,time exit,17.27,0.528,6.25,5.8,day-1 return +9.3%; timing bmo; size limited by max position
+G-eps+20d-0221,G,eps+20d,ANF,2012-08-15,2012-08-16,26.6165,25.8623,,36,2012-09-14,29.8026,time exit,114.7,4.594,11.76,7.15,day-1 return +9.0%; timing bmo; size limited by max position
+G-eps+20d-0222,G,eps+20d,URBN,2012-08-21,2012-08-22,36.831,35.91,,26,2012-09-20,38.8583,time exit,52.71,1.895,27.27,18.0,day-1 return +18.2%; timing amc; size limited by max position
+G-eps+20d-0223,G,eps+20d,CRM,2012-08-24,2012-08-27,36.119,34.5332,,25,2012-09-25,37.3089,time exit,29.75,0.624,10.0,-3.88,day-1 return +1.2%; timing amc; size limited by risk
+G-eps+20d-0225,G,eps+20d,CCL,2012-09-25,2012-09-26,29.0899,28.7784,,34,2012-09-26,28.7698,stop,-10.88,-41.228,5.52,5.35,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0226,G,eps+20d,STZ,2012-10-05,2012-10-08,30.2488,29.1502,,32,2012-10-09,29.1415,stop,-35.43,-1.158,31.48,1.81,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0224,G,eps+20d,CAG,2012-09-20,2012-09-21,12.7725,12.5079,,78,2012-10-19,13.151,time exit,29.53,2.198,25.71,4.99,day-1 return +6.2%; timing bmo; size limited by max position
+G-eps+20d-0230,G,eps+20d,KMI,2012-10-18,2012-10-19,17.8618,17.8314,,55,2012-10-19,17.8261,stop,-1.96,-0.42,18.52,0.45,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-0228,G,eps+20d,MAT,2012-10-16,2012-10-17,29.4215,28.8437,,33,2012-10-23,28.8351,stop,-19.35,-1.06,5.05,4.07,day-1 return +5.0%; timing bmo; size limited by max position
+G-eps+20d-0231,G,eps+20d,TT,2012-10-19,2012-10-22,22.9103,22.7594,,43,2012-10-23,22.7525,stop,-6.78,-0.599,9.18,1.16,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0232,G,eps+20d,HON,2012-10-19,2012-10-22,43.8483,42.8899,,22,2012-11-09,42.877,stop,-21.37,-0.815,5.73,-1.01,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0229,G,eps+20d,MTB,2012-10-17,2012-10-18,69.9494,67.4872,,14,2012-11-12,67.467,stop,-34.75,-0.888,17.3,1.7,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0227,G,eps+20d,C,2012-10-15,2012-10-16,26.5257,25.6365,,37,2012-11-14,25.6288,stop,-33.19,-0.843,7.07,1.87,day-1 return +5.5%; timing bmo; size limited by max position
+G-eps+20d-0235,G,eps+20d,HD,2012-11-13,2012-11-14,45.6599,44.8595,,21,2012-11-14,44.846,stop,-17.09,-0.917,5.71,1.95,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0238,G,eps+20d,NTAP,2012-11-15,2012-11-16,22.096,21.6877,,44,2012-11-16,21.6812,stop,-18.25,-1.136,6.25,11.43,day-1 return +11.4%; timing amc; size limited by max position
+G-eps+20d-0233,G,eps+20d,WHR,2012-10-23,2012-10-24,59.4608,53.7248,,10,2012-11-26,63.2135,time exit,37.53,0.797,16.13,3.27,day-1 return +8.7%; timing bmo; size limited by risk
+G-eps+20d-0234,G,eps+20d,TXN,2012-10-23,2012-10-24,18.9787,18.4971,,52,2012-11-26,20.2835,time exit,67.85,3.047,13.04,-1.62,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-0237,G,eps+20d,TGT,2012-11-15,2012-11-16,40.9783,40.1581,,23,2012-12-12,40.1461,stop,-19.14,-0.975,9.76,1.38,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0236,G,eps+20d,ANF,2012-11-14,2012-11-15,31.6692,29.4329,,21,2012-12-14,35.5629,time exit,81.77,1.68,47.46,28.51,day-1 return +34.4%; timing bmo; size limited by risk
+G-eps+20d-0241,G,eps+20d,ADBE,2012-12-14,2012-12-17,37.0811,37.0,,26,2012-12-17,36.9889,stop,-2.4,-0.165,8.93,4.7,day-1 return +5.7%; timing amc; size limited by max position
+G-eps+20d-0239,G,eps+20d,INTU,2012-11-16,2012-11-19,52.8086,50.8335,,18,2012-12-18,54.709,time exit,34.21,1.282,50.0,-0.1,day-1 return +0.9%; timing amc; size limited by max position
+G-eps+20d-0242,G,eps+20d,JBL,2012-12-20,2012-12-21,17.2127,16.9959,,56,2012-12-21,16.9908,stop,-12.42,-0.376,8.93,6.03,day-1 return +7.4%; timing amc; size limited by max position
+G-eps+20d-0240,G,eps+20d,KR,2012-11-29,2012-11-30,10.0207,9.9176,,97,2012-12-27,9.9146,stop,-10.29,-0.562,9.52,3.99,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0243,G,eps+20d,KMX,2012-12-20,2012-12-21,37.6113,36.55,,26,2012-12-31,36.539,stop,-27.88,-0.755,5.13,5.57,day-1 return +9.0%; timing bmo; size limited by max position
+G-eps+20d-0244,G,eps+20d,NKE,2012-12-21,2012-12-24,21.6221,20.9127,,45,2013-01-24,22.2621,time exit,28.8,0.786,12.0,3.54,day-1 return +6.2%; timing amc; size limited by max position
+G-eps+20d-0248,G,eps+20d,ATI,2013-01-23,2013-01-24,27.6132,27.8799,,35,2013-01-24,27.5966,stop,-0.58,-0.042,28.57,0.62,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0249,G,eps+20d,WDC,2013-01-24,2013-01-25,29.2716,28.3881,,34,2013-01-29,28.3796,stop,-30.33,-1.057,15.47,0.38,day-1 return +1.5%; timing amc; size limited by max position
+G-eps+20d-0245,G,eps+20d,MOS,2013-01-04,2013-01-07,43.7858,42.991,,22,2013-02-05,46.0974,time exit,50.86,2.166,5.32,1.29,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0252,G,eps+20d,EL,2013-02-05,2013-02-06,54.0731,52.6265,,18,2013-02-07,52.6108,stop,-26.32,-0.805,10.48,5.32,day-1 return +6.0%; timing bmo; size limited by max position
+G-eps+20d-0246,G,eps+20d,GS,2013-01-16,2013-01-17,108.8394,106.4976,,9,2013-02-15,119.66,time exit,97.39,4.392,50.94,2.47,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0247,G,eps+20d,JPM,2013-01-16,2013-01-17,32.2647,31.6781,,30,2013-02-15,33.9688,time exit,51.12,1.961,14.88,-0.95,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0253,G,eps+20d,CBRE,2013-02-07,2013-02-08,23.8772,23.32,,42,2013-02-21,23.313,stop,-23.69,-1.151,16.67,7.78,day-1 return +9.0%; timing amc; size limited by max position
+G-eps+20d-0250,G,eps+20d,BMY,2013-01-24,2013-01-25,22.7564,22.1405,,43,2013-02-25,23.0472,time exit,12.5,0.504,9.3,0.11,day-1 return +2.6%; timing bmo; size limited by max position
+G-eps+20d-0251,G,eps+20d,VLO,2013-01-29,2013-01-30,24.9572,23.5965,,40,2013-02-28,25.8094,time exit,34.09,0.787,63.48,8.71,day-1 return +12.8%; timing bmo; size limited by max position
+G-eps+20d-0255,G,eps+20d,PWR,2013-02-21,2013-02-22,28.1356,27.0978,,36,2013-03-01,27.0896,stop,-37.65,-1.334,23.68,-1.78,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0254,G,eps+20d,AEP,2013-02-15,2013-02-19,27.6713,27.3937,,36,2013-03-19,29.1842,time exit,54.47,6.681,11.11,0.16,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0258,G,eps+20d,CRM,2013-03-01,2013-03-04,44.666,41.8977,,18,2013-03-19,41.8851,stop,-50.06,-1.011,30.0,4.89,day-1 return +7.6%; timing amc; size limited by risk
+G-eps+20d-0261,G,eps+20d,ADBE,2013-03-20,2013-03-21,42.0026,41.99,,24,2013-03-21,41.9774,stop,-0.6,-0.054,12.9,4.79,day-1 return +4.2%; timing amc; size limited by max position
+G-eps+20d-0256,G,eps+20d,PEG,2013-02-21,2013-02-22,19.4399,19.1165,,51,2013-03-22,20.621,time exit,60.23,4.395,7.89,0.03,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0257,G,eps+20d,ADSK,2013-02-26,2013-02-27,36.631,35.77,,27,2013-03-27,40.9077,time exit,115.47,4.193,8.16,-1.91,day-1 return +0.5%; timing amc; size limited by max position
+G-eps+20d-0260,G,eps+20d,LEN,2013-03-20,2013-03-21,36.2841,34.4554,,27,2013-03-28,34.445,stop,-49.65,-0.967,47.06,0.77,day-1 return +4.8%; timing bmo; size limited by risk
+G-eps+20d-0259,G,eps+20d,BBY,2013-03-01,2013-03-04,10.5025,9.9092,,79,2013-04-02,13.4014,time exit,229.01,4.534,7.19,5.91,day-1 return +4.6%; timing bmo; size limited by risk
+G-eps+20d-0262,G,eps+20d,DG,2013-03-25,2013-03-26,43.7285,42.5292,,23,2013-04-09,42.5165,stop,-27.88,-1.145,7.78,4.91,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0264,G,eps+20d,GWW,2013-04-16,2013-04-17,191.3423,190.607,,5,2013-04-17,190.5498,stop,-3.96,-0.173,7.69,5.82,day-1 return +7.2%; timing bmo; size limited by max position
+G-eps+20d-0265,G,eps+20d,MAT,2013-04-17,2013-04-18,35.184,35.1252,,29,2013-04-18,35.1147,stop,-2.01,-0.958,37.5,4.49,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0263,G,eps+20d,C,2013-04-15,2013-04-16,33.4417,32.6666,,31,2013-04-22,32.6568,stop,-24.33,-26.932,10.26,2.95,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0268,G,eps+20d,KMB,2013-04-19,2013-04-22,63.3752,62.5434,,16,2013-04-24,62.5246,stop,-13.61,-0.636,11.28,3.59,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0266,G,eps+20d,PNC,2013-04-17,2013-04-18,43.2296,42.6935,,24,2013-05-16,46.6462,time exit,82.0,8.895,12.82,1.27,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0267,G,eps+20d,PEP,2013-04-18,2013-04-19,54.4864,53.2081,,19,2013-05-17,55.6423,time exit,21.96,1.527,10.0,1.72,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0272,G,eps+20d,KSS,2013-05-16,2013-05-17,27.7787,27.5881,,38,2013-05-17,27.5798,stop,-7.56,-0.64,15.79,6.32,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0269,G,eps+20d,GOOG,2013-04-19,2013-04-22,19.7591,18.9059,,52,2013-05-20,22.4094,time exit,137.82,3.196,9.43,0.42,day-1 return +4.4%; timing amc; size limited by max position
+G-eps+20d-0270,G,eps+20d,HAL,2013-04-22,2013-04-23,30.8943,29.789,,33,2013-05-21,35.0864,time exit,138.34,4.318,17.54,4.7,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0275,G,eps+20d,MDT,2013-05-21,2013-05-22,37.2817,37.1558,,28,2013-05-22,37.1447,stop,-3.84,-0.361,6.8,3.87,day-1 return +4.9%; timing bmo; size limited by max position
+G-eps+20d-0271,G,eps+20d,ELV,2013-04-24,2013-04-25,60.3632,58.4933,,17,2013-05-23,63.8737,time exit,59.68,2.209,23.53,3.85,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0273,G,eps+20d,AMAT,2013-05-17,2013-05-20,12.4625,12.0741,,86,2013-05-23,12.0705,stop,-33.71,-0.902,23.08,-0.68,day-1 return +2.0%; timing amc; size limited by max position
+G-eps+20d-0274,G,eps+20d,HD,2013-05-21,2013-05-22,57.8004,56.9082,,18,2013-05-23,56.8911,stop,-16.37,-1.919,9.21,3.35,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0276,G,eps+20d,PVH,2013-06-13,2013-06-14,119.5835,117.9392,,8,2013-06-20,117.9038,stop,-13.44,-0.729,41.48,9.17,day-1 return +10.2%; timing amc; size limited by max position
+G-eps+20d-0277,G,eps+20d,FDX,2013-06-19,2013-06-20,65.8821,66.8182,,15,2013-06-20,65.8426,stop,-0.59,-0.046,8.67,1.49,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0278,G,eps+20d,ADBE,2013-06-19,2013-06-20,45.2936,45.35,,23,2013-06-20,45.2664,stop,-0.62,-0.063,5.88,7.08,day-1 return +5.6%; timing amc; size limited by max position
+G-eps+20d-0280,G,eps+20d,LEN,2013-06-25,2013-06-26,29.905,29.1832,,36,2013-07-02,29.1744,stop,-26.3,-2.026,81.82,4.57,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0279,G,eps+20d,KMX,2013-06-21,2013-06-24,44.0132,42.21,,22,2013-07-23,48.0356,time exit,88.49,1.69,10.34,6.8,day-1 return +0.0%; timing bmo; size limited by risk
+G-eps+20d-0281,G,eps+20d,CCL,2013-06-25,2013-06-26,28.0281,26.9512,,38,2013-07-25,29.6415,time exit,61.31,1.499,28.57,2.86,day-1 return +5.0%; timing bmo; size limited by max position
+G-eps+20d-0283,G,eps+20d,C,2013-07-15,2013-07-16,37.9108,37.1779,,28,2013-08-07,37.1668,stop,-20.83,-1.276,5.93,2.42,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0282,G,eps+20d,WFC,2013-07-12,2013-07-15,29.6201,29.0739,,36,2013-08-12,29.958,time exit,12.16,1.141,5.38,1.69,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0284,G,eps+20d,TXT,2013-07-17,2013-07-18,27.2271,26.3858,,39,2013-08-15,27.299,time exit,2.8,0.089,20.51,0.32,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0289,G,eps+20d,A,2013-08-15,2013-08-16,30.0,30.0167,,36,2013-08-16,29.982,stop,-0.65,-0.255,9.68,2.32,day-1 return +1.0%; timing amc; size limited by max position
+G-eps+20d-0288,G,eps+20d,EL,2013-08-15,2013-08-16,56.8397,56.4082,,19,2013-08-19,56.3912,stop,-8.52,-0.78,14.29,2.7,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0285,G,eps+20d,TXN,2013-07-23,2013-07-24,27.0739,26.7949,,40,2013-08-21,26.7842,stop,-11.59,-1.192,41.46,3.29,day-1 return +4.0%; timing amc; size limited by max position
+G-eps+20d-0291,G,eps+20d,URBN,2013-08-20,2013-08-21,43.0529,42.94,,25,2013-08-21,42.9271,stop,-3.14,-0.503,6.25,9.99,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-0286,G,eps+20d,BSX,2013-07-25,2013-07-26,10.8032,10.4,,100,2013-08-23,11.1367,time exit,33.34,0.775,33.33,9.05,day-1 return +12.7%; timing bmo; size limited by max position
+G-eps+20d-0293,G,eps+20d,ADSK,2013-08-23,2013-08-26,38.6016,38.75,,27,2013-08-26,38.5784,stop,-0.63,-0.145,7.14,7.67,day-1 return +7.7%; timing amc; size limited by max position
+G-eps+20d-0292,G,eps+20d,LOW,2013-08-21,2013-08-22,36.13,35.7655,,29,2013-09-03,35.7548,stop,-10.88,-1.646,11.39,3.47,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0287,G,eps+20d,DVN,2013-08-07,2013-08-08,37.0901,36.0654,,29,2013-09-06,38.1662,time exit,31.21,1.075,28.72,3.05,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0290,G,eps+20d,BBY,2013-08-20,2013-08-21,21.6101,20.5751,,48,2013-09-19,24.4747,time exit,137.5,2.568,190.91,11.23,day-1 return +13.2%; timing bmo; size limited by risk
+G-eps+20d-0297,G,eps+20d,KMX,2013-09-24,2013-09-25,51.0753,50.21,,21,2013-09-25,50.1949,stop,-18.49,-0.557,10.71,3.98,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0295,G,eps+20d,ORCL,2013-09-19,2013-09-20,27.9587,27.3821,,39,2013-09-30,27.3739,stop,-22.81,-1.11,5.36,-0.68,day-1 return +0.1%; timing amc; size limited by max position
+G-eps+20d-0296,G,eps+20d,LEN,2013-09-24,2013-09-25,30.4862,29.4611,,36,2013-09-30,29.4523,stop,-37.22,-1.339,82.22,2.84,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0298,G,eps+20d,NKE,2013-09-27,2013-09-30,30.2186,30.6483,,35,2013-09-30,30.2005,stop,-0.63,-0.15,10.26,6.37,day-1 return +4.7%; timing amc; size limited by max position
+G-eps+20d-0294,G,eps+20d,CRM,2013-08-30,2013-09-03,48.548,46.4924,,22,2013-10-01,51.6286,time exit,67.77,1.794,28.57,9.21,day-1 return +12.6%; timing amc; size limited by max position
+G-eps+20d-0303,G,eps+20d,MAT,2013-10-16,2013-10-17,34.2647,34.1482,,32,2013-10-17,34.1379,stop,-4.06,-0.816,8.04,4.69,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0300,G,eps+20d,SCHW,2013-10-15,2013-10-16,19.9454,19.4083,,55,2013-10-30,19.4025,stop,-29.86,-1.713,10.0,3.5,day-1 return +4.6%; timing bmo; size limited by max position
+G-eps+20d-0299,G,eps+20d,STZ,2013-10-03,2013-10-04,50.0403,48.653,,21,2013-11-01,54.5415,time exit,94.53,3.28,9.09,0.98,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0305,G,eps+20d,EXC,2013-10-30,2013-10-31,12.7972,12.4357,,86,2013-11-08,12.4319,stop,-31.42,-1.104,18.18,1.64,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0301,G,eps+20d,PNC,2013-10-16,2013-10-17,49.3365,48.5508,,22,2013-11-14,50.044,time exit,15.57,0.733,10.49,1.72,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0302,G,eps+20d,INTC,2013-10-16,2013-10-17,17.3779,17.1075,,63,2013-11-14,18.1322,time exit,47.52,2.133,9.43,-0.56,day-1 return +1.3%; timing amc; size limited by max position
+G-eps+20d-0304,G,eps+20d,NUE,2013-10-17,2013-10-18,37.5414,36.2863,,29,2013-11-15,39.4467,time exit,55.25,1.737,17.95,0.3,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0308,G,eps+20d,A,2013-11-15,2013-11-18,34.977,34.4785,,31,2013-11-18,34.4681,stop,-15.78,-0.639,6.58,6.91,day-1 return +8.7%; timing amc; size limited by max position
+G-eps+20d-0309,G,eps+20d,HD,2013-11-19,2013-11-20,59.4755,59.1115,,18,2013-11-20,59.0938,stop,-6.87,-4.32,5.56,3.2,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0310,G,eps+20d,DE,2013-11-20,2013-11-21,66.9446,66.5372,,16,2013-11-21,66.5172,stop,-6.84,-1.59,11.64,3.01,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0306,G,eps+20d,FSLR,2013-11-01,2013-11-04,60.6182,54.77,,12,2013-12-03,59.6021,time exit,-12.19,-0.233,107.27,10.59,day-1 return +17.6%; timing amc; size limited by risk
+G-eps+20d-0311,G,eps+20d,BBWI,2013-11-21,2013-11-22,32.8657,32.0013,,33,2013-12-04,31.9917,stop,-28.84,-0.919,10.71,-0.81,day-1 return +1.0%; timing amc; size limited by max position
+G-eps+20d-0307,G,eps+20d,BKNG,2013-11-08,2013-11-11,41.7607,40.7022,,26,2013-12-10,46.4415,time exit,121.7,3.801,6.15,3.23,day-1 return +4.9%; timing amc; size limited by max position
+G-eps+20d-0312,G,eps+20d,ADSK,2013-11-22,2013-11-25,45.5637,43.55,,24,2013-12-24,49.6851,time exit,98.91,1.784,5.13,0.25,day-1 return +5.4%; timing amc; size limited by risk
+G-eps+20d-0315,G,eps+20d,MU,2014-01-08,2014-01-09,23.0165,22.9706,,48,2014-01-09,22.9637,stop,-2.53,-0.175,50.98,11.37,day-1 return +9.8%; timing amc; size limited by max position
+G-eps+20d-0318,G,eps+20d,BAC,2014-01-15,2014-01-16,13.2546,13.2661,,85,2014-01-16,13.2466,stop,-0.68,-0.256,11.54,2.74,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0313,G,eps+20d,LEN,2013-12-18,2013-12-19,31.2459,29.9,,35,2014-01-21,31.3196,time exit,2.58,0.047,18.03,4.23,day-1 return +6.3%; timing bmo; size limited by max position
+G-eps+20d-0314,G,eps+20d,CAG,2013-12-19,2013-12-20,16.1883,15.8884,,69,2014-01-22,16.2705,time exit,5.67,0.274,10.71,3.96,day-1 return +5.3%; timing bmo; size limited by max position
+G-eps+20d-0317,G,eps+20d,JPM,2014-01-14,2014-01-15,41.2565,41.1227,,27,2014-01-22,41.1104,stop,-3.95,-1.137,5.26,1.04,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0320,G,eps+20d,RTX,2014-01-22,2014-01-23,54.0423,54.1998,,20,2014-01-23,54.0098,stop,-0.65,-0.103,9.15,2.17,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0321,G,eps+20d,NSC,2014-01-22,2014-01-23,70.7818,68.8749,,16,2014-01-24,68.8542,stop,-30.84,-1.568,8.61,3.19,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0322,G,eps+20d,TEL,2014-01-22,2014-01-23,47.6808,46.0776,,23,2014-01-24,46.0638,stop,-37.19,-1.018,6.49,3.11,day-1 return +6.6%; timing bmo; size limited by max position
+G-eps+20d-0323,G,eps+20d,MSFT,2014-01-24,2014-01-27,30.4068,30.1174,,36,2014-01-27,30.1083,stop,-10.74,-1.293,14.71,3.85,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0319,G,eps+20d,PNC,2014-01-16,2014-01-17,55.3922,53.1444,,20,2014-02-03,53.1284,stop,-45.28,-1.607,12.12,2.35,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0327,G,eps+20d,CPRI,2014-02-04,2014-02-05,88.4065,89.22,,12,2014-02-05,88.3535,stop,-0.64,-0.077,29.07,21.3,day-1 return +17.3%; timing bmo; size limited by max position
+G-eps+20d-0316,G,eps+20d,STZ,2014-01-08,2014-01-09,64.0166,62.0513,,17,2014-02-07,64.4355,time exit,7.12,0.252,20.88,6.98,day-1 return +9.6%; timing bmo; size limited by max position
+G-eps+20d-0329,G,eps+20d,NWSA,2014-02-07,2014-02-10,14.8478,14.8782,,74,2014-02-10,14.8389,stop,-0.66,-0.03,47.62,9.11,day-1 return +8.7%; timing amc; size limited by max position
+G-eps+20d-0324,G,eps+20d,CAT,2014-01-27,2014-01-28,67.0588,65.3297,,16,2014-02-26,71.2714,time exit,67.4,2.587,23.44,6.5,day-1 return +5.9%; timing bmo; size limited by max position
+G-eps+20d-0325,G,eps+20d,AEP,2014-01-27,2014-01-28,29.8428,29.4297,,37,2014-02-26,32.0655,time exit,82.24,6.176,5.26,0.09,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0326,G,eps+20d,DHI,2014-01-28,2014-01-29,19.6675,19.1045,,55,2014-02-27,21.6752,time exit,110.43,2.197,20.0,6.3,day-1 return +9.8%; timing bmo; size limited by max position
+G-eps+20d-0333,G,eps+20d,NRG,2014-02-28,2014-03-03,21.8494,21.7212,,51,2014-03-03,21.7147,stop,-6.87,-0.354,94.12,0.0,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0328,G,eps+20d,GNW,2014-02-05,2014-02-06,14.9745,14.62,,74,2014-03-07,16.9449,time exit,145.81,6.356,26.67,4.27,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0330,G,eps+20d,REGN,2014-02-11,2014-02-12,323.0493,298.2654,,2,2014-03-13,324.9056,time exit,3.71,0.074,7.69,2.3,day-1 return +7.4%; timing bmo; size limited by risk
+G-eps+20d-0331,G,eps+20d,TGT,2014-02-26,2014-02-27,41.1936,39.6,,27,2014-03-27,40.7056,time exit,-13.18,-0.3,11.11,3.66,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0332,G,eps+20d,SRE,2014-02-27,2014-02-28,31.9105,31.1328,,35,2014-03-28,32.616,time exit,24.69,0.993,14.29,0.28,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0334,G,eps+20d,BRK.B,2014-03-03,2014-03-04,117.1651,114.88,,9,2014-04-01,124.8425,time exit,69.1,6.506,9.29,0.32,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0335,G,eps+20d,C,2014-04-14,2014-04-15,34.9865,34.2613,,33,2014-05-05,34.251,stop,-24.27,-1.462,12.07,3.77,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0336,G,eps+20d,SCHW,2014-04-15,2014-04-16,22.9142,21.8829,,51,2014-05-07,21.8764,stop,-52.93,-1.747,9.09,4.03,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0340,G,eps+20d,NRG,2014-05-06,2014-05-07,26.1891,25.7765,,44,2014-05-13,25.7688,stop,-18.49,-1.171,56.25,1.16,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0337,G,eps+20d,ABT,2014-04-16,2014-04-17,29.9686,29.4115,,38,2014-05-16,30.5769,time exit,23.11,0.947,13.89,2.05,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0342,G,eps+20d,CSCO,2014-05-15,2014-05-16,16.6443,16.6255,,69,2014-05-16,16.6205,stop,-1.64,-0.575,6.25,6.4,day-1 return +6.0%; timing amc; size limited by max position
+G-eps+20d-0338,G,eps+20d,SHW,2014-04-17,2014-04-21,58.8416,57.2801,,19,2014-05-19,59.2415,time exit,7.6,0.315,13.51,0.91,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0339,G,eps+20d,PEP,2014-04-17,2014-04-21,58.2166,57.7073,,19,2014-05-19,58.7893,time exit,10.88,0.791,10.67,1.33,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0346,G,eps+20d,CPRI,2014-05-28,2014-05-29,97.0691,91.8,,11,2014-05-29,91.7725,stop,-58.26,-1.017,14.71,-0.73,day-1 return +1.3%; timing bmo; size limited by risk
+G-eps+20d-0341,G,eps+20d,HUM,2014-05-07,2014-05-08,107.48,97.4656,,5,2014-06-06,114.0292,time exit,32.75,0.656,21.13,0.21,day-1 return +8.4%; timing bmo; size limited by risk
+G-eps+20d-0343,G,eps+20d,ADSK,2014-05-16,2014-05-19,51.2354,49.61,,22,2014-06-17,54.6136,time exit,74.32,1.64,52.38,5.5,day-1 return +8.1%; timing amc; size limited by max position
+G-eps+20d-0344,G,eps+20d,BBY,2014-05-22,2014-05-23,16.5792,16.1375,,69,2014-06-23,18.1816,time exit,110.57,3.517,65.0,2.21,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0345,G,eps+20d,NTAP,2014-05-22,2014-05-23,26.9591,25.8237,,43,2014-06-23,26.5796,time exit,-16.32,-0.382,6.33,0.99,day-1 return +4.8%; timing amc; size limited by max position
+G-eps+20d-0349,G,eps+20d,KMX,2014-06-20,2014-06-23,51.6455,50.72,,22,2014-06-23,50.7048,stop,-20.7,-0.463,15.15,14.62,day-1 return +16.5%; timing bmo; size limited by max position
+G-eps+20d-0348,G,eps+20d,KR,2014-06-19,2014-06-20,19.7162,19.4733,,59,2014-06-24,19.4596,stop,-15.14,-1.857,5.77,5.67,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-0347,G,eps+20d,ADBE,2014-06-18,2014-06-19,73.1919,72.1,,16,2014-06-27,72.0784,stop,-17.82,-1.136,23.33,9.3,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-0351,G,eps+20d,STZ,2014-07-02,2014-07-03,75.7883,74.41,,15,2014-07-10,73.9304,stop,-27.87,-2.28,15.05,6.96,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0350,G,eps+20d,MU,2014-06-24,2014-06-25,31.5502,30.3805,,36,2014-07-24,33.0225,time exit,53.0,1.127,12.86,0.8,day-1 return +4.0%; timing amc; size limited by max position
+G-eps+20d-0356,G,eps+20d,GILD,2014-07-24,2014-07-25,61.9053,61.3476,,19,2014-07-25,61.3292,stop,-10.95,-1.299,31.11,1.35,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-0355,G,eps+20d,UNH,2014-07-17,2014-07-18,69.7182,68.0337,,16,2014-07-30,68.0133,stop,-27.28,-1.244,13.6,0.59,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0358,G,eps+20d,EW,2014-07-30,2014-07-31,15.3596,15.0867,,75,2014-07-31,15.0821,stop,-20.81,-0.705,15.38,7.77,day-1 return +10.0%; timing amc; size limited by max position
+G-eps+20d-0352,G,eps+20d,C,2014-07-14,2014-07-15,35.6213,35.2677,,33,2014-08-01,35.2572,stop,-12.02,-7.131,14.81,3.55,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0354,G,eps+20d,INTC,2014-07-16,2014-07-17,25.9038,25.1464,,44,2014-08-05,25.1389,stop,-33.66,-0.702,5.77,5.05,day-1 return +9.3%; timing amc; size limited by max position
+G-eps+20d-0353,G,eps+20d,GS,2014-07-15,2014-07-16,133.3324,131.6775,,8,2014-08-13,135.749,time exit,19.33,1.519,32.69,1.62,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0357,G,eps+20d,LYB,2014-07-25,2014-07-28,56.8047,55.2134,,20,2014-08-25,60.0233,time exit,64.37,2.051,15.03,2.52,day-1 return +5.0%; timing bmo; size limited by max position
+G-eps+20d-0359,G,eps+20d,MPC,2014-07-31,2014-08-01,29.2217,28.3717,,39,2014-08-29,31.9378,time exit,105.93,3.537,37.04,3.01,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-0360,G,eps+20d,EXPE,2014-08-01,2014-08-04,79.1658,76.4072,,14,2014-09-02,82.5545,time exit,47.44,1.396,37.33,3.48,day-1 return +6.3%; timing amc; size limited by max position
+G-eps+20d-0361,G,eps+20d,THC,2014-08-05,2014-08-06,54.3863,53.82,,21,2014-09-04,56.9829,time exit,54.53,2.571,1600.0,1.33,day-1 return +2.9%; timing amc; size limited by max position
+G-eps+20d-0363,G,eps+20d,PVH,2014-09-04,2014-09-05,124.6351,124.2441,,9,2014-09-05,124.2068,stop,-3.85,-0.231,5.59,8.03,day-1 return +9.6%; timing amc; size limited by max position
+G-eps+20d-0362,G,eps+20d,PRGO,2014-08-14,2014-08-15,112.1977,108.7549,,10,2014-09-08,108.7223,stop,-34.75,-1.12,12.26,4.5,day-1 return +7.3%; timing bmo; size limited by max position
+G-eps+20d-0365,G,eps+20d,FDX,2014-09-17,2014-09-18,108.2821,107.8432,,10,2014-09-18,107.8109,stop,-4.71,-1.364,7.69,3.26,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0364,G,eps+20d,LEN,2014-09-17,2014-09-18,35.0122,34.0235,,33,2014-09-22,34.0133,stop,-32.96,-1.128,15.15,3.12,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0367,G,eps+20d,CCL,2014-09-23,2014-09-24,33.6469,33.1634,,34,2014-10-01,33.1535,stop,-16.78,-1.024,8.22,4.21,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0368,G,eps+20d,NKE,2014-09-26,2014-09-29,37.3523,36.9308,,31,2014-10-02,36.9197,stop,-13.41,-0.465,25.0,10.32,day-1 return +12.2%; timing amc; size limited by max position
+G-eps+20d-0366,G,eps+20d,CAG,2014-09-18,2014-09-19,16.6679,16.0338,,71,2014-10-17,16.6628,time exit,-0.36,-0.009,11.43,3.72,day-1 return +4.6%; timing bmo; size limited by max position
+G-eps+20d-0371,G,eps+20d,TXT,2014-10-17,2014-10-20,36.0355,35.6217,,32,2014-10-20,35.611,stop,-13.58,-1.053,7.55,7.72,day-1 return +8.9%; timing bmo; size limited by max position
+G-eps+20d-0372,G,eps+20d,HAL,2014-10-20,2014-10-21,43.2816,41.042,,27,2014-11-04,41.0297,stop,-60.8,-2.162,8.18,1.18,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0375,G,eps+20d,WELL,2014-11-04,2014-11-05,45.9021,45.0051,,26,2014-11-07,44.9916,stop,-23.67,-1.024,51.61,-0.34,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0369,G,eps+20d,UNH,2014-10-16,2014-10-17,71.1451,68.8717,,16,2014-11-14,77.8647,time exit,107.51,6.361,7.24,3.16,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0370,G,eps+20d,MS,2014-10-17,2014-10-20,23.9687,23.9181,,48,2014-11-17,25.8154,time exit,88.64,17.022,52.73,3.66,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0373,G,eps+20d,HOG,2014-10-21,2014-10-22,46.3705,45.1406,,25,2014-11-19,51.2942,time exit,123.09,3.752,15.0,7.91,day-1 return +7.3%; timing bmo; size limited by max position
+G-eps+20d-0374,G,eps+20d,TRV,2014-10-21,2014-10-22,73.1798,71.4281,,16,2014-11-19,79.5355,time exit,101.69,4.73,13.97,0.82,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0377,G,eps+20d,TSN,2014-11-17,2014-11-18,32.4933,31.358,,37,2014-11-24,31.3486,stop,-42.36,-0.997,12.99,4.16,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0379,G,eps+20d,BBY,2014-11-20,2014-11-21,24.7704,23.7063,,49,2014-12-01,23.6992,stop,-52.49,-1.673,28.0,8.44,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0376,G,eps+20d,M,2014-11-12,2014-11-13,37.1083,35.8926,,32,2014-12-12,38.1221,time exit,32.44,0.648,22.0,1.06,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-0382,G,eps+20d,ADBE,2014-12-12,2014-12-15,75.6827,73.71,,15,2014-12-15,73.6879,stop,-29.92,-0.864,20.0,6.35,day-1 return +9.0%; timing amc; size limited by max position
+G-eps+20d-0378,G,eps+20d,TGT,2014-11-19,2014-11-20,49.82,48.7718,,23,2014-12-19,51.6117,time exit,41.21,0.972,14.89,3.61,day-1 return +7.4%; timing bmo; size limited by max position
+G-eps+20d-0380,G,eps+20d,BBWI,2014-11-20,2014-11-21,42.7408,40.774,,28,2014-12-22,44.7109,time exit,55.16,1.208,10.0,0.05,day-1 return +3.1%; timing amc; size limited by max position
+G-eps+20d-0383,G,eps+20d,ACN,2014-12-18,2014-12-19,73.2607,71.3214,,16,2015-01-05,71.3,stop,-31.37,-1.238,7.5,3.31,day-1 return +5.2%; timing bmo; size limited by max position
+G-eps+20d-0381,G,eps+20d,KR,2014-12-04,2014-12-05,24.2457,23.6939,,49,2015-01-06,25.0657,time exit,40.18,1.794,12.9,3.2,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0385,G,eps+20d,CTAS,2014-12-19,2014-12-22,17.6761,17.0345,,69,2015-01-06,17.0294,stop,-44.63,-1.215,15.79,3.22,day-1 return +6.4%; timing amc; size limited by max position
+G-eps+20d-0386,G,eps+20d,STZ,2015-01-08,2015-01-09,88.9577,88.6482,,13,2015-01-09,88.6217,stop,-4.37,-0.385,7.89,5.13,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0384,G,eps+20d,CCL,2014-12-19,2014-12-22,37.4491,36.427,,32,2015-01-22,38.6294,time exit,37.77,1.187,28.57,0.04,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0387,G,eps+20d,INTC,2015-01-16,2015-01-20,27.7053,27.2443,,43,2015-01-27,26.3848,stop,-56.78,-1.831,12.12,-0.19,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0391,G,eps+20d,TRV,2015-01-22,2015-01-23,83.8528,81.693,,14,2015-01-28,81.6685,stop,-30.58,-0.96,21.34,1.42,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0392,G,eps+20d,PLD,2015-01-27,2015-01-28,33.4333,32.4982,,36,2015-01-29,32.4885,stop,-34.02,-1.205,1057.14,0.46,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0393,G,eps+20d,COR,2015-01-28,2015-01-29,70.6566,69.4614,,17,2015-01-29,69.4405,stop,-20.67,-1.502,17.53,3.0,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0388,G,eps+20d,PNC,2015-01-16,2015-01-20,58.4462,56.9598,,20,2015-02-18,62.9473,time exit,90.02,3.547,5.75,0.55,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0389,G,eps+20d,HAL,2015-01-20,2015-01-21,32.1453,30.4502,,37,2015-02-19,35.3282,time exit,117.77,2.33,8.18,1.2,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0396,G,eps+20d,FLR,2015-02-18,2015-02-19,52.275,52.1247,,23,2015-02-19,52.1091,stop,-3.82,-0.187,28.18,1.53,day-1 return +2.6%; timing bmo; size limited by max position
+G-eps+20d-0390,G,eps+20d,CCI,2015-01-22,2015-01-23,52.1659,50.8626,,23,2015-02-23,53.6231,time exit,33.52,1.257,32.26,2.95,day-1 return +4.8%; timing amc; size limited by max position
+G-eps+20d-0399,G,eps+20d,HD,2015-02-24,2015-02-25,88.7557,87.0505,,14,2015-02-27,87.0244,stop,-24.24,-1.413,12.36,4.65,day-1 return +4.0%; timing bmo; size limited by max position
+G-eps+20d-0394,G,eps+20d,MUR,2015-01-29,2015-01-30,28.1271,27.341,,42,2015-03-02,32.0361,time exit,164.18,4.048,44.44,0.99,day-1 return +0.6%; timing amc; size limited by max position
+G-eps+20d-0395,G,eps+20d,VLO,2015-01-29,2015-01-30,33.2641,32.8878,,35,2015-03-02,37.9663,time exit,164.58,8.131,38.64,2.66,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0398,G,eps+20d,NEM,2015-02-20,2015-02-23,19.805,19.45,,63,2015-03-06,18.8469,stop,-60.36,-2.421,54.55,2.94,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0400,G,eps+20d,MNST,2015-02-27,2015-03-02,11.8519,11.4767,,107,2015-03-06,11.4732,stop,-40.52,-1.336,20.0,11.54,day-1 return +13.1%; timing amc; size limited by max position
+G-eps+20d-0397,G,eps+20d,BKNG,2015-02-19,2015-02-20,47.5669,46.707,,26,2015-03-10,46.693,stop,-22.72,-0.986,7.5,8.55,day-1 return +8.5%; timing bmo; size limited by max position
+G-eps+20d-0401,G,eps+20d,BBY,2015-03-03,2015-03-04,25.4341,24.8793,,49,2015-03-27,24.8719,stop,-27.55,-1.648,8.89,2.1,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0402,G,eps+20d,KR,2015-03-05,2015-03-06,29.4388,28.9319,,42,2015-04-06,30.6642,time exit,51.46,1.798,15.56,5.53,day-1 return +6.7%; timing bmo; size limited by max position
+G-eps+20d-0403,G,eps+20d,URBN,2015-03-10,2015-03-11,43.9132,41.92,,28,2015-04-09,43.5069,time exit,-11.37,-0.19,5.26,6.18,day-1 return +11.5%; timing amc; size limited by max position
+G-eps+20d-0406,G,eps+20d,KMX,2015-04-02,2015-04-06,74.1823,71.97,,16,2015-04-14,71.9484,stop,-35.74,-0.809,15.52,5.25,day-1 return +9.3%; timing bmo; size limited by max position
+G-eps+20d-0407,G,eps+20d,STZ,2015-04-09,2015-04-10,100.5631,98.5535,,12,2015-04-14,98.5239,stop,-24.47,-1.572,9.57,0.02,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0404,G,eps+20d,DRI,2015-03-20,2015-03-23,42.9968,41.6071,,29,2015-04-17,41.5946,stop,-40.66,-1.889,17.86,3.87,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-0408,G,eps+20d,PGR,2015-04-15,2015-04-16,19.981,19.791,,61,2015-04-17,19.7851,stop,-11.95,-0.918,6.98,1.38,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0409,G,eps+20d,WFC,2015-04-15,2015-04-16,39.4242,39.1666,,31,2015-04-17,39.1549,stop,-8.35,-0.601,6.12,0.33,day-1 return +1.1%; timing amc; size limited by max position
+G-eps+20d-0405,G,eps+20d,CCL,2015-03-27,2015-03-30,39.8774,38.8654,,31,2015-04-20,38.8538,stop,-31.73,-1.4,122.22,5.38,day-1 return +6.1%; timing bmo; size limited by max position
+G-eps+20d-0411,G,eps+20d,SLB,2015-04-17,2015-04-20,67.2897,66.5138,,18,2015-04-21,66.4938,stop,-14.32,-0.83,19.1,2.42,day-1 return +1.1%; timing amc; size limited by max position
+G-eps+20d-0413,G,eps+20d,PLD,2015-04-20,2015-04-21,30.9194,30.3902,,39,2015-04-21,30.3811,stop,-20.99,-1.989,400.0,0.0,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0416,G,eps+20d,RTX,2015-04-21,2015-04-22,56.4257,55.9845,,21,2015-04-22,55.9677,stop,-9.62,-1.131,8.22,1.91,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0417,G,eps+20d,AMGN,2015-04-22,2015-04-23,120.5171,119.8138,,10,2015-04-23,119.7778,stop,-7.39,-0.493,17.54,2.72,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0418,G,eps+20d,EQT,2015-04-23,2015-04-24,43.3837,43.1582,,28,2015-04-24,43.1452,stop,-6.68,-2.54,80.0,1.76,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0410,G,eps+20d,PM,2015-04-16,2015-04-17,48.3675,47.0036,,25,2015-04-27,46.9895,stop,-34.45,-0.876,14.85,5.49,day-1 return +8.7%; timing bmo; size limited by max position
+G-eps+20d-0420,G,eps+20d,BXP,2015-04-28,2015-04-29,86.4607,86.0698,,14,2015-04-29,86.044,stop,-5.83,-0.419,40.0,-0.07,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0421,G,eps+20d,PCG,2015-04-29,2015-04-30,48.5581,47.7581,,25,2015-04-30,47.7437,stop,-20.36,-0.884,24.29,2.47,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0412,G,eps+20d,MAT,2015-04-17,2015-04-20,23.4041,22.2455,,52,2015-05-18,22.9191,time exit,-25.22,-0.445,11.11,6.89,day-1 return +5.9%; timing amc; size limited by max position
+G-eps+20d-0414,G,eps+20d,HAS,2015-04-20,2015-04-21,51.0436,47.9125,,19,2015-05-19,49.7118,time exit,-25.3,-0.43,133.33,6.24,day-1 return +12.6%; timing bmo; size limited by risk
+G-eps+20d-0415,G,eps+20d,FITB,2015-04-21,2015-04-22,13.1378,12.9313,,92,2015-05-20,13.8185,time exit,62.62,3.877,18.92,1.37,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-0423,G,eps+20d,TJX,2015-05-19,2015-05-20,29.6509,29.5778,,41,2015-05-20,29.5689,stop,-3.36,-2.128,6.06,3.95,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-0426,G,eps+20d,BBY,2015-05-21,2015-05-22,23.2659,22.9509,,53,2015-05-22,22.9441,stop,-17.06,-5.457,27.59,8.35,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0419,G,eps+20d,NEM,2015-04-24,2015-04-27,19.7883,18.8348,,63,2015-05-26,20.615,time exit,52.08,1.458,109.09,3.75,day-1 return +6.5%; timing amc; size limited by max position
+G-eps+20d-0424,G,eps+20d,ADSK,2015-05-20,2015-05-21,57.4072,56.2,,21,2015-05-26,56.1831,stop,-25.71,-0.887,7.14,-1.25,day-1 return +0.1%; timing amc; size limited by max position
+G-eps+20d-0422,G,eps+20d,EQIX,2015-04-30,2015-05-01,198.4511,191.3196,,6,2015-06-01,208.2383,time exit,58.72,2.05,66.67,4.27,day-1 return +4.5%; timing amc; size limited by max position
+G-eps+20d-0427,G,eps+20d,DE,2015-05-22,2015-05-26,76.094,75.3974,,15,2015-06-04,75.3748,stop,-10.79,-0.55,30.13,2.63,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0425,G,eps+20d,TGT,2015-05-20,2015-05-21,55.4199,54.8867,,22,2015-06-19,58.9588,time exit,77.86,8.199,6.8,1.81,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0429,G,eps+20d,DRI,2015-06-23,2015-06-24,44.2846,44.3737,,27,2015-06-24,44.258,stop,-0.72,-1.384,16.13,5.28,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0431,G,eps+20d,ACN,2015-06-25,2015-06-26,82.1098,81.4201,,15,2015-06-26,81.3957,stop,-10.71,-2.718,5.69,2.5,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0432,G,eps+20d,NKE,2015-06-26,2015-06-29,46.6331,46.2351,,26,2015-06-29,46.2212,stop,-10.71,-0.72,16.67,2.99,day-1 return +4.3%; timing amc; size limited by max position
+G-eps+20d-0428,G,eps+20d,PVH,2015-06-02,2015-06-03,110.8349,106.7999,,11,2015-07-01,115.2408,time exit,48.46,1.291,8.7,3.76,day-1 return +7.1%; timing amc; size limited by max position
+G-eps+20d-0430,G,eps+20d,LEN,2015-06-24,2015-06-25,43.4738,42.7843,,28,2015-07-01,42.7715,stop,-19.66,-1.806,22.22,6.04,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-0436,G,eps+20d,INTC,2015-07-16,2015-07-17,23.0919,22.6491,,52,2015-07-20,22.6423,stop,-23.38,-0.722,10.0,2.63,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0438,G,eps+20d,HAL,2015-07-20,2015-07-21,32.8522,32.5685,,37,2015-07-22,32.5587,stop,-10.86,-1.301,51.72,1.13,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0439,G,eps+20d,BA,2015-07-22,2015-07-23,130.2329,128.5199,,9,2015-07-24,128.4813,stop,-15.76,-1.454,17.39,2.69,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0434,G,eps+20d,JPM,2015-07-14,2015-07-15,51.4692,50.3612,,23,2015-07-27,50.3461,stop,-25.83,-1.181,6.94,-0.16,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0440,G,eps+20d,AMZN,2015-07-24,2015-07-27,26.3954,26.4675,,46,2015-07-27,26.3796,stop,-0.73,-4.524,200.0,20.08,day-1 return +9.8%; timing amc; size limited by max position
+G-eps+20d-0433,G,eps+20d,GIS,2015-07-01,2015-07-02,37.0677,35.08,,31,2015-07-31,38.0016,time exit,28.95,0.487,5.63,-1.08,day-1 return +2.5%; timing bmo; size limited by risk
+G-eps+20d-0443,G,eps+20d,EIX,2015-07-31,2015-08-03,37.6213,37.3908,,32,2015-08-04,37.3796,stop,-7.74,-1.245,38.55,0.29,day-1 return +0.8%; timing amc; size limited by max position
+G-eps+20d-0442,G,eps+20d,NOV,2015-07-28,2015-07-29,36.1462,34.1443,,27,2015-08-05,34.1341,stop,-54.33,-0.903,20.31,0.96,day-1 return +3.1%; timing bmo; size limited by risk
+G-eps+20d-0444,G,eps+20d,THC,2015-08-04,2015-08-05,57.6373,56.19,,21,2015-08-05,56.1731,stop,-30.75,-1.118,70.45,0.34,day-1 return +1.4%; timing amc; size limited by max position
+G-eps+20d-0446,G,eps+20d,MSI,2015-08-05,2015-08-06,53.6647,53.0526,,22,2015-08-06,53.0367,stop,-13.82,-0.891,25.93,5.31,day-1 return +6.3%; timing bmo; size limited by max position
+G-eps+20d-0435,G,eps+20d,BAC,2015-07-15,2015-07-16,14.0773,13.7431,,88,2015-08-12,13.739,stop,-29.78,-2.266,25.0,2.34,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0437,G,eps+20d,PM,2015-07-16,2015-07-17,49.2169,48.2414,,24,2015-08-14,48.7477,time exit,-11.26,-0.42,7.08,0.86,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0448,G,eps+20d,CSCO,2015-08-13,2015-08-14,20.5987,20.5282,,58,2015-08-17,20.4934,stop,-6.11,-14.723,5.36,3.15,day-1 return +2.9%; timing amc; size limited by max position
+G-eps+20d-0445,G,eps+20d,FSLR,2015-08-05,2015-08-06,52.4657,49.01,,20,2015-08-19,48.9953,stop,-69.41,-1.193,108.0,12.63,day-1 return +16.7%; timing amc; size limited by risk
+G-eps+20d-0449,G,eps+20d,A,2015-08-18,2015-08-19,35.3311,35.6035,,33,2015-08-19,35.3099,stop,-0.7,-1.161,7.32,0.75,day-1 return +0.5%; timing amc; size limited by max position
+G-eps+20d-0450,G,eps+20d,TJX,2015-08-18,2015-08-19,32.2866,32.0923,,36,2015-08-19,32.0827,stop,-7.34,-0.234,5.26,4.43,day-1 return +7.2%; timing bmo; size limited by max position
+G-eps+20d-0451,G,eps+20d,TGT,2015-08-19,2015-08-20,57.2751,56.3814,,20,2015-08-21,56.3645,stop,-18.21,-0.73,9.91,4.55,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0452,G,eps+20d,NTAP,2015-08-20,2015-08-21,23.1096,23.133,,51,2015-08-21,23.0957,stop,-0.71,-0.061,26.09,7.39,day-1 return +3.4%; timing amc; size limited by max position
+G-eps+20d-0441,G,eps+20d,J,2015-07-28,2015-07-29,31.8305,29.8995,,34,2015-08-24,29.23,stop,-88.42,-1.476,31.08,-0.28,day-1 return +5.3%; timing bmo; size limited by risk
+G-eps+20d-0447,G,eps+20d,APA,2015-08-06,2015-08-07,34.8342,32.4841,,22,2015-08-24,30.6861,stop,-91.26,-1.544,184.62,-0.11,day-1 return +4.9%; timing bmo; size limited by risk
+G-eps+20d-0453,G,eps+20d,CRM,2015-08-21,2015-08-24,64.5475,67.0009,,17,2015-08-24,64.5088,stop,-0.66,-0.045,11.76,1.74,day-1 return +2.0%; timing amc; size limited by max position
+G-eps+20d-0456,G,eps+20d,SJM,2015-08-27,2015-08-28,82.8937,80.8511,,14,2015-09-01,80.8269,stop,-28.94,-1.003,7.32,4.16,day-1 return +6.5%; timing bmo; size limited by max position
+G-eps+20d-0457,G,eps+20d,PVH,2015-08-27,2015-08-28,116.0968,113.6818,,10,2015-09-09,113.6476,stop,-24.49,-0.961,6.2,5.14,day-1 return +6.0%; timing amc; size limited by max position
+G-eps+20d-0459,G,eps+20d,KR,2015-09-11,2015-09-14,29.875,28.9205,,39,2015-09-22,28.9118,stop,-37.57,-1.002,12.82,5.68,day-1 return +5.3%; timing bmo; size limited by max position
+G-eps+20d-0454,G,eps+20d,BBY,2015-08-25,2015-08-26,22.3935,21.7204,,54,2015-09-24,24.2975,time exit,102.82,96.185,40.0,15.07,day-1 return +12.6%; timing bmo; size limited by max position
+G-eps+20d-0455,G,eps+20d,SIG,2015-08-27,2015-08-28,113.2478,106.4899,,10,2015-09-28,111.5782,time exit,-16.7,-0.286,11.3,9.93,day-1 return +14.5%; timing bmo; size limited by risk
+G-eps+20d-0461,G,eps+20d,GIS,2015-09-22,2015-09-23,37.3516,36.7069,,31,2015-09-28,36.6959,stop,-20.33,-1.091,14.49,-0.02,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0462,G,eps+20d,NKE,2015-09-25,2015-09-28,53.2675,52.4816,,22,2015-09-28,52.4659,stop,-17.64,-0.815,11.67,7.27,day-1 return +8.9%; timing amc; size limited by max position
+G-eps+20d-0458,G,eps+20d,HRB,2015-09-02,2015-09-03,23.2284,22.7448,,51,2015-10-02,24.0027,time exit,39.49,2.045,10.26,8.56,day-1 return +7.5%; timing amc; size limited by max position
+G-eps+20d-0460,G,eps+20d,ADBE,2015-09-18,2015-09-21,81.4444,78.16,,14,2015-10-19,88.3735,time exit,97.01,2.242,8.0,-2.2,day-1 return +1.2%; timing amc; size limited by max position
+G-eps+20d-0463,G,eps+20d,MU,2015-10-02,2015-10-05,15.9165,14.771,,76,2015-11-02,16.6575,time exit,56.31,1.0,15.62,3.05,day-1 return +7.7%; timing amc; size limited by max position
+G-eps+20d-0468,G,eps+20d,CAH,2015-11-02,2015-11-03,63.8422,63.2056,,18,2015-11-03,63.1867,stop,-11.8,-0.74,25.45,4.94,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0464,G,eps+20d,PEP,2015-10-06,2015-10-07,69.3092,68.9604,,17,2015-11-04,71.7122,time exit,40.85,9.914,7.14,2.24,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0465,G,eps+20d,STZ,2015-10-07,2015-10-08,112.4827,110.3172,,10,2015-11-05,111.6303,time exit,-8.52,-0.391,18.18,3.11,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0469,G,eps+20d,ZTS,2015-11-03,2015-11-04,42.1901,41.0473,,28,2015-11-05,41.035,stop,-32.34,-1.039,25.0,5.24,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0467,G,eps+20d,PLD,2015-10-20,2015-10-21,31.1653,30.1535,,38,2015-11-06,30.1445,stop,-38.79,-1.124,133.33,-0.59,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0472,G,eps+20d,META,2015-11-05,2015-11-06,107.0472,106.9259,,11,2015-11-06,106.8938,stop,-1.69,-0.191,14.81,4.68,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0470,G,eps+20d,DVN,2015-11-04,2015-11-05,31.346,31.1198,,38,2015-11-11,31.1104,stop,-8.95,-0.61,46.15,3.34,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0471,G,eps+20d,RL,2015-11-05,2015-11-06,105.6025,102.4354,,11,2015-11-11,102.4047,stop,-35.18,-1.058,22.41,11.83,day-1 return +14.9%; timing bmo; size limited by max position
+G-eps+20d-0466,G,eps+20d,BAC,2015-10-14,2015-10-15,12.4667,12.258,,97,2015-11-12,13.6886,time exit,118.52,17.223,12.12,1.61,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0473,G,eps+20d,DIS,2015-11-06,2015-11-09,105.3733,104.1328,,11,2015-11-13,104.1016,stop,-13.99,-1.272,5.26,1.42,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0475,G,eps+20d,KSS,2015-11-12,2015-11-13,25.6865,25.8685,,45,2015-11-13,25.6711,stop,-0.69,-0.034,8.7,5.26,day-1 return +6.1%; timing bmo; size limited by max position
+G-eps+20d-0477,G,eps+20d,CRM,2015-11-19,2015-11-20,79.4084,78.943,,15,2015-11-20,78.9193,stop,-7.34,-2.623,10.53,4.78,day-1 return +4.3%; timing amc; size limited by max position
+G-eps+20d-0479,G,eps+20d,INTU,2015-11-20,2015-11-23,93.4932,92.2344,,12,2015-11-23,92.2068,stop,-15.44,-0.695,400.0,9.09,day-1 return +5.9%; timing amc; size limited by max position
+G-eps+20d-0474,G,eps+20d,DHI,2015-11-10,2015-11-11,27.6291,25.7104,,32,2015-12-10,28.6728,time exit,33.4,0.567,6.45,2.19,day-1 return +8.3%; timing bmo; size limited by risk
+G-eps+20d-0476,G,eps+20d,A,2015-11-17,2015-11-18,35.1955,33.418,,33,2015-12-17,37.3254,time exit,70.28,1.237,6.38,-2.22,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0478,G,eps+20d,SJM,2015-11-19,2015-11-20,87.6267,83.4911,,13,2015-12-21,88.1835,time exit,7.24,0.16,7.28,4.14,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0480,G,eps+20d,ROST,2015-11-20,2015-11-23,45.8334,44.1026,,26,2015-12-22,48.914,time exit,80.1,1.925,6.0,9.09,day-1 return +10.0%; timing amc; size limited by max position
+G-eps+20d-0481,G,eps+20d,CPB,2015-11-24,2015-11-25,35.2236,34.8435,,34,2015-12-24,36.4748,time exit,42.54,4.46,25.0,3.86,day-1 return +3.1%; timing bmo; size limited by max position
+G-eps+20d-0483,G,eps+20d,CAG,2015-12-22,2015-12-23,21.2176,20.9707,,57,2016-01-07,20.9644,stop,-14.43,-1.075,20.34,0.44,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0484,G,eps+20d,STZ,2016-01-07,2016-01-08,125.6281,123.2693,,9,2016-01-08,123.2324,stop,-21.56,-1.144,9.23,4.46,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0482,G,eps+20d,DRI,2015-12-18,2015-12-21,45.7544,43.2468,,26,2016-01-15,43.2338,stop,-65.54,-1.148,28.57,2.12,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0485,G,eps+20d,MS,2016-01-19,2016-01-20,18.9377,18.9762,,62,2016-01-20,18.9264,stop,-0.7,-0.031,30.0,3.31,day-1 return +1.1%; timing bmo; size limited by max position
+G-eps+20d-0487,G,eps+20d,ISRG,2016-01-22,2016-01-25,62.6721,61.7722,,19,2016-01-26,61.0928,stop,-30.01,-1.399,16.07,2.39,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0486,G,eps+20d,TEL,2016-01-20,2016-01-21,47.1021,45.8994,,25,2016-01-28,45.8856,stop,-30.41,-2.136,10.53,6.55,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0492,G,eps+20d,HP,2016-01-28,2016-01-29,29.8065,27.9191,,33,2016-02-02,27.9107,stop,-62.56,-1.067,171.43,1.02,day-1 return +7.4%; timing bmo; size limited by risk
+G-eps+20d-0488,G,eps+20d,PLD,2016-01-26,2016-01-27,29.0294,28.1773,,41,2016-02-08,28.1689,stop,-35.28,-0.821,76.92,0.73,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0493,G,eps+20d,BAX,2016-02-02,2016-02-03,32.5079,30.917,,37,2016-02-08,30.9077,stop,-59.21,-1.191,34.37,0.59,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0494,G,eps+20d,HAS,2016-02-08,2016-02-09,52.1888,50.9749,,22,2016-02-09,50.9596,stop,-27.04,-0.625,6.92,0.35,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0489,G,eps+20d,PH,2016-01-26,2016-01-27,77.5163,74.5966,,15,2016-02-25,86.5839,time exit,136.01,2.902,28.81,5.98,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0490,G,eps+20d,GWW,2016-01-26,2016-01-27,158.1679,154.5646,,7,2016-02-25,185.1775,time exit,189.07,9.301,12.16,6.03,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0491,G,eps+20d,GLW,2016-01-26,2016-01-27,13.4276,12.7757,,82,2016-02-25,13.9087,time exit,39.45,0.664,9.68,0.12,day-1 return +5.7%; timing bmo; size limited by risk
+G-eps+20d-0498,G,eps+20d,CPB,2016-02-25,2016-02-26,43.1223,41.3539,,28,2016-03-02,41.3415,stop,-49.86,-1.014,8.75,1.52,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0495,G,eps+20d,GT,2016-02-09,2016-02-10,25.699,23.9785,,48,2016-03-10,29.0534,time exit,161.01,3.258,24.0,3.38,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-0496,G,eps+20d,SEE,2016-02-10,2016-02-11,35.7807,34.96,,32,2016-03-11,39.4981,time exit,118.96,2.239,52.0,13.79,day-1 return +7.9%; timing bmo; size limited by max position
+G-eps+20d-0502,G,eps+20d,ADBE,2016-03-18,2016-03-21,92.7178,93.11,,13,2016-03-21,92.6622,stop,-0.72,-0.179,8.2,8.94,day-1 return +3.8%; timing amc; size limited by max position
+G-eps+20d-0497,G,eps+20d,BBY,2016-02-25,2016-02-26,21.4902,20.3869,,52,2016-03-28,21.4507,time exit,-2.06,-0.034,10.07,2.32,day-1 return +2.4%; timing bmo; size limited by risk
+G-eps+20d-0499,G,eps+20d,PWR,2016-02-25,2016-02-26,19.6135,18.9214,,63,2016-03-28,21.8462,time exit,140.66,3.673,7.14,4.75,day-1 return +7.6%; timing bmo; size limited by max position
+G-eps+20d-0504,G,eps+20d,LEN,2016-03-29,2016-03-30,41.2363,39.7659,,30,2016-04-04,39.754,stop,-44.47,-1.377,21.57,2.78,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0500,G,eps+20d,URBN,2016-03-08,2016-03-09,32.8499,30.5,,28,2016-04-07,30.6108,time exit,-62.69,-1.022,17.86,9.16,day-1 return +16.1%; timing amc; size limited by risk
+G-eps+20d-0505,G,eps+20d,MKC,2016-03-29,2016-03-30,40.14,39.4143,,31,2016-04-13,39.4025,stop,-22.86,-1.0,8.82,1.58,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0501,G,eps+20d,FDX,2016-03-17,2016-03-18,109.8194,105.2966,,11,2016-04-18,114.1806,time exit,47.97,0.879,7.26,7.6,day-1 return +11.8%; timing amc; size limited by max position
+G-eps+20d-0506,G,eps+20d,CAG,2016-04-07,2016-04-08,23.893,23.1956,,52,2016-04-20,23.1887,stop,-36.63,-1.29,17.24,0.44,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0509,G,eps+20d,PLD,2016-04-19,2016-04-20,34.0328,33.0448,,36,2016-04-21,33.0349,stop,-35.92,-1.151,254.55,0.18,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0510,G,eps+20d,INTC,2016-04-20,2016-04-21,25.4725,24.9147,,48,2016-04-22,24.9072,stop,-27.13,-0.945,12.5,-0.89,day-1 return +1.3%; timing amc; size limited by max position
+G-eps+20d-0503,G,eps+20d,ACN,2016-03-24,2016-03-28,94.9962,90.1957,,13,2016-04-25,95.5847,time exit,7.65,0.126,13.56,1.05,day-1 return +6.2%; timing bmo; size limited by max position
+G-eps+20d-0511,G,eps+20d,UA,2016-04-21,2016-04-22,45.173,43.68,,27,2016-04-26,43.6669,stop,-40.67,-0.872,100.0,8.4,day-1 return +6.9%; timing bmo; size limited by max position
+G-eps+20d-0513,G,eps+20d,TT,2016-04-26,2016-04-27,43.2422,42.8996,,28,2016-04-29,42.8867,stop,-9.95,-1.634,35.14,4.73,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0512,G,eps+20d,NSC,2016-04-22,2016-04-25,73.3141,70.9468,,16,2016-05-03,70.9255,stop,-38.22,-0.991,31.63,8.08,day-1 return +10.5%; timing amc; size limited by max position
+G-eps+20d-0508,G,eps+20d,HAS,2016-04-18,2016-04-19,61.8411,59.6093,,20,2016-05-04,59.5914,stop,-44.99,-1.223,58.33,5.98,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0515,G,eps+20d,EXPE,2016-04-29,2016-05-02,109.6231,107.7063,,11,2016-05-04,107.5699,stop,-22.59,-1.084,280.0,9.21,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-0518,G,eps+20d,PCG,2016-05-04,2016-05-05,55.28,54.7964,,22,2016-05-06,54.7799,stop,-11.0,-1.115,9.33,-0.53,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0517,G,eps+20d,SKYD,2016-05-04,2016-05-05,45.4283,44.5516,,27,2016-05-11,44.5383,stop,-24.03,-1.428,9.68,2.43,day-1 return +1.6%; timing amc; size limited by max position
+G-eps+20d-0507,G,eps+20d,JPM,2016-04-13,2016-04-14,46.8486,45.8401,,26,2016-05-12,46.8813,time exit,0.85,0.03,7.14,2.02,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-0519,G,eps+20d,WYNN,2016-05-06,2016-05-09,80.5507,77.9142,,15,2016-05-18,77.8908,stop,-39.9,-1.15,30.49,2.22,day-1 return +1.8%; timing amc; size limited by max position
+G-eps+20d-0514,G,eps+20d,BAX,2016-04-26,2016-04-27,37.8121,37.1102,,33,2016-05-19,37.0991,stop,-23.53,-1.901,24.14,0.85,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0516,G,eps+20d,VMC,2016-05-03,2016-05-04,103.5284,99.8102,,11,2016-06-02,105.5711,time exit,22.47,0.512,271.43,2.42,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0520,G,eps+20d,RL,2016-05-12,2016-05-13,70.2055,68.5279,,17,2016-06-13,76.5426,time exit,107.73,2.678,6.02,6.46,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0524,G,eps+20d,BF.B,2016-06-08,2016-06-09,33.1148,31.8634,,37,2016-06-14,31.8538,stop,-46.66,-1.013,10.34,0.68,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0521,G,eps+20d,A,2016-05-17,2016-05-18,40.9383,40.1711,,29,2016-06-16,41.7606,time exit,23.85,1.145,12.82,4.7,day-1 return +3.4%; timing amc; size limited by max position
+G-eps+20d-0522,G,eps+20d,WMT,2016-05-19,2016-05-20,19.4282,18.9097,,62,2016-06-20,19.9122,time exit,30.01,1.016,13.79,7.84,day-1 return +9.6%; timing bmo; size limited by max position
+G-eps+20d-0523,G,eps+20d,AMAT,2016-05-20,2016-05-23,20.4109,19.3524,,60,2016-06-21,21.3388,time exit,55.67,1.084,6.25,9.09,day-1 return +13.8%; timing amc; size limited by max position
+G-eps+20d-0527,G,eps+20d,JPM,2016-07-14,2016-07-15,49.5553,49.0048,,25,2016-07-15,48.9901,stop,-14.13,-10.552,8.39,2.5,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0530,G,eps+20d,LMT,2016-07-19,2016-07-20,197.8848,192.3176,,6,2016-07-21,192.2599,stop,-33.75,-1.075,11.95,0.88,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0531,G,eps+20d,NEM,2016-07-21,2016-07-22,31.5297,31.0516,,39,2016-07-25,31.0423,stop,-19.01,-0.821,41.94,2.55,day-1 return +3.1%; timing amc; size limited by max position
+G-eps+20d-0525,G,eps+20d,CCL,2016-06-28,2016-06-29,37.9653,37.2002,,32,2016-07-28,40.2723,time exit,73.82,3.371,25.64,3.46,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0526,G,eps+20d,GIS,2016-06-29,2016-06-30,45.4491,43.8586,,27,2016-07-29,48.34,time exit,78.05,1.949,10.0,0.62,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0533,G,eps+20d,CMS,2016-07-28,2016-07-29,32.9259,32.5211,,37,2016-08-03,32.5113,stop,-15.34,-1.069,25.0,0.04,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0534,G,eps+20d,AMZN,2016-07-29,2016-08-01,38.0049,37.75,,32,2016-08-03,37.7387,stop,-8.52,-1.398,80.0,1.65,day-1 return +0.8%; timing amc; size limited by max position
+G-eps+20d-0536,G,eps+20d,ZTS,2016-08-03,2016-08-04,46.9011,46.15,,26,2016-08-08,46.1362,stop,-19.89,-1.716,11.36,4.89,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0528,G,eps+20d,BAC,2016-07-18,2016-07-19,11.1982,11.0037,,110,2016-08-16,12.075,time exit,96.45,3.797,9.09,1.32,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0529,G,eps+20d,PLD,2016-07-19,2016-07-20,38.8088,38.1248,,32,2016-08-17,40.0254,time exit,38.93,2.395,225.0,-0.0,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0532,G,eps+20d,PCAR,2016-07-26,2016-07-27,27.0601,25.8678,,46,2016-08-24,27.6374,time exit,26.56,0.564,30.0,0.52,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0535,G,eps+20d,DVN,2016-08-03,2016-08-04,26.1219,24.5528,,36,2016-09-01,30.1811,time exit,146.13,2.388,130.0,-0.0,day-1 return +5.2%; timing amc; size limited by risk
+G-eps+20d-0538,G,eps+20d,URBN,2016-08-17,2016-08-18,36.701,35.3,,34,2016-09-02,35.2894,stop,-47.99,-1.882,20.0,13.22,day-1 return +15.4%; timing amc; size limited by max position
+G-eps+20d-0537,G,eps+20d,TSN,2016-08-08,2016-08-09,57.0992,55.7911,,21,2016-09-07,57.9476,time exit,17.81,0.751,14.15,1.67,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0540,G,eps+20d,ADSK,2016-08-26,2016-08-29,68.5206,65.06,,16,2016-09-14,65.0405,stop,-55.68,-0.913,138.46,3.61,day-1 return +8.1%; timing amc; size limited by risk
+G-eps+20d-0539,G,eps+20d,NTAP,2016-08-18,2016-08-19,26.1868,24.1826,,28,2016-09-19,27.7848,time exit,44.75,0.714,27.78,7.66,day-1 return +17.4%; timing amc; size limited by risk
+G-eps+20d-0541,G,eps+20d,CTAS,2016-09-28,2016-09-29,25.9214,25.9293,,48,2016-09-29,25.9059,stop,-0.75,-0.126,18.52,4.81,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0543,G,eps+20d,PEP,2016-09-29,2016-09-30,79.5257,79.0177,,15,2016-10-03,78.994,stop,-7.98,-14.496,6.06,1.97,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0544,G,eps+20d,MKC,2016-09-30,2016-10-03,39.92,40.1235,,31,2016-10-03,39.8961,stop,-0.74,-0.048,10.64,2.72,day-1 return +2.6%; timing bmo; size limited by max position
+G-eps+20d-0545,G,eps+20d,DRI,2016-10-04,2016-10-05,46.2937,45.6736,,27,2016-10-06,45.6599,stop,-17.11,-1.978,7.32,3.65,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0546,G,eps+20d,STZ,2016-10-05,2016-10-06,142.6613,141.6734,,8,2016-10-07,141.6309,stop,-8.24,-1.696,7.27,4.27,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0547,G,eps+20d,PGR,2016-10-13,2016-10-14,24.936,24.3681,,51,2016-10-18,24.3608,stop,-29.33,-2.532,12.12,1.74,day-1 return +2.6%; timing bmo; size limited by max position
+G-eps+20d-0542,G,eps+20d,CAG,2016-09-29,2016-09-30,24.2614,23.4,,52,2016-10-28,25.1692,time exit,47.21,1.32,27.08,5.01,day-1 return +7.2%; timing bmo; size limited by max position
+G-eps+20d-0548,G,eps+20d,C,2016-10-14,2016-10-17,35.7819,35.6239,,35,2016-11-02,35.6132,stop,-5.9,-1.041,6.9,2.33,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0549,G,eps+20d,HAS,2016-10-17,2016-10-18,58.5812,56.4446,,21,2016-11-15,61.3132,time exit,57.37,1.413,16.67,4.96,day-1 return +7.4%; timing bmo; size limited by max position
+G-eps+20d-0550,G,eps+20d,GS,2016-10-18,2016-10-19,141.0216,139.1334,,8,2016-11-16,167.6742,time exit,213.22,21.422,27.42,1.78,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0551,G,eps+20d,CMA,2016-10-18,2016-10-19,34.7204,33.51,,36,2016-11-16,40.7478,time exit,216.98,6.412,17.95,2.87,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0554,G,eps+20d,TGT,2016-11-16,2016-11-17,56.5234,56.0466,,23,2016-11-17,56.0298,stop,-11.35,-1.416,25.3,8.48,day-1 return +6.4%; timing bmo; size limited by max position
+G-eps+20d-0555,G,eps+20d,A,2016-11-16,2016-11-17,42.7312,42.7091,,30,2016-11-17,42.6963,stop,-1.05,-1.257,13.46,1.98,day-1 return +1.7%; timing amc; size limited by max position
+G-eps+20d-0558,G,eps+20d,NTAP,2016-11-17,2016-11-18,28.8794,28.8081,,45,2016-11-18,28.7994,stop,-3.6,-0.638,11.11,10.71,day-1 return +6.2%; timing amc; size limited by max position
+G-eps+20d-0552,G,eps+20d,CVX,2016-10-28,2016-10-31,68.1146,66.2117,,18,2016-11-29,72.4108,time exit,77.33,2.282,25.64,1.2,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0557,G,eps+20d,HP,2016-11-17,2016-11-18,42.5531,41.8474,,31,2016-11-29,41.8349,stop,-22.27,-1.52,23.26,0.86,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0559,G,eps+20d,INTU,2016-11-18,2016-11-21,106.3415,104.8153,,12,2016-12-01,104.7838,stop,-18.69,-0.719,100.0,-0.05,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0553,G,eps+20d,DVN,2016-11-02,2016-11-03,27.5977,25.7146,,38,2016-12-02,33.0932,time exit,208.83,3.338,50.0,-0.96,day-1 return +4.9%; timing amc; size limited by risk
+G-eps+20d-0560,G,eps+20d,PVH,2016-12-01,2016-12-02,105.9685,103.305,,12,2016-12-02,103.274,stop,-32.33,-0.86,8.33,-0.89,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0556,G,eps+20d,BBY,2016-11-17,2016-11-18,31.7726,29.5866,,27,2016-12-19,32.5599,time exit,21.26,0.329,31.91,6.03,day-1 return +13.7%; timing bmo; size limited by risk
+G-eps+20d-0562,G,eps+20d,NKE,2016-12-21,2016-12-22,45.8316,44.7331,,29,2016-12-27,44.7197,stop,-32.24,-1.708,16.28,2.14,day-1 return +1.0%; timing amc; size limited by max position
+G-eps+20d-0563,G,eps+20d,MU,2016-12-22,2016-12-23,22.4996,22.2004,,58,2016-12-28,22.1937,stop,-17.74,-0.747,10.34,11.32,day-1 return +12.7%; timing amc; size limited by max position
+G-eps+20d-0564,G,eps+20d,CAG,2016-12-22,2016-12-23,26.3928,25.7256,,50,2017-01-10,25.7179,stop,-33.75,-0.955,8.89,0.95,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0565,G,eps+20d,JPM,2017-01-13,2017-01-17,65.8345,66.7214,,19,2017-01-17,65.795,stop,-0.75,-0.085,11.27,1.01,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0566,G,eps+20d,PNC,2017-01-13,2017-01-17,85.1792,84.6049,,15,2017-01-17,84.5795,stop,-9.0,-0.516,6.49,0.87,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0567,G,eps+20d,NFLX,2017-01-19,2017-01-20,13.9402,13.825,,95,2017-01-20,13.8209,stop,-11.34,-7.458,100.0,6.57,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0561,G,eps+20d,CCL,2016-12-20,2016-12-21,45.9446,45.1487,,28,2017-01-23,47.2347,time exit,36.12,1.323,15.52,0.86,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0570,G,eps+20d,DHI,2017-01-24,2017-01-25,27.7362,26.472,,48,2017-02-07,26.4641,stop,-61.06,-1.255,14.58,3.9,day-1 return +6.6%; timing bmo; size limited by max position
+G-eps+20d-0568,G,eps+20d,CFG,2017-01-20,2017-01-23,24.3931,24.1802,,53,2017-02-21,26.1564,time exit,93.46,4.95,5.77,2.39,day-1 return +3.1%; timing bmo; size limited by max position
+G-eps+20d-0569,G,eps+20d,ZION,2017-01-24,2017-01-25,32.3215,31.0578,,41,2017-02-23,33.7071,time exit,56.81,1.538,21.15,0.26,day-1 return +0.6%; timing amc; size limited by max position
+G-eps+20d-0571,G,eps+20d,GLW,2017-01-24,2017-01-25,20.4518,19.2803,,55,2017-02-23,21.5499,time exit,60.39,0.918,13.64,1.86,day-1 return +5.7%; timing bmo; size limited by risk
+G-eps+20d-0572,G,eps+20d,FITB,2017-01-24,2017-01-25,18.9594,18.1475,,70,2017-02-23,19.4217,time exit,32.36,0.695,11.36,0.87,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0575,G,eps+20d,O,2017-02-23,2017-02-24,38.1479,37.1534,,35,2017-03-01,37.1423,stop,-35.2,-1.017,10.0,0.95,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0573,G,eps+20d,MOS,2017-02-07,2017-02-08,26.9408,25.6208,,48,2017-03-03,25.535,stop,-67.48,-1.072,85.71,-2.9,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0578,G,eps+20d,CRM,2017-03-01,2017-03-02,82.0193,80.5719,,16,2017-03-03,80.4398,stop,-25.27,-0.947,12.0,1.87,day-1 return +3.0%; timing amc; size limited by max position
+G-eps+20d-0576,G,eps+20d,PSA,2017-02-23,2017-02-24,153.5241,149.8828,,8,2017-03-09,149.8378,stop,-29.49,-1.122,7.98,1.22,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0577,G,eps+20d,JWN,2017-02-24,2017-02-27,36.0308,33.95,,35,2017-03-13,33.9398,stop,-73.18,-1.106,10.43,2.33,day-1 return +5.7%; timing amc; size limited by risk
+G-eps+20d-0581,G,eps+20d,ORCL,2017-03-16,2017-03-17,39.1456,39.4797,,33,2017-03-17,39.1221,stop,-0.77,-0.339,11.29,7.76,day-1 return +6.2%; timing amc; size limited by max position
+G-eps+20d-0582,G,eps+20d,ADBE,2017-03-17,2017-03-20,127.0281,126.94,,10,2017-03-20,126.9019,stop,-1.26,-1.802,8.05,4.99,day-1 return +3.8%; timing amc; size limited by max position
+G-eps+20d-0574,G,eps+20d,HD,2017-02-21,2017-02-22,114.2958,112.8436,,11,2017-03-22,116.7526,time exit,27.02,1.762,7.46,1.82,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0579,G,eps+20d,HRB,2017-03-08,2017-03-09,16.5333,15.4808,,72,2017-03-24,15.4762,stop,-76.12,-1.161,5.77,9.45,day-1 return +14.9%; timing amc; size limited by risk
+G-eps+20d-0580,G,eps+20d,ULTA,2017-03-10,2017-03-13,286.5559,270.5,,4,2017-04-10,286.504,time exit,-0.21,-0.003,5.16,-1.01,day-1 return +4.6%; timing amc; size limited by risk
+G-eps+20d-0583,G,eps+20d,STZ,2017-04-06,2017-04-07,145.9473,143.6216,,8,2017-04-12,143.5785,stop,-18.95,-1.135,8.82,4.96,day-1 return +6.4%; timing bmo; size limited by max position
+G-eps+20d-0588,G,eps+20d,MS,2017-04-19,2017-04-20,32.3142,31.8117,,40,2017-04-21,31.8022,stop,-20.48,-8.442,11.11,2.67,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0584,G,eps+20d,MTB,2017-04-17,2017-04-18,116.2563,113.1411,,11,2017-05-16,123.1572,time exit,75.91,1.982,9.28,1.07,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0585,G,eps+20d,UNH,2017-04-18,2017-04-19,144.726,143.0702,,9,2017-05-16,143.0273,stop,-15.29,-2.237,9.22,1.72,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0586,G,eps+20d,CMA,2017-04-18,2017-04-19,47.5443,45.14,,27,2017-05-17,46.596,time exit,-25.6,-0.533,5.15,-2.35,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0587,G,eps+20d,ABT,2017-04-19,2017-04-20,36.6678,36.1786,,35,2017-05-17,36.1677,stop,-17.5,-1.268,11.63,0.81,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0590,G,eps+20d,BBWI,2017-05-18,2017-05-19,29.621,29.1736,,44,2017-05-19,29.1648,stop,-20.07,-1.673,10.0,6.98,day-1 return +2.7%; timing amc; size limited by max position
+G-eps+20d-0589,G,eps+20d,NEE,2017-04-21,2017-04-24,26.0784,25.8032,,50,2017-05-22,27.1888,time exit,55.52,3.209,10.0,0.3,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0592,G,eps+20d,ADSK,2017-05-19,2017-05-22,109.8329,106.87,,11,2017-06-09,106.8379,stop,-32.95,-0.985,30.43,12.7,day-1 return +14.7%; timing amc; size limited by max position
+G-eps+20d-0595,G,eps+20d,BBY,2017-05-25,2017-05-26,42.5873,39.678,,19,2017-06-15,39.6661,stop,-55.5,-0.837,50.0,13.94,day-1 return +21.5%; timing bmo; size limited by risk
+G-eps+20d-0591,G,eps+20d,DE,2017-05-19,2017-05-22,106.0839,103.3764,,12,2017-06-20,109.4593,time exit,40.5,2.045,47.34,6.83,day-1 return +7.3%; timing bmo; size limited by max position
+G-eps+20d-0593,G,eps+20d,MCK,2017-05-19,2017-05-22,142.8491,141.4107,,9,2017-06-20,149.9683,time exit,64.07,7.577,13.62,8.22,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-0596,G,eps+20d,LEN,2017-06-20,2017-06-21,45.8084,45.3349,,28,2017-06-21,45.3213,stop,-13.64,-0.923,15.58,5.21,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0594,G,eps+20d,A,2017-05-23,2017-05-24,54.4461,53.9646,,24,2017-06-22,56.376,time exit,46.32,3.143,20.83,6.63,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0599,G,eps+20d,ADBE,2017-06-21,2017-06-22,145.1935,142.75,,9,2017-06-27,142.7072,stop,-22.38,-1.669,7.37,2.96,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0601,G,eps+20d,STZ,2017-06-29,2017-06-30,165.632,163.3959,,8,2017-07-03,163.3469,stop,-18.28,-3.68,18.18,7.43,day-1 return +5.0%; timing bmo; size limited by max position
+G-eps+20d-0597,G,eps+20d,KMX,2017-06-21,2017-06-22,59.8379,58.34,,22,2017-07-21,66.0702,time exit,137.11,4.452,16.49,7.69,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0598,G,eps+20d,FDX,2017-06-21,2017-06-22,145.0634,142.0476,,8,2017-07-21,146.8491,time exit,14.29,0.38,9.82,-0.45,day-1 return +1.6%; timing amc; size limited by max position
+G-eps+20d-0600,G,eps+20d,ORCL,2017-06-22,2017-06-23,43.6496,40.2405,,19,2017-07-24,44.2412,time exit,11.24,0.172,14.1,-0.0,day-1 return +8.6%; timing amc; size limited by risk
+G-eps+20d-0602,G,eps+20d,AYI,2017-06-29,2017-06-30,194.0335,185.2601,,6,2017-07-31,196.5238,time exit,14.94,0.346,5.91,7.94,day-1 return +10.5%; timing bmo; size limited by max position
+G-eps+20d-0604,G,eps+20d,MCO,2017-07-21,2017-07-24,122.5705,119.7729,,10,2017-08-02,119.737,stop,-28.34,-1.272,12.69,2.62,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-0607,G,eps+20d,VNO,2017-08-01,2017-08-02,54.8962,54.4498,,24,2017-08-03,54.4334,stop,-11.11,-0.667,29.79,0.57,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-0603,G,eps+20d,PLD,2017-07-18,2017-07-19,46.453,45.1958,,28,2017-08-16,48.0539,time exit,44.83,1.304,13.64,0.02,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0610,G,eps+20d,A,2017-08-16,2017-08-17,57.8321,56.6584,,23,2017-08-18,56.6414,stop,-27.38,-0.925,13.46,4.66,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0605,G,eps+20d,FITB,2017-07-21,2017-07-24,18.7644,18.2438,,71,2017-08-21,18.7388,time exit,-1.81,-0.053,7.14,0.47,day-1 return +2.7%; timing bmo; size limited by max position
+G-eps+20d-0608,G,eps+20d,ALL,2017-08-02,2017-08-03,76.4227,75.2932,,17,2017-08-21,75.2706,stop,-19.58,-0.874,53.33,2.35,day-1 return +3.5%; timing amc; size limited by max position
+G-eps+20d-0606,G,eps+20d,NEM,2017-07-25,2017-07-26,28.2127,27.0817,,46,2017-08-23,29.0197,time exit,37.12,0.591,76.92,2.01,day-1 return +6.9%; timing bmo; size limited by max position
+G-eps+20d-0614,G,eps+20d,ADSK,2017-08-25,2017-08-28,115.0945,113.54,,11,2017-08-28,113.5059,stop,-17.47,-1.111,31.25,3.97,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0609,G,eps+20d,CF,2017-08-03,2017-08-04,24.4265,21.9741,,28,2017-09-01,23.9493,time exit,-13.36,-0.205,120.0,-1.15,day-1 return +6.9%; timing amc; size limited by risk
+G-eps+20d-0615,G,eps+20d,ADI,2017-08-30,2017-08-31,71.3305,68.688,,18,2017-09-08,68.6674,stop,-47.93,-1.27,9.57,3.24,day-1 return +5.2%; timing bmo; size limited by max position
+G-eps+20d-0611,G,eps+20d,EL,2017-08-18,2017-08-21,93.8528,90.8067,,14,2017-09-19,98.527,time exit,65.44,1.339,18.6,4.57,day-1 return +7.7%; timing bmo; size limited by max position
+G-eps+20d-0612,G,eps+20d,DLTR,2017-08-24,2017-08-25,79.904,77.57,,16,2017-09-25,84.9645,time exit,80.97,5.441,13.79,10.62,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0613,G,eps+20d,SIG,2017-08-24,2017-08-25,51.4327,49.6923,,26,2017-09-25,54.4611,time exit,78.74,5.89,8.26,20.04,day-1 return +16.7%; timing bmo; size limited by max position
+G-eps+20d-0617,G,eps+20d,CTAS,2017-09-27,2017-09-28,32.6456,32.3383,,41,2017-09-28,32.3286,stop,-13.0,-0.846,16.13,5.37,day-1 return +5.8%; timing amc; size limited by max position
+G-eps+20d-0619,G,eps+20d,CAG,2017-09-28,2017-09-29,23.3913,22.9739,,58,2017-10-02,22.967,stop,-24.61,-1.723,15.0,1.2,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-0620,G,eps+20d,MKC,2017-09-28,2017-09-29,42.3899,41.0552,,32,2017-10-03,41.0429,stop,-43.1,-1.26,7.69,2.73,day-1 return +5.4%; timing bmo; size limited by max position
+G-eps+20d-0622,G,eps+20d,STZ,2017-10-05,2017-10-06,178.5785,176.5799,,7,2017-10-10,175.1454,stop,-24.03,-1.789,13.82,5.25,day-1 return +4.0%; timing bmo; size limited by max position
+G-eps+20d-0616,G,eps+20d,FDX,2017-09-20,2017-09-21,152.4728,149.3578,,8,2017-10-19,155.1312,time exit,21.27,0.778,7.44,0.17,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0618,G,eps+20d,MU,2017-09-27,2017-09-28,36.2315,35.0214,,37,2017-10-26,39.5725,time exit,123.62,2.929,9.78,6.09,day-1 return +8.5%; timing amc; size limited by max position
+G-eps+20d-0621,G,eps+20d,LEN,2017-10-03,2017-10-04,46.9243,45.5897,,28,2017-11-01,48.5492,time exit,45.5,1.036,5.05,3.94,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0623,G,eps+20d,MS,2017-10-17,2017-10-18,37.8489,37.493,,35,2017-11-08,37.4817,stop,-12.85,-3.197,14.81,1.53,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0628,G,eps+20d,DXC,2017-11-08,2017-11-09,79.4977,78.6018,,17,2017-11-09,78.5782,stop,-15.63,-0.924,26.14,4.83,day-1 return +4.6%; timing amc; size limited by max position
+G-eps+20d-0629,G,eps+20d,COTY,2017-11-09,2017-11-10,14.7704,14.7479,,89,2017-11-10,14.7434,stop,-2.4,-0.063,42.86,14.23,day-1 return +13.8%; timing bmo; size limited by max position
+G-eps+20d-0624,G,eps+20d,GWW,2017-10-17,2017-10-18,184.6681,164.5896,,4,2017-11-15,173.828,time exit,-43.36,-0.647,13.28,3.23,day-1 return +12.6%; timing bmo; size limited by risk
+G-eps+20d-0625,G,eps+20d,TRV,2017-10-19,2017-10-20,110.8347,106.0387,,12,2017-11-17,107.3956,time exit,-41.27,-0.844,85.71,-0.18,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0626,G,eps+20d,COP,2017-10-26,2017-10-27,38.6349,37.589,,34,2017-11-20,37.5778,stop,-35.94,-0.838,77.78,0.86,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0632,G,eps+20d,ROST,2017-11-17,2017-11-20,66.336,65.0611,,20,2017-11-28,65.0415,stop,-25.89,-1.149,9.09,9.8,day-1 return +10.0%; timing amc; size limited by max position
+G-eps+20d-0627,G,eps+20d,EL,2017-11-01,2017-11-02,108.6994,104.621,,12,2017-12-01,111.7409,time exit,36.5,0.684,24.74,7.46,day-1 return +9.2%; timing bmo; size limited by max position
+G-eps+20d-0634,G,eps+20d,SNPS,2017-11-30,2017-12-01,90.4471,90.36,,15,2017-12-01,90.3329,stop,-1.71,-5.713,21.05,9.14,day-1 return +4.2%; timing amc; size limited by max position
+G-eps+20d-0630,G,eps+20d,TSN,2017-11-13,2017-11-14,59.1449,57.1967,,22,2017-12-13,64.8552,time exit,125.63,3.032,5.93,0.57,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0631,G,eps+20d,HP,2017-11-16,2017-11-17,36.5297,35.0095,,37,2017-12-18,38.3739,time exit,68.23,1.882,26.32,-0.2,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0635,G,eps+20d,ADBE,2017-12-15,2017-12-18,178.4735,174.3,,7,2017-12-19,174.2477,stop,-29.58,-1.316,8.62,2.49,day-1 return +1.4%; timing amc; size limited by max position
+G-eps+20d-0636,G,eps+20d,CCL,2017-12-19,2017-12-20,61.758,60.4596,,22,2017-12-21,60.4415,stop,-28.96,-1.391,23.53,1.13,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0637,G,eps+20d,MU,2017-12-20,2017-12-21,44.4238,43.7378,,30,2017-12-21,43.7247,stop,-20.97,-0.806,10.86,6.07,day-1 return +4.0%; timing amc; size limited by max position
+G-eps+20d-0633,G,eps+20d,DE,2017-11-22,2017-11-24,128.2342,124.8883,,10,2017-12-22,138.1551,time exit,99.21,3.913,9.03,4.52,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0639,G,eps+20d,ACN,2017-12-21,2017-12-22,134.5977,132.9421,,10,2017-12-22,132.9022,stop,-16.96,-6.769,7.19,3.0,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0638,G,eps+20d,FDX,2017-12-20,2017-12-21,176.2943,171.2147,,7,2018-01-23,188.8072,time exit,87.59,4.032,10.42,4.15,day-1 return +3.5%; timing amc; size limited by max position
+G-eps+20d-0640,G,eps+20d,DAL,2018-01-11,2018-01-12,53.6834,51.0797,,25,2018-01-24,51.0644,stop,-65.48,-1.276,9.09,2.22,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0642,G,eps+20d,SCHW,2018-01-17,2018-01-18,49.5735,48.4391,,27,2018-01-25,48.4246,stop,-31.02,-0.824,7.32,0.14,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0643,G,eps+20d,SLB,2018-01-19,2018-01-22,60.267,58.067,,22,2018-01-30,58.0496,stop,-48.78,-1.307,9.09,-1.79,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0644,G,eps+20d,PLD,2018-01-23,2018-01-24,50.856,49.4085,,27,2018-01-30,49.3937,stop,-39.48,-1.015,48.65,0.44,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-0647,G,eps+20d,HCA,2018-01-30,2018-01-31,94.3389,93.386,,14,2018-01-31,93.358,stop,-13.73,-2.358,13.3,4.03,day-1 return +3.9%; timing bmo; size limited by max position
+G-eps+20d-0646,G,eps+20d,HP,2018-01-25,2018-01-26,49.1631,47.0103,,28,2018-02-02,46.9962,stop,-60.67,-1.226,84.62,1.75,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0648,G,eps+20d,ARE,2018-01-30,2018-01-31,90.1194,88.2815,,15,2018-02-02,88.255,stop,-27.97,-1.081,12.5,0.75,day-1 return +1.0%; timing amc; size limited by max position
+G-eps+20d-0649,G,eps+20d,AMD,2018-01-31,2018-02-01,13.6241,13.15,,98,2018-02-02,13.0461,stop,-56.64,-0.98,60.0,2.87,day-1 return +6.8%; timing amc; size limited by max position
+G-eps+20d-0645,G,eps+20d,GWW,2018-01-24,2018-01-25,244.3744,228.5592,,5,2018-02-05,228.4906,stop,-79.42,-1.217,34.25,12.61,day-1 return +18.5%; timing bmo; size limited by risk
+G-eps+20d-0650,G,eps+20d,CHTR,2018-02-02,2018-02-05,391.7175,375.5,,3,2018-02-05,375.3874,stop,-48.99,-1.361,4114.63,2.38,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0652,G,eps+20d,AMZN,2018-02-02,2018-02-05,70.152,70.7,,18,2018-02-05,70.11,stop,-0.76,-0.053,22.22,6.29,day-1 return +2.9%; timing amc; size limited by max position
+G-eps+20d-0641,G,eps+20d,PNC,2018-01-12,2018-01-16,112.7232,110.0708,,12,2018-02-06,108.387,stop,-52.03,-3.211,13.28,0.55,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0651,G,eps+20d,EMN,2018-02-02,2018-02-05,72.7723,70.841,,18,2018-02-06,70.0342,stop,-49.29,-1.327,37.29,3.91,day-1 return +0.9%; timing amc; size limited by max position
+G-eps+20d-0657,G,eps+20d,GM,2018-02-06,2018-02-07,36.5027,34.9204,,35,2018-02-28,34.5782,stop,-67.36,-1.185,14.58,1.32,day-1 return +5.9%; timing bmo; size limited by max position
+G-eps+20d-0653,G,eps+20d,EG,2018-02-06,2018-02-07,202.0314,188.3594,,4,2018-03-08,215.5108,time exit,53.92,0.99,154.82,0.24,day-1 return +7.5%; timing amc; size limited by risk
+G-eps+20d-0654,G,eps+20d,TPR,2018-02-06,2018-02-07,38.9894,37.0101,,32,2018-03-08,41.6567,time exit,85.36,1.308,21.59,4.29,day-1 return +9.0%; timing bmo; size limited by risk
+G-eps+20d-0655,G,eps+20d,ADM,2018-02-06,2018-02-07,32.7319,31.0902,,40,2018-03-08,33.7315,time exit,39.99,0.718,15.49,-0.96,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0656,G,eps+20d,SPGI,2018-02-06,2018-02-07,157.5233,145.345,,5,2018-03-08,169.008,time exit,57.42,0.935,14.91,-0.25,day-1 return +8.2%; timing bmo; size limited by risk
+G-eps+20d-0659,G,eps+20d,COO,2018-03-09,2018-03-12,62.9561,61.7334,,21,2018-03-12,61.7149,stop,-26.07,-1.169,11.11,1.19,day-1 return +1.1%; timing amc; size limited by max position
+G-eps+20d-0661,G,eps+20d,ADBE,2018-03-16,2018-03-19,224.5473,224.0,,5,2018-03-19,223.9328,stop,-3.07,-0.396,7.64,3.8,day-1 return +3.1%; timing amc; size limited by max position
+G-eps+20d-0660,G,eps+20d,DG,2018-03-15,2018-03-16,82.9663,81.7893,,16,2018-03-22,81.7648,stop,-19.22,-1.179,78.91,7.87,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0664,G,eps+20d,MKC,2018-03-27,2018-03-28,45.8802,44.4434,,29,2018-03-28,44.4301,stop,-42.05,-2.987,11.11,2.87,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0658,G,eps+20d,RRC,2018-02-28,2018-03-01,12.5571,12.375,,105,2018-03-29,13.666,time exit,116.43,10.736,29.41,6.84,day-1 return +1.0%; timing amc; size limited by max position
+G-eps+20d-0665,G,eps+20d,WBA,2018-03-28,2018-03-29,49.0147,47.66,,27,2018-03-29,47.6457,stop,-36.96,-1.07,11.61,2.32,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0663,G,eps+20d,NKE,2018-03-23,2018-03-26,57.4181,56.854,,23,2018-04-02,56.837,stop,-13.37,-3.876,28.3,3.54,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-0667,G,eps+20d,PVH,2018-03-29,2018-04-02,149.7442,148.0901,,8,2018-04-02,148.0456,stop,-13.59,-1.203,7.48,5.51,day-1 return +5.1%; timing amc; size limited by max position
+G-eps+20d-0666,G,eps+20d,STZ,2018-03-29,2018-04-02,196.7656,192.0177,,6,2018-04-04,191.9516,stop,-28.88,-1.436,9.2,4.27,day-1 return +3.4%; timing bmo; size limited by max position
+G-eps+20d-0668,G,eps+20d,LEN,2018-04-04,2018-04-05,55.073,50.3282,,15,2018-04-12,50.3131,stop,-71.4,-1.141,35.37,2.52,day-1 return +10.0%; timing bmo; size limited by risk
+G-eps+20d-0672,G,eps+20d,OMC,2018-04-17,2018-04-18,55.0596,54.5578,,23,2018-04-20,54.5415,stop,-11.92,-1.021,7.55,1.63,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0662,G,eps+20d,CAG,2018-03-22,2018-03-23,24.6542,24.5015,,54,2018-04-23,25.2552,time exit,32.46,17.368,7.02,3.59,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0674,G,eps+20d,ALK,2018-04-23,2018-04-24,65.582,64.1056,,19,2018-04-24,64.0863,stop,-28.42,-0.703,16.67,2.98,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-0675,G,eps+20d,ZION,2018-04-24,2018-04-25,41.8507,41.5716,,31,2018-04-25,41.5592,stop,-9.04,-0.781,32.93,4.96,day-1 return +1.5%; timing amc; size limited by max position
+G-eps+20d-0676,G,eps+20d,HES,2018-04-25,2018-04-26,53.0459,50.87,,24,2018-04-27,50.8547,stop,-52.59,-0.97,44.9,1.55,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-0677,G,eps+20d,AMZN,2018-04-27,2018-04-30,79.1487,78.3695,,16,2018-04-30,78.346,stop,-12.84,-3.07,166.67,7.65,day-1 return +3.6%; timing amc; size limited by max position
+G-eps+20d-0671,G,eps+20d,NTRS,2018-04-17,2018-04-18,84.6867,82.2789,,15,2018-05-01,82.2543,stop,-36.49,-2.126,12.86,2.49,day-1 return +1.5%; timing bmo; size limited by max position
+G-eps+20d-0678,G,eps+20d,MCD,2018-04-30,2018-05-01,136.1547,133.9623,,9,2018-05-01,133.9221,stop,-20.09,-0.74,7.19,4.04,day-1 return +5.8%; timing bmo; size limited by max position
+G-eps+20d-0669,G,eps+20d,BAC,2018-04-16,2018-04-17,24.7057,24.1252,,53,2018-05-03,24.118,stop,-31.15,-1.561,5.08,0.94,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0670,G,eps+20d,PLD,2018-04-17,2018-04-18,51.7648,49.9591,,25,2018-05-16,49.9441,stop,-45.52,-1.184,78.95,1.33,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0673,G,eps+20d,BKR,2018-04-20,2018-04-23,26.9056,26.2176,,48,2018-05-21,28.8284,time exit,92.29,2.93,50.0,0.03,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0679,G,eps+20d,HCA,2018-05-01,2018-05-02,88.6233,86.3143,,14,2018-05-31,95.986,time exit,103.08,2.503,12.56,0.93,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0680,G,eps+20d,IPGP,2018-05-01,2018-05-02,233.1999,213.01,,3,2018-05-31,241.1976,time exit,23.99,0.394,6.04,-0.01,day-1 return +9.5%; timing bmo; size limited by risk
+G-eps+20d-0681,G,eps+20d,VMC,2018-05-03,2018-05-04,112.5217,107.473,,11,2018-06-04,120.2787,time exit,85.33,1.337,91.3,5.48,day-1 return +7.5%; timing bmo; size limited by risk
+G-eps+20d-0682,G,eps+20d,M,2018-05-16,2018-05-17,23.3722,22.0655,,53,2018-06-15,27.144,time exit,199.91,3.051,37.14,6.78,day-1 return +10.8%; timing bmo; size limited by risk
+G-eps+20d-0683,G,eps+20d,TJX,2018-05-22,2018-05-23,38.8968,38.3079,,33,2018-06-21,43.069,time exit,137.68,5.096,9.8,2.36,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0685,G,eps+20d,KMX,2018-06-22,2018-06-25,79.5038,76.2,,16,2018-06-25,76.1771,stop,-53.23,-0.834,7.26,9.43,day-1 return +12.9%; timing bmo; size limited by max position
+G-eps+20d-0686,G,eps+20d,LEN,2018-06-26,2018-06-27,45.3344,44.3224,,30,2018-06-27,44.3091,stop,-30.76,-2.109,23.44,7.38,day-1 return +4.9%; timing bmo; size limited by max position
+G-eps+20d-0688,G,eps+20d,NKE,2018-06-29,2018-07-02,69.5224,69.3069,,19,2018-07-02,69.2861,stop,-4.49,-0.202,7.81,9.85,day-1 return +11.1%; timing amc; size limited by max position
+G-eps+20d-0684,G,eps+20d,KR,2018-06-21,2018-06-22,24.1546,23.2428,,56,2018-07-11,23.2358,stop,-51.45,-1.119,15.87,8.06,day-1 return +9.7%; timing bmo; size limited by max position
+G-eps+20d-0687,G,eps+20d,MKC,2018-06-28,2018-06-29,48.4219,45.5094,,24,2018-07-30,49.2783,time exit,20.56,0.307,10.87,3.13,day-1 return +8.4%; timing bmo; size limited by risk
+G-eps+20d-0689,G,eps+20d,FAST,2018-07-11,2018-07-12,11.0041,10.2355,,90,2018-08-09,11.66,time exit,59.03,0.882,11.76,5.67,day-1 return +10.1%; timing bmo; size limited by risk
+G-eps+20d-0690,G,eps+20d,PNC,2018-07-13,2018-07-16,103.0537,100.2328,,13,2018-08-13,105.864,time exit,36.53,1.235,5.43,0.71,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0691,G,eps+20d,BAC,2018-07-16,2018-07-17,24.5764,23.6155,,55,2018-08-14,25.3012,time exit,39.87,0.84,8.62,0.81,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0692,G,eps+20d,CMA,2018-07-17,2018-07-18,65.6297,63.23,,20,2018-08-15,68.1795,time exit,51.0,1.614,13.1,0.33,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0696,G,eps+20d,TPR,2018-08-14,2018-08-15,42.3718,40.8807,,31,2018-08-27,40.8684,stop,-46.61,-0.727,5.26,7.14,day-1 return +12.0%; timing bmo; size limited by max position
+G-eps+20d-0693,G,eps+20d,SPG,2018-07-30,2018-07-31,111.3991,107.4463,,12,2018-08-28,118.7206,time exit,87.86,2.317,7.93,0.01,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0694,G,eps+20d,NCLH,2018-08-09,2018-08-10,51.3754,49.87,,26,2018-09-10,53.404,time exit,52.74,1.878,17.48,5.17,day-1 return +4.1%; timing bmo; size limited by max position
+G-eps+20d-0695,G,eps+20d,AAP,2018-08-14,2018-08-15,136.9588,132.0123,,10,2018-09-13,144.4577,time exit,74.99,2.271,5.91,5.87,day-1 return +7.8%; timing bmo; size limited by max position
+G-eps+20d-0697,G,eps+20d,JWN,2018-08-17,2018-08-20,48.1344,44.78,,21,2018-09-18,52.1943,time exit,85.26,1.281,13.1,6.44,day-1 return +13.2%; timing amc; size limited by risk
+G-eps+20d-0702,G,eps+20d,JBHT,2018-10-16,2018-10-17,105.6387,103.8629,,13,2018-10-17,103.8318,stop,-23.49,-1.009,5.76,1.32,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0703,G,eps+20d,NFLX,2018-10-17,2018-10-18,36.0778,35.65,,38,2018-10-18,35.6393,stop,-16.66,-0.535,28.57,9.22,day-1 return +5.3%; timing amc; size limited by max position
+G-eps+20d-0698,G,eps+20d,STZ,2018-10-04,2018-10-05,193.5249,186.5885,,7,2018-10-23,186.5325,stop,-48.95,-1.373,9.96,6.43,day-1 return +5.4%; timing bmo; size limited by max position
+G-eps+20d-0701,G,eps+20d,GS,2018-10-16,2018-10-17,183.9698,180.3869,,7,2018-10-23,180.3328,stop,-25.46,-0.808,16.73,1.92,day-1 return +3.0%; timing bmo; size limited by max position
+G-eps+20d-0700,G,eps+20d,PGR,2018-10-16,2018-10-17,55.4122,53.5209,,25,2018-10-24,53.5049,stop,-47.68,-1.044,20.91,2.81,day-1 return +6.1%; timing bmo; size limited by max position
+G-eps+20d-0706,G,eps+20d,BIIB,2018-10-23,2018-10-24,316.0348,311.0,,4,2018-10-24,310.9067,stop,-20.51,-0.996,9.47,-0.17,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0708,G,eps+20d,DTE,2018-10-24,2018-10-25,76.0103,73.092,,17,2018-10-31,73.07,stop,-49.98,-0.802,21.71,0.29,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-0709,G,eps+20d,HES,2018-10-31,2018-11-01,52.2757,51.58,,26,2018-11-01,51.5645,stop,-18.49,-3.233,1800.0,5.38,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0699,G,eps+20d,PLD,2018-10-16,2018-10-17,50.8631,49.5436,,27,2018-11-14,54.0401,time exit,85.78,2.047,93.55,-0.43,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0704,G,eps+20d,PM,2018-10-18,2018-10-19,58.9796,57.173,,23,2018-11-14,57.1558,stop,-41.95,-1.461,11.63,1.71,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0705,G,eps+20d,CDNS,2018-10-23,2018-10-24,46.4839,43.0,,17,2018-11-19,42.9871,stop,-59.45,-0.908,19.51,8.1,day-1 return +15.4%; timing amc; size limited by risk
+G-eps+20d-0707,G,eps+20d,JNPR,2018-10-24,2018-10-25,23.8271,22.73,,58,2018-11-20,22.6732,stop,-66.93,-1.311,22.73,0.18,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0711,G,eps+20d,HP,2018-11-16,2018-11-19,43.647,41.7614,,31,2018-11-20,41.7489,stop,-58.84,-1.278,5.56,1.13,day-1 return +4.2%; timing amc; size limited by max position
+G-eps+20d-0712,G,eps+20d,CPB,2018-11-20,2018-11-21,30.0302,29.2193,,44,2018-11-21,29.2105,stop,-36.07,-0.92,11.27,3.49,day-1 return +5.5%; timing bmo; size limited by max position
+G-eps+20d-0716,G,eps+20d,KEYS,2018-11-21,2018-11-23,56.587,56.85,,23,2018-11-23,56.553,stop,-0.78,-0.071,12.22,5.83,day-1 return +5.5%; timing amc; size limited by max position
+G-eps+20d-0715,G,eps+20d,MDT,2018-11-20,2018-11-21,74.1173,72.9608,,18,2018-11-26,72.364,stop,-31.56,-2.677,6.09,4.98,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0710,G,eps+20d,NI,2018-11-01,2018-11-02,19.6922,19.3307,,69,2018-12-03,20.8162,time exit,77.56,4.04,66.67,-0.67,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0718,G,eps+20d,AZO,2018-12-04,2018-12-06,865.7296,854.5,,1,2018-12-06,854.2437,stop,-11.49,-0.449,10.23,5.17,day-1 return +6.7%; timing bmo; size limited by max position
+G-eps+20d-0714,G,eps+20d,BBY,2018-11-20,2018-11-21,47.0595,43.8686,,26,2018-12-10,43.8555,stop,-83.31,-1.268,9.41,-1.93,day-1 return +2.1%; timing bmo; size limited by risk
+G-eps+20d-0717,G,eps+20d,CRM,2018-11-28,2018-11-29,137.2714,129.4979,,7,2018-12-17,129.459,stop,-54.69,-0.918,22.0,8.58,day-1 return +10.3%; timing amc; size limited by risk
+G-eps+20d-0720,G,eps+20d,HRB,2018-12-06,2018-12-07,20.386,19.547,,66,2018-12-17,19.5411,stop,-55.76,-0.971,10.75,-0.65,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0713,G,eps+20d,A,2018-11-20,2018-11-21,63.8113,61.2182,,21,2018-12-20,61.1999,stop,-54.84,-1.069,9.46,5.81,day-1 return +7.8%; timing amc; size limited by max position
+G-eps+20d-0719,G,eps+20d,KR,2018-12-06,2018-12-07,24.9605,23.4737,,44,2018-12-20,23.4667,stop,-65.73,-0.987,11.63,-0.14,day-1 return +3.2%; timing bmo; size limited by risk
+G-eps+20d-0721,G,eps+20d,CTAS,2018-12-21,2018-12-24,37.2069,36.9193,,35,2018-12-24,36.9082,stop,-10.45,-1.261,30.95,1.24,day-1 return +0.6%; timing amc; size limited by max position
+G-eps+20d-0722,G,eps+20d,NKE,2018-12-21,2018-12-24,63.5135,63.3611,,20,2018-12-24,63.3421,stop,-3.43,-0.172,13.04,8.53,day-1 return +7.2%; timing amc; size limited by max position
+G-eps+20d-0724,G,eps+20d,LW,2019-01-04,2019-01-07,65.8286,64.9992,,20,2019-01-07,64.9797,stop,-16.98,-1.06,11.11,2.9,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0726,G,eps+20d,UAL,2019-01-16,2019-01-17,86.676,85.56,,15,2019-01-17,85.5343,stop,-17.13,-1.427,16.99,6.96,day-1 return +6.4%; timing amc; size limited by max position
+G-eps+20d-0728,G,eps+20d,JBHT,2019-01-18,2019-01-22,98.1673,97.6173,,13,2019-01-22,97.588,stop,-7.53,-0.561,20.27,8.89,day-1 return +6.2%; timing amc; size limited by max position
+G-eps+20d-0723,G,eps+20d,KMX,2018-12-21,2018-12-24,59.3178,55.58,,19,2019-01-24,59.4222,time exit,1.98,0.031,9.0,2.84,day-1 return +3.9%; timing bmo; size limited by risk
+G-eps+20d-0731,G,eps+20d,TXT,2019-01-24,2019-01-25,52.1865,51.3391,,25,2019-01-25,51.3237,stop,-21.57,-12.448,17.35,7.44,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0732,G,eps+20d,SBUX,2019-01-25,2019-01-28,55.8803,55.7876,,23,2019-01-28,55.7708,stop,-2.52,-0.131,15.38,3.54,day-1 return +3.6%; timing amc; size limited by max position
+G-eps+20d-0725,G,eps+20d,GS,2019-01-16,2019-01-17,164.1267,155.411,,6,2019-02-15,166.1629,time exit,12.22,0.212,28.24,3.94,day-1 return +9.5%; timing bmo; size limited by risk
+G-eps+20d-0727,G,eps+20d,BAC,2019-01-16,2019-01-17,23.5454,23.1397,,55,2019-02-15,24.1707,time exit,34.39,1.276,11.11,5.95,day-1 return +7.2%; timing bmo; size limited by max position
+G-eps+20d-0729,G,eps+20d,VFC,2019-01-18,2019-01-22,61.2557,59.5984,,21,2019-02-20,64.3246,time exit,64.45,1.76,19.09,12.23,day-1 return +12.4%; timing bmo; size limited by max position
+G-eps+20d-0730,G,eps+20d,PLD,2019-01-22,2019-01-23,52.315,51.0096,,25,2019-02-21,57.2396,time exit,123.12,4.073,184.85,0.46,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0737,G,eps+20d,NEM,2019-02-21,2019-02-22,28.9964,27.618,,47,2019-02-27,27.6097,stop,-65.17,-1.861,53.85,0.88,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0733,G,eps+20d,HCA,2019-01-29,2019-01-30,129.3754,123.5167,,10,2019-02-28,130.4313,time exit,10.56,0.187,15.89,2.48,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0739,G,eps+20d,ANSS,2019-02-28,2019-03-01,179.7039,176.92,,7,2019-03-08,176.8669,stop,-19.86,-8.344,46.9,5.19,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-0734,G,eps+20d,ANET,2019-02-15,2019-02-19,16.5418,15.925,,81,2019-03-19,18.4432,time exit,154.01,3.325,7.69,7.88,day-1 return +9.6%; timing amc; size limited by max position
+G-eps+20d-0735,G,eps+20d,EXPD,2019-02-19,2019-02-20,68.6153,66.719,,19,2019-03-20,68.4369,time exit,-3.39,-0.093,20.0,1.32,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0736,G,eps+20d,HST,2019-02-20,2019-02-21,14.4076,13.5402,,78,2019-03-21,14.0041,time exit,-31.48,-0.471,127.78,2.0,day-1 return +6.3%; timing amc; size limited by risk
+G-eps+20d-0738,G,eps+20d,CPB,2019-02-27,2019-02-28,27.1781,24.8814,,29,2019-03-28,28.7295,time exit,44.99,0.678,10.0,3.46,day-1 return +10.0%; timing bmo; size limited by risk
+G-eps+20d-0744,G,eps+20d,LW,2019-04-02,2019-04-03,65.0936,63.8344,,20,2019-04-03,63.8153,stop,-25.57,-1.181,14.46,6.8,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0740,G,eps+20d,COST,2019-03-08,2019-03-11,205.405,201.9501,,6,2019-04-08,222.4149,time exit,102.06,4.654,18.93,4.01,day-1 return +5.1%; timing amc; size limited by max position
+G-eps+20d-0741,G,eps+20d,GIS,2019-03-20,2019-03-21,35.6892,35.6341,,37,2019-04-18,38.6175,time exit,108.35,32.987,20.29,2.33,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-0747,G,eps+20d,PPG,2019-04-18,2019-04-22,101.7453,102.2034,,13,2019-04-22,101.6843,stop,-0.79,-0.111,14.05,2.04,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0748,G,eps+20d,KMB,2019-04-22,2019-04-23,98.9934,97.388,,13,2019-04-23,97.3587,stop,-21.25,-0.926,7.1,3.55,day-1 return +5.4%; timing bmo; size limited by max position
+G-eps+20d-0745,G,eps+20d,DAL,2019-04-10,2019-04-11,54.3252,53.203,,25,2019-04-25,53.187,stop,-28.45,-1.114,5.49,3.55,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0749,G,eps+20d,HAS,2019-04-23,2019-04-24,76.755,75.2428,,18,2019-04-25,75.2203,stop,-27.63,-1.247,290.91,13.84,day-1 return +14.2%; timing bmo; size limited by max position
+G-eps+20d-0742,G,eps+20d,ACN,2019-03-28,2019-03-29,154.1966,149.9119,,8,2019-04-29,160.6189,time exit,51.38,1.574,10.19,2.67,day-1 return +5.2%; timing bmo; size limited by max position
+G-eps+20d-0743,G,eps+20d,KMX,2019-03-29,2019-04-01,71.0813,65.64,,16,2019-04-30,77.8366,time exit,108.09,1.624,9.71,4.73,day-1 return +9.6%; timing bmo; size limited by risk
+G-eps+20d-0752,G,eps+20d,MLM,2019-04-30,2019-05-01,212.2345,208.5444,,6,2019-05-01,208.4819,stop,-22.52,-1.781,61.9,5.64,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0750,G,eps+20d,VLO,2019-04-25,2019-04-26,67.5311,65.5441,,20,2019-05-02,65.5245,stop,-40.13,-0.844,47.83,0.02,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0755,G,eps+20d,VMC,2019-05-02,2019-05-03,121.5191,118.3456,,11,2019-05-06,118.1978,stop,-36.53,-1.258,24.32,3.83,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0754,G,eps+20d,RCL,2019-05-01,2019-05-02,121.0477,117.8457,,11,2019-05-09,117.8103,stop,-35.61,-0.963,18.02,5.23,day-1 return +6.7%; timing bmo; size limited by max position
+G-eps+20d-0756,G,eps+20d,OXY,2019-05-06,2019-05-07,49.8236,48.5551,,27,2019-05-09,48.4639,stop,-36.71,-0.871,18.31,-1.07,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0753,G,eps+20d,GE,2019-04-30,2019-05-01,48.8661,47.937,,28,2019-05-10,47.9226,stop,-26.42,-0.933,53.42,5.14,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0751,G,eps+20d,IP,2019-04-25,2019-04-26,30.8311,29.7911,,44,2019-05-13,29.7822,stop,-46.15,-1.189,19.35,2.17,day-1 return +2.8%; timing bmo; size limited by max position
+G-eps+20d-0758,G,eps+20d,NCLH,2019-05-09,2019-05-10,57.6473,55.77,,23,2019-05-13,55.7533,stop,-43.56,-1.041,16.9,1.15,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0746,G,eps+20d,JPM,2019-04-12,2019-04-15,90.8792,89.1811,,15,2019-05-14,90.3334,time exit,-8.19,-0.286,12.77,3.02,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0760,G,eps+20d,WMT,2019-05-16,2019-05-17,30.2354,30.4072,,44,2019-05-17,30.2172,stop,-0.8,-0.128,11.76,2.95,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0761,G,eps+20d,AMAT,2019-05-17,2019-05-20,38.8576,39.5615,,33,2019-05-20,38.8343,stop,-0.77,-0.193,6.06,4.06,day-1 return +2.5%; timing amc; size limited by max position
+G-eps+20d-0763,G,eps+20d,TJX,2019-05-21,2019-05-22,47.6148,46.6187,,27,2019-05-23,46.6047,stop,-27.27,-0.561,5.56,1.0,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0765,G,eps+20d,SNPS,2019-05-23,2019-05-24,117.3952,115.51,,11,2019-06-03,115.4753,stop,-21.12,-1.28,6.42,1.14,day-1 return +1.7%; timing amc; size limited by max position
+G-eps+20d-0757,G,eps+20d,AEE,2019-05-09,2019-05-10,57.9547,57.63,,23,2019-06-10,61.3888,time exit,78.99,6.532,18.18,0.04,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0766,G,eps+20d,CRM,2019-06-05,2019-06-06,155.5776,151.6549,,8,2019-06-10,150.5597,stop,-40.14,-1.315,52.46,4.2,day-1 return +5.1%; timing amc; size limited by max position
+G-eps+20d-0759,G,eps+20d,TTWO,2019-05-14,2019-05-15,102.9409,99.72,,12,2019-06-13,110.6868,time exit,92.95,2.022,5.41,1.04,day-1 return +3.5%; timing amc; size limited by max position
+G-eps+20d-0762,G,eps+20d,AZO,2019-05-21,2019-05-22,1021.7064,980.72,,1,2019-06-20,1127.8615,time exit,106.16,2.06,5.96,2.98,day-1 return +5.6%; timing bmo; size limited by max position
+G-eps+20d-0764,G,eps+20d,TGT,2019-05-22,2019-05-23,63.3059,62.4654,,21,2019-06-21,71.2283,time exit,166.37,12.816,6.99,7.02,day-1 return +7.8%; timing bmo; size limited by max position
+G-eps+20d-0768,G,eps+20d,KMX,2019-06-21,2019-06-24,84.8354,83.26,,16,2019-06-24,83.235,stop,-25.61,-0.672,6.71,5.73,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0772,G,eps+20d,GS,2019-07-16,2019-07-17,180.6367,179.5015,,7,2019-07-18,179.4476,stop,-8.32,-0.474,14.15,1.52,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0767,G,eps+20d,ORCL,2019-06-20,2019-06-21,51.2625,49.8032,,26,2019-07-22,51.8533,time exit,15.36,0.451,8.41,6.26,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-0769,G,eps+20d,MU,2019-06-26,2019-06-27,35.9389,34.8069,,37,2019-07-26,46.2881,time exit,382.92,7.921,32.91,9.76,day-1 return +13.3%; timing amc; size limited by max position
+G-eps+20d-0770,G,eps+20d,MKC,2019-06-27,2019-06-28,66.0527,62.4041,,16,2019-07-29,69.6718,time exit,57.9,0.858,7.41,-3.07,day-1 return +3.5%; timing bmo; size limited by risk
+G-eps+20d-0774,G,eps+20d,HAL,2019-07-22,2019-07-23,20.5476,19.474,,62,2019-07-29,19.4682,stop,-66.92,-0.957,16.67,5.06,day-1 return +9.1%; timing bmo; size limited by risk
+G-eps+20d-0775,G,eps+20d,EIX,2019-07-26,2019-07-29,50.5287,49.665,,27,2019-07-30,49.6501,stop,-23.72,-0.948,41.07,0.19,day-1 return +1.3%; timing amc; size limited by max position
+G-eps+20d-0773,G,eps+20d,PM,2019-07-18,2019-07-19,61.5827,58.8748,,23,2019-07-31,58.8571,stop,-62.69,-1.219,9.77,4.5,day-1 return +8.2%; timing bmo; size limited by max position
+G-eps+20d-0779,G,eps+20d,ALL,2019-07-31,2019-08-01,91.037,88.9815,,15,2019-08-01,88.9548,stop,-31.23,-1.168,40.65,3.4,day-1 return +5.5%; timing amc; size limited by max position
+G-eps+20d-0776,G,eps+20d,VTRS,2019-07-29,2019-07-30,16.5437,15.7322,,81,2019-08-02,15.7275,stop,-66.12,-0.946,8.42,13.49,day-1 return +12.6%; timing bmo; size limited by risk
+G-eps+20d-0780,G,eps+20d,CF,2019-08-01,2019-08-02,44.2419,43.1702,,31,2019-08-02,43.1572,stop,-33.63,-1.345,34.52,5.41,day-1 return +5.6%; timing amc; size limited by max position
+G-eps+20d-0771,G,eps+20d,PLD,2019-07-16,2019-07-17,66.8863,64.7243,,21,2019-08-05,64.7049,stop,-45.81,-1.165,81.82,0.39,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0778,G,eps+20d,INCY,2019-07-30,2019-07-31,85.5256,80.06,,13,2019-08-05,80.036,stop,-71.37,-1.022,50.0,3.13,day-1 return +6.4%; timing bmo; size limited by risk
+G-eps+20d-0782,G,eps+20d,FTNT,2019-08-02,2019-08-05,16.679,17.178,,80,2019-08-05,16.669,stop,-0.8,-0.313,20.0,11.36,day-1 return +8.9%; timing amc; size limited by max position
+G-eps+20d-0784,G,eps+20d,LIN,2019-08-05,2019-08-06,171.4407,170.4166,,7,2019-08-06,170.3655,stop,-7.53,-0.847,7.02,1.22,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0785,G,eps+20d,WEC,2019-08-05,2019-08-06,69.1164,68.0262,,19,2019-08-06,68.0058,stop,-21.1,-1.209,5.71,0.06,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0777,G,eps+20d,NOV,2019-07-30,2019-07-31,21.5008,17.6875,,23,2019-08-14,17.6822,stop,-87.83,-1.281,133.33,1.35,day-1 return +11.3%; timing amc; size limited by risk
+G-eps+20d-0788,G,eps+20d,NTAP,2019-08-15,2019-08-16,38.8595,37.6286,,35,2019-08-23,37.6173,stop,-43.47,-1.362,12.07,2.26,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0781,G,eps+20d,NWL,2019-08-02,2019-08-05,10.6267,9.8318,,68,2019-09-03,11.6686,time exit,70.85,1.031,25.0,5.96,day-1 return +14.2%; timing bmo; size limited by risk
+G-eps+20d-0783,G,eps+20d,J,2019-08-05,2019-08-06,64.0588,60.4835,,21,2019-09-04,70.8418,time exit,142.44,2.529,12.9,1.92,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0786,G,eps+20d,TTWO,2019-08-06,2019-08-07,123.0669,122.5,,11,2019-09-05,131.3106,time exit,90.68,4.002,575.0,8.24,day-1 return +8.0%; timing amc; size limited by max position
+G-eps+20d-0787,G,eps+20d,ANSS,2019-08-06,2019-08-07,195.9488,195.39,,6,2019-09-05,218.0246,time exit,132.45,7.483,25.78,10.44,day-1 return +4.3%; timing amc; size limited by max position
+G-eps+20d-0789,G,eps+20d,CRM,2019-08-23,2019-08-26,150.6795,147.8279,,9,2019-09-09,147.7836,stop,-26.06,-3.208,40.43,6.38,day-1 return +2.2%; timing amc; size limited by max position
+G-eps+20d-0794,G,eps+20d,CAG,2019-09-26,2019-09-27,22.4258,21.6398,,62,2019-09-27,21.6333,stop,-49.14,-1.087,13.16,3.91,day-1 return +3.7%; timing bmo; size limited by max position
+G-eps+20d-0793,G,eps+20d,CTAS,2019-09-25,2019-09-26,61.879,60.4297,,22,2019-10-02,60.4115,stop,-32.28,-0.98,7.41,3.91,day-1 return +5.7%; timing amc; size limited by max position
+G-eps+20d-0790,G,eps+20d,CPRT,2019-09-05,2019-09-06,20.1811,18.405,,40,2019-10-04,19.9915,time exit,-7.58,-0.108,7.14,1.11,day-1 return +6.5%; timing amc; size limited by risk
+G-eps+20d-0791,G,eps+20d,KR,2019-09-12,2019-09-13,21.9299,20.5042,,46,2019-10-10,20.4981,stop,-65.87,-0.951,7.32,0.7,day-1 return +0.1%; timing bmo; size limited by risk
+G-eps+20d-0792,G,eps+20d,NKE,2019-09-25,2019-09-26,82.1489,80.8066,,17,2019-10-24,81.9921,time exit,-2.67,-0.265,21.13,5.28,day-1 return +4.2%; timing amc; size limited by max position
+G-eps+20d-0798,G,eps+20d,PLD,2019-10-15,2019-10-16,73.3266,70.6557,,18,2019-10-28,70.6345,stop,-48.46,-1.016,42.0,-0.08,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0795,G,eps+20d,MKC,2019-10-01,2019-10-02,71.078,68.0499,,19,2019-10-30,70.1595,time exit,-17.45,-0.258,14.06,1.56,day-1 return +6.8%; timing bmo; size limited by max position
+G-eps+20d-0796,G,eps+20d,LEN,2019-10-02,2019-10-03,50.5572,47.909,,27,2019-10-31,51.9815,time exit,38.46,0.569,20.45,1.29,day-1 return +3.8%; timing bmo; size limited by max position
+G-eps+20d-0797,G,eps+20d,FAST,2019-10-11,2019-10-14,14.7517,14.2008,,72,2019-11-11,15.4503,time exit,50.3,0.728,5.56,9.93,day-1 return +17.2%; timing bmo; size limited by risk
+G-eps+20d-0799,G,eps+20d,DOW,2019-10-24,2019-10-25,34.0492,32.7124,,41,2019-11-22,37.0502,time exit,123.04,2.693,26.39,3.01,day-1 return +4.7%; timing bmo; size limited by max position
+G-eps+20d-0800,G,eps+20d,EG,2019-10-29,2019-10-30,221.46,212.015,,6,2019-11-27,235.2657,time exit,82.83,1.522,52.7,1.02,day-1 return +3.7%; timing amc; size limited by max position
+G-eps+20d-0803,G,eps+20d,LIN,2019-11-12,2019-11-13,187.5403,184.7514,,7,2019-11-27,184.497,stop,-21.3,-2.129,9.6,1.45,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0801,G,eps+20d,GE,2019-10-30,2019-10-31,48.4836,46.8293,,28,2019-11-29,54.3365,time exit,163.88,3.034,31.87,7.83,day-1 return +11.5%; timing bmo; size limited by max position
+G-eps+20d-0802,G,eps+20d,IT,2019-10-31,2019-11-01,153.7961,146.67,,8,2019-12-02,157.5727,time exit,30.21,0.51,62.79,1.64,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-0805,G,eps+20d,KEYS,2019-11-27,2019-11-29,106.772,104.31,,13,2019-12-02,104.2787,stop,-32.41,-0.668,12.71,1.64,day-1 return +2.2%; timing amc; size limited by max position
+G-eps+20d-0807,G,eps+20d,ULTA,2019-12-06,2019-12-09,260.4681,254.4,,5,2019-12-09,254.3237,stop,-30.72,-0.788,5.63,8.83,day-1 return +11.1%; timing amc; size limited by max position
+G-eps+20d-0804,G,eps+20d,JWN,2019-11-22,2019-11-25,32.6298,30.88,,44,2019-12-24,34.6096,time exit,87.11,1.511,26.56,7.94,day-1 return +10.6%; timing amc; size limited by max position
+G-eps+20d-0809,G,eps+20d,GIS,2019-12-18,2019-12-19,40.6893,39.4906,,35,2020-01-03,39.4788,stop,-42.37,-1.263,7.95,0.98,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0806,G,eps+20d,CPB,2019-12-04,2019-12-05,37.3282,36.5324,,38,2020-01-06,37.3058,time exit,-0.85,-0.03,21.13,-0.19,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0813,G,eps+20d,LEN,2020-01-08,2020-01-09,50.7211,50.2261,,28,2020-01-09,50.211,stop,-14.28,-29.237,12.11,2.7,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0808,G,eps+20d,CTAS,2019-12-18,2019-12-19,62.2246,61.683,,22,2020-01-21,66.1262,time exit,85.83,5.796,11.76,0.92,day-1 return +2.0%; timing amc; size limited by max position
+G-eps+20d-0814,G,eps+20d,DAL,2020-01-14,2020-01-15,58.8462,58.1785,,24,2020-01-21,58.161,stop,-16.44,-1.215,22.3,4.29,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0810,G,eps+20d,CAG,2019-12-19,2019-12-20,24.4901,22.5995,,38,2020-01-22,23.4723,time exit,-38.68,-0.543,10.53,7.26,day-1 return +15.9%; timing bmo; size limited by risk
+G-eps+20d-0815,G,eps+20d,COF,2020-01-22,2020-01-23,94.9155,93.2197,,14,2020-01-24,93.1917,stop,-24.13,-0.875,5.96,2.75,day-1 return +4.5%; timing amc; size limited by max position
+G-eps+20d-0816,G,eps+20d,TXN,2020-01-23,2020-01-24,111.215,106.934,,12,2020-01-27,106.0774,stop,-61.65,-1.354,12.5,-1.44,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0818,G,eps+20d,INTC,2020-01-24,2020-01-27,58.8708,58.6238,,23,2020-01-27,58.6062,stop,-6.09,-0.149,21.6,5.13,day-1 return +8.1%; timing amc; size limited by max position
+G-eps+20d-0820,G,eps+20d,NUE,2020-01-28,2020-01-29,43.5108,43.5772,,32,2020-01-29,43.4847,stop,-0.84,-0.296,67.74,7.12,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0819,G,eps+20d,DHI,2020-01-27,2020-01-28,56.1888,54.9978,,25,2020-01-31,54.9813,stop,-30.19,-1.994,17.58,1.09,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0821,G,eps+20d,MPC,2020-01-29,2020-01-30,43.2864,42.929,,32,2020-02-03,42.9162,stop,-11.85,-0.367,83.53,3.16,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0822,G,eps+20d,AMZN,2020-01-31,2020-02-03,100.5602,100.1135,,14,2020-02-03,100.0835,stop,-6.67,-1.478,60.0,9.66,day-1 return +7.4%; timing amc; size limited by max position
+G-eps+20d-0811,G,eps+20d,LW,2020-01-03,2020-01-06,81.4163,75.8806,,10,2020-02-04,81.4212,time exit,0.05,0.001,10.47,3.64,day-1 return +11.3%; timing bmo; size limited by risk
+G-eps+20d-0812,G,eps+20d,STZ,2020-01-08,2020-01-09,168.8949,160.2833,,8,2020-02-07,176.2174,time exit,58.58,1.025,16.3,2.8,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0825,G,eps+20d,RL,2020-02-04,2020-02-05,110.9042,106.5299,,12,2020-02-07,106.4979,stop,-52.88,-1.349,16.73,9.49,day-1 return +9.2%; timing bmo; size limited by max position
+G-eps+20d-0827,G,eps+20d,FTV,2020-02-07,2020-02-10,48.1707,47.2553,,29,2020-02-13,47.2411,stop,-26.96,-0.79,6.19,-0.86,day-1 return +1.5%; timing amc; size limited by max position
+G-eps+20d-0817,G,eps+20d,MTB,2020-01-23,2020-01-24,137.6297,127.5927,,7,2020-02-24,131.9428,time exit,-39.81,-0.59,5.2,1.61,day-1 return +5.3%; timing bmo; size limited by risk
+G-eps+20d-0823,G,eps+20d,HP,2020-02-04,2020-02-05,31.099,30.335,,46,2020-02-25,30.3259,stop,-35.56,-3.908,85.71,4.2,day-1 return +2.3%; timing amc; size limited by max position
+G-eps+20d-0828,G,eps+20d,WELL,2020-02-13,2020-02-14,72.6725,70.535,,19,2020-02-25,70.5139,stop,-41.01,-1.298,29.03,-0.1,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0829,G,eps+20d,AMT,2020-02-25,2020-02-26,202.4432,200.7545,,6,2020-02-26,200.6942,stop,-10.49,-1.074,23.53,1.15,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0824,G,eps+20d,SPG,2020-02-04,2020-02-05,95.0163,89.964,,14,2020-02-27,89.937,stop,-71.11,-1.008,28.39,-0.92,day-1 return +3.4%; timing bmo; size limited by risk
+G-eps+20d-0826,G,eps+20d,GEN,2020-02-07,2020-02-10,17.2841,16.4297,,82,2020-02-27,16.0884,stop,-98.05,-1.792,212.5,8.12,day-1 return +12.0%; timing amc; size limited by max position
+G-eps+20d-0830,G,eps+20d,HPQ,2020-02-25,2020-02-26,18.4115,17.7794,,76,2020-02-27,17.4295,stop,-74.63,-1.929,20.37,3.98,day-1 return +5.7%; timing amc; size limited by max position
+G-eps+20d-0831,G,eps+20d,AEE,2020-02-26,2020-02-27,70.2319,69.2956,,19,2020-02-27,69.2748,stop,-18.18,-0.992,22.58,1.4,day-1 return +2.0%; timing bmo; size limited by max position
+G-eps+20d-0832,G,eps+20d,SJM,2020-02-26,2020-02-27,87.6342,85.7351,,15,2020-02-27,85.7094,stop,-28.87,-0.954,5.38,0.23,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0834,G,eps+20d,CNP,2020-02-27,2020-02-28,20.0667,19.9424,,66,2020-02-28,19.9364,stop,-8.6,-0.275,21.62,0.12,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0835,G,eps+20d,PWR,2020-02-27,2020-02-28,38.0607,37.1225,,35,2020-02-28,37.1114,stop,-33.23,-0.544,12.05,3.37,day-1 return +6.3%; timing bmo; size limited by max position
+G-eps+20d-0833,G,eps+20d,APA,2020-02-27,2020-02-28,20.291,19.7609,,47,2020-03-06,19.755,stop,-25.19,-0.375,260.0,-2.54,day-1 return +2.6%; timing amc; size limited by risk
+G-eps+20d-0836,G,eps+20d,EOG,2020-02-28,2020-03-02,47.3139,41.7625,,13,2020-03-06,41.75,stop,-72.33,-1.085,13.45,-4.5,day-1 return +5.4%; timing amc; size limited by risk
+G-eps+20d-0837,G,eps+20d,CPB,2020-03-04,2020-03-05,40.8471,38.5723,,30,2020-03-09,38.491,stop,-70.68,-1.034,9.09,4.43,day-1 return +10.1%; timing bmo; size limited by risk
+G-eps+20d-0841,G,eps+20d,ACN,2020-03-19,2020-03-20,140.8563,135.2987,,9,2020-03-20,135.2581,stop,-50.38,-0.877,10.4,0.14,day-1 return +4.9%; timing bmo; size limited by max position
+G-eps+20d-0838,G,eps+20d,BAX,2020-03-17,2020-03-18,67.8053,64.8316,,9,2020-03-23,64.8121,stop,-26.94,-0.441,10.23,2.5,day-1 return +12.5%; timing bmo; size limited by risk
+G-eps+20d-0840,G,eps+20d,LEN,2020-03-19,2020-03-20,28.2068,25.2526,,28,2020-03-23,25.2451,stop,-82.93,-1.246,51.19,-3.01,day-1 return +2.2%; timing bmo; size limited by risk
+G-eps+20d-0843,G,eps+20d,MU,2020-03-26,2020-03-27,42.1807,42.246,,31,2020-03-27,42.1554,stop,-0.78,-0.018,21.62,5.65,day-1 return +5.4%; timing amc; size limited by max position
+G-eps+20d-0845,G,eps+20d,JNJ,2020-04-14,2020-04-15,121.7974,120.5061,,11,2020-04-15,120.4699,stop,-14.6,-0.801,15.0,4.04,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0839,G,eps+20d,FDX,2020-03-18,2020-03-19,70.8302,64.3262,,9,2020-04-17,89.4066,time exit,167.19,2.625,11.02,-4.81,day-1 return +5.0%; timing amc; size limited by risk
+G-eps+20d-0847,G,eps+20d,BNY,2020-04-16,2020-04-17,31.0722,29.4464,,46,2020-04-21,29.2801,stop,-82.44,-3.487,15.38,7.54,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0848,G,eps+20d,ISRG,2020-04-17,2020-04-20,174.5523,165.37,,6,2020-04-21,165.3204,stop,-55.39,-0.916,5.88,1.89,day-1 return +3.1%; timing amc; size limited by risk
+G-eps+20d-0842,G,eps+20d,NKE,2020-03-25,2020-03-26,72.2701,68.6707,,18,2020-04-24,79.6143,time exit,132.2,2.9,39.29,10.76,day-1 return +9.2%; timing amc; size limited by max position
+G-eps+20d-0851,G,eps+20d,EW,2020-04-24,2020-04-27,74.5224,73.4867,,18,2020-04-27,73.4646,stop,-19.04,-1.051,21.95,6.44,day-1 return +1.1%; timing amc; size limited by max position
+G-eps+20d-0852,G,eps+20d,TEL,2020-04-28,2020-04-29,68.5421,65.9623,,20,2020-05-01,64.4651,stop,-81.54,-10.054,30.3,6.9,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0853,G,eps+20d,RMD,2020-05-01,2020-05-04,150.2375,148.1145,,9,2020-05-04,148.0701,stop,-19.51,-1.02,19.44,1.08,day-1 return +2.4%; timing amc; size limited by max position
+G-eps+20d-0844,G,eps+20d,STZ,2020-04-03,2020-04-06,121.9571,110.9339,,11,2020-05-05,144.5922,time exit,248.99,3.907,24.1,2.89,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0855,G,eps+20d,APTV,2020-05-05,2020-05-06,68.3505,64.67,,21,2020-05-12,64.6506,stop,-77.7,-3.814,94.29,1.52,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0846,G,eps+20d,FAST,2020-04-14,2020-04-15,14.4352,13.8688,,95,2020-05-13,16.3097,time exit,178.08,2.579,5.88,6.69,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0849,G,eps+20d,PLD,2020-04-21,2020-04-22,74.8567,69.8603,,15,2020-05-13,69.7142,stop,-77.14,-1.165,66.67,-5.31,day-1 return +0.6%; timing bmo; size limited by risk
+G-eps+20d-0854,G,eps+20d,SRE,2020-05-04,2020-05-05,49.9385,48.4248,,27,2020-05-13,48.4102,stop,-41.26,-0.768,38.74,0.18,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0856,G,eps+20d,CSCO,2020-05-14,2020-05-15,35.7663,36.0304,,37,2020-05-15,35.7448,stop,-0.79,-0.044,11.27,3.53,day-1 return +4.5%; timing amc; size limited by max position
+G-eps+20d-0850,G,eps+20d,EFX,2020-04-21,2020-04-22,124.2763,115.9811,,9,2020-05-20,141.8703,time exit,158.35,2.361,9.37,0.15,day-1 return +3.4%; timing amc; size limited by risk
+G-eps+20d-0858,G,eps+20d,SNPS,2020-05-21,2020-05-22,169.7309,164.86,,8,2020-05-27,164.8105,stop,-39.36,-1.355,23.23,0.92,day-1 return +1.8%; timing amc; size limited by max position
+G-eps+20d-0860,G,eps+20d,AZO,2020-05-26,2020-05-27,1140.342,1115.0,,1,2020-05-27,1114.6655,stop,-25.68,-3.131,9.35,3.97,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0861,G,eps+20d,DLTR,2020-05-28,2020-05-29,97.0491,95.05,,14,2020-06-03,95.0215,stop,-28.39,-0.783,23.81,10.66,day-1 return +11.6%; timing bmo; size limited by max position
+G-eps+20d-0859,G,eps+20d,A,2020-05-22,2020-05-26,82.4313,80.4666,,16,2020-06-12,80.4424,stop,-31.82,-2.668,16.39,5.26,day-1 return +5.2%; timing amc; size limited by max position
+G-eps+20d-0864,G,eps+20d,LEN,2020-06-16,2020-06-17,56.9554,54.4399,,24,2020-06-18,54.4236,stop,-60.76,-1.57,35.25,1.51,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0857,G,eps+20d,LOW,2020-05-20,2020-05-21,105.3785,102.3521,,13,2020-06-19,118.5395,time exit,171.09,10.105,34.09,4.91,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-0862,G,eps+20d,ADSK,2020-05-28,2020-05-29,203.6611,194.6,,6,2020-06-26,232.6702,time exit,174.05,3.613,7.59,-1.72,day-1 return +1.4%; timing amc; size limited by max position
+G-eps+20d-0866,G,eps+20d,DRI,2020-06-25,2020-06-26,61.5655,59.6407,,22,2020-06-26,59.6228,stop,-42.74,-1.015,24.39,4.99,day-1 return +5.3%; timing bmo; size limited by max position
+G-eps+20d-0868,G,eps+20d,MU,2020-06-30,2020-07-01,50.2462,49.6949,,27,2020-07-01,49.68,stop,-15.29,-1.056,7.89,5.35,day-1 return +4.8%; timing amc; size limited by max position
+G-eps+20d-0869,G,eps+20d,FDX,2020-07-01,2020-07-02,114.1889,112.1105,,12,2020-07-02,112.0769,stop,-25.34,-3.26,61.15,13.29,day-1 return +11.7%; timing amc; size limited by max position
+G-eps+20d-0870,G,eps+20d,STZ,2020-07-01,2020-07-02,167.9061,161.5206,,8,2020-07-08,161.4721,stop,-51.47,-1.888,12.2,4.56,day-1 return +6.2%; timing bmo; size limited by max position
+G-eps+20d-0863,G,eps+20d,ADBE,2020-06-12,2020-06-15,398.9196,395.41,,3,2020-07-14,433.6499,time exit,104.19,3.12,5.6,5.58,day-1 return +4.9%; timing amc; size limited by max position
+G-eps+20d-0871,G,eps+20d,PEP,2020-07-13,2020-07-14,110.396,110.2645,,12,2020-07-14,110.2314,stop,-1.98,-0.456,5.6,1.72,day-1 return +0.3%; timing bmo; size limited by max position
+G-eps+20d-0873,G,eps+20d,GS,2020-07-15,2020-07-16,184.7856,185.7511,,7,2020-07-16,184.6747,stop,-0.78,-0.058,60.1,4.84,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0875,G,eps+20d,MS,2020-07-16,2020-07-17,43.3854,42.1891,,32,2020-07-22,42.1764,stop,-38.69,-1.132,76.58,0.45,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0865,G,eps+20d,MKC,2020-06-25,2020-06-26,78.317,75.2832,,18,2020-07-27,85.2946,time exit,125.6,3.23,27.59,1.2,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0877,G,eps+20d,CMI,2020-07-28,2020-07-29,171.5528,168.7643,,8,2020-07-29,168.7137,stop,-22.71,-18.21,86.0,2.37,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0867,G,eps+20d,CAG,2020-06-30,2020-07-01,26.0752,25.1616,,53,2020-07-30,27.5097,time exit,76.03,1.948,11.94,3.53,day-1 return +4.4%; timing bmo; size limited by max position
+G-eps+20d-0878,G,eps+20d,BSX,2020-07-29,2020-07-30,39.1717,39.15,,35,2020-07-30,39.1383,stop,-1.17,-0.051,500.0,4.52,day-1 return +4.0%; timing bmo; size limited by max position
+G-eps+20d-0880,G,eps+20d,TAP,2020-07-30,2020-07-31,31.5907,31.2446,,44,2020-07-31,31.2353,stop,-15.64,-1.363,143.75,4.6,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0881,G,eps+20d,AMZN,2020-07-31,2020-08-03,159.0732,157.55,,8,2020-08-03,157.5027,stop,-12.56,-2.296,550.0,6.3,day-1 return +3.7%; timing amc; size limited by max position
+G-eps+20d-0872,G,eps+20d,FAST,2020-07-14,2020-07-15,18.567,18.0678,,75,2020-08-12,20.5912,time exit,151.82,5.061,16.67,1.11,day-1 return +0.0%; timing bmo; size limited by max position
+G-eps+20d-0874,G,eps+20d,PGR,2020-07-15,2020-07-16,72.9896,71.6927,,19,2020-08-13,75.6563,time exit,50.67,2.037,6.94,0.59,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0883,G,eps+20d,AMAT,2020-08-14,2020-08-17,64.5966,63.06,,22,2020-08-18,63.0411,stop,-34.22,-1.465,11.58,3.57,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0876,G,eps+20d,HCA,2020-07-22,2020-07-23,118.8462,109.4007,,10,2020-08-20,124.6186,time exit,57.72,0.83,554.55,5.46,day-1 return +12.0%; timing bmo; size limited by risk
+G-eps+20d-0879,G,eps+20d,LKQ,2020-07-30,2020-07-31,25.4726,23.8321,,46,2020-08-28,28.3225,time exit,131.1,1.854,231.25,-0.7,day-1 return +2.9%; timing bmo; size limited by risk
+G-eps+20d-0887,G,eps+20d,ULTA,2020-08-28,2020-08-31,235.2706,234.55,,6,2020-08-31,234.4796,stop,-4.75,-0.32,386.67,13.4,day-1 return +5.8%; timing amc; size limited by max position
+G-eps+20d-0882,G,eps+20d,TSN,2020-08-03,2020-08-04,52.1668,50.6965,,27,2020-09-01,52.0978,time exit,-1.86,-0.077,45.83,2.36,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0884,G,eps+20d,TGT,2020-08-19,2020-08-20,129.8187,122.7517,,11,2020-09-03,122.7149,stop,-78.14,-1.104,104.85,8.47,day-1 return +12.7%; timing bmo; size limited by max position
+G-eps+20d-0889,G,eps+20d,CPRT,2020-09-02,2020-09-03,27.1756,25.915,,55,2020-09-03,25.9072,stop,-69.76,-4.451,70.0,0.4,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0885,G,eps+20d,LOW,2020-08-19,2020-08-20,139.3051,138.9788,,10,2020-09-04,138.9371,stop,-3.68,-0.205,27.12,1.96,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0890,G,eps+20d,COO,2020-09-04,2020-09-08,80.1525,78.3318,,17,2020-09-08,78.3083,stop,-31.35,-0.737,50.0,4.3,day-1 return +5.4%; timing amc; size limited by max position
+G-eps+20d-0886,G,eps+20d,BBWI,2020-08-20,2020-08-21,21.1491,20.4127,,67,2020-09-09,20.4065,stop,-49.75,-1.361,159.52,2.95,day-1 return +3.9%; timing amc; size limited by max position
+G-eps+20d-0891,G,eps+20d,FDX,2020-09-16,2020-09-17,175.1885,177.7851,,7,2020-09-17,175.0834,stop,-0.74,-0.036,79.04,6.91,day-1 return +5.8%; timing amc; size limited by max position
+G-eps+20d-0892,G,eps+20d,NKE,2020-09-23,2020-09-24,114.5181,113.4153,,12,2020-09-24,113.3813,stop,-13.64,-0.679,97.92,11.42,day-1 return +8.8%; timing amc; size limited by max position
+G-eps+20d-0888,G,eps+20d,PVH,2020-09-02,2020-09-03,61.1009,57.704,,24,2020-10-02,61.5298,time exit,10.29,0.341,105.35,1.61,day-1 return +3.2%; timing amc; size limited by max position
+G-eps+20d-0895,G,eps+20d,PEP,2020-10-01,2020-10-02,115.0644,113.5515,,12,2020-10-02,113.5175,stop,-18.56,-0.566,11.41,0.61,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0896,G,eps+20d,LW,2020-10-07,2020-10-08,64.6095,63.3362,,22,2020-10-15,63.1483,stop,-32.15,-1.66,103.33,2.62,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-0897,G,eps+20d,GS,2020-10-14,2020-10-15,182.4825,183.0284,,7,2020-10-15,182.373,stop,-0.77,-0.131,76.0,1.46,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0893,G,eps+20d,DRI,2020-09-24,2020-09-25,81.3938,76.1786,,17,2020-10-23,82.3558,time exit,16.35,0.233,1020.0,2.68,day-1 return +8.1%; timing bmo; size limited by risk
+G-eps+20d-0898,G,eps+20d,MS,2020-10-15,2020-10-16,42.653,41.3079,,33,2020-10-26,41.2955,stop,-44.8,-1.163,31.75,-1.42,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0901,G,eps+20d,ITW,2020-10-23,2020-10-26,177.1462,175.5634,,7,2020-10-26,175.5107,stop,-11.45,-0.4,26.21,3.11,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0900,G,eps+20d,WBA,2020-10-15,2020-10-16,29.4188,28.49,,47,2020-10-27,28.4815,stop,-44.06,-0.901,6.25,1.21,day-1 return +4.8%; timing bmo; size limited by max position
+G-eps+20d-0902,G,eps+20d,LH,2020-10-27,2020-10-28,165.6021,164.5016,,8,2020-10-28,164.4523,stop,-9.2,-0.31,58.08,0.27,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-0903,G,eps+20d,DTE,2020-10-27,2020-10-28,86.6757,87.2849,,15,2020-10-28,86.6237,stop,-0.78,-0.035,26.7,1.06,day-1 return +2.4%; timing bmo; size limited by max position
+G-eps+20d-0904,G,eps+20d,MSCI,2020-10-27,2020-10-28,328.2763,326.7901,,4,2020-10-28,326.692,stop,-6.34,-0.201,20.88,0.01,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0905,G,eps+20d,GE,2020-10-28,2020-10-29,37.1407,35.9177,,38,2020-10-29,35.907,stop,-46.88,-25.451,308.7,5.77,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0906,G,eps+20d,ADP,2020-10-28,2020-10-29,135.6769,134.9435,,10,2020-10-29,134.903,stop,-7.74,-0.735,43.88,6.28,day-1 return +6.2%; timing bmo; size limited by max position
+G-eps+20d-0907,G,eps+20d,SEE,2020-10-28,2020-10-29,36.8511,36.08,,37,2020-10-29,36.0692,stop,-28.93,-0.954,24.24,-1.47,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0894,G,eps+20d,CAG,2020-10-01,2020-10-02,26.7577,25.5722,,53,2020-10-30,26.1819,time exit,-30.52,-0.58,22.81,1.26,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0899,G,eps+20d,SCHW,2020-10-15,2020-10-16,36.3066,34.4107,,39,2020-11-13,42.6585,time exit,247.72,3.84,8.51,0.51,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-0908,G,eps+20d,TPR,2020-10-29,2020-10-30,19.8883,18.9372,,69,2020-11-30,24.7754,time exit,337.21,5.124,163.64,11.83,day-1 return +6.7%; timing bmo; size limited by max position
+G-eps+20d-0909,G,eps+20d,CBRE,2020-10-29,2020-10-30,50.5151,44.75,,10,2020-11-30,61.1217,time exit,106.07,1.619,73.81,2.64,day-1 return +16.8%; timing bmo; size limited by risk
+G-eps+20d-0910,G,eps+20d,TAP,2020-10-29,2020-10-30,28.1227,27.3822,,49,2020-11-30,38.6971,time exit,518.14,14.96,58.82,0.73,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0911,G,eps+20d,UAA,2020-10-30,2020-11-02,14.1442,13.52,,100,2020-12-01,16.535,time exit,239.08,7.471,766.67,10.3,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-0912,G,eps+20d,DIS,2020-11-13,2020-11-16,137.3022,132.3648,,11,2020-12-15,168.5952,time exit,344.22,17.541,69.23,3.97,day-1 return +2.1%; timing amc; size limited by max position
+G-eps+20d-0915,G,eps+20d,COST,2020-12-11,2020-12-14,354.3089,350.4213,,4,2020-12-15,350.3162,stop,-15.97,-1.658,12.25,1.87,day-1 return +0.6%; timing amc; size limited by max position
+G-eps+20d-0918,G,eps+20d,GIS,2020-12-17,2020-12-18,46.9599,46.0565,,33,2020-12-21,46.0427,stop,-30.27,-0.988,9.28,0.66,day-1 return +1.3%; timing bmo; size limited by max position
+G-eps+20d-0919,G,eps+20d,NKE,2020-12-21,2020-12-22,129.8226,129.2938,,12,2020-12-22,129.255,stop,-6.81,-0.414,25.81,5.49,day-1 return +4.9%; timing amc; size limited by max position
+G-eps+20d-0917,G,eps+20d,LEN,2020-12-17,2020-12-18,71.2387,67.8257,,22,2020-12-31,67.8053,stop,-75.54,-1.317,19.49,3.63,day-1 return +7.6%; timing amc; size limited by max position
+G-eps+20d-0913,G,eps+20d,NTAP,2020-12-02,2020-12-03,51.8168,49.6542,,29,2021-01-04,56.5935,time exit,138.52,2.339,43.84,6.83,day-1 return +9.4%; timing amc; size limited by max position
+G-eps+20d-0914,G,eps+20d,PVH,2020-12-03,2020-12-04,87.9496,81.7407,,13,2021-01-05,95.702,time exit,100.78,1.387,450.0,0.06,day-1 return +5.8%; timing amc; size limited by risk
+G-eps+20d-0921,G,eps+20d,STZ,2021-01-07,2021-01-08,206.0076,203.4133,,7,2021-01-08,203.3522,stop,-18.59,-1.902,28.22,4.15,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0916,G,eps+20d,ORCL,2020-12-11,2020-12-14,56.0066,54.692,,28,2021-01-13,57.3233,time exit,36.87,1.202,6.0,2.45,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0920,G,eps+20d,CTAS,2020-12-22,2020-12-23,84.1506,79.1864,,19,2021-01-14,79.1627,stop,-94.77,-1.517,7.27,-2.35,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-0923,G,eps+20d,CMA,2021-01-19,2021-01-20,50.7852,49.83,,30,2021-01-21,49.8151,stop,-29.11,-1.032,25.21,-0.37,day-1 return +0.2%; timing bmo; size limited by max position
+G-eps+20d-0924,G,eps+20d,STT,2021-01-19,2021-01-20,65.9865,62.1173,,21,2021-01-22,61.5873,stop,-92.38,-1.211,9.03,-2.63,day-1 return +1.6%; timing bmo; size limited by risk
+G-eps+20d-0925,G,eps+20d,SCHW,2021-01-19,2021-01-20,55.0718,53.6453,,28,2021-01-25,53.1099,stop,-54.93,-1.511,5.71,0.83,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0927,G,eps+20d,SLB,2021-01-22,2021-01-25,21.544,20.7244,,71,2021-01-25,20.7182,stop,-58.63,-0.973,29.41,-1.98,day-1 return +0.9%; timing bmo; size limited by max position
+G-eps+20d-0926,G,eps+20d,JBHT,2021-01-20,2021-01-21,142.5019,133.7965,,9,2021-01-27,133.7564,stop,-78.71,-1.043,9.92,-3.8,day-1 return +1.0%; timing amc; size limited by risk
+G-eps+20d-0922,G,eps+20d,WBA,2021-01-07,2021-01-08,35.8007,34.23,,43,2021-02-08,39.6281,time exit,164.58,2.251,17.31,2.37,day-1 return +5.2%; timing bmo; size limited by max position
+G-eps+20d-0932,G,eps+20d,IT,2021-02-09,2021-02-10,183.495,181.78,,8,2021-02-10,181.7255,stop,-14.16,-0.912,93.9,9.22,day-1 return +9.3%; timing bmo; size limited by max position
+G-eps+20d-0933,G,eps+20d,UA,2021-02-10,2021-02-11,18.9757,18.53,,83,2021-02-16,18.5244,stop,-37.45,-1.962,340.0,7.98,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0934,G,eps+20d,A,2021-02-17,2021-02-18,124.0019,124.5317,,12,2021-02-18,123.9275,stop,-0.89,-0.146,17.78,3.79,day-1 return +1.7%; timing amc; size limited by max position
+G-eps+20d-0930,G,eps+20d,MSFT,2021-01-27,2021-01-28,224.7193,219.4363,,7,2021-02-23,219.3705,stop,-37.44,-2.033,23.78,2.44,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-0928,G,eps+20d,MMM,2021-01-26,2021-01-27,121.6272,118.0043,,12,2021-02-25,123.5582,time exit,23.17,0.728,9.68,1.99,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0936,G,eps+20d,CBRE,2021-02-23,2021-02-24,77.9034,76.04,,20,2021-02-25,76.0172,stop,-37.72,-1.025,54.26,3.53,day-1 return +3.5%; timing bmo; size limited by max position
+G-eps+20d-0929,G,eps+20d,COF,2021-01-27,2021-01-28,94.4525,91.1532,,16,2021-02-26,108.9388,time exit,231.78,8.858,93.07,3.26,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0931,G,eps+20d,ADP,2021-01-27,2021-01-28,149.7943,143.3397,,10,2021-02-26,153.3798,time exit,35.86,1.316,17.83,-1.11,day-1 return +0.7%; timing bmo; size limited by max position
+G-eps+20d-0937,G,eps+20d,PWR,2021-02-25,2021-02-26,83.8224,82.6482,,18,2021-02-26,82.6234,stop,-21.58,-1.026,23.23,3.54,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0938,G,eps+20d,SJM,2021-02-25,2021-02-26,95.4129,94.9699,,16,2021-02-26,94.9414,stop,-7.54,-1.293,9.87,1.69,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-0940,G,eps+20d,MNST,2021-02-26,2021-03-01,22.0391,21.555,,71,2021-03-03,21.5485,stop,-34.83,-1.291,46.67,2.66,day-1 return +2.8%; timing amc; size limited by max position
+G-eps+20d-0939,G,eps+20d,ETSY,2021-02-26,2021-03-01,224.6374,206.37,,5,2021-03-04,206.3081,stop,-91.65,-1.319,64.29,13.37,day-1 return +11.5%; timing amc; size limited by risk
+G-eps+20d-0943,G,eps+20d,HPE,2021-03-03,2021-03-04,12.3813,12.1218,,125,2021-03-04,12.1182,stop,-32.89,-0.908,23.81,3.24,day-1 return +0.4%; timing amc; size limited by max position
+G-eps+20d-0945,G,eps+20d,COO,2021-03-05,2021-03-08,96.4894,94.099,,16,2021-03-12,94.0707,stop,-38.7,-0.833,12.86,6.0,day-1 return +4.5%; timing amc; size limited by max position
+G-eps+20d-0941,G,eps+20d,LYV,2021-02-26,2021-03-01,91.1273,85.25,,17,2021-03-18,85.2244,stop,-100.35,-1.635,9.73,1.83,day-1 return +1.9%; timing amc; size limited by max position
+G-eps+20d-0935,G,eps+20d,VTR,2021-02-18,2021-02-19,42.8196,41.1517,,36,2021-03-19,45.0688,time exit,80.97,1.454,316.67,-0.67,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-0947,G,eps+20d,ACN,2021-03-18,2021-03-19,241.8732,239.7399,,6,2021-03-19,239.6679,stop,-13.23,-0.864,6.84,1.12,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0948,G,eps+20d,FDX,2021-03-19,2021-03-22,202.8467,199.6742,,7,2021-03-22,199.6143,stop,-22.63,-1.039,7.1,5.9,day-1 return +6.1%; timing amc; size limited by max position
+G-eps+20d-0942,G,eps+20d,XRAY,2021-03-01,2021-03-02,53.674,51.5353,,29,2021-03-30,56.9865,time exit,96.06,1.704,35.94,9.67,day-1 return +12.5%; timing bmo; size limited by max position
+G-eps+20d-0950,G,eps+20d,WBA,2021-03-31,2021-04-01,43.7531,43.29,,35,2021-04-01,43.277,stop,-16.66,-0.671,13.51,2.4,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-0944,G,eps+20d,KR,2021-03-04,2021-03-05,30.5712,29.4426,,51,2021-04-05,32.6223,time exit,104.61,2.43,19.12,2.26,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0946,G,eps+20d,LEN,2021-03-17,2021-03-18,89.0017,77.1352,,6,2021-04-16,93.5238,time exit,27.13,0.375,17.24,-0.24,day-1 return +13.8%; timing amc; size limited by risk
+G-eps+20d-0954,G,eps+20d,PPG,2021-04-16,2021-04-19,148.8155,148.2114,,10,2021-04-19,148.1669,stop,-6.49,-1.461,21.29,9.95,day-1 return +8.7%; timing amc; size limited by max position
+G-eps+20d-0949,G,eps+20d,DRI,2021-03-25,2021-03-26,121.3007,111.4094,,8,2021-04-26,118.691,time exit,-20.88,-0.293,40.0,4.53,day-1 return +8.2%; timing bmo; size limited by risk
+G-eps+20d-0951,G,eps+20d,GS,2021-04-14,2021-04-15,297.8559,286.5641,,5,2021-05-13,315.1654,time exit,86.55,2.141,82.53,0.27,day-1 return +2.3%; timing bmo; size limited by max position
+G-eps+20d-0952,G,eps+20d,WFC,2021-04-14,2021-04-15,36.8228,34.1536,,30,2021-05-13,40.6479,time exit,114.75,1.493,45.83,-0.23,day-1 return +5.5%; timing bmo; size limited by risk
+G-eps+20d-0953,G,eps+20d,UNH,2021-04-15,2021-04-16,357.4236,344.6898,,4,2021-05-14,371.6092,time exit,56.74,1.562,21.23,1.16,day-1 return +3.8%; timing bmo; size limited by max position
+G-eps+20d-0955,G,eps+20d,KO,2021-04-19,2021-04-20,45.8305,45.3572,,33,2021-05-18,46.2284,time exit,13.13,0.668,10.0,0.6,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0957,G,eps+20d,WMT,2021-05-18,2021-05-19,43.9114,44.0542,,35,2021-05-19,43.885,stop,-0.92,-0.121,40.0,3.33,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-0956,G,eps+20d,OTIS,2021-04-26,2021-04-27,70.0194,68.2141,,22,2021-05-25,71.2868,time exit,27.88,0.805,14.29,7.24,day-1 return +7.0%; timing bmo; size limited by max position
+G-eps+20d-0962,G,eps+20d,A,2021-05-26,2021-05-27,128.3496,128.2437,,12,2021-05-27,128.2052,stop,-1.73,-3.75,16.87,2.3,day-1 return +0.0%; timing amc; size limited by max position
+G-eps+20d-0963,G,eps+20d,BBY,2021-05-27,2021-05-28,94.2833,91.1901,,17,2021-05-28,91.1627,stop,-53.05,-2.643,58.16,3.45,day-1 return +1.0%; timing bmo; size limited by max position
+G-eps+20d-0964,G,eps+20d,ULTA,2021-05-28,2021-06-01,346.804,340.61,,4,2021-06-01,340.5078,stop,-25.18,-1.326,108.12,4.52,day-1 return +5.2%; timing amc; size limited by max position
+G-eps+20d-0961,G,eps+20d,CPRT,2021-05-20,2021-05-21,31.1768,30.6725,,51,2021-06-03,30.6633,stop,-26.19,-1.467,35.0,4.97,day-1 return +2.6%; timing amc; size limited by max position
+G-eps+20d-0965,G,eps+20d,PVH,2021-06-03,2021-06-04,110.2195,106.3125,,14,2021-06-04,106.2806,stop,-55.15,-1.208,131.33,1.33,day-1 return +1.1%; timing amc; size limited by max position
+G-eps+20d-0966,G,eps+20d,SJM,2021-06-03,2021-06-04,115.7341,113.6219,,13,2021-06-08,113.5878,stop,-27.9,-1.513,13.86,0.56,day-1 return +1.4%; timing bmo; size limited by max position
+G-eps+20d-0958,G,eps+20d,TTWO,2021-05-19,2021-05-20,180.004,170.79,,8,2021-06-16,170.7388,stop,-74.12,-1.082,110.29,1.97,day-1 return +7.0%; timing amc; size limited by max position
+G-eps+20d-0959,G,eps+20d,TGT,2021-05-19,2021-05-20,184.9102,177.6734,,8,2021-06-18,195.1704,time exit,82.08,1.315,65.47,1.88,day-1 return +6.1%; timing bmo; size limited by max position
+G-eps+20d-0960,G,eps+20d,ADI,2021-05-19,2021-05-20,141.7618,131.4121,,9,2021-06-18,148.521,time exit,60.83,0.819,6.21,-0.07,day-1 return +5.0%; timing bmo; size limited by risk
+G-eps+20d-0967,G,eps+20d,LEN,2021-06-17,2021-06-18,85.2736,81.1738,,18,2021-07-19,85.3575,time exit,1.51,0.032,23.95,0.34,day-1 return +3.6%; timing amc; size limited by max position
+G-eps+20d-0968,G,eps+20d,KR,2021-06-17,2021-06-18,34.875,32.8289,,36,2021-07-19,36.657,time exit,64.15,0.828,20.2,0.05,day-1 return +4.3%; timing bmo; size limited by risk
+G-eps+20d-0970,G,eps+20d,DRI,2021-06-24,2021-06-25,118.3277,114.0574,,13,2021-07-19,114.0232,stop,-55.96,-1.562,12.78,1.93,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-0969,G,eps+20d,ADBE,2021-06-18,2021-06-21,566.1598,556.39,,2,2021-07-20,608.5374,time exit,84.76,4.606,7.45,3.37,day-1 return +2.6%; timing amc; size limited by max position
+G-eps+20d-0971,G,eps+20d,ACN,2021-06-24,2021-06-25,266.2872,263.6759,,5,2021-07-26,291.2086,time exit,124.61,13.615,7.14,4.04,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-0974,G,eps+20d,HCA,2021-07-20,2021-07-21,240.3109,227.4988,,6,2021-08-11,227.4306,stop,-77.28,-1.199,38.29,9.87,day-1 return +14.4%; timing bmo; size limited by max position
+G-eps+20d-0972,G,eps+20d,SYF,2021-07-20,2021-07-21,41.1805,38.1978,,30,2021-08-18,44.4784,time exit,98.94,1.274,55.88,-2.95,day-1 return +2.7%; timing bmo; size limited by risk
+G-eps+20d-0973,G,eps+20d,ZION,2021-07-20,2021-07-21,42.4336,40.1566,,37,2021-08-18,45.1154,time exit,99.23,1.5,52.42,1.59,day-1 return +5.2%; timing amc; size limited by max position
+G-eps+20d-0975,G,eps+20d,KEY,2021-07-20,2021-07-21,15.0145,13.9068,,85,2021-08-18,15.5492,time exit,45.45,0.574,33.33,-2.87,day-1 return +3.3%; timing bmo; size limited by risk
+G-eps+20d-0976,G,eps+20d,HAS,2021-07-26,2021-07-27,83.5272,78.6782,,14,2021-08-18,78.6546,stop,-68.22,-0.877,123.4,6.16,day-1 return +12.2%; timing bmo; size limited by risk
+G-eps+20d-0979,G,eps+20d,A,2021-08-18,2021-08-19,155.9147,156.2052,,10,2021-08-19,155.8212,stop,-0.94,-0.104,11.11,1.42,day-1 return +1.3%; timing amc; size limited by max position
+G-eps+20d-0977,G,eps+20d,OGN,2021-08-12,2021-08-13,27.2314,25.1916,,39,2021-09-13,27.7106,time exit,18.69,0.236,20.28,3.78,day-1 return +11.9%; timing bmo; size limited by risk
+G-eps+20d-0978,G,eps+20d,TJX,2021-08-18,2021-08-19,66.3734,63.1628,,16,2021-09-17,65.478,time exit,-14.33,-0.189,12.28,-0.67,day-1 return +5.6%; timing bmo; size limited by risk
+G-eps+20d-0980,G,eps+20d,LOW,2021-08-18,2021-08-19,179.323,170.0239,,7,2021-09-17,188.485,time exit,64.13,0.905,5.99,3.84,day-1 return +9.6%; timing bmo; size limited by risk
+G-eps+20d-0981,G,eps+20d,BBWI,2021-08-19,2021-08-20,56.8974,54.9247,,27,2021-09-20,56.7399,time exit,-4.25,-0.057,74.03,7.62,day-1 return +10.5%; timing amc; size limited by max position
+G-eps+20d-0982,G,eps+20d,EL,2021-08-19,2021-08-20,302.601,293.0813,,5,2021-09-20,288.2759,stop,-71.63,-1.497,56.0,-0.0,day-1 return +2.6%; timing bmo; size limited by max position
+G-eps+20d-0984,G,eps+20d,DRI,2021-09-23,2021-09-24,134.7142,132.023,,11,2021-09-28,131.9834,stop,-30.04,-1.243,6.67,6.13,day-1 return +6.1%; timing bmo; size limited by max position
+G-eps+20d-0985,G,eps+20d,COST,2021-09-24,2021-09-27,440.67,430.5547,,3,2021-09-28,430.4255,stop,-30.73,-0.849,5.03,0.71,day-1 return +3.3%; timing amc; size limited by max position
+G-eps+20d-0986,G,eps+20d,CTAS,2021-09-29,2021-09-30,93.2122,91.8289,,17,2021-09-30,91.8014,stop,-23.98,-1.344,13.04,1.89,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-0983,G,eps+20d,GIS,2021-09-22,2021-09-23,48.6015,47.392,,33,2021-10-21,50.8542,time exit,74.34,2.287,11.24,3.07,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-0991,G,eps+20d,VLO,2021-10-21,2021-10-22,70.2636,68.7863,,22,2021-10-22,68.7656,stop,-32.95,-1.029,32.61,0.14,day-1 return +1.2%; timing bmo; size limited by max position
+G-eps+20d-0992,G,eps+20d,RHI,2021-10-22,2021-10-25,92.7622,90.7512,,17,2021-10-27,90.724,stop,-34.65,-1.316,9.29,0.62,day-1 return +1.8%; timing amc; size limited by max position
+G-eps+20d-0987,G,eps+20d,PAYX,2021-09-30,2021-10-01,96.1003,94.1728,,16,2021-10-29,105.0276,time exit,142.84,7.801,11.25,5.69,day-1 return +4.3%; timing bmo; size limited by max position
+G-eps+20d-0993,G,eps+20d,TMO,2021-10-27,2021-10-28,606.4586,600.4898,,2,2021-11-05,600.3096,stop,-12.3,-1.974,22.55,1.39,day-1 return +0.6%; timing bmo; size limited by max position
+G-eps+20d-0994,G,eps+20d,BIO,2021-10-29,2021-11-01,797.5092,762.3,,2,2021-11-05,762.0713,stop,-70.88,-1.094,49.6,-1.04,day-1 return +0.7%; timing amc; size limited by max position
+G-eps+20d-0995,G,eps+20d,LYV,2021-11-05,2021-11-08,118.8556,115.5,,9,2021-11-08,115.4654,stop,-30.51,-0.408,416.67,10.33,day-1 return +15.1%; timing amc; size limited by risk
+G-eps+20d-0988,G,eps+20d,BAC,2021-10-14,2021-10-15,40.5086,38.4703,,40,2021-11-12,41.4926,time exit,39.36,0.699,21.43,2.85,day-1 return +4.5%; timing bmo; size limited by max position
+G-eps+20d-0989,G,eps+20d,MS,2021-10-14,2021-10-15,86.8751,82.9075,,18,2021-11-12,85.1967,time exit,-30.21,-0.619,21.43,2.69,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-0990,G,eps+20d,WBA,2021-10-14,2021-10-15,41.8225,36.92,,17,2021-11-12,40.8178,time exit,-17.08,-0.222,14.71,0.31,day-1 return +7.4%; timing bmo; size limited by risk
+G-eps+20d-0997,G,eps+20d,VTRS,2021-11-08,2021-11-09,11.9316,11.5472,,134,2021-11-12,11.5438,stop,-51.98,-1.113,12.5,5.03,day-1 return +6.9%; timing bmo; size limited by max position
+G-eps+20d-0996,G,eps+20d,EXPE,2021-11-05,2021-11-08,180.9268,169.8552,,8,2021-11-19,169.8043,stop,-88.98,-1.132,100.57,13.8,day-1 return +15.6%; timing amc; size limited by risk
+G-eps+20d-0999,G,eps+20d,BBWI,2021-11-18,2021-11-19,68.8347,67.4812,,23,2021-11-19,67.4609,stop,-31.6,-0.811,50.82,8.8,day-1 return +5.3%; timing amc; size limited by max position
+G-eps+20d-1001,G,eps+20d,INTU,2021-11-19,2021-11-22,665.0992,654.8105,,2,2021-11-22,654.6141,stop,-20.97,-1.003,57.73,13.82,day-1 return +10.1%; timing amc; size limited by max position
+G-eps+20d-1000,G,eps+20d,NVDA,2021-11-18,2021-11-19,32.1112,31.1836,,50,2021-11-23,31.1743,stop,-46.85,-2.658,9.09,10.61,day-1 return +8.2%; timing amc; size limited by max position
+G-eps+20d-1002,G,eps+20d,SJM,2021-11-23,2021-11-24,113.5606,110.7477,,13,2021-11-26,110.7145,stop,-37.0,-1.154,18.54,3.81,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-1005,G,eps+20d,DE,2021-11-24,2021-11-26,332.7109,336.1995,,4,2021-11-26,332.5113,stop,-0.8,-0.024,5.91,2.86,day-1 return +5.3%; timing bmo; size limited by max position
+G-eps+20d-1007,G,eps+20d,CPB,2021-12-08,2021-12-09,34.1175,33.633,,46,2021-12-09,33.6229,stop,-22.75,-0.864,9.88,0.02,day-1 return +1.7%; timing bmo; size limited by max position
+G-eps+20d-0998,G,eps+20d,HD,2021-11-16,2021-11-17,346.1781,333.8903,,4,2021-12-16,353.3265,time exit,28.59,0.609,15.29,2.94,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-1009,G,eps+20d,FDX,2021-12-17,2021-12-20,183.1274,181.4341,,8,2021-12-20,181.3797,stop,-13.98,-1.057,12.59,6.38,day-1 return +4.9%; timing amc; size limited by max position
+G-eps+20d-1010,G,eps+20d,NKE,2021-12-21,2021-12-22,152.9172,150.5586,,10,2021-12-22,150.5135,stop,-24.04,-1.37,31.75,6.19,day-1 return +6.1%; timing amc; size limited by max position
+G-eps+20d-1003,G,eps+20d,KEYS,2021-11-23,2021-11-24,195.0985,190.46,,8,2021-12-23,201.3696,time exit,50.17,1.298,10.98,0.05,day-1 return +1.7%; timing amc; size limited by max position
+G-eps+20d-1004,G,eps+20d,HPQ,2021-11-24,2021-11-26,28.7056,28.1587,,53,2021-12-27,31.7598,time exit,161.87,2.561,6.82,5.62,day-1 return +10.1%; timing amc; size limited by max position
+G-eps+20d-1006,G,eps+20d,KR,2021-12-02,2021-12-03,40.5877,37.6271,,30,2022-01-03,40.7346,time exit,4.41,0.056,16.42,5.6,day-1 return +11.0%; timing bmo; size limited by risk
+G-eps+20d-1008,G,eps+20d,COST,2021-12-10,2021-12-13,521.8662,506.7059,,3,2022-01-07,506.5539,stop,-45.94,-0.667,12.45,1.98,day-1 return +6.6%; timing amc; size limited by max position
+G-eps+20d-1011,G,eps+20d,PAYX,2021-12-22,2021-12-23,114.2289,108.2293,,13,2022-01-10,108.1968,stop,-78.42,-1.104,13.75,2.69,day-1 return +5.5%; timing bmo; size limited by max position
+G-eps+20d-1013,G,eps+20d,DAL,2022-01-13,2022-01-14,39.274,38.935,,39,2022-01-14,38.9233,stop,-13.68,-0.357,46.67,1.16,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-1012,G,eps+20d,LW,2022-01-06,2022-01-07,61.3526,60.6286,,25,2022-01-19,60.6104,stop,-18.56,-1.026,56.25,9.47,day-1 return +7.4%; timing bmo; size limited by max position
+G-eps+20d-1014,G,eps+20d,WFC,2022-01-14,2022-01-18,51.0114,49.821,,30,2022-01-19,49.8061,stop,-36.16,-0.817,25.0,1.52,day-1 return +3.7%; timing bmo; size limited by max position
+G-eps+20d-1015,G,eps+20d,PLD,2022-01-19,2022-01-20,131.7364,133.0139,,11,2022-01-20,131.6573,stop,-0.87,-1.14,165.08,1.51,day-1 return +0.1%; timing bmo; size limited by max position
+G-eps+20d-1017,G,eps+20d,BAC,2022-01-19,2022-01-20,41.5217,41.207,,37,2022-01-20,41.1946,stop,-12.1,-4.088,7.89,4.6,day-1 return +0.4%; timing bmo; size limited by max position
+G-eps+20d-1018,G,eps+20d,MS,2022-01-19,2022-01-20,82.4732,81.0487,,19,2022-01-24,81.0244,stop,-27.53,-2.204,6.12,4.25,day-1 return +1.8%; timing bmo; size limited by max position
+G-eps+20d-1019,G,eps+20d,TRV,2022-01-20,2022-01-21,151.255,148.1641,,10,2022-01-24,148.1196,stop,-31.35,-1.078,36.48,1.48,day-1 return +3.2%; timing bmo; size limited by max position
+G-eps+20d-1016,G,eps+20d,JBHT,2022-01-19,2022-01-20,193.1143,185.7927,,8,2022-01-25,185.7369,stop,-59.02,-1.288,12.87,1.36,day-1 return +0.1%; timing amc; size limited by max position
+G-eps+20d-1024,G,eps+20d,BXP,2022-01-26,2022-01-27,90.0318,87.9809,,17,2022-01-27,87.9545,stop,-35.31,-2.27,44.0,0.92,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-1022,G,eps+20d,MMM,2022-01-25,2022-01-26,123.3435,118.8704,,12,2022-01-28,118.8347,stop,-54.11,-1.11,14.36,0.42,day-1 return +0.5%; timing bmo; size limited by max position
+G-eps+20d-1025,G,eps+20d,VLO,2022-01-27,2022-01-28,70.6984,69.4453,,21,2022-01-28,69.4245,stop,-26.75,-0.761,34.24,2.78,day-1 return +0.8%; timing bmo; size limited by max position
+G-eps+20d-1020,G,eps+20d,HAL,2022-01-24,2022-01-25,25.844,23.8642,,36,2022-02-23,28.7811,time exit,105.74,1.387,5.88,-3.3,day-1 return +3.8%; timing bmo; size limited by risk
+G-eps+20d-1021,G,eps+20d,AXP,2022-01-25,2022-01-26,166.8826,150.5312,,6,2022-02-24,177.5275,time exit,63.87,0.839,18.48,4.54,day-1 return +8.9%; timing bmo; size limited by risk
+G-eps+20d-1023,G,eps+20d,PCAR,2022-01-25,2022-01-26,53.7568,49.5042,,21,2022-02-24,52.1106,time exit,-34.57,-0.462,11.36,0.43,day-1 return +3.1%; timing bmo; size limited by risk
+G-eps+20d-1028,G,eps+20d,PSA,2022-02-23,2022-02-24,280.8813,283.4604,,5,2022-02-24,280.7128,stop,-0.84,-0.177,45.41,9.0,day-1 return +3.2%; timing amc; size limited by max position
+G-eps+20d-1026,G,eps+20d,CHTR,2022-01-28,2022-01-31,589.1667,560.37,,2,2022-03-01,594.5616,time exit,10.79,0.179,26.13,-0.07,day-1 return +5.2%; timing bmo; size limited by risk
+G-eps+20d-1027,G,eps+20d,WRB,2022-01-28,2022-01-31,33.554,33.0434,,45,2022-03-01,35.2992,time exit,78.54,2.037,21.43,2.04,day-1 return +4.1%; timing amc; size limited by max position
+G-eps+20d-1030,G,eps+20d,MRNA,2022-02-24,2022-02-25,156.0668,138.12,,4,2022-03-04,138.0786,stop,-71.95,-0.993,15.09,3.05,day-1 return +15.1%; timing bmo; size limited by risk
+G-eps+20d-1032,G,eps+20d,TGT,2022-03-01,2022-03-02,190.1723,187.1608,,8,2022-03-07,187.1046,stop,-24.54,-4.071,12.32,13.55,day-1 return +9.8%; timing bmo; size limited by max position
+G-eps+20d-1034,G,eps+20d,NKE,2022-03-22,2022-03-23,121.5571,121.8413,,12,2022-03-23,121.4842,stop,-0.87,-0.796,20.83,5.45,day-1 return +2.2%; timing amc; size limited by max position
+G-eps+20d-1029,G,eps+20d,EXR,2022-02-24,2022-02-25,155.7176,143.6772,,6,2022-03-25,163.1555,time exit,44.63,0.627,42.86,-4.55,day-1 return +1.7%; timing amc; size limited by risk
+G-eps+20d-1031,G,eps+20d,PWR,2022-02-24,2022-02-25,106.7178,96.328,,6,2022-03-25,133.3296,time exit,159.67,2.283,9.22,-0.33,day-1 return +10.6%; timing bmo; size limited by risk
+G-eps+20d-1033,G,eps+20d,SBAC,2022-03-01,2022-03-02,290.8405,286.4331,,5,2022-03-30,316.5245,time exit,128.42,4.866,9.76,5.0,day-1 return +4.4%; timing amc; size limited by max position
+G-eps+20d-1035,G,eps+20d,CTAS,2022-03-23,2022-03-24,97.1116,93.8556,,16,2022-04-22,97.7795,time exit,10.69,0.283,21.31,0.37,day-1 return +2.1%; timing bmo; size limited by max position
+G-eps+20d-1036,G,eps+20d,GIS,2022-03-23,2022-03-24,52.9073,52.3501,,29,2022-04-22,59.881,time exit,202.24,21.257,7.69,4.18,day-1 return +2.5%; timing bmo; size limited by max position
+G-eps+20d-1037,G,eps+20d,PAYX,2022-03-30,2022-03-31,118.2614,110.159,,11,2022-04-25,110.126,stop,-89.49,-1.131,9.52,-0.4,day-1 return +3.3%; timing bmo; size limited by risk
+G-eps+20d-1042,G,eps+20d,CDNS,2022-04-26,2022-04-27,151.9656,150.5,,10,2022-04-29,150.4548,stop,-15.11,-1.453,17.0,4.57,day-1 return +0.3%; timing amc; size limited by max position
+G-eps+20d-1040,G,eps+20d,KMB,2022-04-22,2022-04-25,116.0929,114.8443,,13,2022-05-02,114.8099,stop,-16.68,-1.17,9.76,8.29,day-1 return +8.1%; timing bmo; size limited by max position
+G-eps+20d-1038,G,eps+20d,LW,2022-04-07,2022-04-08,59.6252,57.3462,,27,2022-05-05,57.329,stop,-62.0,-1.198,69.77,4.48,day-1 return +8.0%; timing bmo; size limited by max position
+G-eps+20d-1045,G,eps+20d,BKNG,2022-05-05,2022-05-06,83.8435,84.2701,,19,2022-05-06,83.7932,stop,-0.96,-0.085,220.0,9.35,day-1 return +3.3%; timing amc; size limited by max position
+G-eps+20d-1039,G,eps+20d,STZ,2022-04-07,2022-04-08,220.1033,214.5601,,7,2022-05-09,224.7071,time exit,32.23,0.757,11.79,1.8,day-1 return +4.6%; timing bmo; size limited by max position
+G-eps+20d-1043,G,eps+20d,MHK,2022-04-29,2022-05-02,143.523,139.94,,11,2022-05-11,139.898,stop,-39.88,-3.237,30.8,20.23,day-1 return +7.9%; timing amc; size limited by max position
+G-eps+20d-1046,G,eps+20d,CI,2022-05-06,2022-05-09,245.5642,234.6697,,6,2022-05-12,234.5993,stop,-65.79,-1.005,16.02,1.48,day-1 return +5.9%; timing bmo; size limited by max position
+G-eps+20d-1047,G,eps+20d,TSN,2022-05-09,2022-05-10,80.5375,77.4452,,20,2022-05-12,77.422,stop,-62.31,-1.213,26.52,2.01,day-1 return +2.2%; timing bmo; size limited by max position
+G-eps+20d-1049,G,eps+20d,MSI,2022-05-13,2022-05-16,202.1253,196.4552,,7,2022-05-18,196.3963,stop,-40.1,-0.726,7.59,2.74,day-1 return +6.8%; timing amc; size limited by max position
+G-eps+20d-1044,G,eps+20d,CLX,2022-05-03,2022-05-04,123.9687,119.5977,,13,2022-05-19,119.5618,stop,-57.29,-0.871,36.46,-0.99,day-1 return +3.0%; timing amc; size limited by max position
+G-eps+20d-1051,G,eps+20d,TJX,2022-05-18,2022-05-19,56.1855,55.5939,,28,2022-05-19,55.5772,stop,-17.03,-0.547,13.33,9.36,day-1 return +7.1%; timing bmo; size limited by max position
+G-eps+20d-1050,G,eps+20d,TTWO,2022-05-17,2022-05-18,121.3164,117.64,,13,2022-05-20,117.6047,stop,-48.25,-0.682,53.23,8.87,day-1 return +11.8%; timing amc; size limited by max position
+G-eps+20d-1041,G,eps+20d,VLO,2022-04-26,2022-04-27,92.9157,88.7024,,17,2022-05-25,112.6145,time exit,334.88,5.543,40.0,0.83,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-1054,G,eps+20d,DLTR,2022-05-26,2022-05-27,161.8485,155.64,,9,2022-06-10,155.5933,stop,-56.3,-0.874,19.7,19.63,day-1 return +21.9%; timing bmo; size limited by max position
+G-eps+20d-1048,G,eps+20d,TPR,2022-05-12,2022-05-13,27.1309,25.0542,,35,2022-06-13,27.7726,time exit,22.46,0.284,24.39,6.6,day-1 return +15.5%; timing bmo; size limited by risk
+G-eps+20d-1055,G,eps+20d,NVDA,2022-05-26,2022-05-27,18.117,15.9564,,44,2022-06-13,15.9331,stop,-96.09,-1.199,7.69,-5.53,day-1 return +5.2%; timing amc; size limited by risk
+G-eps+20d-1056,G,eps+20d,ORCL,2022-06-14,2022-06-15,66.3665,64.9999,,23,2022-06-15,64.9804,stop,-31.88,-0.866,11.59,12.41,day-1 return +10.4%; timing amc; size limited by max position
+G-eps+20d-1052,G,eps+20d,SNPS,2022-05-19,2022-05-20,303.9511,287.26,,5,2022-06-16,287.1738,stop,-83.89,-1.265,5.49,6.03,day-1 return +10.3%; timing amc; size limited by max position
+G-eps+20d-1053,G,eps+20d,RL,2022-05-24,2022-05-25,82.5037,79.4585,,18,2022-06-16,79.4347,stop,-55.24,-0.728,25.64,-0.98,day-1 return +0.2%; timing bmo; size limited by risk
+G-eps+20d-1059,G,eps+20d,KMX,2022-06-24,2022-06-27,99.5198,90.25,,9,2022-06-30,90.2229,stop,-83.67,-1.146,5.41,0.03,day-1 return +7.2%; timing bmo; size limited by risk
+G-eps+20d-1057,G,eps+20d,LEN,2022-06-21,2022-06-22,58.4106,57.3154,,26,2022-07-21,74.051,time exit,406.65,9.517,18.73,2.04,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-1062,G,eps+20d,UNH,2022-07-15,2022-07-18,490.0298,475.537,,3,2022-07-21,475.3943,stop,-43.91,-1.109,6.91,4.7,day-1 return +5.4%; timing bmo; size limited by max position
+G-eps+20d-1058,G,eps+20d,FDS,2022-06-23,2022-06-24,372.5373,343.289,,2,2022-07-25,387.1924,time exit,29.31,0.536,16.77,1.57,day-1 return +8.0%; timing bmo; size limited by risk
+G-eps+20d-1060,G,eps+20d,GIS,2022-06-29,2022-06-30,61.1566,59.0727,,25,2022-07-29,62.2131,time exit,26.41,0.397,10.89,1.81,day-1 return +6.3%; timing bmo; size limited by max position
+G-eps+20d-1061,G,eps+20d,C,2022-07-15,2022-07-18,43.5791,39.722,,24,2022-08-15,46.943,time exit,80.73,1.032,37.72,6.48,day-1 return +13.2%; timing bmo; size limited by risk
+G-eps+20d-1063,G,eps+20d,TSLA,2022-07-21,2022-07-22,276.3029,254.8667,,4,2022-08-19,296.5777,time exit,81.1,1.204,26.67,3.07,day-1 return +9.8%; timing amc; size limited by risk
+G-eps+20d-1064,G,eps+20d,PM,2022-07-21,2022-07-22,77.7848,74.5958,,20,2022-08-19,82.7373,time exit,99.05,1.794,18.4,0.51,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-1067,G,eps+20d,WMT,2022-08-16,2022-08-17,44.0962,43.9621,,37,2022-08-19,43.9489,stop,-5.45,-0.392,9.26,4.75,day-1 return +5.1%; timing bmo; size limited by max position
+G-eps+20d-1065,G,eps+20d,GE,2022-07-26,2022-07-27,43.9075,42.1569,,36,2022-08-24,46.7701,time exit,103.05,1.99,85.71,1.93,day-1 return +4.6%; timing bmo; size limited by max position
+G-eps+20d-1069,G,eps+20d,INTU,2022-08-24,2022-08-25,448.6337,449.0106,,3,2022-08-25,448.3646,stop,-0.81,-0.634,12.24,6.69,day-1 return +3.6%; timing amc; size limited by max position
+G-eps+20d-1070,G,eps+20d,NTAP,2022-08-25,2022-08-26,70.7265,70.3401,,22,2022-08-26,70.319,stop,-8.97,-0.292,9.09,8.61,day-1 return +7.9%; timing amc; size limited by max position
+G-eps+20d-1071,G,eps+20d,ADSK,2022-08-25,2022-08-26,218.9357,216.45,,7,2022-08-26,216.3851,stop,-17.85,-0.689,5.1,9.46,day-1 return +2.7%; timing amc; size limited by max position
+G-eps+20d-1066,G,eps+20d,HIG,2022-07-29,2022-08-01,58.588,57.2453,,27,2022-08-29,60.4663,time exit,50.71,0.903,41.45,-0.03,day-1 return +2.6%; timing amc; size limited by max position
+G-eps+20d-1072,G,eps+20d,BBY,2022-08-30,2022-08-31,60.6593,60.7713,,26,2022-08-31,60.6229,stop,-0.95,-0.186,19.38,1.93,day-1 return +1.6%; timing bmo; size limited by max position
+G-eps+20d-1068,G,eps+20d,SJM,2022-08-23,2022-08-24,124.1607,120.1405,,13,2022-09-01,120.1044,stop,-52.73,-1.301,31.5,2.5,day-1 return +3.3%; timing bmo; size limited by max position
+G-eps+20d-1073,G,eps+20d,KR,2022-09-09,2022-09-12,47.3863,44.4005,,26,2022-09-14,44.3871,stop,-77.98,-0.97,8.43,2.03,day-1 return +7.4%; timing bmo; size limited by risk
+G-eps+20d-1075,G,eps+20d,LEN,2022-09-22,2022-09-23,68.6972,68.8571,,23,2022-09-23,68.656,stop,-0.95,-0.04,6.58,0.51,day-1 return +2.0%; timing amc; size limited by max position
+G-eps+20d-1077,G,eps+20d,PAYX,2022-09-28,2022-09-29,101.139,97.5751,,15,2022-09-29,97.5459,stop,-53.9,-0.829,6.19,2.92,day-1 return +3.6%; timing bmo; size limited by max position
+G-eps+20d-1074,G,eps+20d,GIS,2022-09-21,2022-09-22,66.7451,64.104,,24,2022-09-30,64.0848,stop,-63.85,-1.193,11.0,3.41,day-1 return +5.7%; timing bmo; size limited by max position
+G-eps+20d-1076,G,eps+20d,CTAS,2022-09-28,2022-09-29,94.0738,91.8188,,17,2022-10-13,91.2925,stop,-47.28,-0.851,7.59,3.11,day-1 return +2.9%; timing bmo; size limited by max position
+G-eps+20d-1078,G,eps+20d,MU,2022-09-30,2022-10-03,50.0374,48.8456,,32,2022-10-31,53.1486,time exit,99.56,10.94,5.84,1.06,day-1 return +0.2%; timing amc; size limited by max position
+G-eps+20d-1079,G,eps+20d,LW,2022-10-05,2022-10-06,75.3089,73.4122,,21,2022-11-03,77.7789,time exit,51.87,1.46,50.0,2.73,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-1083,G,eps+20d,IT,2022-11-01,2022-11-02,326.5979,314.16,,5,2022-11-03,314.0658,stop,-62.66,-1.156,28.88,4.15,day-1 return +7.6%; timing bmo; size limited by max position
+G-eps+20d-1080,G,eps+20d,PEP,2022-10-12,2022-10-13,146.0107,145.5301,,10,2022-11-10,158.6728,time exit,126.62,5.195,6.49,3.78,day-1 return +4.2%; timing bmo; size limited by max position
+G-eps+20d-1081,G,eps+20d,BLK,2022-10-13,2022-10-14,515.7518,457.3068,,1,2022-11-11,703.9913,time exit,188.24,3.292,35.27,-4.9,day-1 return +6.6%; timing bmo; size limited by risk
+G-eps+20d-1082,G,eps+20d,WFC,2022-10-14,2022-10-17,40.1376,38.7509,,41,2022-11-14,42.3697,time exit,91.52,62.113,19.27,3.35,day-1 return +1.9%; timing bmo; size limited by max position
+G-eps+20d-1084,G,eps+20d,RCL,2022-11-03,2022-11-04,54.1438,44.2765,,10,2022-12-05,57.4262,time exit,32.82,0.426,52.94,-7.05,day-1 return +8.3%; timing bmo; size limited by risk
+G-eps+20d-1085,G,eps+20d,ETSY,2022-11-03,2022-11-04,101.6105,90.43,,8,2022-12-05,137.1688,time exit,284.47,3.704,38.96,4.33,day-1 return +14.3%; timing amc; size limited by risk
+G-eps+20d-1086,G,eps+20d,ATO,2022-11-10,2022-11-11,101.7046,96.6793,,16,2022-12-12,108.5195,time exit,109.04,1.46,18.6,5.47,day-1 return +8.4%; timing amc; size limited by max position
+G-eps+20d-1087,G,eps+20d,WMT,2022-11-15,2022-11-16,47.0589,45.9854,,35,2022-12-15,45.9716,stop,-38.05,-1.183,13.64,5.22,day-1 return +6.5%; timing bmo; size limited by max position
+G-eps+20d-1088,G,eps+20d,TJX,2022-11-16,2022-11-17,73.1618,70.6686,,18,2022-12-16,73.7831,time exit,11.18,0.14,13.75,-0.99,day-1 return +5.2%; timing bmo; size limited by risk
+G-eps+20d-1090,G,eps+20d,NKE,2022-12-21,2022-12-22,105.6247,106.5631,,15,2022-12-22,105.5613,stop,-0.95,-0.156,28.79,13.13,day-1 return +12.2%; timing amc; size limited by max position
+G-eps+20d-1091,G,eps+20d,FDX,2022-12-21,2022-12-22,125.5136,125.558,,13,2022-12-22,125.4383,stop,-0.98,-0.055,12.77,6.2,day-1 return +3.4%; timing amc; size limited by max position
+G-eps+20d-1089,G,eps+20d,CPB,2022-12-07,2022-12-08,47.3863,45.7001,,35,2023-01-09,47.5443,time exit,5.53,0.091,18.6,3.43,day-1 return +6.0%; timing bmo; size limited by max position

@@ -56,6 +56,9 @@ def simulate(c, df: pd.DataFrame, end: pd.Timestamp, slip: float = SLIP,
             out["fill_reason"] = "limit not reached"
             return out
         first_check = i0  # bracket legs are live from the fill
+    elif c.entry_type == "open_market":  # market-on-open; sized on ref_price (the prior close)
+        raw = bar.open
+        first_check = i0  # the stop order is live from the fill
     else:  # close
         raw = bar.close
         first_check = i0 + 1
@@ -69,7 +72,7 @@ def simulate(c, df: pd.DataFrame, end: pd.Timestamp, slip: float = SLIP,
     max_hold = int(c.max_hold_days) if pd.notna(c.max_hold_days) else None
     out.update(filled=True, entry_price=entry, initial_risk=initial_risk)
 
-    highest = bar.high if c.entry_type == "open_limit" else bar.close
+    highest = bar.high if c.entry_type in ("open_limit", "open_market") else bar.close
     stop_moved = False
     exit_price, reason, exit_date = None, None, None
     last = min(df.index.searchsorted(end, side="right") - 1, len(df) - 1)

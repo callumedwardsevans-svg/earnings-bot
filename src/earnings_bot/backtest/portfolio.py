@@ -76,7 +76,7 @@ def run(
         pending_sectors: list[str] = []
         todays = by_day.get(d)
         if todays is not None:
-            for c in todays[todays.entry_type == "open_limit"].itertuples():
+            for c in todays[todays.entry_type.isin(["open_limit", "open_market"])].itertuples():
                 try_enter(c, d, prev_equity)
 
         open_pos, cash = _process_exits(open_pos, d, cash, trades)
