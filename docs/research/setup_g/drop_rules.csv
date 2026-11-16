@@ -1,0 +1,5 @@
+setup,platform,in-sample Sharpe,holdout Sharpe,x2-cost Sharpe (in-sample),DSR,top-5% share,corr with A,verdict
+G eps>=5% +10d,Alpaca,0.63,0.23,0.52,0.87,175%,0.59,drop: holdout Sharpe 0.23 (in-sample 0.63); DSR 0.87; best 5% of trades = 175% of profit
+G eps>=5% +10d,IG,0.42,-0.16,0.09,0.87,260%,0.59,drop: holdout Sharpe -0.16 (in-sample 0.42); DSR 0.87; best 5% of trades = 260% of profit
+G eps>=5% +20d,Alpaca,0.68,0.55,0.61,0.91,154%,0.61,drop: best 5% of trades = 154% of profit; corr with A 0.61 without higher Sharpe (0.68 vs A 0.80)
+G eps>=5% +20d,IG,0.46,0.06,0.16,0.91,221%,0.61,drop: holdout Sharpe 0.06 (in-sample 0.46); best 5% of trades = 221% of profit; corr with A 0.61 without higher Sharpe (0.46 vs A 0.60)
