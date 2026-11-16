@@ -21,24 +21,34 @@ import requests
 
 from earnings_bot.data.cache import DATA_DIR, age_hours, read_parquet, write_parquet
 
-FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF"
-FF_PATH = DATA_DIR / "rates" / "fed_funds_DFF.parquet"
 IG_FUNDING_SPREAD = 0.034
 ALPACA_BPS = {"stock": 3.0, "etf": 2.0}
 
 
-def fed_funds() -> pd.Series:
-    """Daily effective fed funds rate in % (FRED DFF), calendar-daily, cached for a week."""
-    if age_hours(FF_PATH) > 24 * 7:
-        r = requests.get(FRED_URL, headers={"User-Agent": "earnings-bot research script"}, timeout=30)
+def fred_series(series_id: str) -> pd.Series:
+    """A FRED daily series in %, calendar-daily (forward-filled), cached for a week."""
+    path = DATA_DIR / "rates" / f"fred_{series_id}.parquet"
+    if age_hours(path) > 24 * 7:
+        r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}",
+                         headers={"User-Agent": "earnings-bot research script"}, timeout=30)
         r.raise_for_status()
         df = pd.read_csv(io.StringIO(r.text))
         df.columns = ["date", "rate"]
         df["date"] = pd.to_datetime(df["date"])
         df["rate"] = pd.to_numeric(df["rate"], errors="coerce")
-        write_parquet(df.dropna().set_index("date"), FF_PATH)
-    s = read_parquet(FF_PATH).rate
+        write_parquet(df.dropna().set_index("date"), path)
+    s = read_parquet(path).rate
     return s.reindex(pd.date_range(s.index.min(), pd.Timestamp.today().normalize())).ffill()
+
+
+def fed_funds() -> pd.Series:
+    """Daily effective fed funds rate in % (FRED DFF): IG's funding benchmark."""
+    return fred_series("DFF")
+
+
+def tbill_3m() -> pd.Series:
+    """3-month T-bill secondary-market rate in % (FRED DTB3): the return on cash."""
+    return fred_series("DTB3")
 
 
 def funding_per_unit(entry_dates: pd.Series, exit_dates: pd.Series, ff: pd.Series | None = None) -> np.ndarray:

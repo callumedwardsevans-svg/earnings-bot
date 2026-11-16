@@ -160,22 +160,33 @@ def av_raw_path(symbol: str):
 
 
 def fetch_av_earnings(
-    symbol: str, api_key: str, budget: AlphaVantageBudget, refresh: bool = False, session=None
+    symbol: str, api_key: str, budget: AlphaVantageBudget, refresh: bool = False, session=None,
+    burst_retries: int = 3, burst_wait: float = 3.0,
 ) -> dict:
     """Raw AV EARNINGS JSON for one symbol, from cache unless ``refresh``."""
     path = av_raw_path(symbol)
     cached = read_json(path)
     if cached is not None and not refresh:
         return cached
-    budget.spend()  # raises RateLimited when the local budget is gone
     http = session or requests
-    data = _get_json(http, AV_URL, {"function": "EARNINGS", "symbol": av_symbol(symbol), "apikey": api_key}, api_key)
-    if "quarterlyEarnings" not in data:
-        msg = data.get("Information") or data.get("Note") or data.get("Error Message") or str(data)[:200]
-        msg = redact(msg, api_key)
-        if "rate limit" in msg.lower() or "requests per day" in msg.lower() or "premium" in msg.lower():
+    for attempt in range(burst_retries + 1):
+        budget.spend()  # raises RateLimited when the local budget is gone
+        data = _get_json(http, AV_URL, {"function": "EARNINGS", "symbol": av_symbol(symbol), "apikey": api_key},
+                         api_key)
+        if "quarterlyEarnings" in data:
+            break
+        msg = redact(data.get("Information") or data.get("Note") or data.get("Error Message") or str(data)[:200],
+                     api_key)
+        low = msg.lower()
+        if "per second" in low or "spreading out" in low:
+            # burst limit (too many requests in a second), not the daily cap: wait and retry
+            if attempt < burst_retries:
+                _time.sleep(burst_wait * (attempt + 1))
+                continue
+            raise RateLimited(f"Alpha Vantage burst limit persisted: {msg}")
+        if "requests per day" in low or ("rate limit" in low and "25" in low):
             budget.exhaust()
-            raise RateLimited(f"Alpha Vantage: {msg}")
+            raise RateLimited(f"Alpha Vantage daily limit: {msg}")
         raise ValueError(f"Alpha Vantage returned no earnings for {symbol}: {msg}")
     write_json(data, path)
     _time.sleep(1.2)  # be polite between calls

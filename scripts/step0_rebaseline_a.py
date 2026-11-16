@@ -190,6 +190,7 @@ def main() -> int:
     pd.concat([port_pit, port_tod]).to_csv(OUT / "portfolio_results.csv", index=False)
     pd.concat([sig_pit, sig_tod]).to_csv(OUT / "signal_results.csv", index=False)
     trades[("Alpaca", "2010-2026")].to_csv(OUT / "trades_alpaca_2010_2026.csv", index=False)
+    curves[("Alpaca", "2010-2026")].to_csv(OUT / "equity_alpaca_2010_2026.csv")  # for correlation with E/G/F
     (OUT / "coverage.json").write_text(json.dumps({**cov, "dsr": dsr, "funnel_pit": funnel_pit,
                                                    "funnel_today": funnel_tod,
                                                    "excluded_reuse": reuse, "no_prices": missing}, indent=2, default=str))

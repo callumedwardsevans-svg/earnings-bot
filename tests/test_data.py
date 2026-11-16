@@ -131,3 +131,28 @@ def test_http_errors_do_not_leak_key_in_url(tmp_path, monkeypatch):
         earnings.fetch_av_earnings("AAPL", "SECRETKEY123", b, session=FakeHTTP())
     assert "SECRETKEY123" not in str(exc.value)
     assert exc.value.__cause__ is None and exc.value.__suppress_context__
+
+
+def test_av_burst_message_retries_instead_of_ending_the_day(tmp_path, monkeypatch):
+    monkeypatch.setattr(earnings, "AV_DIR", tmp_path)
+    monkeypatch.setattr(earnings._time, "sleep", lambda s: None)
+    b = AlphaVantageBudget(limit=25, path=tmp_path / "u.json")
+    replies = [{"Information": "Please consider spreading out your free API requests more sparingly "
+                               "(1 request per second). You may subscribe to any of the premium plans"},
+               {"quarterlyEarnings": []}]
+
+    class Resp:
+        def __init__(self, d):
+            self.d = d
+
+        def raise_for_status(self): ...
+
+        def json(self):
+            return self.d
+
+    class FakeHTTP:
+        def get(self, *a, **k):
+            return Resp(replies.pop(0))
+
+    assert earnings.fetch_av_earnings("SIVB", "KEY", b, session=FakeHTTP()) == {"quarterlyEarnings": []}
+    assert b.remaining() == 23  # two calls counted, budget not exhausted
