@@ -1,0 +1,828 @@
+ticker,cik,how,match
+A,1090872.0,wikipedia,
+AA,1675149.0,sec ticker map,
+AAL,6201.0,sec ticker map,
+AAP,1158449.0,sec ticker map,
+AAPL,320193.0,wikipedia,
+ABBV,1551152.0,wikipedia,
+ABMD,815094.0,edgar name search,Abiomed -> ABIOMED INC
+ABNB,1559720.0,wikipedia,
+ABT,1800.0,wikipedia,
+ACE,896159.0,edgar name search,Chubb -> Chubb Ltd (CB)
+ACGL,947484.0,wikipedia,
+ACN,1467373.0,wikipedia,
+ADBE,796343.0,wikipedia,
+ADI,6281.0,wikipedia,
+ADM,7084.0,wikipedia,
+ADP,8670.0,wikipedia,
+ADS,,unresolved,Alliance Data Systems
+ADSK,769397.0,wikipedia,
+ADT,1703056.0,sec ticker map,
+AEE,1002910.0,wikipedia,
+AEP,4904.0,wikipedia,
+AES,874761.0,wikipedia,
+AET,1013761.0,edgar name search,Aetna -> AETNA INC /CT/
+AFL,4977.0,wikipedia,
+AGN,850693.0,edgar name search,Allergan -> ALLERGAN INC
+AGN_OLD,,unresolved,
+AIG,5272.0,wikipedia,
+AIV,922864.0,sec ticker map,
+AIZ,1267238.0,wikipedia,
+AJG,354190.0,wikipedia,
+AKAM,1086222.0,wikipedia,
+AKS,918192.0,edgar name search,AK Steel -> AK STEEL CORP
+ALB,915913.0,wikipedia,
+ALGN,1097149.0,wikipedia,
+ALK,766421.0,sec ticker map,
+ALL,899051.0,wikipedia,
+ALLE,1579241.0,wikipedia,
+ALTR,768251.0,edgar name search,Altera -> ALTERA CORP
+ALXN,899866.0,edgar name search,"Alexion Pharmaceuticals -> ALEXION PHARMACEUTICALS, INC."
+AMAT,6951.0,wikipedia,
+AMCR,1748790.0,wikipedia,
+AMD,2488.0,wikipedia,
+AME,1037868.0,wikipedia,
+AMG,1004434.0,sec ticker map,
+AMGN,318154.0,wikipedia,
+AMP,820027.0,wikipedia,
+AMT,1053507.0,wikipedia,
+AMTM,2011286.0,sec ticker map,
+AMZN,1018724.0,wikipedia,
+AN,350698.0,sec ticker map,
+ANDV,50104.0,edgar name search,Andeavor -> ANDEAVOR LLC
+ANET,1596532.0,wikipedia,
+ANF,1018840.0,sec ticker map,
+ANR,1301063.0,edgar name search,"Alpha Natural Resources -> Alpha Natural Resources, Inc."
+ANSS,1013462.0,edgar name search,Ansys -> ANSYS INC
+AON,315293.0,wikipedia,
+AOS,91142.0,wikipedia,
+APA,1841666.0,wikipedia,
+APC,2080921.0,sec ticker map,
+APD,2969.0,wikipedia,
+APH,820313.0,wikipedia,
+APO,1858681.0,wikipedia,
+APOL,929887.0,edgar name search,Apollo Education Group -> APOLLO EDUCATION GROUP INC
+APP,1751008.0,wikipedia,
+APTV,1521332.0,wikipedia,
+ARE,1035443.0,wikipedia,
+ARES,1176948.0,wikipedia,
+ARG,804212.0,edgar name search,Airgas -> AIRGAS INC
+ARNC,1790982.0,edgar name search,Arconic -> Arconic Corp
+ATI,1018963.0,sec ticker map,
+ATO,731802.0,wikipedia,
+ATVI,718877.0,edgar name search,"Activision Blizzard -> Activision Blizzard, Inc."
+AVB,915912.0,edgar name search,AvalonBay Communities -> AVALONBAY COMMUNITIES INC
+AVGO,1730168.0,wikipedia,
+AVP,8868.0,edgar name search,Avon Products -> AVON PRODUCTS INC
+AVY,8818.0,wikipedia,
+AWK,1410636.0,wikipedia,
+AXON,1069183.0,wikipedia,
+AXP,4962.0,wikipedia,
+AYE,3673.0,edgar name search,"Allegheny Energy -> ALLEGHENY ENERGY, INC"
+AYI,1144215.0,sec ticker map,
+AZO,866787.0,wikipedia,
+BA,12927.0,wikipedia,
+BAC,70858.0,wikipedia,
+BALL,9389.0,wikipedia,
+BAX,10456.0,wikipedia,
+BBBY,1950894.0,edgar name search,Bed Bath & Beyond -> Bed Bath & Beyond Canada L.P.
+BBWI,701985.0,sec ticker map,
+BBY,764478.0,wikipedia,
+BCR,2150272.0,edgar name search,CR Bard -> Bard & Hops Crux LLC
+BDX,10795.0,wikipedia,
+BE,1664703.0,wikipedia,
+BEAM,1745999.0,sec ticker map,
+BEN,38777.0,wikipedia,
+BF.B,14693.0,wikipedia,
+BG,1996862.0,wikipedia,
+BHF,1685040.0,sec ticker map,
+BHI,1701605.0,edgar name search,Baker Hughes -> Baker Hughes Co (BKR)
+BIG,,unresolved,Big Lots
+BIIB,875045.0,wikipedia,
+BIO,12208.0,sec ticker map,
+BJS,1703085.0,edgar name search,"BJ Services -> BJ Services, Inc."
+BKNG,1075531.0,wikipedia,
+BKR,1701605.0,wikipedia,
+BLDR,1316835.0,sec ticker map,
+BLK,2012383.0,wikipedia,
+BMC,835729.0,edgar name search,BMC Software -> BMC SOFTWARE INC
+BMS,,unresolved,Bemis Company
+BMY,14272.0,wikipedia,
+BNY,1390777.0,wikipedia,
+BR,1383312.0,wikipedia,
+BRCM,,unresolved,Broadcom Corporation
+BRK.B,1067983.0,wikipedia,
+BRO,79282.0,wikipedia,
+BSX,885725.0,wikipedia,
+BTU,1064728.0,sec ticker map,
+BWA,908255.0,sec ticker map,
+BX,1393818.0,wikipedia,
+BXLT,1620546.0,edgar name search,Baxalta -> Baxalta Inc
+BXP,1037540.0,wikipedia,
+C,831001.0,wikipedia,
+CA,1376793.0,edgar name search,"CA Technologies -> Cavitation Technologies, Inc. (CVAT)"
+CAG,23217.0,sec ticker map,
+CAH,721371.0,wikipedia,
+CAM,1281057.0,edgar name search,Cameron International -> CAMERON INTERNATIONAL INC
+CARR,1783180.0,wikipedia,
+CASY,726958.0,wikipedia,
+CAT,18230.0,wikipedia,
+CB,896159.0,wikipedia,
+CBE,24454.0,edgar name search,Cooper Industries -> COOPER INDUSTRIES INC
+CBOE,1374310.0,wikipedia,
+CBRE,1138118.0,wikipedia,
+CCE,1408297.0,edgar name search,Coca-Cola Enterprises -> Coca-Cola Enterprises Finance LT 1 Commandite S.C.A.
+CCI,1051470.0,wikipedia,
+CCL,815097.0,wikipedia,
+CDAY,1124887.0,edgar name search,Ceridian -> CERIDIAN LLC
+CDNS,813672.0,wikipedia,
+CDW,1402057.0,wikipedia,
+CE,1306830.0,sec ticker map,
+CEG,1868275.0,wikipedia,
+CELG,816284.0,edgar name search,Celgene -> CELGENE CORP /DE/
+CEPH,873364.0,edgar name search,Cephalon -> CEPHALON INC
+CERN,804753.0,edgar name search,Cerner -> CERNER Corp
+CF,1324404.0,wikipedia,
+CFG,759944.0,wikipedia,
+CFN,1457543.0,edgar name search,Carefusion -> CAREFUSION Corp
+CHD,313927.0,wikipedia,
+CHK,1765821.0,edgar name search,Chesapeake Energy -> Flowtex Energy Chesapeake JV
+CHRW,1043277.0,wikipedia,
+CHTR,1091667.0,wikipedia,
+CI,1739940.0,wikipedia,
+CIEN,936395.0,wikipedia,
+CINF,20286.0,wikipedia,
+CL,21665.0,wikipedia,
+CLF,764065.0,sec ticker map,
+CLX,21076.0,wikipedia,
+CMA,28412.0,edgar name search,Comerica -> COMERICA INC
+CMCSA,1166691.0,wikipedia,
+CMCSK,,unresolved,Comcast Series K
+CME,1156375.0,wikipedia,
+CMG,1058090.0,wikipedia,
+CMI,26172.0,wikipedia,
+CMS,811156.0,wikipedia,
+CNC,1071739.0,wikipedia,
+CNP,1130310.0,wikipedia,
+CNX,1070412.0,sec ticker map,
+COF,927628.0,wikipedia,
+COHR,820318.0,wikipedia,
+COIN,1679788.0,wikipedia,
+COL,1137411.0,edgar name search,Rockwell Collins -> ROCKWELL COLLINS INC
+COO,711404.0,wikipedia,
+COP,1163165.0,wikipedia,
+COR,1140859.0,wikipedia,
+COST,909832.0,wikipedia,
+COTY,1024305.0,sec ticker map,
+COV,1385187.0,edgar name search,Covidien -> Covidien plc
+CPAY,1175454.0,wikipedia,
+CPB,16732.0,sec ticker map,
+CPGX,1629995.0,edgar name search,"Columbia Pipeline Group -> Columbia Pipeline Group, Inc."
+CPRI,1530721.0,sec ticker map,
+CPRT,900075.0,wikipedia,
+CPT,906345.0,wikipedia,
+CPWR,827099.0,sec ticker map,
+CRH,849395.0,wikipedia,
+CRL,1100682.0,wikipedia,
+CRM,1108524.0,wikipedia,
+CRWD,1535527.0,wikipedia,
+CSC,,unresolved,Computer Sciences Corporation
+CSCO,858877.0,wikipedia,
+CSGP,1057352.0,wikipedia,
+CSRA,1646383.0,edgar name search,CSRA -> CSRA Inc.
+CSX,277948.0,wikipedia,
+CTAS,723254.0,wikipedia,
+CTLT,1596783.0,edgar name search,"Catalent -> Catalent, Inc."
+CTRA,858470.0,edgar name search,Coterra Energy -> Coterra Energy Inc.
+CTSH,1058290.0,wikipedia,
+CTVA,1755672.0,sec ticker map,
+CTXS,877890.0,edgar name search,Citrix Systems -> CITRIX SYSTEMS INC
+CVC,1053112.0,edgar name search,Cablevision Systems -> CABLEVISION SYSTEMS CORP /NY
+CVH,1054833.0,edgar name search,Coventry Health Care -> COVENTRY HEALTH CARE INC
+CVNA,1690820.0,wikipedia,
+CVS,64803.0,wikipedia,
+CVX,93410.0,wikipedia,
+CXO,1358071.0,edgar name search,Concho Resources -> CONCHO RESOURCES INC
+CZR,1590895.0,sec ticker map,
+D,715957.0,wikipedia,
+DAL,27904.0,wikipedia,
+DASH,1792789.0,wikipedia,
+DAY,1725057.0,edgar name search,"Dayforce -> Dayforce, Inc."
+DD,1666700.0,wikipedia,
+DDOG,1561550.0,wikipedia,
+DE,315189.0,wikipedia,
+DECK,910521.0,wikipedia,
+DELL,1571996.0,wikipedia,
+DF,931336.0,edgar name search,Dean Foods -> DEAN FOODS CO
+DFS,1393612.0,edgar name search,Discover Financial -> Discover Financial Services
+DG,29534.0,wikipedia,
+DGX,1022079.0,wikipedia,
+DHI,882184.0,wikipedia,
+DHR,313616.0,wikipedia,
+DIS,1744489.0,wikipedia,
+DISCA,1238234.0,edgar name search,"Discovery, Inc. -> VM DISCOVERY INC"
+DISCK,1238234.0,edgar name search,"Discovery, Inc. -> VM DISCOVERY INC"
+DISH,920436.0,edgar name search,Dish Network -> DISH Network LLC
+DLR,1297996.0,wikipedia,
+DLTR,935703.0,wikipedia,
+DNB,1115222.0,edgar name search,Dun & Bradstreet -> DUN & BRADSTREET CORP/NW
+DNR,,unresolved,Denbury Resources
+DO,949039.0,edgar name search,"Diamond Offshore Drilling -> DIAMOND OFFSHORE DRILLING, INC."
+DOC,765880.0,wikipedia,
+DOV,29905.0,wikipedia,
+DOW,1751788.0,wikipedia,
+DPS,,unresolved,Dr Pepper Snapple Group
+DPZ,1286681.0,wikipedia,
+DRE,783280.0,edgar name search,Duke Realty -> DUKE REALTY CORP
+DRI,940944.0,wikipedia,
+DTE,936340.0,wikipedia,
+DTV,1465112.0,edgar name search,DirecTV -> DIRECTV
+DUK,1326160.0,wikipedia,
+DV,1819928.0,sec ticker map,
+DVA,927066.0,wikipedia,
+DVN,1090012.0,wikipedia,
+DWDP,1666700.0,edgar name search,"DuPont -> DuPont de Nemours, Inc. (DD)"
+DXC,1688568.0,sec ticker map,
+DXCM,1093557.0,wikipedia,
+EA,712515.0,edgar name search,Electronic Arts -> ELECTRONIC ARTS INC.
+EBAY,1065088.0,wikipedia,
+ECHO,1415404.0,wikipedia,
+ECL,31462.0,wikipedia,
+ED,1047862.0,wikipedia,
+EFX,33185.0,wikipedia,
+EG,1095073.0,wikipedia,
+EIX,827052.0,wikipedia,
+EK,31235.0,edgar name search,Eastman Kodak -> EASTMAN KODAK CO (KODK)
+EL,1001250.0,wikipedia,
+ELV,1156039.0,wikipedia,
+EMC,,unresolved,EMC Corporation
+EME,105634.0,wikipedia,
+EMN,915389.0,sec ticker map,
+EMR,32604.0,wikipedia,
+ENDP,1593034.0,edgar name search,Endo International -> Endo International plc
+ENPH,1463101.0,sec ticker map,
+EOG,821189.0,wikipedia,
+EP,887396.0,sec ticker map,
+EPAM,1352010.0,sec ticker map,
+EQIX,1101239.0,wikipedia,
+EQT,33213.0,wikipedia,
+ERIE,922621.0,wikipedia,
+ES,72741.0,wikipedia,
+ESRX,885721.0,edgar name search,Express Scripts -> EXPRESS SCRIPTS INC
+ESS,920522.0,wikipedia,
+ESV,1866291.0,edgar name search,Ensco -> ENSCO Inc
+ETFC,1736680.0,edgar name search,"E-Trade -> Trade 'Em, Inc."
+ETN,1551182.0,wikipedia,
+ETR,65984.0,wikipedia,
+ETSY,1370637.0,sec ticker map,
+EVHC,1344154.0,edgar name search,Envision Healthcare -> Envision Healthcare Corp
+EVRG,1711269.0,wikipedia,
+EW,1099800.0,wikipedia,
+EXC,1109357.0,wikipedia,
+EXE,895126.0,wikipedia,
+EXPD,746515.0,wikipedia,
+EXPE,1324424.0,wikipedia,
+EXR,1289490.0,wikipedia,
+F,37996.0,wikipedia,
+FANG,1539838.0,wikipedia,
+FAST,815556.0,wikipedia,
+FBHS,,unresolved,Fortune Brands Home & Security
+FCX,831259.0,wikipedia,
+FDO,1672323.0,edgar name search,"Family Dollar -> Family Dollar, Inc."
+FDS,1013237.0,wikipedia,
+FDX,1048911.0,wikipedia,
+FDXF,2082247.0,wikipedia,
+FE,1031296.0,wikipedia,
+FERG,2011641.0,wikipedia,
+FFIV,1048695.0,wikipedia,
+FHN,36966.0,sec ticker map,
+FICO,814547.0,wikipedia,
+FII,1001639.0,edgar name search,Federated Investors -> FEDERATED INVESTORS /DE
+FIS,1136893.0,wikipedia,
+FISV,798354.0,wikipedia,
+FITB,35527.0,wikipedia,
+FIX,1035983.0,wikipedia,
+FL,850209.0,edgar name search,"Foot Locker -> FOOT LOCKER, INC."
+FLEX,866374.0,wikipedia,
+FLIR,,unresolved,FLIR Systems
+FLR,1124198.0,sec ticker map,
+FLS,30625.0,sec ticker map,
+FMC,37785.0,sec ticker map,
+FOSL,883569.0,sec ticker map,
+FOX,1754301.0,wikipedia,
+FOXA,1754301.0,wikipedia,
+FOXA_21CF,,unresolved,
+FOX_21CF,,unresolved,
+FRC,1132979.0,edgar name search,First Republic Bank -> FIRST REPUBLIC BANK
+FRT,34903.0,wikipedia,
+FRX,38074.0,edgar name search,"Forest Laboratories -> Forest Laboratories, LLC"
+FSLR,1274494.0,wikipedia,
+FTI,1681459.0,sec ticker map,
+FTNT,1262039.0,wikipedia,
+FTR,20520.0,edgar name search,"Frontier Communications -> Frontier Communications Parent, Inc."
+FTV,1659166.0,wikipedia,
+GAS,,unresolved,Nicor Gas
+GD,40533.0,wikipedia,
+GDDY,1609711.0,wikipedia,
+GE,40545.0,wikipedia,
+GEHC,1932393.0,wikipedia,
+GEN,849399.0,wikipedia,
+GENZ,732485.0,edgar name search,Genzyme -> GENZYME CORP
+GEV,1996810.0,wikipedia,
+GGP,895648.0,edgar name search,"GGP Inc. -> GGP, Inc. (fka General Growth Properties Inc. & predecessor to General Growth Properties, Inc.)"
+GHC,104889.0,sec ticker map,
+GILD,882095.0,wikipedia,
+GIS,40704.0,wikipedia,
+GL,320335.0,wikipedia,
+GLW,24741.0,wikipedia,
+GM,1467858.0,wikipedia,
+GMCR,909954.0,edgar name search,"Keurig Green Mountain -> KEURIG GREEN MOUNTAIN, INC."
+GME,1326380.0,sec ticker map,
+GNRC,1474735.0,wikipedia,
+GNW,1276520.0,sec ticker map,
+GOOG,1652044.0,wikipedia,
+GOOGL,1652044.0,wikipedia,
+GPC,40987.0,wikipedia,
+GPN,1123360.0,wikipedia,
+GPS,39911.0,edgar name search,Gap -> GAP INC (GAP)
+GR,,unresolved,Goodrich Corporation
+GRMN,1121788.0,wikipedia,
+GS,886982.0,wikipedia,
+GT,42582.0,sec ticker map,
+GWW,277135.0,wikipedia,
+HAL,45012.0,wikipedia,
+HAR,1640446.0,edgar name search,"Harman International -> Harman Finance International, S.C.A."
+HAS,46080.0,wikipedia,
+HBAN,49196.0,wikipedia,
+HBI,1359841.0,edgar name search,Hanesbrands -> Hanesbrands Inc.
+HCA,860730.0,wikipedia,
+HCBK,921847.0,edgar name search,Hudson City Bancorp -> HUDSON CITY BANCORP INC
+HD,354950.0,wikipedia,
+HES,,unresolved,Hess Corporation
+HFC,48039.0,edgar name search,HollyFrontier -> HollyFrontier Corp
+HIG,874766.0,wikipedia,
+HII,1501585.0,wikipedia,
+HLT,1585689.0,wikipedia,
+HNZ,1637459.0,edgar name search,Heinz -> Kraft Heinz Co (KHC)
+HOG,793952.0,sec ticker map,
+HOLX,859737.0,edgar name search,Hologic -> HOLOGIC INC
+HON,773840.0,wikipedia,
+HONA,2089271.0,wikipedia,
+HOOD,1783879.0,wikipedia,
+HOT,,unresolved,Starwood Hotels and Resorts
+HP,46765.0,sec ticker map,
+HPE,1645590.0,wikipedia,
+HPQ,47217.0,wikipedia,
+HRB,12659.0,sec ticker map,
+HRL,48465.0,wikipedia,
+HSIC,1000228.0,wikipedia,
+HSP,1274057.0,edgar name search,Hospira -> HOSPIRA INC
+HST,1070750.0,wikipedia,
+HSY,47111.0,wikipedia,
+HUBB,48898.0,wikipedia,
+HUM,49071.0,wikipedia,
+HWM,4281.0,wikipedia,
+IBKR,1381197.0,wikipedia,
+IBM,51143.0,wikipedia,
+ICE,1571949.0,wikipedia,
+IDXX,874716.0,wikipedia,
+IEX,832101.0,wikipedia,
+IFF,51253.0,wikipedia,
+IGT,353944.0,edgar name search,International Game Technology -> INTERNATIONAL GAME TECHNOLOGY
+ILMN,1110803.0,wikipedia,
+INCY,879169.0,wikipedia,
+INFO,1598014.0,edgar name search,IHS Markit -> IHS Markit Ltd.
+INTC,50863.0,wikipedia,
+INTU,896878.0,wikipedia,
+INVH,1687229.0,wikipedia,
+IP,51434.0,wikipedia,
+IPG,51644.0,edgar name search,"Interpublic Group -> INTERPUBLIC GROUP OF COMPANIES, INC."
+IPGP,1111928.0,sec ticker map,
+IQV,1478242.0,wikipedia,
+IR,1699150.0,wikipedia,
+IRM,1020569.0,wikipedia,
+ISRG,1035267.0,wikipedia,
+IT,749251.0,wikipedia,
+ITT,216228.0,sec ticker map,
+ITW,49826.0,wikipedia,
+IVZ,914208.0,wikipedia,
+J,52988.0,wikipedia,
+JBHT,728535.0,wikipedia,
+JBL,898293.0,wikipedia,
+JCI,833444.0,wikipedia,
+JCP,,unresolved,JCPenney
+JDSU,1257179.0,edgar name search,JDS Uniphase -> JDS UNIPHASE CORP
+JEF,96223.0,sec ticker map,
+JKHY,779152.0,wikipedia,
+JNJ,200406.0,wikipedia,
+JNPR,1043604.0,edgar name search,Juniper Networks -> JUNIPER NETWORKS INC
+JNS,1065865.0,edgar name search,Janus Capital Group -> JANUS CAPITAL GROUP INC
+JOY,801898.0,edgar name search,Joy Global -> JOY GLOBAL INC
+JPM,19617.0,wikipedia,
+JWN,72333.0,edgar name search,Nordstrom -> NORDSTROM INC
+K,55067.0,edgar name search,Kellanova -> KELLANOVA
+KDP,1418135.0,wikipedia,
+KEY,91576.0,wikipedia,
+KEYS,1601046.0,wikipedia,
+KFT,46640.0,edgar name search,Kraft Foods -> Kraft Heinz Foods Co
+KG,2055116.0,sec ticker map,
+KHC,1637459.0,wikipedia,
+KIM,879101.0,wikipedia,
+KKR,1404912.0,wikipedia,
+KLAC,319201.0,wikipedia,
+KMB,55785.0,wikipedia,
+KMI,1506307.0,wikipedia,
+KMX,1170010.0,sec ticker map,
+KO,21344.0,wikipedia,
+KR,56873.0,wikipedia,
+KRFT,46640.0,edgar name search,Kraft Foods -> Kraft Heinz Foods Co
+KSS,885639.0,sec ticker map,
+KSU,54480.0,edgar name search,Kansas City Southern -> KANSAS CITY SOUTHERN
+KVUE,1944048.0,edgar name search,Kenvue -> Kenvue Inc.
+L,60086.0,wikipedia,
+LDOS,1336920.0,wikipedia,
+LEG,58492.0,edgar name search,Leggett & Platt -> LEGGETT & PLATT INC
+LEN,920760.0,wikipedia,
+LH,920148.0,wikipedia,
+LHX,202058.0,wikipedia,
+LIFE,1788451.0,sec ticker map,
+LII,1069202.0,wikipedia,
+LIN,1707925.0,wikipedia,
+LITE,1633978.0,wikipedia,
+LKQ,1065696.0,sec ticker map,
+LLL,202058.0,edgar name search,"L3 Technologies -> L3HARRIS TECHNOLOGIES, INC. /DE/ (LHX)"
+LLTC,791907.0,edgar name search,Linear Technology -> LINEAR TECHNOLOGY CORP /CA/
+LLY,59478.0,wikipedia,
+LM,704051.0,edgar name search,"Legg Mason -> LEGG MASON, INC."
+LMT,936468.0,wikipedia,
+LNC,59558.0,sec ticker map,
+LNT,352541.0,wikipedia,
+LO,862178.0,edgar name search,"Lorillard Tobacco Company -> LORILLARD TOBACCO COMPANY, LLC"
+LOW,60667.0,wikipedia,
+LRCX,707549.0,wikipedia,
+LSI,,unresolved,LSI Corporation
+LULU,1397187.0,wikipedia,
+LUMN,18926.0,sec ticker map,
+LUV,92380.0,wikipedia,
+LVLT,1324502.0,edgar name search,"Level 3 Communications -> Level 3 Communications, LLC"
+LVS,1300514.0,wikipedia,
+LW,1679273.0,sec ticker map,
+LXK,1060259.0,edgar name search,Lexmark -> LEXMARK INTERNATIONAL INC
+LYB,1489393.0,wikipedia,
+LYV,1335258.0,wikipedia,
+M,794367.0,sec ticker map,
+MA,1141391.0,wikipedia,
+MAA,912595.0,wikipedia,
+MAC,912242.0,sec ticker map,
+MAR,1048286.0,wikipedia,
+MAS,62996.0,wikipedia,
+MAT,63276.0,sec ticker map,
+MBC,1941365.0,sec ticker map,
+MCD,63908.0,wikipedia,
+MCHP,827054.0,wikipedia,
+MCK,927653.0,wikipedia,
+MCO,1059556.0,wikipedia,
+MDLZ,1103982.0,wikipedia,
+MDP,1880863.0,edgar name search,Meredith Corp -> Meredith Holdings Corp
+MDT,1613103.0,wikipedia,
+MEE,,unresolved,Massey Energy
+MET,1099219.0,wikipedia,
+META,1326801.0,wikipedia,
+MFE,1159079.0,edgar name search,McAfee -> MCAFEE DON
+MGM,789570.0,wikipedia,
+MHK,851968.0,sec ticker map,
+MHS,1170650.0,edgar name search,Medco Health Solutions -> MEDCO HEALTH SOLUTIONS INC
+MI,1958713.0,sec ticker map,
+MIL,66479.0,edgar name search,Millipore -> MILLIPORE CORP /MA
+MJN,1444904.0,edgar name search,Mead Johnson -> Mead Johnson Nutrition CO
+MKC,63754.0,wikipedia,
+MKTX,1278021.0,sec ticker map,
+MLM,916076.0,wikipedia,
+MMI,1578732.0,sec ticker map,
+MMM,66740.0,wikipedia,
+MNK,1766927.0,edgar name search,Mallinckrodt -> Mallinckrodt Inc.
+MNST,865752.0,wikipedia,
+MO,764180.0,wikipedia,
+MOH,1179929.0,sec ticker map,
+MOLX,67472.0,edgar name search,Molex -> MOLEX INC
+MON,1110783.0,edgar name search,Monsanto -> MONSANTO CO /NEW/
+MOS,1285785.0,wikipedia,
+MPC,1510295.0,wikipedia,
+MPWR,1280452.0,wikipedia,
+MRK,310158.0,wikipedia,
+MRNA,1682852.0,wikipedia,
+MRO,101778.0,edgar name search,Marathon Oil -> MARATHON OIL CORP
+MRSH,62709.0,wikipedia,
+MRVL,1835632.0,wikipedia,
+MS,895421.0,wikipedia,
+MSCI,1408198.0,wikipedia,
+MSFT,789019.0,wikipedia,
+MSI,68505.0,wikipedia,
+MTB,36270.0,wikipedia,
+MTCH,891103.0,sec ticker map,
+MTD,1037646.0,wikipedia,
+MU,723125.0,wikipedia,
+MUR,717423.0,sec ticker map,
+MWW,1020416.0,edgar name search,"Monster Worldwide -> MONSTER WORLDWIDE, INC."
+MXIM,743316.0,edgar name search,Maxim Integrated Products -> MAXIM INTEGRATED PRODUCTS INC
+NAVI,2152623.0,sec ticker map,
+NBL,72207.0,edgar name search,Noble Energy -> NOBLE ENERGY INC
+NBR,1163739.0,sec ticker map,
+NCLH,1513761.0,wikipedia,
+NDAQ,1120193.0,wikipedia,
+NDSN,72331.0,wikipedia,
+NE,1895262.0,sec ticker map,
+NEE,753308.0,wikipedia,
+NEM,1164727.0,wikipedia,
+NFLX,1065280.0,wikipedia,
+NFX,912750.0,edgar name search,Newfield Exploration -> NEWFIELD EXPLORATION CO /DE/
+NI,1111711.0,wikipedia,
+NKE,320187.0,wikipedia,
+NKTR,906709.0,sec ticker map,
+NLSN,1397568.0,edgar name search,"Nielsen Holdings -> Nielsen Holdings, L.L.C."
+NOC,1133421.0,wikipedia,
+NOV,1021860.0,sec ticker map,
+NOVL,758004.0,edgar name search,Novell -> NOVELL INC
+NOW,1373715.0,wikipedia,
+NRG,1013871.0,wikipedia,
+NSC,702165.0,wikipedia,
+NSM,70530.0,edgar name search,National Semiconductor -> NATIONAL SEMICONDUCTOR CORP
+NTAP,1002047.0,wikipedia,
+NTRS,73124.0,wikipedia,
+NUE,73309.0,wikipedia,
+NVDA,1045810.0,wikipedia,
+NVLS,836106.0,edgar name search,Novellus Systems -> NOVELLUS SYSTEMS INC
+NVR,906163.0,wikipedia,
+NWL,814453.0,sec ticker map,
+NWS,1564708.0,wikipedia,
+NWSA,1564708.0,wikipedia,
+NXPI,1413447.0,wikipedia,
+NYT,71691.0,sec ticker map,
+NYX,1368007.0,edgar name search,NYSE Euronext -> NYSE Euronext
+O,726728.0,wikipedia,
+ODFL,878927.0,wikipedia,
+ODP,,unresolved,Office Depot
+OGN,1821825.0,sec ticker map,
+OI,812074.0,sec ticker map,
+OKE,1039684.0,wikipedia,
+OKTA,1660134.0,wikipedia,
+OMC,29989.0,wikipedia,
+ON,1097864.0,wikipedia,
+ORCL,1341439.0,wikipedia,
+ORLY,898173.0,wikipedia,
+OTIS,1781335.0,wikipedia,
+OXY,797468.0,wikipedia,
+P,1474432.0,wikipedia,
+PANW,1327567.0,wikipedia,
+PAYC,1590955.0,sec ticker map,
+PAYX,723531.0,wikipedia,
+PBCT,,unresolved,People's United Financial
+PBI,78814.0,sec ticker map,
+PCAR,75362.0,wikipedia,
+PCG,1004980.0,wikipedia,
+PCL,849213.0,edgar name search,Plum Creek Timber -> PLUM CREEK TIMBER CO INC
+PCP,,unresolved,Precision Castparts Corporation
+PCS,1121026.0,edgar name search,MetroPCS -> METROPCS INC
+PDCO,891024.0,edgar name search,"Patterson Companies -> PATTERSON COMPANIES, INC."
+PEG,788784.0,wikipedia,
+PENN,921738.0,sec ticker map,
+PEP,77476.0,wikipedia,
+PETM,863157.0,edgar name search,PetSmart -> PETSMART INC
+PFE,78003.0,wikipedia,
+PFG,1126328.0,wikipedia,
+PG,80424.0,wikipedia,
+PGN,1094093.0,edgar name search,Progress Energy -> PROGRESS ENERGY INC
+PGR,80661.0,wikipedia,
+PH,76334.0,wikipedia,
+PHM,822416.0,wikipedia,
+PKG,75677.0,wikipedia,
+PLD,1045609.0,wikipedia,
+PLL,,unresolved,Pall Corporation
+PLTR,1321655.0,wikipedia,
+PM,1413329.0,wikipedia,
+PNC,713676.0,wikipedia,
+PNR,77360.0,wikipedia,
+PNW,764622.0,wikipedia,
+PODD,1145197.0,wikipedia,
+POM,1877971.0,sec ticker map,
+POOL,945841.0,sec ticker map,
+PPG,79879.0,wikipedia,
+PPL,922224.0,wikipedia,
+PRGO,1585364.0,sec ticker map,
+PRU,1137774.0,wikipedia,
+PSA,1393311.0,wikipedia,
+PSX,1534701.0,wikipedia,
+PTC,857005.0,wikipedia,
+PTV,1089976.0,edgar name search,Pactiv -> PACTIV LLC
+PVH,78239.0,sec ticker map,
+PWR,1050915.0,wikipedia,
+PXD,1038357.0,edgar name search,Pioneer Natural Resources -> PIONEER NATURAL RESOURCES CO
+PYPL,1633917.0,wikipedia,
+Q,2058873.0,wikipedia,
+QCOM,804328.0,wikipedia,
+QEP,1108827.0,edgar name search,"QEP Resources -> QEP RESOURCES, INC."
+QRVO,1604778.0,edgar name search,"Qorvo -> Qorvo, Inc."
+R,85961.0,sec ticker map,
+RAI,1275283.0,edgar name search,Reynolds American -> REYNOLDS AMERICAN INC
+RCL,884887.0,wikipedia,
+RDC,85408.0,edgar name search,Rowan Companies -> ROWAN COMPANIES PLC
+RDDT,1713445.0,wikipedia,
+REG,910606.0,wikipedia,
+REGN,872589.0,wikipedia,
+RF,1281761.0,wikipedia,
+RHI,315213.0,sec ticker map,
+RHT,1087423.0,edgar name search,Red Hat -> RED HAT INC
+RIG,1451505.0,sec ticker map,
+RJF,720005.0,wikipedia,
+RL,1037038.0,wikipedia,
+RMD,943819.0,wikipedia,
+ROK,1024478.0,wikipedia,
+ROL,84839.0,wikipedia,
+ROP,882835.0,wikipedia,
+ROST,745732.0,wikipedia,
+RRC,315852.0,sec ticker map,
+RRD,29669.0,edgar name search,RR Donnelley -> RR Donnelley & Sons Co
+RSG,1060391.0,wikipedia,
+RSH,1530057.0,edgar name search,"RadioShack -> RadioShack Global Sourcing, Inc."
+RTN,,unresolved,Raytheon Company
+RTX,101829.0,wikipedia,
+RVTY,31791.0,wikipedia,
+RX,1058083.0,edgar name search,IMS Health -> IMS HEALTH INC
+S,1583708.0,sec ticker map,
+SAI,1571123.0,edgar name search,SAIC -> Science Applications International Corp (SAIC)
+SBAC,1034054.0,wikipedia,
+SBNY,1288784.0,edgar name search,Signature Bank -> Signature Bank Corp
+SBUX,829224.0,wikipedia,
+SCG,1301439.0,edgar name search,SCANA -> SCANAPS
+SCHW,316709.0,wikipedia,
+SE,1703399.0,sec ticker map,
+SEDG,1419612.0,sec ticker map,
+SEE,1012100.0,edgar name search,Sealed Air -> SEALED AIR CORP/DE
+SHLD,1310067.0,edgar name search,Sears Holdings -> SEARS HOLDINGS CORP
+SHW,89800.0,wikipedia,
+SIAL,90185.0,edgar name search,Sigma-Aldrich -> SIGMA ALDRICH CORP
+SIG,832988.0,sec ticker map,
+SII,1512920.0,sec ticker map,
+SIVB,719739.0,edgar name search,SVB Financial Group -> SVB FINANCIAL GROUP
+SJM,91419.0,wikipedia,
+SKYD,2041610.0,wikipedia,
+SLB,87347.0,wikipedia,
+SLE,1621672.0,sec ticker map,
+SLG,1040971.0,sec ticker map,
+SLM,1032033.0,sec ticker map,
+SMCI,1375365.0,wikipedia,
+SNA,91440.0,wikipedia,
+SNDK,2023554.0,wikipedia,
+SNI,1430602.0,edgar name search,"Scripps Networks Interactive -> Scripps Networks Interactive, Inc."
+SNPS,883241.0,wikipedia,
+SO,92122.0,wikipedia,
+SOLS,2064953.0,sec ticker map,
+SOLV,1964738.0,wikipedia,
+SPG,1063761.0,wikipedia,
+SPGI,64040.0,wikipedia,
+SPLS,791519.0,edgar name search,Staples -> STAPLES INC
+SRCL,861878.0,edgar name search,Stericycle -> STERICYCLE INC
+SRE,1032208.0,wikipedia,
+STE,1757898.0,wikipedia,
+STI,1881551.0,sec ticker map,
+STJ,203077.0,edgar name search,"St Jude Medical -> ST JUDE MEDICAL, LLC"
+STLD,1022671.0,wikipedia,
+STR,68589.0,edgar name search,Questar -> QUESTAR GAS CO
+STT,93751.0,wikipedia,
+STX,1137789.0,wikipedia,
+STZ,16918.0,wikipedia,
+SUN,1552275.0,sec ticker map,
+SVU,95521.0,edgar name search,Supervalu -> SUPERVALU INC
+SW,2005951.0,wikipedia,
+SWK,93556.0,wikipedia,
+SWKS,4127.0,wikipedia,
+SWN,7332.0,edgar name search,Southwestern Energy -> SOUTHWESTERN ENERGY CO
+SWY,86144.0,edgar name search,Safeway -> SAFEWAY INC
+SYF,1601712.0,wikipedia,
+SYK,310764.0,wikipedia,
+SYY,96021.0,wikipedia,
+T,732717.0,wikipedia,
+TAP,24545.0,sec ticker map,
+TDC,816761.0,sec ticker map,
+TDG,1260221.0,wikipedia,
+TDY,1094285.0,wikipedia,
+TE,1992243.0,sec ticker map,
+TECH,842023.0,wikipedia,
+TEG,,unresolved,Integrys Energy Group
+TEL,1385157.0,wikipedia,
+TER,97210.0,wikipedia,
+TFC,92230.0,wikipedia,
+TFCF,1054263.0,edgar name search,"21st Century Fox -> 21ST CENTURY FOX AMERICA, INC."
+TFCFA,1054263.0,edgar name search,"21st Century Fox -> 21ST CENTURY FOX AMERICA, INC."
+TFX,96943.0,sec ticker map,
+TGNA,39899.0,edgar name search,Tegna -> TEGNA INC
+TGT,27419.0,wikipedia,
+THC,70318.0,sec ticker map,
+TIE,1011657.0,edgar name search,Titanium Metals -> TITANIUM METALS CORP
+TIF,98246.0,edgar name search,Tiffany & Co -> TIFFANY & CO
+TJX,109198.0,wikipedia,
+TKO,1973266.0,wikipedia,
+TLAB,317771.0,edgar name search,Tellabs -> TELLABS INC
+TMO,97745.0,wikipedia,
+TMUS,1283699.0,wikipedia,
+TPL,1811074.0,wikipedia,
+TPR,1116132.0,wikipedia,
+TRGP,1389170.0,wikipedia,
+TRIP,1526520.0,sec ticker map,
+TRMB,864749.0,wikipedia,
+TROW,1113169.0,wikipedia,
+TRV,86312.0,wikipedia,
+TSCO,916365.0,wikipedia,
+TSLA,1318605.0,wikipedia,
+TSN,100493.0,wikipedia,
+TSS,,unresolved,TSYS
+TT,1466258.0,wikipedia,
+TTD,1671933.0,sec ticker map,
+TTWO,946581.0,wikipedia,
+TWC,1450621.0,edgar name search,Time Warner Cable -> TIME WARNER CABLE LLC
+TWLO,1447669.0,wikipedia,
+TWTR,1418091.0,edgar name search,"Twitter -> TWITTER, INC."
+TWX,1450621.0,edgar name search,Time Warner -> TIME WARNER CABLE LLC
+TXN,97476.0,wikipedia,
+TXT,217346.0,wikipedia,
+TYC,100441.0,edgar name search,Tyco International -> TYCO INTERNATIONAL LTD
+TYL,860731.0,wikipedia,
+UA,1336917.0,sec ticker map,
+UAA,1336917.0,sec ticker map,
+UAL,100517.0,wikipedia,
+UBER,1543151.0,wikipedia,
+UDR,74208.0,wikipedia,
+UHS,352915.0,wikipedia,
+ULTA,1403568.0,wikipedia,
+UNH,731766.0,wikipedia,
+UNM,5513.0,sec ticker map,
+UNP,100885.0,wikipedia,
+UPS,1090727.0,wikipedia,
+URBN,912615.0,sec ticker map,
+URI,1067701.0,wikipedia,
+USB,36104.0,wikipedia,
+V,1403161.0,wikipedia,
+VAR,203527.0,edgar name search,Varian Medical Systems -> VARIAN MEDICAL SYSTEMS INC
+VEEV,1393052.0,wikipedia,
+VFC,103379.0,sec ticker map,
+VIAB,1339947.0,edgar name search,Viacom -> Viacom Inc.
+VICI,1705696.0,wikipedia,
+VLO,1035002.0,wikipedia,
+VLTO,1967680.0,wikipedia,
+VMC,1396009.0,wikipedia,
+VMRK,906107.0,wikipedia,
+VNO,899689.0,sec ticker map,
+VNT,1786842.0,sec ticker map,
+VRSK,1442145.0,wikipedia,
+VRSN,1014473.0,wikipedia,
+VRT,1674101.0,wikipedia,
+VRTX,875320.0,wikipedia,
+VST,1692819.0,wikipedia,
+VTR,740260.0,wikipedia,
+VTRS,1792044.0,wikipedia,
+VYLR,2128626.0,wikipedia,
+VZ,732712.0,wikipedia,
+WAB,943452.0,wikipedia,
+WAT,1000697.0,wikipedia,
+WBA,1618921.0,edgar name search,"Walgreens Boots Alliance -> Walgreens Boots Alliance, Inc."
+WBD,1437107.0,edgar name search,"Warner Bros. Discovery -> Warner Bros. Discovery, Inc."
+WCG,1804830.0,edgar name search,"WellCare -> WellCare, Inc."
+WDAY,1327811.0,wikipedia,
+WDC,106040.0,wikipedia,
+WEC,783325.0,wikipedia,
+WELL,766704.0,wikipedia,
+WFC,72971.0,wikipedia,
+WFM,865436.0,edgar name search,Whole Foods Market -> WHOLE FOODS MARKET INC
+WFR,,unresolved,MEMC Electronic Materials
+WHR,106640.0,sec ticker map,
+WIN,1494367.0,edgar name search,"Windstream Communications -> Windstream Iowa Communications, Inc."
+WLTW,1140536.0,edgar name search,Willis Towers Watson -> WILLIS TOWERS WATSON PLC (WTW)
+WM,823768.0,wikipedia,
+WMB,107263.0,wikipedia,
+WMT,104169.0,wikipedia,
+WPX,1518832.0,edgar name search,"WPX Energy -> WPX ENERGY, INC."
+WRB,11544.0,wikipedia,
+WSM,719955.0,wikipedia,
+WST,105770.0,wikipedia,
+WTW,1140536.0,wikipedia,
+WU,1365135.0,sec ticker map,
+WY,106535.0,wikipedia,
+WYN,,unresolved,Wyndham Worldwide
+WYNN,1174922.0,wikipedia,
+X,1163302.0,edgar name search,United States Steel -> UNITED STATES STEEL CORP
+XEC,1168054.0,edgar name search,Cimarex Energy -> CIMAREX ENERGY CO
+XEL,72903.0,wikipedia,
+XL,813298.0,edgar name search,"XL Group -> DESTINATION XL GROUP, INC. (DXLG)"
+XLNX,743988.0,edgar name search,Xilinx -> XILINX INC
+XOM,2115436.0,wikipedia,
+XRAY,818479.0,sec ticker map,
+XRX,1770450.0,sec ticker map,
+XTO,868809.0,edgar name search,XTO Energy -> XTO ENERGY INC
+XYL,1524472.0,wikipedia,
+XYZ,1512673.0,wikipedia,
+YHOO,1426140.0,edgar name search,Yahoo! -> YAHOO INC
+YUM,1041061.0,wikipedia,
+ZBH,1136869.0,wikipedia,
+ZBRA,877212.0,wikipedia,
+ZION,109380.0,sec ticker map,
+ZTS,1555280.0,wikipedia,

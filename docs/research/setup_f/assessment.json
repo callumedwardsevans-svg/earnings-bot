@@ -1,0 +1,72 @@
+{
+  "tickers (members since 2010)": 827,
+  "CIK found": 797,
+  "CIK by source": {
+    "wikipedia": 503,
+    "edgar name search": 172,
+    "sec ticker map": 122,
+    "unresolved": 30
+  },
+  "tickers with shares history": 747,
+  "tag used": {
+    "EntityCommonStockSharesOutstanding": 692,
+    "NaN": 80,
+    "WeightedAverageNumberOfSharesOutstandingBasic": 55
+  },
+  "member-months covered (all)": 0.8764561437972694,
+  "member-months covered (current members)": 0.9333133581720122,
+  "member-months covered (past members)": 0.7022117534334078,
+  "SEC vs Yahoo share counts: median ratio": 0.9999998020292465,
+  "SEC vs Yahoo: share within 5%": 0.975609756097561,
+  "n cross-checks": 82,
+  "market-cap proxy < $1bn (suspicious)": [
+    "AIV",
+    "BRK.B",
+    "CMG",
+    "CPWR",
+    "EP",
+    "GME",
+    "NYT",
+    "SPG",
+    "TRIP"
+  ],
+  "tickers with splits on Yahoo record": 443,
+  "coverage_by_year": {
+    "2010": 0.683,
+    "2011": 0.791,
+    "2012": 0.799,
+    "2013": 0.811,
+    "2014": 0.823,
+    "2015": 0.831,
+    "2016": 0.853,
+    "2017": 0.867,
+    "2018": 0.888,
+    "2019": 0.911,
+    "2020": 0.935,
+    "2021": 0.94,
+    "2022": 0.943,
+    "2023": 0.951,
+    "2024": 0.957,
+    "2025": 0.966,
+    "2026": 0.962
+  },
+  "coverage_by_year_past_members": {
+    "2010": 0.484,
+    "2011": 0.634,
+    "2012": 0.644,
+    "2013": 0.651,
+    "2014": 0.661,
+    "2015": 0.665,
+    "2016": 0.694,
+    "2017": 0.709,
+    "2018": 0.754,
+    "2019": 0.807,
+    "2020": 0.873,
+    "2021": 0.883,
+    "2022": 0.88,
+    "2023": 0.929,
+    "2024": 0.95,
+    "2025": 0.98,
+    "2026": 0.99
+  }
+}
