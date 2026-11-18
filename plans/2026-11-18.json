@@ -1,0 +1,44 @@
+{
+  "session": "2026-11-18",
+  "signal_date": "2026-11-17",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 10000.0,
+  "entries": [],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "DIS",
+      "report_date": "2026-11-17",
+      "stage": "signal",
+      "reason": "EPS surprise 4.7% < 5%"
+    },
+    {
+      "symbol": "HD",
+      "report_date": "2026-11-17",
+      "stage": "signal",
+      "reason": "EPS surprise -2.4% < 5%"
+    },
+    {
+      "symbol": "WSM",
+      "report_date": "2026-11-17",
+      "stage": "signal",
+      "reason": "EPS surprise nan% < 5%"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 3,
+    "timing known (bmo/amc)": 3,
+    "price data on day 1": 3,
+    "EPS surprise >= 5%": 0,
+    "gap >= 3%": 0,
+    "close in upper half": 0,
+    "volume >= 2x avg": 0,
+    "liquid (price > $10, ADV > $50m)": 0,
+    "above 50 EMA": 0,
+    "no market regime filter": 0,
+    "next session exists": 0
+  },
+  "mode_tonight": "send"
+}

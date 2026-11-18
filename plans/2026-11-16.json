@@ -1,0 +1,45 @@
+{
+  "session": "2026-11-16",
+  "signal_date": "2026-11-13",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 10000.0,
+  "entries": [],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "AMAT",
+      "report_date": "2026-11-12",
+      "stage": "signal",
+      "reason": "EPS surprise 0.6% < 5%"
+    },
+    {
+      "symbol": "CSCO",
+      "report_date": "2026-11-12",
+      "stage": "signal",
+      "reason": "EPS surprise 3.5% < 5%"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 2,
+    "timing known (bmo/amc)": 2,
+    "price data on day 1": 2,
+    "EPS surprise >= 5%": 0,
+    "gap >= 3%": 0,
+    "close in upper half": 0,
+    "volume >= 2x avg": 0,
+    "liquid (price > $10, ADV > $50m)": 0,
+    "above 50 EMA": 0,
+    "no market regime filter": 0,
+    "next session exists": 0
+  },
+  "mode_tonight": "dry run",
+  "submission": {
+    "mode": "dry run",
+    "sent": [],
+    "skipped": [],
+    "errors": [],
+    "equity": 10000.0
+  }
+}

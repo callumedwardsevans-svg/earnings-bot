@@ -1,0 +1,10 @@
+{
+  "start": {
+    "date": "2026-11-16",
+    "equity": 10000.0,
+    "spy_close": 739.95
+  },
+  "trades": {},
+  "setup": "A",
+  "variant": "ema+fixed"
+}
