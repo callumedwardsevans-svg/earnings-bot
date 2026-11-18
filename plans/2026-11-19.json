@@ -11,13 +11,13 @@
       "symbol": "NVDA",
       "report_date": "2026-11-17",
       "stage": "signal",
-      "reason": "no price bar for day 1"
+      "reason": "gap 2.4% < 3%"
     },
     {
       "symbol": "LOW",
       "report_date": "2026-11-18",
       "stage": "signal",
-      "reason": "no price bar for day 1"
+      "reason": "gap -3.8% < 3%"
     },
     {
       "symbol": "ROST",
@@ -29,21 +29,21 @@
       "symbol": "TGT",
       "report_date": "2026-11-18",
       "stage": "signal",
-      "reason": "no price bar for day 1"
+      "reason": "gap 0.9% < 3%"
     },
     {
       "symbol": "TJX",
       "report_date": "2026-11-18",
       "stage": "signal",
-      "reason": "no price bar for day 1"
+      "reason": "EPS surprise -0.8% < 5%"
     }
   ],
   "warnings": [],
   "funnel": {
     "reports in period": 5,
     "timing known (bmo/amc)": 4,
-    "price data on day 1": 0,
-    "EPS surprise >= 5%": 0,
+    "price data on day 1": 4,
+    "EPS surprise >= 5%": 3,
     "gap >= 3%": 0,
     "close in upper half": 0,
     "volume >= 2x avg": 0,
@@ -52,5 +52,5 @@
     "no market regime filter": 0,
     "next session exists": 0
   },
-  "mode_tonight": "dry run"
+  "mode_tonight": "send"
 }

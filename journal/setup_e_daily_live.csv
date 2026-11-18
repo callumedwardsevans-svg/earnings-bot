@@ -1,3 +1,4 @@
 date,mode,shares,exposure,equity,spy_close,shadow_equity,spy_since_start,return_since_start,base_for_tomorrow,trend_in,sigma20,fills
 2026-11-16,send,0,0.0,10000.0,739.95,10000.0,0.0,0.0,0.5229304327393698,True,0.2295,[]
 2026-11-17,send,0,0.0,10000.0,732.44,9898.51,-0.010149334414487399,0.0,0.5204560051473762,True,0.2306,"[{""job"": ""morning"", ""status"": ""expired"", ""qty"": 0.0, ""price"": null, ""side"": ""buy""}]"
+2026-11-18,send,0,0.0,10000.0,730.2,9915.04,-0.013176565984188149,0.0,0.5244290999141356,True,0.2288,[]
