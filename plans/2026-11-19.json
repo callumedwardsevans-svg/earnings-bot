@@ -1,0 +1,56 @@
+{
+  "session": "2026-11-19",
+  "signal_date": "2026-11-18",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 10000.0,
+  "entries": [],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "NVDA",
+      "report_date": "2026-11-17",
+      "stage": "signal",
+      "reason": "no price bar for day 1"
+    },
+    {
+      "symbol": "LOW",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "no price bar for day 1"
+    },
+    {
+      "symbol": "ROST",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "report timing not usable (unknown)"
+    },
+    {
+      "symbol": "TGT",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "no price bar for day 1"
+    },
+    {
+      "symbol": "TJX",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "no price bar for day 1"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 5,
+    "timing known (bmo/amc)": 4,
+    "price data on day 1": 0,
+    "EPS surprise >= 5%": 0,
+    "gap >= 3%": 0,
+    "close in upper half": 0,
+    "volume >= 2x avg": 0,
+    "liquid (price > $10, ADV > $50m)": 0,
+    "above 50 EMA": 0,
+    "no market regime filter": 0,
+    "next session exists": 0
+  },
+  "mode_tonight": "dry run"
+}
