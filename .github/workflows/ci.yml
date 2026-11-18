@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+    branches: [main]  # not the bot-state branch the trading workflow commits to
   pull_request:
 
 permissions:
