@@ -88,3 +88,29 @@ def test_load_settings_allow_live_needs_exact_true(monkeypatch, tmp_path):
     for value, expected in [("true", True), ("TRUE", True), ("1", False), ("yes", False), ("", False)]:
         monkeypatch.setenv("ALLOW_LIVE", value)
         assert load_settings(empty_env).allow_live is expected
+
+
+def test_live_orders_use_day_market_orders_not_auction_orders():
+    """Alpaca paper only simulates the open/close auctions (an OPG order expired unfilled on
+    2026-11-17), so the live loops must send plain DAY market orders."""
+    from types import SimpleNamespace
+
+    from alpaca.trading.enums import TimeInForce
+
+    from earnings_bot.broker import AlpacaBroker
+
+    sent = []
+
+    class FakeClient:
+        def submit_order(self, req):
+            sent.append(req)
+            return SimpleNamespace(id="1", client_order_id=req.client_order_id, symbol=req.symbol, side=req.side,
+                                   order_type="market", type="market", time_in_force=req.time_in_force,
+                                   status="accepted", order_class="simple", qty=req.qty, filled_qty=0,
+                                   filled_avg_price=None, limit_price=None, stop_price=None, submitted_at=None,
+                                   filled_at=None, legs=None)
+
+    b = AlpacaBroker(FakeClient())
+    b.submit_sell_at_open("AAA", 5, "A-1-exit")
+    b.submit_market("SPY", 3, "buy", "day", "E-1-morning")
+    assert [r.time_in_force for r in sent] == [TimeInForce.DAY, TimeInForce.DAY]

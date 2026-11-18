@@ -3,10 +3,13 @@
 Same rules as the backtest (signals/setup_e.py), executed with three daily jobs:
 
 * morning (pre-open): exposure for today's session = 1.0 on a TOM full day, else the base target
-  decided at yesterday's close -> market-on-open order for the change in whole shares.
-* close (~15:35 New York, before the 15:50 market-on-close cut-off): exposure to hold overnight =
+  decided at yesterday's close -> a market order sent before the open (Alpaca queues it for the
+  open) for the change in whole shares.
+* close (15:58 New York): exposure to hold overnight =
   1.0 while the TOM window holds overnight (days -2..+2), else yesterday's base target -> a
-  market-on-close order if that differs from the position (only on TOM entry/exit days).
+  market order (fills ~2 minutes before the close) if that differs from the position (only on TOM
+  entry/exit days). Auction orders (market-on-open/close) aren't used: Alpaca's paper account only
+  simulates the auctions and expired the first market-on-open order unfilled.
 * evening: settle fills, log the day, compare with a frictionless backtest shadow, write a report.
 
 Base target at a close: trend (close > 200-day SMA at the most recent *calendar* month-end

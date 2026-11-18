@@ -124,7 +124,7 @@ def load_settings(env_file: Path | None = None) -> Settings:
 # Live paper loop: the pre-registered configuration (docs/backtest/PREREGISTRATION.md)
 LIVE_SETUP = "A"
 LIVE_VARIANT = "ema+fixed"
-# Scheduled exits (time exit, flat before report) are market-on-open orders on the day they
+# Scheduled exits (time exit, flat before report) are market sells queued for the open on the day they
 # fall due. In the backtest this costs ~0.01R/trade vs exiting at that day's close.
 LIVE_FORWARD_CALENDAR_DAYS = 35  # how far ahead to look for the next report (flat-before-report)
 

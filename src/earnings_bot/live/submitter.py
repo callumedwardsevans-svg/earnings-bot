@@ -4,7 +4,7 @@ Order of work:
 1. Kill switch -> nothing is sent; the reason is logged.
 2. Account must be ACTIVE and not trading-blocked.
 3. Scheduled exits: cancel the position's open bracket legs, wait until they're gone, then
-   send a market-on-open sell. (Pre-market a stop can't trigger anyway.)
+   send a market sell (DAY) that Alpaca queues for the open. (Pre-market a stop can't trigger anyway.)
 4. Entries: skipped if equity is already down 2% on the day; otherwise each is re-sized
    with live equity/cash and re-checked against the position and sector limits, then sent
    as a GTC bracket (limit entry, stop-loss leg, take-profit leg). client_order_id = trade_id,
@@ -73,10 +73,10 @@ def submit(plan: dict, broker, state: dict, sectors: dict[str, str], send: bool,
                     broker.cancel(o["id"])
                 if not _wait_until_no_open_orders(broker, x["symbol"]):
                     raise RuntimeError("bracket legs still open after cancel; exit not sent")
-                o = broker.submit_market_on_open_sell(x["symbol"], int(pos["qty"]), f"{x['trade_id']}-exit")
+                o = broker.submit_sell_at_open(x["symbol"], int(pos["qty"]), f"{x['trade_id']}-exit")
                 state["trades"][x["trade_id"]]["exit_order_id"] = o["id"]
             state["trades"].get(x["trade_id"], {})["planned_exit_reason"] = x["reason"]
-            out["sent"].append({"kind": "exit (market on open)", "symbol": x["symbol"], "qty": int(pos["qty"]),
+            out["sent"].append({"kind": "exit (market sell at the open)", "symbol": x["symbol"], "qty": int(pos["qty"]),
                                 "reason": x["reason"]})
             log_event("exit_sent" if send else "exit_dry_run", symbol=x["symbol"], qty=int(pos["qty"]),
                       reason=x["reason"], trade_id=x["trade_id"])

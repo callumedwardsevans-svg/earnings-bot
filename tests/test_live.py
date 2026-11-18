@@ -116,7 +116,7 @@ class FakeBroker:
         self._orders.append(o)
         return o
 
-    def submit_market_on_open_sell(self, symbol, qty, client_order_id):
+    def submit_sell_at_open(self, symbol, qty, client_order_id):
         self.sent.append(("moo_sell", symbol, qty, client_order_id))
         return order(symbol, "sell", "market", "accepted", client_order_id=client_order_id, qty=qty)
 
@@ -169,7 +169,7 @@ def test_no_duplicate_submission_and_sector_limit():
     assert b2.sent == [] and "max 2 positions in Tech" in out2["skipped"][0]["reason"]
 
 
-def test_exit_cancels_legs_then_sends_market_on_open():
+def test_exit_cancels_legs_then_sends_sell_at_open():
     leg = order("BBB", "sell", "stop", "held", id_="leg-stop")
     parent = order("BBB", "buy", "limit", "filled", filled_qty=10, legs=[leg], id_="parent")
     b = FakeBroker(positions={"BBB": {"qty": 10}}, orders=[parent])

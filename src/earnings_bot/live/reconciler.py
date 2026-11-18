@@ -4,7 +4,7 @@
   evening -> cancelled ("limit not reached"); partially filled -> the rest is cancelled.
 * Open trades whose position has gone -> closed, with the exit price from the filled
   sell order and the reason from its type (stop leg, take-profit leg, or the bot's
-  market-on-open exit).
+  sell at the open).
 * Safety check: every open position must have a working stop order at the broker.
 """
 

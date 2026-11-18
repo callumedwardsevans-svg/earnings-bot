@@ -12,7 +12,7 @@ trading logic, nothing depends on your PC being on. The local tasks were removed
 | UTC (weekdays) | New York (winter / summer) | Job |
 |---|---|---|
 | 12:05 | 07:05 / 08:05 | **morning**: `submit_orders.py --send` (A), then `e_live.py morning --send` (E) |
-| 19:20 | 14:20 / 15:20, E waits to 15:35 | **close**: `e_live.py close --send` (E; only acts on turn-of-month entry/exit days) |
+| 19:20 | 14:20 / 15:20, E waits to 15:58 | **close**: `e_live.py close --send` (E; only acts on turn-of-month entry/exit days) |
 | 22:15 | 17:15 / 18:15 | **evening**: `evening.py --send` (A), then `e_live.py evening --send` (E) |
 | 05:30 | 00:30 / 01:30 | **data**: `update_data.py` refresh and research backfill |
 
@@ -35,11 +35,25 @@ trading logic, nothing depends on your PC being on. The local tasks were removed
 
 The Windows scripts in `scripts/windows/` are kept as an offline fallback but aren't registered.
 
+## Order types: plain market orders, not auction orders (changed 2026-11-18)
+
+Alpaca's paper account only *simulates* the opening and closing auctions. Setup E's first
+market-on-open (OPG) order, sent at 08:27 New York on 2026-11-17, expired unfilled about 90 seconds
+after the open; others report the same. So the live loops now use:
+
+- **fills at the open** (Setup E's morning changes, Setup A's scheduled exits): a market order with DAY
+  time-in-force sent before the open, which Alpaca queues and routes at the open;
+- **fills at the close** (Setup E's turn-of-month entries/exits): a market order sent at 15:58 New
+  York, filling about two minutes before the close.
+
+Setup A's entries are unchanged (limit bracket orders). The backtests assume fills at the open and
+close, which these orders match closely.
+
 ## Daily cycle (what each job does)
 
 | UK time | New York time | Task | What it does |
 |---|---|---|---|
-| 13:25 | 08:25 (09:25 in clock-change weeks) | `submit_orders.py` | Kill switch → account check → scheduled exits (cancel bracket legs, market-on-open sell) → daily-loss check → re-size each planned entry on live equity/cash, re-check limits → GTC bracket orders |
+| 13:25 | 08:25 (09:25 in clock-change weeks) | `submit_orders.py` | Kill switch → account check → scheduled exits (cancel bracket legs, market sell queued for the open) → daily-loss check → re-size each planned entry on live equity/cash, re-check limits → GTC bracket orders |
 | 22:00 | 17:00 (18:00) | `evening.py` | Reconcile fills (cancel unfilled entries) → update journal → refresh prices + Finnhub/Yahoo earnings → plan tomorrow's entries/exits → write `reports/YYYY-MM-DD.md` |
 
 Both scripts check New York time and the trading calendar themselves. The morning script refuses to
@@ -73,7 +87,7 @@ live market.
 ## Differences from the backtest (by design)
 
 - **Scheduled exits happen at the open, not the close.** The time exit and flat-before-report exit
-  are market-on-open sells on the day they fall due. In the 2016-2025 backtest this costs about
+  are market sells queued before the open on the day they fall due. In the 2016-2025 backtest this costs about
   0.01R per trade (0.185R vs 0.197R) and avoids a third, timing-sensitive scheduled task.
 - **The next report date comes from Finnhub's forward calendar**, which can change. The backtest knew
   the actual date.
@@ -127,8 +141,8 @@ owner on 2026-11-16**, for Setup E in its own paper account only; every other se
 
 | UK time | New York | Job | What it does |
 |---|---|---|---|
-| 13:27 | 08:27 / 09:27 | `e_live.py morning` | Exposure for today = 1.0 on a TOM full day, else yesterday's base target -> market-on-open order for the change in whole shares |
-| 19:35 | waits to 15:35 | `e_live.py close` | Only on TOM entry (day -2) and exit (day +3) days: market-on-close order |
+| 13:27 | 08:27 / 09:27 | `e_live.py morning` | Exposure for today = 1.0 on a TOM full day, else yesterday's base target -> market order queued before the open for the change in whole shares |
+| 19:20 UTC | waits to 15:58 NY | `e_live.py close` | Only on TOM entry (day -2) and exit (day +3) days: market order at 15:58 New York, ~2 minutes before the close |
 | 22:05 | after the close | `e_live.py evening` | Settle fills (or virtual fills), journal, backtest shadow, report |
 
 Files: `plans/setup_e/`, `reports/setup_e/`, `journal/setup_e_daily_{dry,live}.csv` (daily position,

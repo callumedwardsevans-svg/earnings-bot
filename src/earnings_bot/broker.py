@@ -162,16 +162,21 @@ class AlpacaBroker:
             stop_loss=StopLossRequest(stop_price=stop), client_order_id=client_order_id)
         return _order_dict(self.client.submit_order(req))
 
-    def submit_market_on_open_sell(self, symbol: str, qty: int, client_order_id: str) -> dict:
+    def submit_sell_at_open(self, symbol: str, qty: int, client_order_id: str) -> dict:
+        """Market sell with DAY time-in-force, sent before the open: Alpaca queues it and routes it at
+        the open. (Not a market-on-open/OPG order: Alpaca's paper account only simulates the opening
+        auction, and an OPG order sent at 08:27 NY on 2026-11-17 expired unfilled 90s after the open.)"""
         from alpaca.trading.enums import OrderSide, TimeInForce
         from alpaca.trading.requests import MarketOrderRequest
 
-        req = MarketOrderRequest(symbol=symbol, qty=qty, side=OrderSide.SELL, time_in_force=TimeInForce.OPG,
+        req = MarketOrderRequest(symbol=symbol, qty=qty, side=OrderSide.SELL, time_in_force=TimeInForce.DAY,
                                  client_order_id=client_order_id)
         return _order_dict(self.client.submit_order(req))
 
     def submit_market(self, symbol: str, qty: int, side: str, time_in_force: str, client_order_id: str) -> dict:
-        """Market order; time_in_force 'opg' (market-on-open) or 'cls' (market-on-close)."""
+        """Market order. The live loops use time_in_force 'day': sent before the open it's queued and
+        routed at the open; sent at 15:58 NY it fills just before the close. ('opg'/'cls' auction orders
+        aren't used: Alpaca's paper account only simulates the auctions and can expire them.)"""
         from alpaca.trading.enums import OrderSide, TimeInForce
         from alpaca.trading.requests import MarketOrderRequest
 

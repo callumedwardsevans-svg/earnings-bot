@@ -4,7 +4,7 @@ name: Paper trading
 # Times are UTC (GitHub cron). The scripts check New York time themselves, so these only need to
 # land in the right window in both US daylight-saving regimes, with room for GitHub's start delays:
 #   12:05 UTC  morning  = 07:05 (winter) / 08:05 (summer) New York; orders refused at/after 09:28 NY
-#   19:20 UTC  close    = 14:20 / 15:20 New York; Setup E waits until 15:35 NY (refuses after 15:48)
+#   19:20 UTC  close    = 14:20 / 15:20 New York; Setup E waits until 15:58 NY, then sends a market order
 #   22:15 UTC  evening  = 17:15 / 18:15 New York, after the daily bars are final
 #   05:30 UTC  data     = daily data refresh and research backfill
 # Weekdays only; the scripts also skip market holidays using the trading calendar.
@@ -56,7 +56,7 @@ env:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # Setup E's close job can wait up to ~75 minutes for 15:35 NY
+    timeout-minutes: 150  # Setup E's close job can wait up to ~100 minutes for 15:58 NY
     env:
       ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}

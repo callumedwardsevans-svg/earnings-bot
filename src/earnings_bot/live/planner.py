@@ -2,7 +2,7 @@
 
 Inputs are passed in by scripts/plan_orders.py. Output is the plan dict written to
 plans/<next session>.json: planned entries (bracket orders), planned scheduled exits
-(market-on-open sells) and every signal not acted on, with the reason.
+(market sells queued for the open) and every signal not acted on, with the reason.
 """
 
 from __future__ import annotations

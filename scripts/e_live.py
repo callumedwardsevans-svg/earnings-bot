@@ -1,8 +1,8 @@
 """Setup E (SPY combined) paper loop: morning / close / evening jobs.
 
 Usage:
-    python scripts/e_live.py morning [--send]   # pre-open: market-on-open order for today's exposure
-    python scripts/e_live.py close   [--send]   # ~15:35 NY: market-on-close order on TOM entry/exit days
+    python scripts/e_live.py morning [--send]   # pre-open: market order queued for the open (today's exposure)
+    python scripts/e_live.py close   [--send]   # waits to 15:58 NY: market order on TOM entry/exit days
     python scripts/e_live.py evening [--send]   # after the close: settle, journal, shadow, report
 Testing (dry run only): --force-time skips the time-of-day checks; --session YYYY-MM-DD acts as that day.
 
@@ -106,19 +106,22 @@ def main() -> int:
 
     if args.job in ("morning", "close"):
         if args.job == "morning" and not args.force_time and now.time() >= pd.Timestamp("09:28").time():
-            print(f"{now:%H:%M} NY: too late for market-on-open orders. Nothing sent.", file=sys.stderr)
+            print(f"{now:%H:%M} NY: too late to queue an order for the open. Nothing sent.", file=sys.stderr)
             journal.log_event("e_late", job="morning", at=f"{now:%H:%M}")
             return 1
         if args.job == "close" and not args.force_time:
-            start, cutoff = pd.Timestamp("15:35").time(), pd.Timestamp("15:48").time()
+            # A plain market order at 15:58 NY fills about two minutes before the close (Alpaca's paper
+            # account only simulates the closing auction, so market-on-close orders aren't used).
+            start, cutoff = pd.Timestamp("15:58").time(), pd.Timestamp("15:59:15").time()
             if now.time() < start:
                 wait = (pd.Timestamp.combine(now.date(), start).tz_localize(NY) - now).total_seconds()
-                if wait > 75 * 60:
-                    print(f"{now:%H:%M} NY: more than 75 minutes before 15:35; not waiting.", file=sys.stderr)
+                if wait > 110 * 60:
+                    print(f"{now:%H:%M} NY: more than 110 minutes before 15:58; not waiting.", file=sys.stderr)
                     return 1
                 _time.sleep(wait)
-            elif now.time() > cutoff:
-                print(f"{now:%H:%M} NY: past the market-on-close window. Nothing sent.", file=sys.stderr)
+                now = pd.Timestamp.now(tz=NY)
+            if now.time() > cutoff:
+                print(f"{now:%H:%M:%S} NY: too close to the close to send safely. Nothing sent.", file=sys.stderr)
                 journal.log_event("e_late", job="close", at=f"{now:%H:%M}")
                 return 1
         bars = spy_closes(settings)
@@ -142,7 +145,7 @@ def main() -> int:
                "trend_in": t["trend_in"], "sigma20": t["sigma20"], "vol_scale": t["vol_scale"], "base": t["base"],
                "tom_full_day": t["tom_full_day"], "tom_overnight": t["tom_overnight"]}
         if delta:
-            tif = "opg" if args.job == "morning" else "cls"
+            tif = "day"  # queued for the open (morning) or filled at ~15:58 NY (close)
             cid = f"E-{today:%Y%m%d}-{args.job}"
             if args.send:
                 try:
