@@ -3,7 +3,39 @@
 Strategy: **Setup A, 50-EMA filter, fixed exit**, no regime filter, as pre-registered in
 [backtest/PREREGISTRATION.md](backtest/PREREGISTRATION.md). Paper account only.
 
-## Daily cycle
+## Where it runs: GitHub Actions (since 2026-11-18)
+
+The scheduled runs moved from Windows Task Scheduler to GitHub Actions
+([`.github/workflows/paper-trading.yml`](../.github/workflows/paper-trading.yml)): same scripts, same
+trading logic, nothing depends on your PC being on. The local tasks were removed.
+
+| UTC (weekdays) | New York (winter / summer) | Job |
+|---|---|---|
+| 12:05 | 07:05 / 08:05 | **morning**: `submit_orders.py --send` (A), then `e_live.py morning --send` (E) |
+| 19:20 | 14:20 / 15:20, E waits to 15:35 | **close**: `e_live.py close --send` (E; only acts on turn-of-month entry/exit days) |
+| 22:15 | 17:15 / 18:15 | **evening**: `evening.py --send` (A), then `e_live.py evening --send` (E) |
+| 05:30 | 00:30 / 01:30 | **data**: `update_data.py` refresh and research backfill |
+
+- **State** (journal, plans, reports, order log) lives on the public
+  [`bot-state`](https://github.com/callumedwardsevans-svg/earnings-bot/tree/bot-state) branch; each run
+  restores it first and commits it back afterwards. To read it locally:
+  `git fetch origin bot-state` then `git checkout origin/bot-state -- journal plans reports`.
+  The local `journal/`, `plans/` and `reports/` folders are no longer updated.
+- **Market data** (prices, calendar, earnings caches, consensus log) stays out of the public branch: it's
+  in a private Actions cache, and the consensus log is also kept as a 90-day private artifact.
+- **Keys** are repository secrets (Settings → Secrets and variables → Actions), masked in the public logs.
+  The workflow only runs on its schedule or a manual trigger, never on pull requests.
+- **Manual runs / dry runs:** Actions tab → Paper trading → Run workflow (choose the job; "send"
+  unticked = dry run), or `gh workflow run "Paper trading" -f job=evening -f send=false`.
+- **Kill switch on Actions:** a `STOP` file only works where the scripts run. To stop orders, disable the
+  workflow (`gh workflow disable "Paper trading"`, or the Actions tab), and re-enable it to resume.
+- **Timing caveat:** GitHub can start scheduled runs 5-30 minutes late (rarely, skip one). The schedules
+  leave room for that; a run that starts too late refuses to send, exactly as before, and the run is
+  marked failed so it shows in the Actions tab and GitHub's failure email.
+
+The Windows scripts in `scripts/windows/` are kept as an offline fallback but aren't registered.
+
+## Daily cycle (what each job does)
 
 | UK time | New York time | Task | What it does |
 |---|---|---|---|
