@@ -1,0 +1,62 @@
+{
+  "session": "2026-11-20",
+  "signal_date": "2026-11-19",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 10000.0,
+  "entries": [
+    {
+      "trade_id": "A-20261120-PANW",
+      "symbol": "PANW",
+      "sector": "Information Technology",
+      "signal_date": "2026-11-19",
+      "entry_date": "2026-11-20",
+      "limit": 363.54,
+      "stop": 350.51,
+      "target": 402.63,
+      "qty": 4,
+      "risk_usd": 52.12,
+      "size_limited_by": "max position",
+      "eps_surprise_pct": 5.99,
+      "gap_pct": 4.67,
+      "exit_by": null,
+      "notes": "timing amc (agree); revenue surprise +2.1%"
+    }
+  ],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "P",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "day-1 close in lower half of range"
+    },
+    {
+      "symbol": "ROST",
+      "report_date": "2026-11-18",
+      "stage": "signal",
+      "reason": "EPS surprise -0.2% < 5%"
+    },
+    {
+      "symbol": "WMT",
+      "report_date": "2026-11-19",
+      "stage": "signal",
+      "reason": "EPS surprise 1.2% < 5%"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 4,
+    "timing known (bmo/amc)": 4,
+    "price data on day 1": 4,
+    "EPS surprise >= 5%": 2,
+    "gap >= 3%": 2,
+    "close in upper half": 1,
+    "volume >= 2x avg": 1,
+    "liquid (price > $10, ADV > $50m)": 1,
+    "above 50 EMA": 1,
+    "no market regime filter": 1,
+    "next session exists": 1
+  },
+  "mode_tonight": "send"
+}
