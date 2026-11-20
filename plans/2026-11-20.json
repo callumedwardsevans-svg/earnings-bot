@@ -58,5 +58,22 @@
     "no market regime filter": 1,
     "next session exists": 1
   },
-  "mode_tonight": "send"
+  "mode_tonight": "send",
+  "submission": {
+    "mode": "send",
+    "sent": [
+      {
+        "kind": "entry (bracket)",
+        "symbol": "PANW",
+        "qty": 4,
+        "limit": 363.54,
+        "stop": 350.51,
+        "target": 402.63,
+        "risk_usd": 52.12
+      }
+    ],
+    "skipped": [],
+    "errors": [],
+    "equity": 10000.0
+  }
 }

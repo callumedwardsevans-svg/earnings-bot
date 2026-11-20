@@ -4,7 +4,26 @@
     "equity": 10000.0,
     "spy_close": 739.95
   },
-  "trades": {},
+  "trades": {
+    "A-20261120-PANW": {
+      "setup": "A",
+      "variant": "ema+fixed",
+      "status": "submitted",
+      "symbol": "PANW",
+      "sector": "Information Technology",
+      "signal_date": "2026-11-19",
+      "entry_date": "2026-11-20",
+      "ref_price": 363.54,
+      "stop": 350.51,
+      "target": 402.63,
+      "qty_ordered": 4,
+      "order_id": "1c850f75-c8ca-44aa-95f3-ea8b4ace3114",
+      "eps_surprise_pct": 5.99,
+      "gap_pct": 4.67,
+      "exit_by": null,
+      "notes": "timing amc (agree); revenue surprise +2.1%"
+    }
+  },
   "setup": "A",
   "variant": "ema+fixed"
 }

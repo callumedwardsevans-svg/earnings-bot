@@ -1,0 +1,19 @@
+{
+  "session": "2026-11-20",
+  "morning": {
+    "mode": "send",
+    "exposure_target": 0.5116520967396865,
+    "target_shares": 7,
+    "current_shares": 7,
+    "equity": 9798.39,
+    "ref_price": 715.87,
+    "delta": 0,
+    "held_back": "no change",
+    "trend_in": true,
+    "sigma20": 0.2345343657627039,
+    "vol_scale": 0.5116520967396865,
+    "base": 0.5116520967396865,
+    "tom_full_day": false,
+    "tom_overnight": false
+  }
+}
