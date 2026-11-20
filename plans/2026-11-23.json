@@ -1,0 +1,38 @@
+{
+  "session": "2026-11-23",
+  "signal_date": "2026-11-20",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 9961.1,
+  "entries": [],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "INTU",
+      "report_date": "2026-11-19",
+      "stage": "signal",
+      "reason": "gap -8.4% < 3%"
+    },
+    {
+      "symbol": "KEYS",
+      "report_date": "2026-11-19",
+      "stage": "signal",
+      "reason": "EPS surprise 5.0% < 5%"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 2,
+    "timing known (bmo/amc)": 2,
+    "price data on day 1": 2,
+    "EPS surprise >= 5%": 1,
+    "gap >= 3%": 0,
+    "close in upper half": 0,
+    "volume >= 2x avg": 0,
+    "liquid (price > $10, ADV > $50m)": 0,
+    "above 50 EMA": 0,
+    "no market regime filter": 0,
+    "next session exists": 0
+  },
+  "mode_tonight": "send"
+}

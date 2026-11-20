@@ -8,7 +8,7 @@
     "A-20261120-PANW": {
       "setup": "A",
       "variant": "ema+fixed",
-      "status": "submitted",
+      "status": "closed",
       "symbol": "PANW",
       "sector": "Information Technology",
       "signal_date": "2026-11-19",
@@ -21,7 +21,12 @@
       "eps_surprise_pct": 5.99,
       "gap_pct": 4.67,
       "exit_by": null,
-      "notes": "timing amc (agree); revenue surprise +2.1%"
+      "notes": "timing amc (agree); revenue surprise +2.1%",
+      "shares": 4,
+      "entry_price": 359.995,
+      "exit_price": 350.27,
+      "exit_date": "2026-11-20",
+      "exit_reason": "stop"
     }
   },
   "setup": "A",
