@@ -34,5 +34,12 @@
     "no market regime filter": 0,
     "next session exists": 0
   },
-  "mode_tonight": "send"
+  "mode_tonight": "send",
+  "submission": {
+    "mode": "send",
+    "sent": [],
+    "skipped": [],
+    "errors": [],
+    "equity": 9961.06
+  }
 }

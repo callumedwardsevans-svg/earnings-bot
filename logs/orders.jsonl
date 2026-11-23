@@ -7,3 +7,4 @@
 {"ts": "2026-11-20T12:59:45+00:00", "event": "entry_sent", "trade_id": "A-20261120-PANW", "symbol": "PANW", "qty": 4, "limit": 363.54, "stop": 350.51, "target": 402.63, "order_id": "1c850f75-c8ca-44aa-95f3-ea8b4ace3114"}
 {"ts": "2026-11-20T22:53:06+00:00", "event": "entry_filled", "trade_id": "A-20261120-PANW", "symbol": "PANW", "qty": 4, "price": 359.995}
 {"ts": "2026-11-20T22:53:06+00:00", "event": "exit_filled", "trade_id": "A-20261120-PANW", "symbol": "PANW", "price": 350.27, "reason": "stop"}
+{"ts": "2026-11-23T13:07:35+00:00", "event": "e_order_sent", "job": "morning", "delta": -1, "tif": "day", "exposure": 0.45690356978890007, "client_order_id": "E-20261123-morning"}
