@@ -33,5 +33,8 @@
       "filled_at": null,
       "legs": []
     }
+  },
+  "close": {
+    "note": "not a TOM entry/exit day: nothing to do"
   }
 }
