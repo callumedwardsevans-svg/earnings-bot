@@ -15,5 +15,8 @@
     "base": 0.3781293709216756,
     "tom_full_day": false,
     "tom_overnight": false
+  },
+  "close": {
+    "note": "not a TOM entry/exit day: nothing to do"
   }
 }
