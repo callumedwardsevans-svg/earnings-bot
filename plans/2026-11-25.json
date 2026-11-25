@@ -82,5 +82,22 @@
     "no market regime filter": 1,
     "next session exists": 1
   },
-  "mode_tonight": "send"
+  "mode_tonight": "send",
+  "submission": {
+    "mode": "send",
+    "sent": [
+      {
+        "kind": "entry (bracket)",
+        "symbol": "DLTR",
+        "qty": 9,
+        "limit": 155.42,
+        "stop": 147.82,
+        "target": 178.24,
+        "risk_usd": 68.4
+      }
+    ],
+    "skipped": [],
+    "errors": [],
+    "equity": 9961.06
+  }
 }
