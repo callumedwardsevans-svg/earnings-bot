@@ -1,0 +1,68 @@
+{
+  "session": "2026-11-27",
+  "signal_date": "2026-11-25",
+  "setup": "A",
+  "variant": "ema+fixed",
+  "equity_at_plan": 9939.64,
+  "entries": [
+    {
+      "trade_id": "A-20261127-HPQ",
+      "symbol": "HPQ",
+      "sector": "Information Technology",
+      "signal_date": "2026-11-25",
+      "entry_date": "2026-11-27",
+      "limit": 31.31,
+      "stop": 29.69,
+      "target": 36.16,
+      "qty": 46,
+      "risk_usd": 74.52,
+      "size_limited_by": "risk",
+      "eps_surprise_pct": 9.8,
+      "gap_pct": 7.19,
+      "exit_by": null,
+      "notes": "timing amc (agree); revenue surprise +2.5%"
+    }
+  ],
+  "exits": [],
+  "skipped": [
+    {
+      "symbol": "ADSK",
+      "report_date": "2026-11-24",
+      "stage": "signal",
+      "reason": "EPS surprise 2.2% < 5%"
+    },
+    {
+      "symbol": "DELL",
+      "report_date": "2026-11-24",
+      "stage": "signal",
+      "reason": "gap -9.4% < 3%"
+    },
+    {
+      "symbol": "WDAY",
+      "report_date": "2026-11-24",
+      "stage": "signal",
+      "reason": "EPS surprise 0.9% < 5%"
+    },
+    {
+      "symbol": "DE",
+      "report_date": "2026-11-25",
+      "stage": "signal",
+      "reason": "EPS surprise -6.7% < 5%"
+    }
+  ],
+  "warnings": [],
+  "funnel": {
+    "reports in period": 5,
+    "timing known (bmo/amc)": 5,
+    "price data on day 1": 5,
+    "EPS surprise >= 5%": 2,
+    "gap >= 3%": 1,
+    "close in upper half": 1,
+    "volume >= 2x avg": 1,
+    "liquid (price > $10, ADV > $50m)": 1,
+    "above 50 EMA": 1,
+    "no market regime filter": 1,
+    "next session exists": 1
+  },
+  "mode_tonight": "send"
+}

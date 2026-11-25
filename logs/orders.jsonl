@@ -10,3 +10,4 @@
 {"ts": "2026-11-23T13:07:35+00:00", "event": "e_order_sent", "job": "morning", "delta": -1, "tif": "day", "exposure": 0.45690356978890007, "client_order_id": "E-20261123-morning"}
 {"ts": "2026-11-24T13:07:44+00:00", "event": "e_order_sent", "job": "morning", "delta": -1, "tif": "day", "exposure": 0.37640326672201474, "client_order_id": "E-20261124-morning"}
 {"ts": "2026-11-25T13:11:15+00:00", "event": "entry_sent", "trade_id": "A-20261125-DLTR", "symbol": "DLTR", "qty": 9, "limit": 155.42, "stop": 147.82, "target": 178.24, "order_id": "7eac1773-e182-4e29-a006-ae9f2f112394"}
+{"ts": "2026-11-25T23:00:13+00:00", "event": "entry_filled", "trade_id": "A-20261125-DLTR", "symbol": "DLTR", "qty": 9, "price": 154.59}
