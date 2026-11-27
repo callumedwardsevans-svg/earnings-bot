@@ -31,7 +31,7 @@
     "A-20261125-DLTR": {
       "setup": "A",
       "variant": "ema+fixed",
-      "status": "open",
+      "status": "closed",
       "symbol": "DLTR",
       "sector": "Consumer Staples",
       "signal_date": "2026-11-24",
@@ -46,12 +46,15 @@
       "exit_by": null,
       "notes": "timing bmo (agree); revenue surprise -1.3%",
       "shares": 9,
-      "entry_price": 154.59
+      "entry_price": 154.59,
+      "exit_price": 147.285556,
+      "exit_date": "2026-11-27",
+      "exit_reason": "stop"
     },
     "A-20261127-HPQ": {
       "setup": "A",
       "variant": "ema+fixed",
-      "status": "submitted",
+      "status": "open",
       "symbol": "HPQ",
       "sector": "Information Technology",
       "signal_date": "2026-11-25",
@@ -64,7 +67,9 @@
       "eps_surprise_pct": 9.8,
       "gap_pct": 7.19,
       "exit_by": null,
-      "notes": "timing amc (agree); revenue surprise +2.5%"
+      "notes": "timing amc (agree); revenue surprise +2.5%",
+      "shares": 46,
+      "entry_price": 31.188696
     }
   },
   "setup": "A",

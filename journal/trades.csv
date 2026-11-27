@@ -1,3 +1,4 @@
 trade_id,setup,variant,ticker,signal_date,entry_date,entry_price,stop_price,target_price,shares,exit_date,exit_price,exit_reason,pnl_usd,r_multiple,eps_surprise_pct,gap_pct,notes
 A-20261120-PANW,A,ema+fixed,PANW,2026-11-19,2026-11-20,359.995,350.51,402.63,4,2026-11-20,350.27,stop,-38.9,-0.746,5.99,4.67,timing amc (agree); revenue surprise +2.1%
-A-20261125-DLTR,A,ema+fixed,DLTR,2026-11-24,2026-11-25,154.59,147.82,178.24,9,,,,,,25.45,7.8,timing bmo (agree); revenue surprise -1.3%
+A-20261125-DLTR,A,ema+fixed,DLTR,2026-11-24,2026-11-25,154.59,147.82,178.24,9,2026-11-27,147.2856,stop,-65.74,-0.961,25.45,7.8,timing bmo (agree); revenue surprise -1.3%
+A-20261127-HPQ,A,ema+fixed,HPQ,2026-11-25,2026-11-27,31.1887,29.69,36.16,46,,,,,,9.8,7.19,timing amc (agree); revenue surprise +2.5%
