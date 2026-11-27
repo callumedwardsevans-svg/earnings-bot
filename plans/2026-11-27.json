@@ -64,5 +64,22 @@
     "no market regime filter": 1,
     "next session exists": 1
   },
-  "mode_tonight": "send"
+  "mode_tonight": "send",
+  "submission": {
+    "mode": "send",
+    "sent": [
+      {
+        "kind": "entry (bracket)",
+        "symbol": "HPQ",
+        "qty": 46,
+        "limit": 31.31,
+        "stop": 29.69,
+        "target": 36.16,
+        "risk_usd": 74.52
+      }
+    ],
+    "skipped": [],
+    "errors": [],
+    "equity": 9939.54
+  }
 }
