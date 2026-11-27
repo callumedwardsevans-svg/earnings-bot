@@ -15,5 +15,39 @@
     "base": 0.3792886964704584,
     "tom_full_day": false,
     "tom_overnight": true
+  },
+  "close": {
+    "mode": "send",
+    "exposure_target": 1.0,
+    "target_shares": 13,
+    "current_shares": 5,
+    "equity": 9920.42,
+    "ref_price": 716.7,
+    "delta": 8,
+    "held_back": null,
+    "trend_in": true,
+    "sigma20": 0.31638169319750986,
+    "vol_scale": 0.3792886964704584,
+    "base": 0.3792886964704584,
+    "tom_full_day": false,
+    "tom_overnight": true,
+    "order": {
+      "id": "1e08cce2-2741-493d-b064-4ac4f82839ce",
+      "client_order_id": "E-20261127-close",
+      "symbol": "SPY",
+      "side": "buy",
+      "type": "market",
+      "time_in_force": "day",
+      "status": "accepted",
+      "order_class": "simple",
+      "qty": 8.0,
+      "filled_qty": 0.0,
+      "filled_avg_price": null,
+      "limit_price": null,
+      "stop_price": null,
+      "submitted_at": "2026-11-27T20:58:00.305562+00:00",
+      "filled_at": null,
+      "legs": []
+    }
   }
 }
